@@ -1,0 +1,152 @@
+﻿body {
+    margin: 25px 15px 15px 25px;
+    background-color: #F5FAFD;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D6EFD;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D6EFD;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    color: #0D6EFD;
+}
+
+.tdcBorder {
+    padding-left: 0px;
+    border: 1px dotted #0D6EFD;
+}
+
+.tab-content ul li {
+    margin-top: 10px;
+}
+
+    .tab-content ul li::marker {
+        color: #0D6EFD;
+    }
+
+    .tab-content ul li li {
+        margin-top: 0px;
+    }
+
+ol {
+    list-style: none;
+    counter-reset: num;
+}
+
+    ol li {
+        counter-increment: num;
+        margin-bottom: 5px;
+    }
+
+        ol li::before {
+            content: counter(num) ": ";
+            color: #0D6EFD;
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+    ol img {
+        margin-left: 25px;
+        margin-top: 10px;
+        border: 1px solid #0D6EFD;
+    }
+
+#tdcMenu, #tdcContent {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar-brand {
+    padding-right: 50px;
+}
+
+
+div.tab-content2 {
+    overflow-y: auto;
+    height: 70vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #AECBDA;
+    border-radius: 10px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #3071a9;
+    }
+
+div.lastUpdated {
+    margin-top: 10px;
+    font-size: 10pt;
+    font-style: italic;
+    color: #0D6EFD;
+}
+
+span.tdcHeader {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+span.tdcHeaderReleased {
+    color: green !important;
+    font-weight: bold !important;
+}
+
+.tab-pane.tdcMargin {
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+li > span.tdcLi {
+    font-style: italic;
+    text-decoration: none;
+}
+
+#tdcMenu .nav-link {
+    color: white;
+}
+
+    #tdcMenu .nav-link:hover {
+        color: orange;
+    }
+
+    #tdcMenu .nav-link.active, .nav-link.show {
+        color: orange;
+        text-decoration: underline;
+    }
+
+label.tdcLabel {
+    font-size: 12pt;
+    color: steelblue;
+}
+
+div.tdcCodeBox {
+    border: 1px solid steelblue;
+}
+
+code {
+    font-family: Courier New, Courier, monospace;
+}

@@ -1,0 +1,1 @@
+﻿CREATE USER [tdcbuddy] FOR LOGIN [tdcbuddy] WITH DEFAULT_SCHEMA=[dbo]

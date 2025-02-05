@@ -1,0 +1,9594 @@
+{
+	"555": {
+		"PostNr": 555,
+		"ByNavn": "Scanning",
+		"Gade": "",
+		"Firma": "Data Scanning A/S",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"783": {
+		"PostNr": 783,
+		"ByNavn": "Facility",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"784": {
+		"PostNr": 784,
+		"ByNavn": "H&M",
+		"Gade": "Postbox 600",
+		"Firma": "(Return parcels)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"785": {
+		"PostNr": 785,
+		"ByNavn": "Bestseller ",
+		"Gade": "Postbox 580",
+		"Firma": "(Return parcels)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"800": {
+		"PostNr": 800,
+		"ByNavn": "Høje Taastrup",
+		"Gade": "Girostrøget 1",
+		"Firma": "BG-Bank A/S",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"877": {
+		"PostNr": 877,
+		"ByNavn": "København C",
+		"Gade": "Havneholmen 33",
+		"Firma": "Aller Press (konkurrencer)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"892": {
+		"PostNr": 892,
+		"ByNavn": "Sjælland USF P",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"893": {
+		"PostNr": 893,
+		"ByNavn": "Sjælland USF B",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"894": {
+		"PostNr": 894,
+		"ByNavn": "Udbetaling",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"899": {
+		"PostNr": 899,
+		"ByNavn": "Kommuneservice",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"900": {
+		"PostNr": 900,
+		"ByNavn": "København C",
+		"Gade": "",
+		"Firma": "Københavns Postcenter + erhvervskunder",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"910": {
+		"PostNr": 910,
+		"ByNavn": "København C",
+		"Gade": "Ufrankerede svarforsendelser ",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"913": {
+		"PostNr": 913,
+		"ByNavn": "Københavns Pakkecenter",
+		"Gade": "",
+		"Firma": "Zalando returpakker",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"914": {
+		"PostNr": 914,
+		"ByNavn": "Københavns Pakkecenter",
+		"Gade": "",
+		"Firma": "(Returpakker)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"917": {
+		"PostNr": 917,
+		"ByNavn": "Københavns Pakkecenter",
+		"Gade": "",
+		"Firma": "(Returpakker)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"918": {
+		"PostNr": 918,
+		"ByNavn": "Københavns Pakke BRC",
+		"Gade": "",
+		"Firma": "(Returpakker)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"919": {
+		"PostNr": 919,
+		"ByNavn": "Returprint BRC",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"929": {
+		"PostNr": 929,
+		"ByNavn": "København C",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"960": {
+		"PostNr": 960,
+		"ByNavn": "Internationalt Postcenter",
+		"Gade": "",
+		"Firma": "(Internt)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"999": {
+		"PostNr": 999,
+		"ByNavn": "København C",
+		"Gade": "",
+		"Firma": "DR Byen",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1001": {
+		"PostNr": 1001,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1002": {
+		"PostNr": 1002,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1003": {
+		"PostNr": 1003,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1004": {
+		"PostNr": 1004,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1005": {
+		"PostNr": 1005,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1006": {
+		"PostNr": 1006,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1007": {
+		"PostNr": 1007,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1008": {
+		"PostNr": 1008,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1009": {
+		"PostNr": 1009,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1010": {
+		"PostNr": 1010,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1011": {
+		"PostNr": 1011,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1012": {
+		"PostNr": 1012,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1013": {
+		"PostNr": 1013,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1014": {
+		"PostNr": 1014,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1015": {
+		"PostNr": 1015,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1016": {
+		"PostNr": 1016,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1017": {
+		"PostNr": 1017,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1018": {
+		"PostNr": 1018,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1019": {
+		"PostNr": 1019,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1020": {
+		"PostNr": 1020,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1021": {
+		"PostNr": 1021,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1022": {
+		"PostNr": 1022,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1023": {
+		"PostNr": 1023,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1024": {
+		"PostNr": 1024,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1025": {
+		"PostNr": 1025,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1026": {
+		"PostNr": 1026,
+		"ByNavn": "København K",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1045": {
+		"PostNr": 1045,
+		"ByNavn": "København K",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1050": {
+		"PostNr": 1050,
+		"ByNavn": "København K",
+		"Gade": "Kongens Nytorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1051": {
+		"PostNr": 1051,
+		"ByNavn": "København K",
+		"Gade": "Nyhavn",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1052": {
+		"PostNr": 1052,
+		"ByNavn": "København K",
+		"Gade": "Herluf Trolles Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1053": {
+		"PostNr": 1053,
+		"ByNavn": "København K",
+		"Gade": "Cort Adelers Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1054": {
+		"PostNr": 1054,
+		"ByNavn": "København K",
+		"Gade": "Peder Skrams Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1055": {
+		"PostNr": 1055,
+		"ByNavn": "København K",
+		"Gade": "Tordenskjoldsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1056": {
+		"PostNr": 1056,
+		"ByNavn": "København K",
+		"Gade": "Heibergsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1057": {
+		"PostNr": 1057,
+		"ByNavn": "København K",
+		"Gade": "Holbergsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1058": {
+		"PostNr": 1058,
+		"ByNavn": "København K",
+		"Gade": "Havnegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1059": {
+		"PostNr": 1059,
+		"ByNavn": "København K",
+		"Gade": "Niels Juels Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1060": {
+		"PostNr": 1060,
+		"ByNavn": "København K",
+		"Gade": "Holmens Kanal",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1061": {
+		"PostNr": 1061,
+		"ByNavn": "København K",
+		"Gade": "Ved Stranden",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1062": {
+		"PostNr": 1062,
+		"ByNavn": "København K",
+		"Gade": "Boldhusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1063": {
+		"PostNr": 1063,
+		"ByNavn": "København K",
+		"Gade": "Laksegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1064": {
+		"PostNr": 1064,
+		"ByNavn": "København K",
+		"Gade": "Asylgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1065": {
+		"PostNr": 1065,
+		"ByNavn": "København K",
+		"Gade": "Fortunstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1066": {
+		"PostNr": 1066,
+		"ByNavn": "København K",
+		"Gade": "Admiralgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1067": {
+		"PostNr": 1067,
+		"ByNavn": "København K",
+		"Gade": "Nikolaj Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1068": {
+		"PostNr": 1068,
+		"ByNavn": "København K",
+		"Gade": "Nikolajgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1069": {
+		"PostNr": 1069,
+		"ByNavn": "København K",
+		"Gade": "Bremerholm",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1070": {
+		"PostNr": 1070,
+		"ByNavn": "København K",
+		"Gade": "Vingårdstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1071": {
+		"PostNr": 1071,
+		"ByNavn": "København K",
+		"Gade": "Dybensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1072": {
+		"PostNr": 1072,
+		"ByNavn": "København K",
+		"Gade": "Lille Kirkestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1073": {
+		"PostNr": 1073,
+		"ByNavn": "København K",
+		"Gade": "Store Kirkestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1074": {
+		"PostNr": 1074,
+		"ByNavn": "København K",
+		"Gade": "Lille Kongensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1092": {
+		"PostNr": 1092,
+		"ByNavn": "København K",
+		"Gade": "Holmens Kanal 2-12",
+		"Firma": "Danske Bank A/S",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1093": {
+		"PostNr": 1093,
+		"ByNavn": "København K",
+		"Gade": "Havnegade 5",
+		"Firma": "Danmarks Nationalbank",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1095": {
+		"PostNr": 1095,
+		"ByNavn": "København K",
+		"Gade": "Kongens Nytorv 13",
+		"Firma": "Magasin du Nord",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1098": {
+		"PostNr": 1098,
+		"ByNavn": "København K",
+		"Gade": "Esplanaden 50",
+		"Firma": "A.P. Møller",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1100": {
+		"PostNr": 1100,
+		"ByNavn": "København K",
+		"Gade": "Østergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1101": {
+		"PostNr": 1101,
+		"ByNavn": "København K",
+		"Gade": "Ny Østergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1102": {
+		"PostNr": 1102,
+		"ByNavn": "København K",
+		"Gade": "Pistolstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1103": {
+		"PostNr": 1103,
+		"ByNavn": "København K",
+		"Gade": "Hovedvagtsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1104": {
+		"PostNr": 1104,
+		"ByNavn": "København K",
+		"Gade": "Ny Adelgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1105": {
+		"PostNr": 1105,
+		"ByNavn": "København K",
+		"Gade": "Kristen Bernikows Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1106": {
+		"PostNr": 1106,
+		"ByNavn": "København K",
+		"Gade": "Antonigade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1107": {
+		"PostNr": 1107,
+		"ByNavn": "København K",
+		"Gade": "Grønnegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1110": {
+		"PostNr": 1110,
+		"ByNavn": "København K",
+		"Gade": "Store Regnegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1111": {
+		"PostNr": 1111,
+		"ByNavn": "København K",
+		"Gade": "Christian IX's Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1112": {
+		"PostNr": 1112,
+		"ByNavn": "København K",
+		"Gade": "Pilestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1113": {
+		"PostNr": 1113,
+		"ByNavn": "København K",
+		"Gade": "Silkegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1114": {
+		"PostNr": 1114,
+		"ByNavn": "København K",
+		"Gade": "Kronprinsensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1115": {
+		"PostNr": 1115,
+		"ByNavn": "København K",
+		"Gade": "Klareboderne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1116": {
+		"PostNr": 1116,
+		"ByNavn": "København K",
+		"Gade": "Møntergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1117": {
+		"PostNr": 1117,
+		"ByNavn": "København K",
+		"Gade": "Gammel Mønt",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1118": {
+		"PostNr": 1118,
+		"ByNavn": "København K",
+		"Gade": "Sværtegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1119": {
+		"PostNr": 1119,
+		"ByNavn": "København K",
+		"Gade": "Landemærket",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1120": {
+		"PostNr": 1120,
+		"ByNavn": "København K",
+		"Gade": "Vognmagergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1121": {
+		"PostNr": 1121,
+		"ByNavn": "København K",
+		"Gade": "Lønporten",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1122": {
+		"PostNr": 1122,
+		"ByNavn": "København K",
+		"Gade": "Sjæleboderne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1123": {
+		"PostNr": 1123,
+		"ByNavn": "København K",
+		"Gade": "Gothersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1124": {
+		"PostNr": 1124,
+		"ByNavn": "København K",
+		"Gade": "Åbenrå",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1125": {
+		"PostNr": 1125,
+		"ByNavn": "København K",
+		"Gade": "Suhmsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1126": {
+		"PostNr": 1126,
+		"ByNavn": "København K",
+		"Gade": "Pustervig",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1127": {
+		"PostNr": 1127,
+		"ByNavn": "København K",
+		"Gade": "Hauser Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1128": {
+		"PostNr": 1128,
+		"ByNavn": "København K",
+		"Gade": "Hausergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1129": {
+		"PostNr": 1129,
+		"ByNavn": "København K",
+		"Gade": "Sankt Gertruds Stræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1130": {
+		"PostNr": 1130,
+		"ByNavn": "København K",
+		"Gade": "Rosenborggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1131": {
+		"PostNr": 1131,
+		"ByNavn": "København K",
+		"Gade": "Tornebuskegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1140": {
+		"PostNr": 1140,
+		"ByNavn": "København K",
+		"Gade": "Møntergade 19",
+		"Firma": "Dagbladet Børsen",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1147": {
+		"PostNr": 1147,
+		"ByNavn": "København K",
+		"Gade": "Pilestræde 34",
+		"Firma": "Berlingske Medier",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1148": {
+		"PostNr": 1148,
+		"ByNavn": "København K",
+		"Gade": "Vognmagergade 11",
+		"Firma": "Egmont",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1150": {
+		"PostNr": 1150,
+		"ByNavn": "København K",
+		"Gade": "Købmagergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1151": {
+		"PostNr": 1151,
+		"ByNavn": "København K",
+		"Gade": "Valkendorfsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1152": {
+		"PostNr": 1152,
+		"ByNavn": "København K",
+		"Gade": "Løvstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1153": {
+		"PostNr": 1153,
+		"ByNavn": "København K",
+		"Gade": "Niels Hemmingsens Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1154": {
+		"PostNr": 1154,
+		"ByNavn": "København K",
+		"Gade": "Gråbrødretorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1155": {
+		"PostNr": 1155,
+		"ByNavn": "København K",
+		"Gade": "Kejsergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1156": {
+		"PostNr": 1156,
+		"ByNavn": "København K",
+		"Gade": "Gråbrødrestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1157": {
+		"PostNr": 1157,
+		"ByNavn": "København K",
+		"Gade": "Klosterstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1158": {
+		"PostNr": 1158,
+		"ByNavn": "København K",
+		"Gade": "Skoubogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1159": {
+		"PostNr": 1159,
+		"ByNavn": "København K",
+		"Gade": "Skindergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1160": {
+		"PostNr": 1160,
+		"ByNavn": "København K",
+		"Gade": "Amagertorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1161": {
+		"PostNr": 1161,
+		"ByNavn": "København K",
+		"Gade": "Vimmelskaftet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1162": {
+		"PostNr": 1162,
+		"ByNavn": "København K",
+		"Gade": "Jorcks Passage",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1164": {
+		"PostNr": 1164,
+		"ByNavn": "København K",
+		"Gade": "Nygade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1165": {
+		"PostNr": 1165,
+		"ByNavn": "København K",
+		"Gade": "Nørregade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1166": {
+		"PostNr": 1166,
+		"ByNavn": "København K",
+		"Gade": "Dyrkøb",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1167": {
+		"PostNr": 1167,
+		"ByNavn": "København K",
+		"Gade": "Bispetorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1168": {
+		"PostNr": 1168,
+		"ByNavn": "København K",
+		"Gade": "Frue Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1169": {
+		"PostNr": 1169,
+		"ByNavn": "København K",
+		"Gade": "Store Kannikestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1170": {
+		"PostNr": 1170,
+		"ByNavn": "København K",
+		"Gade": "Lille Kannikestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1171": {
+		"PostNr": 1171,
+		"ByNavn": "København K",
+		"Gade": "Fiolstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1172": {
+		"PostNr": 1172,
+		"ByNavn": "København K",
+		"Gade": "Krystalgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1173": {
+		"PostNr": 1173,
+		"ByNavn": "København K",
+		"Gade": "Peder Hvitfeldts Stræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1174": {
+		"PostNr": 1174,
+		"ByNavn": "København K",
+		"Gade": "Rosengården",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1175": {
+		"PostNr": 1175,
+		"ByNavn": "København K",
+		"Gade": "Kultorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1200": {
+		"PostNr": 1200,
+		"ByNavn": "København K",
+		"Gade": "Højbro Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1201": {
+		"PostNr": 1201,
+		"ByNavn": "København K",
+		"Gade": "Læderstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1202": {
+		"PostNr": 1202,
+		"ByNavn": "København K",
+		"Gade": "Gammel Strand",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1203": {
+		"PostNr": 1203,
+		"ByNavn": "København K",
+		"Gade": "Nybrogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1204": {
+		"PostNr": 1204,
+		"ByNavn": "København K",
+		"Gade": "Magstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1205": {
+		"PostNr": 1205,
+		"ByNavn": "København K",
+		"Gade": "Snaregade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1206": {
+		"PostNr": 1206,
+		"ByNavn": "København K",
+		"Gade": "Naboløs",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1207": {
+		"PostNr": 1207,
+		"ByNavn": "København K",
+		"Gade": "Hyskenstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1208": {
+		"PostNr": 1208,
+		"ByNavn": "København K",
+		"Gade": "Kompagnistræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1209": {
+		"PostNr": 1209,
+		"ByNavn": "København K",
+		"Gade": "Badstuestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1210": {
+		"PostNr": 1210,
+		"ByNavn": "København K",
+		"Gade": "Knabrostræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1211": {
+		"PostNr": 1211,
+		"ByNavn": "København K",
+		"Gade": "Brolæggerstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1212": {
+		"PostNr": 1212,
+		"ByNavn": "København K",
+		"Gade": "Vindebrogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1213": {
+		"PostNr": 1213,
+		"ByNavn": "København K",
+		"Gade": "Bertel Thorvaldsens Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1214": {
+		"PostNr": 1214,
+		"ByNavn": "København K",
+		"Gade": "Tøjhusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1215": {
+		"PostNr": 1215,
+		"ByNavn": "København K",
+		"Gade": "Børsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1216": {
+		"PostNr": 1216,
+		"ByNavn": "København K",
+		"Gade": "Slotsholmsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1217": {
+		"PostNr": 1217,
+		"ByNavn": "København K",
+		"Gade": "Slotsholmsgade 1",
+		"Firma": "Børsen",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1218": {
+		"PostNr": 1218,
+		"ByNavn": "København K",
+		"Gade": "Christiansborg",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1219": {
+		"PostNr": 1219,
+		"ByNavn": "København K",
+		"Gade": "Christians Brygge 1-5 og 8",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1220": {
+		"PostNr": 1220,
+		"ByNavn": "København K",
+		"Gade": "Frederiksholms Kanal",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1221": {
+		"PostNr": 1221,
+		"ByNavn": "København K",
+		"Gade": "Søren Kierkegaards Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1240": {
+		"PostNr": 1240,
+		"ByNavn": "København K",
+		"Gade": "Christiansborg",
+		"Firma": "Folketinget",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1250": {
+		"PostNr": 1250,
+		"ByNavn": "København K",
+		"Gade": "Sankt Annæ Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1251": {
+		"PostNr": 1251,
+		"ByNavn": "København K",
+		"Gade": "Kvæsthusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1252": {
+		"PostNr": 1252,
+		"ByNavn": "København K",
+		"Gade": "Kvæsthusbroen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1253": {
+		"PostNr": 1253,
+		"ByNavn": "København K",
+		"Gade": "Toldbodgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1254": {
+		"PostNr": 1254,
+		"ByNavn": "København K",
+		"Gade": "Lille Strandstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1255": {
+		"PostNr": 1255,
+		"ByNavn": "København K",
+		"Gade": "Store Strandstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1256": {
+		"PostNr": 1256,
+		"ByNavn": "København K",
+		"Gade": "Amaliegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1257": {
+		"PostNr": 1257,
+		"ByNavn": "København K",
+		"Gade": "Amalienborg",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1259": {
+		"PostNr": 1259,
+		"ByNavn": "København K",
+		"Gade": "Nordre Toldbod",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1260": {
+		"PostNr": 1260,
+		"ByNavn": "København K",
+		"Gade": "Bredgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1261": {
+		"PostNr": 1261,
+		"ByNavn": "København K",
+		"Gade": "Palægade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1263": {
+		"PostNr": 1263,
+		"ByNavn": "København K",
+		"Gade": "Churchillparken",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1264": {
+		"PostNr": 1264,
+		"ByNavn": "København K",
+		"Gade": "Store Kongensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1265": {
+		"PostNr": 1265,
+		"ByNavn": "København K",
+		"Gade": "Frederiksgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1266": {
+		"PostNr": 1266,
+		"ByNavn": "København K",
+		"Gade": "Bornholmsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1267": {
+		"PostNr": 1267,
+		"ByNavn": "København K",
+		"Gade": "Hammerensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1268": {
+		"PostNr": 1268,
+		"ByNavn": "København K",
+		"Gade": "Jens Kofods Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1270": {
+		"PostNr": 1270,
+		"ByNavn": "København K",
+		"Gade": "Grønningen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1271": {
+		"PostNr": 1271,
+		"ByNavn": "København K",
+		"Gade": "Poul Ankers Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1300": {
+		"PostNr": 1300,
+		"ByNavn": "København K",
+		"Gade": "Borgergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1301": {
+		"PostNr": 1301,
+		"ByNavn": "København K",
+		"Gade": "Landgreven",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1302": {
+		"PostNr": 1302,
+		"ByNavn": "København K",
+		"Gade": "Dronningens Tværgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1303": {
+		"PostNr": 1303,
+		"ByNavn": "København K",
+		"Gade": "Hindegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1304": {
+		"PostNr": 1304,
+		"ByNavn": "København K",
+		"Gade": "Adelgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1306": {
+		"PostNr": 1306,
+		"ByNavn": "København K",
+		"Gade": "Kronprinsessegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1307": {
+		"PostNr": 1307,
+		"ByNavn": "København K",
+		"Gade": "Georg Brandes Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1308": {
+		"PostNr": 1308,
+		"ByNavn": "København K",
+		"Gade": "Klerkegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1309": {
+		"PostNr": 1309,
+		"ByNavn": "København K",
+		"Gade": "Rosengade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1310": {
+		"PostNr": 1310,
+		"ByNavn": "København K",
+		"Gade": "Fredericiagade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1311": {
+		"PostNr": 1311,
+		"ByNavn": "København K",
+		"Gade": "Olfert Fischers Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1312": {
+		"PostNr": 1312,
+		"ByNavn": "København K",
+		"Gade": "Gammelvagt",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1313": {
+		"PostNr": 1313,
+		"ByNavn": "København K",
+		"Gade": "Sankt Pauls Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1314": {
+		"PostNr": 1314,
+		"ByNavn": "København K",
+		"Gade": "Sankt Pauls Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1315": {
+		"PostNr": 1315,
+		"ByNavn": "København K",
+		"Gade": "Rævegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1316": {
+		"PostNr": 1316,
+		"ByNavn": "København K",
+		"Gade": "Rigensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1317": {
+		"PostNr": 1317,
+		"ByNavn": "København K",
+		"Gade": "Stokhusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1318": {
+		"PostNr": 1318,
+		"ByNavn": "København K",
+		"Gade": "Krusemyntegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1319": {
+		"PostNr": 1319,
+		"ByNavn": "København K",
+		"Gade": "Gernersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1320": {
+		"PostNr": 1320,
+		"ByNavn": "København K",
+		"Gade": "Haregade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1321": {
+		"PostNr": 1321,
+		"ByNavn": "København K",
+		"Gade": "Tigergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1322": {
+		"PostNr": 1322,
+		"ByNavn": "København K",
+		"Gade": "Suensonsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1323": {
+		"PostNr": 1323,
+		"ByNavn": "København K",
+		"Gade": "Hjertensfrydsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1324": {
+		"PostNr": 1324,
+		"ByNavn": "København K",
+		"Gade": "Elsdyrsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1325": {
+		"PostNr": 1325,
+		"ByNavn": "København K",
+		"Gade": "Delfingade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1326": {
+		"PostNr": 1326,
+		"ByNavn": "København K",
+		"Gade": "Krokodillegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1327": {
+		"PostNr": 1327,
+		"ByNavn": "København K",
+		"Gade": "Vildandegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1328": {
+		"PostNr": 1328,
+		"ByNavn": "København K",
+		"Gade": "Svanegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1329": {
+		"PostNr": 1329,
+		"ByNavn": "København K",
+		"Gade": "Timiansgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1350": {
+		"PostNr": 1350,
+		"ByNavn": "København K",
+		"Gade": "Øster Voldgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1352": {
+		"PostNr": 1352,
+		"ByNavn": "København K",
+		"Gade": "Rørholmsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1353": {
+		"PostNr": 1353,
+		"ByNavn": "København K",
+		"Gade": "Øster Farimagsgade 3-15 og 2",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1354": {
+		"PostNr": 1354,
+		"ByNavn": "København K",
+		"Gade": "Ole Suhrs Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1355": {
+		"PostNr": 1355,
+		"ByNavn": "København K",
+		"Gade": "Gammeltoftsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1356": {
+		"PostNr": 1356,
+		"ByNavn": "København K",
+		"Gade": "Bartholinsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1357": {
+		"PostNr": 1357,
+		"ByNavn": "København K",
+		"Gade": "Øster Søgade 8-36",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1358": {
+		"PostNr": 1358,
+		"ByNavn": "København K",
+		"Gade": "Nørre Voldgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1359": {
+		"PostNr": 1359,
+		"ByNavn": "København K",
+		"Gade": "Ahlefeldtsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1360": {
+		"PostNr": 1360,
+		"ByNavn": "København K",
+		"Gade": "Frederiksborggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1361": {
+		"PostNr": 1361,
+		"ByNavn": "København K",
+		"Gade": "Israels Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1362": {
+		"PostNr": 1362,
+		"ByNavn": "København K",
+		"Gade": "Rømersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1363": {
+		"PostNr": 1363,
+		"ByNavn": "København K",
+		"Gade": "Vendersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1364": {
+		"PostNr": 1364,
+		"ByNavn": "København K",
+		"Gade": "Nørre Farimagsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1365": {
+		"PostNr": 1365,
+		"ByNavn": "København K",
+		"Gade": "Schacksgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1366": {
+		"PostNr": 1366,
+		"ByNavn": "København K",
+		"Gade": "Nansensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1367": {
+		"PostNr": 1367,
+		"ByNavn": "København K",
+		"Gade": "Kjeld Langes Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1368": {
+		"PostNr": 1368,
+		"ByNavn": "København K",
+		"Gade": "Turesensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1369": {
+		"PostNr": 1369,
+		"ByNavn": "København K",
+		"Gade": "Gyldenløvesgade lige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1370": {
+		"PostNr": 1370,
+		"ByNavn": "København K",
+		"Gade": "Nørre Søgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1371": {
+		"PostNr": 1371,
+		"ByNavn": "København K",
+		"Gade": "Søtorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1400": {
+		"PostNr": 1400,
+		"ByNavn": "København K",
+		"Gade": "Knippelsbro",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1401": {
+		"PostNr": 1401,
+		"ByNavn": "København K",
+		"Gade": "Strandgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1402": {
+		"PostNr": 1402,
+		"ByNavn": "København K",
+		"Gade": "Asiatisk Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1403": {
+		"PostNr": 1403,
+		"ByNavn": "København K",
+		"Gade": "Wilders Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1406": {
+		"PostNr": 1406,
+		"ByNavn": "København K",
+		"Gade": "Christianshavns Kanal",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1407": {
+		"PostNr": 1407,
+		"ByNavn": "København K",
+		"Gade": "Bådsmandsstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1408": {
+		"PostNr": 1408,
+		"ByNavn": "København K",
+		"Gade": "Wildersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1409": {
+		"PostNr": 1409,
+		"ByNavn": "København K",
+		"Gade": "Knippelsbrogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1410": {
+		"PostNr": 1410,
+		"ByNavn": "København K",
+		"Gade": "Christianshavns Torv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1411": {
+		"PostNr": 1411,
+		"ByNavn": "København K",
+		"Gade": "Langebrogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1412": {
+		"PostNr": 1412,
+		"ByNavn": "København K",
+		"Gade": "Voldgården",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1413": {
+		"PostNr": 1413,
+		"ByNavn": "København K",
+		"Gade": "Ved Kanalen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1414": {
+		"PostNr": 1414,
+		"ByNavn": "København K",
+		"Gade": "Overgaden Neden Vandet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1415": {
+		"PostNr": 1415,
+		"ByNavn": "København K",
+		"Gade": "Overgaden Oven Vandet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1416": {
+		"PostNr": 1416,
+		"ByNavn": "København K",
+		"Gade": "Sankt Annæ Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1417": {
+		"PostNr": 1417,
+		"ByNavn": "København K",
+		"Gade": "Mikkel Vibes Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1418": {
+		"PostNr": 1418,
+		"ByNavn": "København K",
+		"Gade": "Sofiegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1419": {
+		"PostNr": 1419,
+		"ByNavn": "København K",
+		"Gade": "Store Søndervoldstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1420": {
+		"PostNr": 1420,
+		"ByNavn": "København K",
+		"Gade": "Dronningensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1421": {
+		"PostNr": 1421,
+		"ByNavn": "København K",
+		"Gade": "Lille Søndervoldstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1422": {
+		"PostNr": 1422,
+		"ByNavn": "København K",
+		"Gade": "Prinsessegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1423": {
+		"PostNr": 1423,
+		"ByNavn": "København K",
+		"Gade": "Amagergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1424": {
+		"PostNr": 1424,
+		"ByNavn": "København K",
+		"Gade": "Christianshavns Voldgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1425": {
+		"PostNr": 1425,
+		"ByNavn": "København K",
+		"Gade": "Ved Volden",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1426": {
+		"PostNr": 1426,
+		"ByNavn": "København K",
+		"Gade": "Voldboligerne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1427": {
+		"PostNr": 1427,
+		"ByNavn": "København K",
+		"Gade": "Brobergsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1428": {
+		"PostNr": 1428,
+		"ByNavn": "København K",
+		"Gade": "Andreas Bjørns Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1429": {
+		"PostNr": 1429,
+		"ByNavn": "København K",
+		"Gade": "Burmeistersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1430": {
+		"PostNr": 1430,
+		"ByNavn": "København K",
+		"Gade": "Bodenhoffs Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1432": {
+		"PostNr": 1432,
+		"ByNavn": "København K",
+		"Gade": "Margretheholmsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1433": {
+		"PostNr": 1433,
+		"ByNavn": "København K",
+		"Gade": "Christiansholms Ø",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1434": {
+		"PostNr": 1434,
+		"ByNavn": "København K",
+		"Gade": "Danneskiold-Samsøes Allé",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1435": {
+		"PostNr": 1435,
+		"ByNavn": "København K",
+		"Gade": "Philip De Langes Allé",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1436": {
+		"PostNr": 1436,
+		"ByNavn": "København K",
+		"Gade": "Arsenalvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1437": {
+		"PostNr": 1437,
+		"ByNavn": "København K",
+		"Gade": "Bohlendachvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1438": {
+		"PostNr": 1438,
+		"ByNavn": "København K",
+		"Gade": "Benstrups Kvarter",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1439": {
+		"PostNr": 1439,
+		"ByNavn": "København K",
+		"Gade": "A.H. Vedels Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1440": {
+		"PostNr": 1440,
+		"ByNavn": "København K",
+		"Gade": "Bjørnekloen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1441": {
+		"PostNr": 1441,
+		"ByNavn": "København K",
+		"Gade": "Midtdyssen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1448": {
+		"PostNr": 1448,
+		"ByNavn": "København K",
+		"Gade": "Asiatisk Plads 2",
+		"Firma": "Udenrigsministeriet",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1450": {
+		"PostNr": 1450,
+		"ByNavn": "København K",
+		"Gade": "Nytorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1451": {
+		"PostNr": 1451,
+		"ByNavn": "København K",
+		"Gade": "Larslejsstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1452": {
+		"PostNr": 1452,
+		"ByNavn": "København K",
+		"Gade": "Teglgårdstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1453": {
+		"PostNr": 1453,
+		"ByNavn": "København K",
+		"Gade": "Sankt Peders Stræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1454": {
+		"PostNr": 1454,
+		"ByNavn": "København K",
+		"Gade": "Larsbjørnsstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1455": {
+		"PostNr": 1455,
+		"ByNavn": "København K",
+		"Gade": "Studiestræde 3-49 og 6-40",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1456": {
+		"PostNr": 1456,
+		"ByNavn": "København K",
+		"Gade": "Vestergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1457": {
+		"PostNr": 1457,
+		"ByNavn": "København K",
+		"Gade": "Gammeltorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1458": {
+		"PostNr": 1458,
+		"ByNavn": "København K",
+		"Gade": "Kattesundet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1459": {
+		"PostNr": 1459,
+		"ByNavn": "København K",
+		"Gade": "Frederiksberggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1460": {
+		"PostNr": 1460,
+		"ByNavn": "København K",
+		"Gade": "Mikkel Bryggers Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1461": {
+		"PostNr": 1461,
+		"ByNavn": "København K",
+		"Gade": "Slutterigade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1462": {
+		"PostNr": 1462,
+		"ByNavn": "København K",
+		"Gade": "Lavendelstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1463": {
+		"PostNr": 1463,
+		"ByNavn": "København K",
+		"Gade": "Farvergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1464": {
+		"PostNr": 1464,
+		"ByNavn": "København K",
+		"Gade": "Hestemøllestræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1465": {
+		"PostNr": 1465,
+		"ByNavn": "København K",
+		"Gade": "Gåsegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1466": {
+		"PostNr": 1466,
+		"ByNavn": "København K",
+		"Gade": "Rådhusstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1467": {
+		"PostNr": 1467,
+		"ByNavn": "København K",
+		"Gade": "Vandkunsten",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1468": {
+		"PostNr": 1468,
+		"ByNavn": "København K",
+		"Gade": "Løngangstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1470": {
+		"PostNr": 1470,
+		"ByNavn": "København K",
+		"Gade": "Stormgade 2-14",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1471": {
+		"PostNr": 1471,
+		"ByNavn": "København K",
+		"Gade": "Ny Vestergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1472": {
+		"PostNr": 1472,
+		"ByNavn": "København K",
+		"Gade": "Ny Kongensgade 1-15 og 4-14",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1473": {
+		"PostNr": 1473,
+		"ByNavn": "København K",
+		"Gade": "Bryghusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1500": {
+		"PostNr": 1500,
+		"ByNavn": "København V",
+		"Gade": "Carsten Niebuhrs Gade 4",
+		"Firma": "Vesterbro Postkontor",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1501": {
+		"PostNr": 1501,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1502": {
+		"PostNr": 1502,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1503": {
+		"PostNr": 1503,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1504": {
+		"PostNr": 1504,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1505": {
+		"PostNr": 1505,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1506": {
+		"PostNr": 1506,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1507": {
+		"PostNr": 1507,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1508": {
+		"PostNr": 1508,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1509": {
+		"PostNr": 1509,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1510": {
+		"PostNr": 1510,
+		"ByNavn": "København V",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1512": {
+		"PostNr": 1512,
+		"ByNavn": "Returpost",
+		"Gade": "Carsten Niebuhrs Gade 4",
+		"Firma": "(Internt)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1513": {
+		"PostNr": 1513,
+		"ByNavn": "Flytninger og Nejtak",
+		"Gade": "",
+		"Firma": "(Internt)",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1532": {
+		"PostNr": 1532,
+		"ByNavn": "København V",
+		"Gade": "Kystvejen 26, 2770 Kastrup",
+		"Firma": "Internationalt Postcenter, returforsendelser + consignment",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1533": {
+		"PostNr": 1533,
+		"ByNavn": "København V",
+		"Gade": "Kystvejen 26, 2770 Kastrup",
+		"Firma": "Internationalt Postcenter",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1550": {
+		"PostNr": 1550,
+		"ByNavn": "København V",
+		"Gade": "Bag Rådhuset",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1551": {
+		"PostNr": 1551,
+		"ByNavn": "København V",
+		"Gade": "Jarmers Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1552": {
+		"PostNr": 1552,
+		"ByNavn": "København V",
+		"Gade": "Vester Voldgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1553": {
+		"PostNr": 1553,
+		"ByNavn": "København V",
+		"Gade": "H.C. Andersens Boulevard",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1554": {
+		"PostNr": 1554,
+		"ByNavn": "København V",
+		"Gade": "Studiestræde 57-69 og 50-54",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1555": {
+		"PostNr": 1555,
+		"ByNavn": "København V",
+		"Gade": "Stormgade 20 og 35",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1556": {
+		"PostNr": 1556,
+		"ByNavn": "København V",
+		"Gade": "Dantes Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1557": {
+		"PostNr": 1557,
+		"ByNavn": "København V",
+		"Gade": "Ny Kongensgade 19-21 og 18-20",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1558": {
+		"PostNr": 1558,
+		"ByNavn": "København V",
+		"Gade": "Christiansborggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1559": {
+		"PostNr": 1559,
+		"ByNavn": "København V",
+		"Gade": "Christians Brygge 24-30",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1560": {
+		"PostNr": 1560,
+		"ByNavn": "København V",
+		"Gade": "Kalvebod Brygge",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1561": {
+		"PostNr": 1561,
+		"ByNavn": "København V",
+		"Gade": "Fisketorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1562": {
+		"PostNr": 1562,
+		"ByNavn": "København V",
+		"Gade": "Hambrosgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1563": {
+		"PostNr": 1563,
+		"ByNavn": "København V",
+		"Gade": "Otto Mønsteds Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1564": {
+		"PostNr": 1564,
+		"ByNavn": "København V",
+		"Gade": "Rysensteensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1567": {
+		"PostNr": 1567,
+		"ByNavn": "København V",
+		"Gade": "Polititorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1568": {
+		"PostNr": 1568,
+		"ByNavn": "København V",
+		"Gade": "Mitchellsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1569": {
+		"PostNr": 1569,
+		"ByNavn": "København V",
+		"Gade": "Edvard Falcks Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1570": {
+		"PostNr": 1570,
+		"ByNavn": "København V",
+		"Gade": "Banegårdspladsen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1571": {
+		"PostNr": 1571,
+		"ByNavn": "København V",
+		"Gade": "Otto Mønsteds Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1572": {
+		"PostNr": 1572,
+		"ByNavn": "København V",
+		"Gade": "Anker Heegaards Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1573": {
+		"PostNr": 1573,
+		"ByNavn": "København V",
+		"Gade": "Puggaardsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1574": {
+		"PostNr": 1574,
+		"ByNavn": "København V",
+		"Gade": "Niels Brocks Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1575": {
+		"PostNr": 1575,
+		"ByNavn": "København V",
+		"Gade": "Ved Glyptoteket",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1576": {
+		"PostNr": 1576,
+		"ByNavn": "København V",
+		"Gade": "Stoltenbergsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1577": {
+		"PostNr": 1577,
+		"ByNavn": "København V",
+		"Gade": "Arni Magnussons Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1592": {
+		"PostNr": 1592,
+		"ByNavn": "København V",
+		"Gade": "Bernstorffsgade 17-19",
+		"Firma": "Københavns Socialdirektorat",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1599": {
+		"PostNr": 1599,
+		"ByNavn": "København V",
+		"Gade": "Rådhuspladsen 1 ",
+		"Firma": "Københavns Rådhus",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1600": {
+		"PostNr": 1600,
+		"ByNavn": "København V",
+		"Gade": "Gyldenløvesgade ulige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1601": {
+		"PostNr": 1601,
+		"ByNavn": "København V",
+		"Gade": "Vester Søgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1602": {
+		"PostNr": 1602,
+		"ByNavn": "København V",
+		"Gade": "Nyropsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1603": {
+		"PostNr": 1603,
+		"ByNavn": "København V",
+		"Gade": "Dahlerupsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1604": {
+		"PostNr": 1604,
+		"ByNavn": "København V",
+		"Gade": "Kampmannsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1605": {
+		"PostNr": 1605,
+		"ByNavn": "København V",
+		"Gade": "Herholdtsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1606": {
+		"PostNr": 1606,
+		"ByNavn": "København V",
+		"Gade": "Vester Farimagsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1607": {
+		"PostNr": 1607,
+		"ByNavn": "København V",
+		"Gade": "Staunings Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1608": {
+		"PostNr": 1608,
+		"ByNavn": "København V",
+		"Gade": "Jernbanegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1609": {
+		"PostNr": 1609,
+		"ByNavn": "København V",
+		"Gade": "Axeltorv",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1610": {
+		"PostNr": 1610,
+		"ByNavn": "København V",
+		"Gade": "Gammel Kongevej 1-55 og 10",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1611": {
+		"PostNr": 1611,
+		"ByNavn": "København V",
+		"Gade": "Hammerichsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1612": {
+		"PostNr": 1612,
+		"ByNavn": "København V",
+		"Gade": "Ved Vesterport",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1613": {
+		"PostNr": 1613,
+		"ByNavn": "København V",
+		"Gade": "Meldahlsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1614": {
+		"PostNr": 1614,
+		"ByNavn": "København V",
+		"Gade": "Trommesalen",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1615": {
+		"PostNr": 1615,
+		"ByNavn": "København V",
+		"Gade": "Sankt Jørgens Allé",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1616": {
+		"PostNr": 1616,
+		"ByNavn": "København V",
+		"Gade": "Stenosgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1617": {
+		"PostNr": 1617,
+		"ByNavn": "København V",
+		"Gade": "Bagerstræde",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1618": {
+		"PostNr": 1618,
+		"ByNavn": "København V",
+		"Gade": "Tullinsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1619": {
+		"PostNr": 1619,
+		"ByNavn": "København V",
+		"Gade": "Værnedamsvej lige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1620": {
+		"PostNr": 1620,
+		"ByNavn": "København V",
+		"Gade": "Vesterbrogade 1-149 og 2-150",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1621": {
+		"PostNr": 1621,
+		"ByNavn": "København V",
+		"Gade": "Frederiksberg Alle 1 - 13B",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1622": {
+		"PostNr": 1622,
+		"ByNavn": "København V",
+		"Gade": "Boyesgade ulige nr",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1623": {
+		"PostNr": 1623,
+		"ByNavn": "København V",
+		"Gade": "Kingosgade 1-9",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1624": {
+		"PostNr": 1624,
+		"ByNavn": "København V",
+		"Gade": "Brorsonsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1630": {
+		"PostNr": 1630,
+		"ByNavn": "København V",
+		"Gade": "Vesterbrogade 3",
+		"Firma": "Tivoli A/S",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1631": {
+		"PostNr": 1631,
+		"ByNavn": "København V",
+		"Gade": "Herman Triers Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1632": {
+		"PostNr": 1632,
+		"ByNavn": "København V",
+		"Gade": "Julius Thomsens Gade lige nr",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1633": {
+		"PostNr": 1633,
+		"ByNavn": "København V",
+		"Gade": "Kleinsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1634": {
+		"PostNr": 1634,
+		"ByNavn": "København V",
+		"Gade": "Rosenørns Allé 2-18",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1635": {
+		"PostNr": 1635,
+		"ByNavn": "København V",
+		"Gade": "Åboulevard 1-13",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1650": {
+		"PostNr": 1650,
+		"ByNavn": "København V",
+		"Gade": "Istedgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1651": {
+		"PostNr": 1651,
+		"ByNavn": "København V",
+		"Gade": "Reventlowsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1652": {
+		"PostNr": 1652,
+		"ByNavn": "København V",
+		"Gade": "Colbjørnsensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1653": {
+		"PostNr": 1653,
+		"ByNavn": "København V",
+		"Gade": "Helgolandsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1654": {
+		"PostNr": 1654,
+		"ByNavn": "København V",
+		"Gade": "Abel Cathrines Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1655": {
+		"PostNr": 1655,
+		"ByNavn": "København V",
+		"Gade": "Viktoriagade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1656": {
+		"PostNr": 1656,
+		"ByNavn": "København V",
+		"Gade": "Gasværksvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1657": {
+		"PostNr": 1657,
+		"ByNavn": "København V",
+		"Gade": "Eskildsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1658": {
+		"PostNr": 1658,
+		"ByNavn": "København V",
+		"Gade": "Absalonsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1659": {
+		"PostNr": 1659,
+		"ByNavn": "København V",
+		"Gade": "Svendsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1660": {
+		"PostNr": 1660,
+		"ByNavn": "København V",
+		"Gade": "Dannebrogsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1661": {
+		"PostNr": 1661,
+		"ByNavn": "København V",
+		"Gade": "Westend",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1662": {
+		"PostNr": 1662,
+		"ByNavn": "København V",
+		"Gade": "Saxogade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1663": {
+		"PostNr": 1663,
+		"ByNavn": "København V",
+		"Gade": "Oehlenschlægersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1664": {
+		"PostNr": 1664,
+		"ByNavn": "København V",
+		"Gade": "Kaalundsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1665": {
+		"PostNr": 1665,
+		"ByNavn": "København V",
+		"Gade": "Valdemarsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1666": {
+		"PostNr": 1666,
+		"ByNavn": "København V",
+		"Gade": "Matthæusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1667": {
+		"PostNr": 1667,
+		"ByNavn": "København V",
+		"Gade": "Frederiksstadsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1668": {
+		"PostNr": 1668,
+		"ByNavn": "København V",
+		"Gade": "Mysundegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1669": {
+		"PostNr": 1669,
+		"ByNavn": "København V",
+		"Gade": "Flensborggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1670": {
+		"PostNr": 1670,
+		"ByNavn": "København V",
+		"Gade": "Enghave Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1671": {
+		"PostNr": 1671,
+		"ByNavn": "København V",
+		"Gade": "Haderslevgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1672": {
+		"PostNr": 1672,
+		"ByNavn": "København V",
+		"Gade": "Broagergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1673": {
+		"PostNr": 1673,
+		"ByNavn": "København V",
+		"Gade": "Ullerupgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1674": {
+		"PostNr": 1674,
+		"ByNavn": "København V",
+		"Gade": "Enghavevej 1-77 og 2-78",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1675": {
+		"PostNr": 1675,
+		"ByNavn": "København V",
+		"Gade": "Kongshøjgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1676": {
+		"PostNr": 1676,
+		"ByNavn": "København V",
+		"Gade": "Sankelmarksgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1677": {
+		"PostNr": 1677,
+		"ByNavn": "København V",
+		"Gade": "Gråstensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1699": {
+		"PostNr": 1699,
+		"ByNavn": "København V",
+		"Gade": "Staldgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1700": {
+		"PostNr": 1700,
+		"ByNavn": "København V",
+		"Gade": "Halmtorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1701": {
+		"PostNr": 1701,
+		"ByNavn": "København V",
+		"Gade": "Reverdilsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1702": {
+		"PostNr": 1702,
+		"ByNavn": "København V",
+		"Gade": "Stampesgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1703": {
+		"PostNr": 1703,
+		"ByNavn": "København V",
+		"Gade": "Lille Colbjørnsensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1704": {
+		"PostNr": 1704,
+		"ByNavn": "København V",
+		"Gade": "Tietgensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1705": {
+		"PostNr": 1705,
+		"ByNavn": "København V",
+		"Gade": "Ingerslevsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1706": {
+		"PostNr": 1706,
+		"ByNavn": "København V",
+		"Gade": "Lille Istedgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1707": {
+		"PostNr": 1707,
+		"ByNavn": "København V",
+		"Gade": "Maria Kirkeplads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1708": {
+		"PostNr": 1708,
+		"ByNavn": "København V",
+		"Gade": "Eriksgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1709": {
+		"PostNr": 1709,
+		"ByNavn": "København V",
+		"Gade": "Skydebanegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1710": {
+		"PostNr": 1710,
+		"ByNavn": "København V",
+		"Gade": "Kvægtorvsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1711": {
+		"PostNr": 1711,
+		"ByNavn": "København V",
+		"Gade": "Flæsketorvet",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1712": {
+		"PostNr": 1712,
+		"ByNavn": "København V",
+		"Gade": "Høkerboderne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1714": {
+		"PostNr": 1714,
+		"ByNavn": "København V",
+		"Gade": "Kødboderne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1715": {
+		"PostNr": 1715,
+		"ByNavn": "København V",
+		"Gade": "Slagtehusgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1716": {
+		"PostNr": 1716,
+		"ByNavn": "København V",
+		"Gade": "Slagterboderne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1717": {
+		"PostNr": 1717,
+		"ByNavn": "København V",
+		"Gade": "Skelbækgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1718": {
+		"PostNr": 1718,
+		"ByNavn": "København V",
+		"Gade": "Sommerstedgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1719": {
+		"PostNr": 1719,
+		"ByNavn": "København V",
+		"Gade": "Krusågade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1720": {
+		"PostNr": 1720,
+		"ByNavn": "København V",
+		"Gade": "Sønder Boulevard",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1721": {
+		"PostNr": 1721,
+		"ByNavn": "København V",
+		"Gade": "Dybbølsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1722": {
+		"PostNr": 1722,
+		"ByNavn": "København V",
+		"Gade": "Godsbanegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1723": {
+		"PostNr": 1723,
+		"ByNavn": "København V",
+		"Gade": "Letlandsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1724": {
+		"PostNr": 1724,
+		"ByNavn": "København V",
+		"Gade": "Estlandsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1725": {
+		"PostNr": 1725,
+		"ByNavn": "København V",
+		"Gade": "Esbern Snares Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1726": {
+		"PostNr": 1726,
+		"ByNavn": "København V",
+		"Gade": "Arkonagade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1727": {
+		"PostNr": 1727,
+		"ByNavn": "København V",
+		"Gade": "Asger Rygs Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1728": {
+		"PostNr": 1728,
+		"ByNavn": "København V",
+		"Gade": "Skjalm Hvides Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1729": {
+		"PostNr": 1729,
+		"ByNavn": "København V",
+		"Gade": "Sigerstedgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1730": {
+		"PostNr": 1730,
+		"ByNavn": "København V",
+		"Gade": "Knud Lavards Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1731": {
+		"PostNr": 1731,
+		"ByNavn": "København V",
+		"Gade": "Erik Ejegods Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1732": {
+		"PostNr": 1732,
+		"ByNavn": "København V",
+		"Gade": "Bodilsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1733": {
+		"PostNr": 1733,
+		"ByNavn": "København V",
+		"Gade": "Palnatokesgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1734": {
+		"PostNr": 1734,
+		"ByNavn": "København V",
+		"Gade": "Heilsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1735": {
+		"PostNr": 1735,
+		"ByNavn": "København V",
+		"Gade": "Røddinggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1736": {
+		"PostNr": 1736,
+		"ByNavn": "København V",
+		"Gade": "Bevtoftgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1737": {
+		"PostNr": 1737,
+		"ByNavn": "København V",
+		"Gade": "Bustrupgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1738": {
+		"PostNr": 1738,
+		"ByNavn": "København V",
+		"Gade": "Stenderupgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1739": {
+		"PostNr": 1739,
+		"ByNavn": "København V",
+		"Gade": "Enghave Passage",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1749": {
+		"PostNr": 1749,
+		"ByNavn": "København V",
+		"Gade": "Rahbeks Allé 3-11",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1750": {
+		"PostNr": 1750,
+		"ByNavn": "København V",
+		"Gade": "Vesterfælledvej 1-9 og 2-56",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1751": {
+		"PostNr": 1751,
+		"ByNavn": "København V",
+		"Gade": "Sundevedsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1752": {
+		"PostNr": 1752,
+		"ByNavn": "København V",
+		"Gade": "Tøndergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1753": {
+		"PostNr": 1753,
+		"ByNavn": "København V",
+		"Gade": "Ballumgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1754": {
+		"PostNr": 1754,
+		"ByNavn": "København V",
+		"Gade": "Hedebygade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1755": {
+		"PostNr": 1755,
+		"ByNavn": "København V",
+		"Gade": "Møgeltøndergade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1756": {
+		"PostNr": 1756,
+		"ByNavn": "København V",
+		"Gade": "Amerikavej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1757": {
+		"PostNr": 1757,
+		"ByNavn": "København V",
+		"Gade": "Trøjborggade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1758": {
+		"PostNr": 1758,
+		"ByNavn": "København V",
+		"Gade": "Lyrskovgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1759": {
+		"PostNr": 1759,
+		"ByNavn": "København V",
+		"Gade": "Rejsbygade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1760": {
+		"PostNr": 1760,
+		"ByNavn": "København V",
+		"Gade": "Ny Carlsberg Vej 1-37 og 2-66",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1761": {
+		"PostNr": 1761,
+		"ByNavn": "København V",
+		"Gade": "Ejderstedgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1762": {
+		"PostNr": 1762,
+		"ByNavn": "København V",
+		"Gade": "Slesvigsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1763": {
+		"PostNr": 1763,
+		"ByNavn": "København V",
+		"Gade": "Dannevirkegade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1764": {
+		"PostNr": 1764,
+		"ByNavn": "København V",
+		"Gade": "Alsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1765": {
+		"PostNr": 1765,
+		"ByNavn": "København V",
+		"Gade": "Angelgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1766": {
+		"PostNr": 1766,
+		"ByNavn": "København V",
+		"Gade": "Slien",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1770": {
+		"PostNr": 1770,
+		"ByNavn": "København V",
+		"Gade": "Carstensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1771": {
+		"PostNr": 1771,
+		"ByNavn": "København V",
+		"Gade": "Lundbyesgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1772": {
+		"PostNr": 1772,
+		"ByNavn": "København V",
+		"Gade": "Ernst Meyers Gade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1773": {
+		"PostNr": 1773,
+		"ByNavn": "København V",
+		"Gade": "Bissensgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1774": {
+		"PostNr": 1774,
+		"ByNavn": "København V",
+		"Gade": "Küchlersgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1775": {
+		"PostNr": 1775,
+		"ByNavn": "København V",
+		"Gade": "Freundsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1777": {
+		"PostNr": 1777,
+		"ByNavn": "København V",
+		"Gade": "Jerichausgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1780": {
+		"PostNr": 1780,
+		"ByNavn": "København V",
+		"Gade": "",
+		"Firma": "Erhvervskunder",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1782": {
+		"PostNr": 1782,
+		"ByNavn": "København V",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1785": {
+		"PostNr": 1785,
+		"ByNavn": "København V",
+		"Gade": "Rådhuspladsen 33 og 37",
+		"Firma": "Politiken og Ekstrabladet",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1786": {
+		"PostNr": 1786,
+		"ByNavn": "København V",
+		"Gade": "Vesterbrogade 8",
+		"Firma": "Nordea",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1787": {
+		"PostNr": 1787,
+		"ByNavn": "København V",
+		"Gade": "H.C. Andersens Boulevard 18",
+		"Firma": "Dansk Industri",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1790": {
+		"PostNr": 1790,
+		"ByNavn": "København V",
+		"Gade": "",
+		"Firma": "Erhvervskunder",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1799": {
+		"PostNr": 1799,
+		"ByNavn": "København V",
+		"Gade": "Bag Elefanterne",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1800": {
+		"PostNr": 1800,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Vesterbrogade 161-191 og 162-208",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1801": {
+		"PostNr": 1801,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Rahbeks Alle 2-36",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1802": {
+		"PostNr": 1802,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Halls Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1803": {
+		"PostNr": 1803,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Brøndsteds Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1804": {
+		"PostNr": 1804,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Bakkegårds Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1805": {
+		"PostNr": 1805,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Kammasvej 3",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1806": {
+		"PostNr": 1806,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Jacobys Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1807": {
+		"PostNr": 1807,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Schlegels Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1808": {
+		"PostNr": 1808,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Asmussens Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1809": {
+		"PostNr": 1809,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Frydendalsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1810": {
+		"PostNr": 1810,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Platanvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1811": {
+		"PostNr": 1811,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Asgårdsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1812": {
+		"PostNr": 1812,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Kochsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1813": {
+		"PostNr": 1813,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Henrik Ibsens Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1814": {
+		"PostNr": 1814,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Carit Etlars Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1815": {
+		"PostNr": 1815,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Paludan Müllers Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1816": {
+		"PostNr": 1816,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Engtoftevej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1817": {
+		"PostNr": 1817,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Carl Bernhards Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1818": {
+		"PostNr": 1818,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Kingosgade 11-17 og 8-10",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1819": {
+		"PostNr": 1819,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Værnedamsvej ulige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1820": {
+		"PostNr": 1820,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Frederiksberg Alle 15-63 og 2-104",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1822": {
+		"PostNr": 1822,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Boyesgade lige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1823": {
+		"PostNr": 1823,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Haveselskabetsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1824": {
+		"PostNr": 1824,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sankt Thomas Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1825": {
+		"PostNr": 1825,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Hauchsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1826": {
+		"PostNr": 1826,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Alhambravej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1827": {
+		"PostNr": 1827,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Mynstersvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1828": {
+		"PostNr": 1828,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Martensens Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1829": {
+		"PostNr": 1829,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Madvigs Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1835": {
+		"PostNr": 1835,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1850": {
+		"PostNr": 1850,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Gammel Kongevej 85-179 og 60-178",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1851": {
+		"PostNr": 1851,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Nyvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1852": {
+		"PostNr": 1852,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Amicisvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1853": {
+		"PostNr": 1853,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Maglekildevej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1854": {
+		"PostNr": 1854,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Dr. Priemes Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1855": {
+		"PostNr": 1855,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Hollændervej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1856": {
+		"PostNr": 1856,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Edisonsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1857": {
+		"PostNr": 1857,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Hortensiavej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1860": {
+		"PostNr": 1860,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Christian Winthers Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1861": {
+		"PostNr": 1861,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sagasvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1862": {
+		"PostNr": 1862,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Rathsacksvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1863": {
+		"PostNr": 1863,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Ceresvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1864": {
+		"PostNr": 1864,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Grundtvigsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1865": {
+		"PostNr": 1865,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Grundtvigs Sidevej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1866": {
+		"PostNr": 1866,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Henrik Steffens Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1867": {
+		"PostNr": 1867,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Acaciavej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1868": {
+		"PostNr": 1868,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Bianco Lunos Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1870": {
+		"PostNr": 1870,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Bülowsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1871": {
+		"PostNr": 1871,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Thorvaldsensvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1872": {
+		"PostNr": 1872,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Bomhoffs Have",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1873": {
+		"PostNr": 1873,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Helenevej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1874": {
+		"PostNr": 1874,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Harsdorffsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1875": {
+		"PostNr": 1875,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Amalievej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1876": {
+		"PostNr": 1876,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Kastanievej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1877": {
+		"PostNr": 1877,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Lindevej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1878": {
+		"PostNr": 1878,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Uraniavej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1879": {
+		"PostNr": 1879,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "H.C. Ørsteds Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1900": {
+		"PostNr": 1900,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Vodroffsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1901": {
+		"PostNr": 1901,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Tårnborgvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1902": {
+		"PostNr": 1902,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Lykkesholms Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1903": {
+		"PostNr": 1903,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sankt Knuds Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1904": {
+		"PostNr": 1904,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Forhåbningsholms Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1905": {
+		"PostNr": 1905,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Svanholmsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1906": {
+		"PostNr": 1906,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Schønbergsgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1908": {
+		"PostNr": 1908,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Prinsesse Maries Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1909": {
+		"PostNr": 1909,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Vodroffs Tværgade",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1910": {
+		"PostNr": 1910,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Danasvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1911": {
+		"PostNr": 1911,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Niels Ebbesens Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1912": {
+		"PostNr": 1912,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Svend Trøsts Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1913": {
+		"PostNr": 1913,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Carl Plougs Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1914": {
+		"PostNr": 1914,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Vodroffslund",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1915": {
+		"PostNr": 1915,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Danas Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1916": {
+		"PostNr": 1916,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Norsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1917": {
+		"PostNr": 1917,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sveasvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1920": {
+		"PostNr": 1920,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Forchhammersvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1921": {
+		"PostNr": 1921,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sankt Markus Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1922": {
+		"PostNr": 1922,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sankt Markus Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1923": {
+		"PostNr": 1923,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Johnstrups Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1924": {
+		"PostNr": 1924,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Steenstrups Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1925": {
+		"PostNr": 1925,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Julius Thomsens Plads",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1926": {
+		"PostNr": 1926,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Martinsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1927": {
+		"PostNr": 1927,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Suomisvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1928": {
+		"PostNr": 1928,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Filippavej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1931": {
+		"PostNr": 1931,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Ufrankerede svarforsendelser ",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1950": {
+		"PostNr": 1950,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Hostrupsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1951": {
+		"PostNr": 1951,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Christian Richardts Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1952": {
+		"PostNr": 1952,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Falkonervænget",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1953": {
+		"PostNr": 1953,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Sankt Nikolaj Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1954": {
+		"PostNr": 1954,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Hostrups Have",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1955": {
+		"PostNr": 1955,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Dr. Abildgaards Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1956": {
+		"PostNr": 1956,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "L.I. Brandes Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1957": {
+		"PostNr": 1957,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "N.J. Fjords Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1958": {
+		"PostNr": 1958,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Rolighedsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1959": {
+		"PostNr": 1959,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Falkonergårdsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1960": {
+		"PostNr": 1960,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Åboulevard 15-55",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1961": {
+		"PostNr": 1961,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "J.M. Thieles Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1962": {
+		"PostNr": 1962,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Fuglevangsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1963": {
+		"PostNr": 1963,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Bille Brahes Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1964": {
+		"PostNr": 1964,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Ingemannsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1965": {
+		"PostNr": 1965,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Erik Menveds Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1966": {
+		"PostNr": 1966,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Steenwinkelsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1967": {
+		"PostNr": 1967,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Svanemosegårdsvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1970": {
+		"PostNr": 1970,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Rosenørns Alle 1-67 og 22-70",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1971": {
+		"PostNr": 1971,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Adolph Steens Alle",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1972": {
+		"PostNr": 1972,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Worsaaesvej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1973": {
+		"PostNr": 1973,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Jakob Dannefærds Vej",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"1974": {
+		"PostNr": 1974,
+		"ByNavn": "Frederiksberg C",
+		"Gade": "Julius Thomsens Gade ulige nr.",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2000": {
+		"PostNr": 2000,
+		"ByNavn": "Frederiksberg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2100": {
+		"PostNr": 2100,
+		"ByNavn": "København Ø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2150": {
+		"PostNr": 2150,
+		"ByNavn": "Nordhavn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2200": {
+		"PostNr": 2200,
+		"ByNavn": "København N",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2300": {
+		"PostNr": 2300,
+		"ByNavn": "København S",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2400": {
+		"PostNr": 2400,
+		"ByNavn": "København NV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2450": {
+		"PostNr": 2450,
+		"ByNavn": "København SV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2500": {
+		"PostNr": 2500,
+		"ByNavn": "Valby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2600": {
+		"PostNr": 2600,
+		"ByNavn": "Glostrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2605": {
+		"PostNr": 2605,
+		"ByNavn": "Brøndby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2610": {
+		"PostNr": 2610,
+		"ByNavn": "Rødovre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2620": {
+		"PostNr": 2620,
+		"ByNavn": "Albertslund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2625": {
+		"PostNr": 2625,
+		"ByNavn": "Vallensbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2630": {
+		"PostNr": 2630,
+		"ByNavn": "Taastrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2635": {
+		"PostNr": 2635,
+		"ByNavn": "Ishøj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2640": {
+		"PostNr": 2640,
+		"ByNavn": "Hedehusene",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2644": {
+		"PostNr": 2644,
+		"ByNavn": "Spejdernes Lejr 2022",
+		"Gade": "",
+		"Firma": "Landslejr Hedeland 2021",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2650": {
+		"PostNr": 2650,
+		"ByNavn": "Hvidovre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2660": {
+		"PostNr": 2660,
+		"ByNavn": "Brøndby Strand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2665": {
+		"PostNr": 2665,
+		"ByNavn": "Vallensbæk Strand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2670": {
+		"PostNr": 2670,
+		"ByNavn": "Greve",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2680": {
+		"PostNr": 2680,
+		"ByNavn": "Solrød Strand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2690": {
+		"PostNr": 2690,
+		"ByNavn": "Karlslunde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2700": {
+		"PostNr": 2700,
+		"ByNavn": "Brønshøj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2720": {
+		"PostNr": 2720,
+		"ByNavn": "Vanløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "False",
+		"Land": "1"
+	},
+	"2730": {
+		"PostNr": 2730,
+		"ByNavn": "Herlev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2740": {
+		"PostNr": 2740,
+		"ByNavn": "Skovlunde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2750": {
+		"PostNr": 2750,
+		"ByNavn": "Ballerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2760": {
+		"PostNr": 2760,
+		"ByNavn": "Måløv",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2765": {
+		"PostNr": 2765,
+		"ByNavn": "Smørum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2770": {
+		"PostNr": 2770,
+		"ByNavn": "Kastrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2791": {
+		"PostNr": 2791,
+		"ByNavn": "Dragør",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2800": {
+		"PostNr": 2800,
+		"ByNavn": "Kongens Lyngby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2820": {
+		"PostNr": 2820,
+		"ByNavn": "Gentofte",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2830": {
+		"PostNr": 2830,
+		"ByNavn": "Virum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2840": {
+		"PostNr": 2840,
+		"ByNavn": "Holte",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2850": {
+		"PostNr": 2850,
+		"ByNavn": "Nærum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2860": {
+		"PostNr": 2860,
+		"ByNavn": "Søborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2870": {
+		"PostNr": 2870,
+		"ByNavn": "Dyssegård",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2880": {
+		"PostNr": 2880,
+		"ByNavn": "Bagsværd",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2900": {
+		"PostNr": 2900,
+		"ByNavn": "Hellerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2920": {
+		"PostNr": 2920,
+		"ByNavn": "Charlottenlund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2930": {
+		"PostNr": 2930,
+		"ByNavn": "Klampenborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2942": {
+		"PostNr": 2942,
+		"ByNavn": "Skodsborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2950": {
+		"PostNr": 2950,
+		"ByNavn": "Vedbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2960": {
+		"PostNr": 2960,
+		"ByNavn": "Rungsted Kyst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2970": {
+		"PostNr": 2970,
+		"ByNavn": "Hørsholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2980": {
+		"PostNr": 2980,
+		"ByNavn": "Kokkedal",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"2990": {
+		"PostNr": 2990,
+		"ByNavn": "Nivå",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3000": {
+		"PostNr": 3000,
+		"ByNavn": "Helsingør",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3050": {
+		"PostNr": 3050,
+		"ByNavn": "Humlebæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3060": {
+		"PostNr": 3060,
+		"ByNavn": "Espergærde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3070": {
+		"PostNr": 3070,
+		"ByNavn": "Snekkersten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3080": {
+		"PostNr": 3080,
+		"ByNavn": "Tikøb",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3100": {
+		"PostNr": 3100,
+		"ByNavn": "Hornbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3120": {
+		"PostNr": 3120,
+		"ByNavn": "Dronningmølle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3140": {
+		"PostNr": 3140,
+		"ByNavn": "Ålsgårde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3150": {
+		"PostNr": 3150,
+		"ByNavn": "Hellebæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3200": {
+		"PostNr": 3200,
+		"ByNavn": "Helsinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3210": {
+		"PostNr": 3210,
+		"ByNavn": "Vejby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3220": {
+		"PostNr": 3220,
+		"ByNavn": "Tisvildeleje",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3230": {
+		"PostNr": 3230,
+		"ByNavn": "Græsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3250": {
+		"PostNr": 3250,
+		"ByNavn": "Gilleleje",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3300": {
+		"PostNr": 3300,
+		"ByNavn": "Frederiksværk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3310": {
+		"PostNr": 3310,
+		"ByNavn": "Ølsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3320": {
+		"PostNr": 3320,
+		"ByNavn": "Skævinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3330": {
+		"PostNr": 3330,
+		"ByNavn": "Gørløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3360": {
+		"PostNr": 3360,
+		"ByNavn": "Liseleje",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3370": {
+		"PostNr": 3370,
+		"ByNavn": "Melby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3390": {
+		"PostNr": 3390,
+		"ByNavn": "Hundested",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3400": {
+		"PostNr": 3400,
+		"ByNavn": "Hillerød",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3450": {
+		"PostNr": 3450,
+		"ByNavn": "Allerød",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3460": {
+		"PostNr": 3460,
+		"ByNavn": "Birkerød",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3480": {
+		"PostNr": 3480,
+		"ByNavn": "Fredensborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3490": {
+		"PostNr": 3490,
+		"ByNavn": "Kvistgård",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3500": {
+		"PostNr": 3500,
+		"ByNavn": "Værløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3520": {
+		"PostNr": 3520,
+		"ByNavn": "Farum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3540": {
+		"PostNr": 3540,
+		"ByNavn": "Lynge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3550": {
+		"PostNr": 3550,
+		"ByNavn": "Slangerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3600": {
+		"PostNr": 3600,
+		"ByNavn": "Frederikssund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3630": {
+		"PostNr": 3630,
+		"ByNavn": "Jægerspris",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3650": {
+		"PostNr": 3650,
+		"ByNavn": "Ølstykke",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3660": {
+		"PostNr": 3660,
+		"ByNavn": "Stenløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3670": {
+		"PostNr": 3670,
+		"ByNavn": "Veksø Sjælland",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3700": {
+		"PostNr": 3700,
+		"ByNavn": "Rønne",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3720": {
+		"PostNr": 3720,
+		"ByNavn": "Aakirkeby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3730": {
+		"PostNr": 3730,
+		"ByNavn": "Nexø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3740": {
+		"PostNr": 3740,
+		"ByNavn": "Svaneke",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3751": {
+		"PostNr": 3751,
+		"ByNavn": "Østermarie",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3760": {
+		"PostNr": 3760,
+		"ByNavn": "Gudhjem",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3770": {
+		"PostNr": 3770,
+		"ByNavn": "Allinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3782": {
+		"PostNr": 3782,
+		"ByNavn": "Klemensker",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"3790": {
+		"PostNr": 3790,
+		"ByNavn": "Hasle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4000": {
+		"PostNr": 4000,
+		"ByNavn": "Roskilde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4030": {
+		"PostNr": 4030,
+		"ByNavn": "Tune",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4040": {
+		"PostNr": 4040,
+		"ByNavn": "Jyllinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4050": {
+		"PostNr": 4050,
+		"ByNavn": "Skibby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4060": {
+		"PostNr": 4060,
+		"ByNavn": "Kirke Såby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4070": {
+		"PostNr": 4070,
+		"ByNavn": "Kirke Hyllinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4100": {
+		"PostNr": 4100,
+		"ByNavn": "Ringsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4129": {
+		"PostNr": 4129,
+		"ByNavn": "Ringsted",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4130": {
+		"PostNr": 4130,
+		"ByNavn": "Viby Sjælland",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4140": {
+		"PostNr": 4140,
+		"ByNavn": "Borup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4160": {
+		"PostNr": 4160,
+		"ByNavn": "Herlufmagle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4171": {
+		"PostNr": 4171,
+		"ByNavn": "Glumsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4173": {
+		"PostNr": 4173,
+		"ByNavn": "Fjenneslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4174": {
+		"PostNr": 4174,
+		"ByNavn": "Jystrup Midtsj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4180": {
+		"PostNr": 4180,
+		"ByNavn": "Sorø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4190": {
+		"PostNr": 4190,
+		"ByNavn": "Munke Bjergby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4200": {
+		"PostNr": 4200,
+		"ByNavn": "Slagelse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4220": {
+		"PostNr": 4220,
+		"ByNavn": "Korsør",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4230": {
+		"PostNr": 4230,
+		"ByNavn": "Skælskør",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4241": {
+		"PostNr": 4241,
+		"ByNavn": "Vemmelev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4242": {
+		"PostNr": 4242,
+		"ByNavn": "Boeslunde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4243": {
+		"PostNr": 4243,
+		"ByNavn": "Rude",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4244": {
+		"PostNr": 4244,
+		"ByNavn": "Agersø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4245": {
+		"PostNr": 4245,
+		"ByNavn": "Omø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4250": {
+		"PostNr": 4250,
+		"ByNavn": "Fuglebjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4261": {
+		"PostNr": 4261,
+		"ByNavn": "Dalmose",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4262": {
+		"PostNr": 4262,
+		"ByNavn": "Sandved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4270": {
+		"PostNr": 4270,
+		"ByNavn": "Høng",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4281": {
+		"PostNr": 4281,
+		"ByNavn": "Gørlev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4291": {
+		"PostNr": 4291,
+		"ByNavn": "Ruds Vedby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4293": {
+		"PostNr": 4293,
+		"ByNavn": "Dianalund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4295": {
+		"PostNr": 4295,
+		"ByNavn": "Stenlille",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4296": {
+		"PostNr": 4296,
+		"ByNavn": "Nyrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4300": {
+		"PostNr": 4300,
+		"ByNavn": "Holbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4305": {
+		"PostNr": 4305,
+		"ByNavn": "Orø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4320": {
+		"PostNr": 4320,
+		"ByNavn": "Lejre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4330": {
+		"PostNr": 4330,
+		"ByNavn": "Hvalsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4340": {
+		"PostNr": 4340,
+		"ByNavn": "Tølløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4350": {
+		"PostNr": 4350,
+		"ByNavn": "Ugerløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4360": {
+		"PostNr": 4360,
+		"ByNavn": "Kirke Eskilstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4370": {
+		"PostNr": 4370,
+		"ByNavn": "Store Merløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4390": {
+		"PostNr": 4390,
+		"ByNavn": "Vipperød",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4400": {
+		"PostNr": 4400,
+		"ByNavn": "Kalundborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4420": {
+		"PostNr": 4420,
+		"ByNavn": "Regstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4440": {
+		"PostNr": 4440,
+		"ByNavn": "Mørkøv",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4450": {
+		"PostNr": 4450,
+		"ByNavn": "Jyderup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4460": {
+		"PostNr": 4460,
+		"ByNavn": "Snertinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4470": {
+		"PostNr": 4470,
+		"ByNavn": "Svebølle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4480": {
+		"PostNr": 4480,
+		"ByNavn": "Store Fuglede",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4490": {
+		"PostNr": 4490,
+		"ByNavn": "Jerslev Sjælland",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4500": {
+		"PostNr": 4500,
+		"ByNavn": "Nykøbing Sj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4520": {
+		"PostNr": 4520,
+		"ByNavn": "Svinninge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4532": {
+		"PostNr": 4532,
+		"ByNavn": "Gislinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4534": {
+		"PostNr": 4534,
+		"ByNavn": "Hørve",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4540": {
+		"PostNr": 4540,
+		"ByNavn": "Fårevejle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4550": {
+		"PostNr": 4550,
+		"ByNavn": "Asnæs",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4560": {
+		"PostNr": 4560,
+		"ByNavn": "Vig",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4571": {
+		"PostNr": 4571,
+		"ByNavn": "Grevinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4572": {
+		"PostNr": 4572,
+		"ByNavn": "Nørre Asmindrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4573": {
+		"PostNr": 4573,
+		"ByNavn": "Højby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4581": {
+		"PostNr": 4581,
+		"ByNavn": "Rørvig",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4583": {
+		"PostNr": 4583,
+		"ByNavn": "Sjællands Odde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4591": {
+		"PostNr": 4591,
+		"ByNavn": "Føllenslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4592": {
+		"PostNr": 4592,
+		"ByNavn": "Sejerø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4593": {
+		"PostNr": 4593,
+		"ByNavn": "Eskebjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4600": {
+		"PostNr": 4600,
+		"ByNavn": "Køge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4621": {
+		"PostNr": 4621,
+		"ByNavn": "Gadstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4622": {
+		"PostNr": 4622,
+		"ByNavn": "Havdrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4623": {
+		"PostNr": 4623,
+		"ByNavn": "Lille Skensved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4632": {
+		"PostNr": 4632,
+		"ByNavn": "Bjæverskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4640": {
+		"PostNr": 4640,
+		"ByNavn": "Faxe",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4652": {
+		"PostNr": 4652,
+		"ByNavn": "Hårlev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4653": {
+		"PostNr": 4653,
+		"ByNavn": "Karise",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4654": {
+		"PostNr": 4654,
+		"ByNavn": "Faxe Ladeplads",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4660": {
+		"PostNr": 4660,
+		"ByNavn": "Store Heddinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4671": {
+		"PostNr": 4671,
+		"ByNavn": "Strøby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4672": {
+		"PostNr": 4672,
+		"ByNavn": "Klippinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4673": {
+		"PostNr": 4673,
+		"ByNavn": "Rødvig Stevns",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4681": {
+		"PostNr": 4681,
+		"ByNavn": "Herfølge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4682": {
+		"PostNr": 4682,
+		"ByNavn": "Tureby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4683": {
+		"PostNr": 4683,
+		"ByNavn": "Rønnede",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4684": {
+		"PostNr": 4684,
+		"ByNavn": "Holmegaard",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4690": {
+		"PostNr": 4690,
+		"ByNavn": "Haslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4700": {
+		"PostNr": 4700,
+		"ByNavn": "Næstved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4720": {
+		"PostNr": 4720,
+		"ByNavn": "Præstø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4733": {
+		"PostNr": 4733,
+		"ByNavn": "Tappernøje",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4735": {
+		"PostNr": 4735,
+		"ByNavn": "Mern",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4736": {
+		"PostNr": 4736,
+		"ByNavn": "Karrebæksminde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4750": {
+		"PostNr": 4750,
+		"ByNavn": "Lundby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4760": {
+		"PostNr": 4760,
+		"ByNavn": "Vordingborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4771": {
+		"PostNr": 4771,
+		"ByNavn": "Kalvehave",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4772": {
+		"PostNr": 4772,
+		"ByNavn": "Langebæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4773": {
+		"PostNr": 4773,
+		"ByNavn": "Stensved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4780": {
+		"PostNr": 4780,
+		"ByNavn": "Stege",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4791": {
+		"PostNr": 4791,
+		"ByNavn": "Borre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4792": {
+		"PostNr": 4792,
+		"ByNavn": "Askeby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4793": {
+		"PostNr": 4793,
+		"ByNavn": "Bogø By",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4800": {
+		"PostNr": 4800,
+		"ByNavn": "Nykøbing F",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4840": {
+		"PostNr": 4840,
+		"ByNavn": "Nørre Alslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4850": {
+		"PostNr": 4850,
+		"ByNavn": "Stubbekøbing",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4862": {
+		"PostNr": 4862,
+		"ByNavn": "Guldborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4863": {
+		"PostNr": 4863,
+		"ByNavn": "Eskilstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4871": {
+		"PostNr": 4871,
+		"ByNavn": "Horbelev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4872": {
+		"PostNr": 4872,
+		"ByNavn": "Idestrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4873": {
+		"PostNr": 4873,
+		"ByNavn": "Væggerløse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4874": {
+		"PostNr": 4874,
+		"ByNavn": "Gedser",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4880": {
+		"PostNr": 4880,
+		"ByNavn": "Nysted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4891": {
+		"PostNr": 4891,
+		"ByNavn": "Toreby L",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4892": {
+		"PostNr": 4892,
+		"ByNavn": "Kettinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4894": {
+		"PostNr": 4894,
+		"ByNavn": "Øster Ulslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4895": {
+		"PostNr": 4895,
+		"ByNavn": "Errindlev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4900": {
+		"PostNr": 4900,
+		"ByNavn": "Nakskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4912": {
+		"PostNr": 4912,
+		"ByNavn": "Harpelunde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4913": {
+		"PostNr": 4913,
+		"ByNavn": "Horslunde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4920": {
+		"PostNr": 4920,
+		"ByNavn": "Søllested",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4930": {
+		"PostNr": 4930,
+		"ByNavn": "Maribo",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4941": {
+		"PostNr": 4941,
+		"ByNavn": "Bandholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4942": {
+		"PostNr": 4942,
+		"ByNavn": "Askø og Lilleø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4943": {
+		"PostNr": 4943,
+		"ByNavn": "Torrig L",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4944": {
+		"PostNr": 4944,
+		"ByNavn": "Fejø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4945": {
+		"PostNr": 4945,
+		"ByNavn": "Femø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4951": {
+		"PostNr": 4951,
+		"ByNavn": "Nørreballe",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4952": {
+		"PostNr": 4952,
+		"ByNavn": "Stokkemarke",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4953": {
+		"PostNr": 4953,
+		"ByNavn": "Vesterborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4960": {
+		"PostNr": 4960,
+		"ByNavn": "Holeby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4970": {
+		"PostNr": 4970,
+		"ByNavn": "Rødby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4983": {
+		"PostNr": 4983,
+		"ByNavn": "Dannemare",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4990": {
+		"PostNr": 4990,
+		"ByNavn": "Sakskøbing",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"4992": {
+		"PostNr": 4992,
+		"ByNavn": "Midtsjælland USF P",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5000": {
+		"PostNr": 5000,
+		"ByNavn": "Odense C",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5029": {
+		"PostNr": 5029,
+		"ByNavn": "Odense C",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5100": {
+		"PostNr": 5100,
+		"ByNavn": "Odense C",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5200": {
+		"PostNr": 5200,
+		"ByNavn": "Odense V",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5210": {
+		"PostNr": 5210,
+		"ByNavn": "Odense NV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5220": {
+		"PostNr": 5220,
+		"ByNavn": "Odense SØ",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5230": {
+		"PostNr": 5230,
+		"ByNavn": "Odense M",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5240": {
+		"PostNr": 5240,
+		"ByNavn": "Odense NØ",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5250": {
+		"PostNr": 5250,
+		"ByNavn": "Odense SV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5260": {
+		"PostNr": 5260,
+		"ByNavn": "Odense S",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5270": {
+		"PostNr": 5270,
+		"ByNavn": "Odense N",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5290": {
+		"PostNr": 5290,
+		"ByNavn": "Marslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5300": {
+		"PostNr": 5300,
+		"ByNavn": "Kerteminde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5320": {
+		"PostNr": 5320,
+		"ByNavn": "Agedrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5330": {
+		"PostNr": 5330,
+		"ByNavn": "Munkebo",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5350": {
+		"PostNr": 5350,
+		"ByNavn": "Rynkeby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5370": {
+		"PostNr": 5370,
+		"ByNavn": "Mesinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5380": {
+		"PostNr": 5380,
+		"ByNavn": "Dalby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5390": {
+		"PostNr": 5390,
+		"ByNavn": "Martofte",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5400": {
+		"PostNr": 5400,
+		"ByNavn": "Bogense",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5450": {
+		"PostNr": 5450,
+		"ByNavn": "Otterup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5462": {
+		"PostNr": 5462,
+		"ByNavn": "Morud",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5463": {
+		"PostNr": 5463,
+		"ByNavn": "Harndrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5464": {
+		"PostNr": 5464,
+		"ByNavn": "Brenderup Fyn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5466": {
+		"PostNr": 5466,
+		"ByNavn": "Asperup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5471": {
+		"PostNr": 5471,
+		"ByNavn": "Søndersø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5474": {
+		"PostNr": 5474,
+		"ByNavn": "Veflinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5485": {
+		"PostNr": 5485,
+		"ByNavn": "Skamby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5491": {
+		"PostNr": 5491,
+		"ByNavn": "Blommenslyst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5492": {
+		"PostNr": 5492,
+		"ByNavn": "Vissenbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5500": {
+		"PostNr": 5500,
+		"ByNavn": "Middelfart",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5540": {
+		"PostNr": 5540,
+		"ByNavn": "Ullerslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5550": {
+		"PostNr": 5550,
+		"ByNavn": "Langeskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5560": {
+		"PostNr": 5560,
+		"ByNavn": "Aarup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5580": {
+		"PostNr": 5580,
+		"ByNavn": "Nørre Aaby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5591": {
+		"PostNr": 5591,
+		"ByNavn": "Gelsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5592": {
+		"PostNr": 5592,
+		"ByNavn": "Ejby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5600": {
+		"PostNr": 5600,
+		"ByNavn": "Faaborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5601": {
+		"PostNr": 5601,
+		"ByNavn": "Lyø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5602": {
+		"PostNr": 5602,
+		"ByNavn": "Avernakø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5603": {
+		"PostNr": 5603,
+		"ByNavn": "Bjørnø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5610": {
+		"PostNr": 5610,
+		"ByNavn": "Assens",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5620": {
+		"PostNr": 5620,
+		"ByNavn": "Glamsbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5631": {
+		"PostNr": 5631,
+		"ByNavn": "Ebberup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5642": {
+		"PostNr": 5642,
+		"ByNavn": "Millinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5672": {
+		"PostNr": 5672,
+		"ByNavn": "Broby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5683": {
+		"PostNr": 5683,
+		"ByNavn": "Haarby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5690": {
+		"PostNr": 5690,
+		"ByNavn": "Tommerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5700": {
+		"PostNr": 5700,
+		"ByNavn": "Svendborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5750": {
+		"PostNr": 5750,
+		"ByNavn": "Ringe",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5762": {
+		"PostNr": 5762,
+		"ByNavn": "Vester Skerninge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5771": {
+		"PostNr": 5771,
+		"ByNavn": "Stenstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5772": {
+		"PostNr": 5772,
+		"ByNavn": "Kværndrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5792": {
+		"PostNr": 5792,
+		"ByNavn": "Årslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5800": {
+		"PostNr": 5800,
+		"ByNavn": "Nyborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5853": {
+		"PostNr": 5853,
+		"ByNavn": "Ørbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5854": {
+		"PostNr": 5854,
+		"ByNavn": "Gislev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5856": {
+		"PostNr": 5856,
+		"ByNavn": "Ryslinge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5863": {
+		"PostNr": 5863,
+		"ByNavn": "Ferritslev Fyn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5871": {
+		"PostNr": 5871,
+		"ByNavn": "Frørup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5874": {
+		"PostNr": 5874,
+		"ByNavn": "Hesselager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5881": {
+		"PostNr": 5881,
+		"ByNavn": "Skårup Fyn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5882": {
+		"PostNr": 5882,
+		"ByNavn": "Vejstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5883": {
+		"PostNr": 5883,
+		"ByNavn": "Oure",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5884": {
+		"PostNr": 5884,
+		"ByNavn": "Gudme",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5892": {
+		"PostNr": 5892,
+		"ByNavn": "Gudbjerg Sydfyn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5900": {
+		"PostNr": 5900,
+		"ByNavn": "Rudkøbing",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5932": {
+		"PostNr": 5932,
+		"ByNavn": "Humble",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5935": {
+		"PostNr": 5935,
+		"ByNavn": "Bagenkop",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5943": {
+		"PostNr": 5943,
+		"ByNavn": "Strynø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5953": {
+		"PostNr": 5953,
+		"ByNavn": "Tranekær",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5960": {
+		"PostNr": 5960,
+		"ByNavn": "Marstal",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5965": {
+		"PostNr": 5965,
+		"ByNavn": "Birkholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5970": {
+		"PostNr": 5970,
+		"ByNavn": "Ærøskøbing",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"5985": {
+		"PostNr": 5985,
+		"ByNavn": "Søby Ærø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6000": {
+		"PostNr": 6000,
+		"ByNavn": "Kolding",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6040": {
+		"PostNr": 6040,
+		"ByNavn": "Egtved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6051": {
+		"PostNr": 6051,
+		"ByNavn": "Almind",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6052": {
+		"PostNr": 6052,
+		"ByNavn": "Viuf",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6064": {
+		"PostNr": 6064,
+		"ByNavn": "Jordrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6070": {
+		"PostNr": 6070,
+		"ByNavn": "Christiansfeld",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6091": {
+		"PostNr": 6091,
+		"ByNavn": "Bjert",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6092": {
+		"PostNr": 6092,
+		"ByNavn": "Sønder Stenderup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6093": {
+		"PostNr": 6093,
+		"ByNavn": "Sjølund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6094": {
+		"PostNr": 6094,
+		"ByNavn": "Hejls",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6100": {
+		"PostNr": 6100,
+		"ByNavn": "Haderslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6200": {
+		"PostNr": 6200,
+		"ByNavn": "Aabenraa",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6210": {
+		"PostNr": 6210,
+		"ByNavn": "Barsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6230": {
+		"PostNr": 6230,
+		"ByNavn": "Rødekro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6240": {
+		"PostNr": 6240,
+		"ByNavn": "Løgumkloster",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6261": {
+		"PostNr": 6261,
+		"ByNavn": "Bredebro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6270": {
+		"PostNr": 6270,
+		"ByNavn": "Tønder",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6280": {
+		"PostNr": 6280,
+		"ByNavn": "Højer",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6300": {
+		"PostNr": 6300,
+		"ByNavn": "Gråsten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6310": {
+		"PostNr": 6310,
+		"ByNavn": "Broager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6320": {
+		"PostNr": 6320,
+		"ByNavn": "Egernsund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6330": {
+		"PostNr": 6330,
+		"ByNavn": "Padborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6340": {
+		"PostNr": 6340,
+		"ByNavn": "Kruså",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6360": {
+		"PostNr": 6360,
+		"ByNavn": "Tinglev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6372": {
+		"PostNr": 6372,
+		"ByNavn": "Bylderup-Bov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6392": {
+		"PostNr": 6392,
+		"ByNavn": "Bolderslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6400": {
+		"PostNr": 6400,
+		"ByNavn": "Sønderborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6430": {
+		"PostNr": 6430,
+		"ByNavn": "Nordborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6440": {
+		"PostNr": 6440,
+		"ByNavn": "Augustenborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6470": {
+		"PostNr": 6470,
+		"ByNavn": "Sydals",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6500": {
+		"PostNr": 6500,
+		"ByNavn": "Vojens",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6510": {
+		"PostNr": 6510,
+		"ByNavn": "Gram",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6520": {
+		"PostNr": 6520,
+		"ByNavn": "Toftlund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6534": {
+		"PostNr": 6534,
+		"ByNavn": "Agerskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6535": {
+		"PostNr": 6535,
+		"ByNavn": "Branderup J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6541": {
+		"PostNr": 6541,
+		"ByNavn": "Bevtoft",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6560": {
+		"PostNr": 6560,
+		"ByNavn": "Sommersted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6580": {
+		"PostNr": 6580,
+		"ByNavn": "Vamdrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6600": {
+		"PostNr": 6600,
+		"ByNavn": "Vejen",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6621": {
+		"PostNr": 6621,
+		"ByNavn": "Gesten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6622": {
+		"PostNr": 6622,
+		"ByNavn": "Bække",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6623": {
+		"PostNr": 6623,
+		"ByNavn": "Vorbasse",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6630": {
+		"PostNr": 6630,
+		"ByNavn": "Rødding",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6640": {
+		"PostNr": 6640,
+		"ByNavn": "Lunderskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6650": {
+		"PostNr": 6650,
+		"ByNavn": "Brørup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6660": {
+		"PostNr": 6660,
+		"ByNavn": "Lintrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6670": {
+		"PostNr": 6670,
+		"ByNavn": "Holsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6682": {
+		"PostNr": 6682,
+		"ByNavn": "Hovborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6683": {
+		"PostNr": 6683,
+		"ByNavn": "Føvling",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6690": {
+		"PostNr": 6690,
+		"ByNavn": "Gørding",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6700": {
+		"PostNr": 6700,
+		"ByNavn": "Esbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6701": {
+		"PostNr": 6701,
+		"ByNavn": "Esbjerg",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6705": {
+		"PostNr": 6705,
+		"ByNavn": "Esbjerg Ø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6710": {
+		"PostNr": 6710,
+		"ByNavn": "Esbjerg V",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6715": {
+		"PostNr": 6715,
+		"ByNavn": "Esbjerg N",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6720": {
+		"PostNr": 6720,
+		"ByNavn": "Fanø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6731": {
+		"PostNr": 6731,
+		"ByNavn": "Tjæreborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6740": {
+		"PostNr": 6740,
+		"ByNavn": "Bramming",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6752": {
+		"PostNr": 6752,
+		"ByNavn": "Glejbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6753": {
+		"PostNr": 6753,
+		"ByNavn": "Agerbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6760": {
+		"PostNr": 6760,
+		"ByNavn": "Ribe",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6771": {
+		"PostNr": 6771,
+		"ByNavn": "Gredstedbro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6780": {
+		"PostNr": 6780,
+		"ByNavn": "Skærbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6792": {
+		"PostNr": 6792,
+		"ByNavn": "Rømø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6800": {
+		"PostNr": 6800,
+		"ByNavn": "Varde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6818": {
+		"PostNr": 6818,
+		"ByNavn": "Årre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6823": {
+		"PostNr": 6823,
+		"ByNavn": "Ansager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6830": {
+		"PostNr": 6830,
+		"ByNavn": "Nørre Nebel",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6840": {
+		"PostNr": 6840,
+		"ByNavn": "Oksbøl",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6851": {
+		"PostNr": 6851,
+		"ByNavn": "Janderup Vestj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6852": {
+		"PostNr": 6852,
+		"ByNavn": "Billum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6853": {
+		"PostNr": 6853,
+		"ByNavn": "Vejers Strand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6854": {
+		"PostNr": 6854,
+		"ByNavn": "Henne",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6855": {
+		"PostNr": 6855,
+		"ByNavn": "Outrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6857": {
+		"PostNr": 6857,
+		"ByNavn": "Blåvand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6862": {
+		"PostNr": 6862,
+		"ByNavn": "Tistrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6870": {
+		"PostNr": 6870,
+		"ByNavn": "Ølgod",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6880": {
+		"PostNr": 6880,
+		"ByNavn": "Tarm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6893": {
+		"PostNr": 6893,
+		"ByNavn": "Hemmet",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6900": {
+		"PostNr": 6900,
+		"ByNavn": "Skjern",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6920": {
+		"PostNr": 6920,
+		"ByNavn": "Videbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6933": {
+		"PostNr": 6933,
+		"ByNavn": "Kibæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6940": {
+		"PostNr": 6940,
+		"ByNavn": "Lem St",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6950": {
+		"PostNr": 6950,
+		"ByNavn": "Ringkøbing",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6960": {
+		"PostNr": 6960,
+		"ByNavn": "Hvide Sande",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6971": {
+		"PostNr": 6971,
+		"ByNavn": "Spjald",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6973": {
+		"PostNr": 6973,
+		"ByNavn": "Ørnhøj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6980": {
+		"PostNr": 6980,
+		"ByNavn": "Tim",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"6990": {
+		"PostNr": 6990,
+		"ByNavn": "Ulfborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7000": {
+		"PostNr": 7000,
+		"ByNavn": "Fredericia",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7007": {
+		"PostNr": 7007,
+		"ByNavn": "Fredericia",
+		"Gade": "",
+		"Firma": "Sydjyllands Postcenter + erhvervskunder",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7017": {
+		"PostNr": 7017,
+		"ByNavn": "Taulov Pakkecenter",
+		"Gade": "",
+		"Firma": "(Returpakker)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7018": {
+		"PostNr": 7018,
+		"ByNavn": "Pakker TLP",
+		"Gade": "",
+		"Firma": "(Returpakker)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7029": {
+		"PostNr": 7029,
+		"ByNavn": "Fredericia",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7080": {
+		"PostNr": 7080,
+		"ByNavn": "Børkop",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7100": {
+		"PostNr": 7100,
+		"ByNavn": "Vejle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7120": {
+		"PostNr": 7120,
+		"ByNavn": "Vejle Øst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7130": {
+		"PostNr": 7130,
+		"ByNavn": "Juelsminde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7140": {
+		"PostNr": 7140,
+		"ByNavn": "Stouby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7150": {
+		"PostNr": 7150,
+		"ByNavn": "Barrit",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7160": {
+		"PostNr": 7160,
+		"ByNavn": "Tørring",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7171": {
+		"PostNr": 7171,
+		"ByNavn": "Uldum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7173": {
+		"PostNr": 7173,
+		"ByNavn": "Vonge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7182": {
+		"PostNr": 7182,
+		"ByNavn": "Bredsten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7183": {
+		"PostNr": 7183,
+		"ByNavn": "Randbøl",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7184": {
+		"PostNr": 7184,
+		"ByNavn": "Vandel",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7190": {
+		"PostNr": 7190,
+		"ByNavn": "Billund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7200": {
+		"PostNr": 7200,
+		"ByNavn": "Grindsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7250": {
+		"PostNr": 7250,
+		"ByNavn": "Hejnsvig",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7260": {
+		"PostNr": 7260,
+		"ByNavn": "Sønder Omme",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7270": {
+		"PostNr": 7270,
+		"ByNavn": "Stakroge",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7280": {
+		"PostNr": 7280,
+		"ByNavn": "Sønder Felding",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7300": {
+		"PostNr": 7300,
+		"ByNavn": "Jelling",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7321": {
+		"PostNr": 7321,
+		"ByNavn": "Gadbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7323": {
+		"PostNr": 7323,
+		"ByNavn": "Give",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7330": {
+		"PostNr": 7330,
+		"ByNavn": "Brande",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7361": {
+		"PostNr": 7361,
+		"ByNavn": "Ejstrupholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7362": {
+		"PostNr": 7362,
+		"ByNavn": "Hampen",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7400": {
+		"PostNr": 7400,
+		"ByNavn": "Herning",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7429": {
+		"PostNr": 7429,
+		"ByNavn": "Herning",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7430": {
+		"PostNr": 7430,
+		"ByNavn": "Ikast",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7441": {
+		"PostNr": 7441,
+		"ByNavn": "Bording",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7442": {
+		"PostNr": 7442,
+		"ByNavn": "Engesvang",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7451": {
+		"PostNr": 7451,
+		"ByNavn": "Sunds",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7470": {
+		"PostNr": 7470,
+		"ByNavn": "Karup J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7480": {
+		"PostNr": 7480,
+		"ByNavn": "Vildbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7490": {
+		"PostNr": 7490,
+		"ByNavn": "Aulum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7500": {
+		"PostNr": 7500,
+		"ByNavn": "Holstebro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7540": {
+		"PostNr": 7540,
+		"ByNavn": "Haderup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7550": {
+		"PostNr": 7550,
+		"ByNavn": "Sørvad",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7560": {
+		"PostNr": 7560,
+		"ByNavn": "Hjerm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7570": {
+		"PostNr": 7570,
+		"ByNavn": "Vemb",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7600": {
+		"PostNr": 7600,
+		"ByNavn": "Struer",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7620": {
+		"PostNr": 7620,
+		"ByNavn": "Lemvig",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7650": {
+		"PostNr": 7650,
+		"ByNavn": "Bøvlingbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7660": {
+		"PostNr": 7660,
+		"ByNavn": "Bækmarksbro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7673": {
+		"PostNr": 7673,
+		"ByNavn": "Harboøre",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7680": {
+		"PostNr": 7680,
+		"ByNavn": "Thyborøn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7700": {
+		"PostNr": 7700,
+		"ByNavn": "Thisted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7730": {
+		"PostNr": 7730,
+		"ByNavn": "Hanstholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7741": {
+		"PostNr": 7741,
+		"ByNavn": "Frøstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7742": {
+		"PostNr": 7742,
+		"ByNavn": "Vesløs",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7752": {
+		"PostNr": 7752,
+		"ByNavn": "Snedsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7755": {
+		"PostNr": 7755,
+		"ByNavn": "Bedsted Thy",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7760": {
+		"PostNr": 7760,
+		"ByNavn": "Hurup Thy",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7770": {
+		"PostNr": 7770,
+		"ByNavn": "Vestervig",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7790": {
+		"PostNr": 7790,
+		"ByNavn": "Thyholm",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7800": {
+		"PostNr": 7800,
+		"ByNavn": "Skive",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7830": {
+		"PostNr": 7830,
+		"ByNavn": "Vinderup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7840": {
+		"PostNr": 7840,
+		"ByNavn": "Højslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7850": {
+		"PostNr": 7850,
+		"ByNavn": "Stoholm Jyll",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7860": {
+		"PostNr": 7860,
+		"ByNavn": "Spøttrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7870": {
+		"PostNr": 7870,
+		"ByNavn": "Roslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7884": {
+		"PostNr": 7884,
+		"ByNavn": "Fur",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7900": {
+		"PostNr": 7900,
+		"ByNavn": "Nykøbing M",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7950": {
+		"PostNr": 7950,
+		"ByNavn": "Erslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7960": {
+		"PostNr": 7960,
+		"ByNavn": "Karby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7970": {
+		"PostNr": 7970,
+		"ByNavn": "Redsted M",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7980": {
+		"PostNr": 7980,
+		"ByNavn": "Vils",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7990": {
+		"PostNr": 7990,
+		"ByNavn": "Øster Assels",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7992": {
+		"PostNr": 7992,
+		"ByNavn": "Sydjylland/Fyn USF P",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7993": {
+		"PostNr": 7993,
+		"ByNavn": "Sydjylland/Fyn USF B",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7996": {
+		"PostNr": 7996,
+		"ByNavn": "Fakturaservice",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7997": {
+		"PostNr": 7997,
+		"ByNavn": "Fakturascanning",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7998": {
+		"PostNr": 7998,
+		"ByNavn": "Statsservice",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"7999": {
+		"PostNr": 7999,
+		"ByNavn": "Kommunepost",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8000": {
+		"PostNr": 8000,
+		"ByNavn": "Aarhus C",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8100": {
+		"PostNr": 8100,
+		"ByNavn": "Aarhus C",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8200": {
+		"PostNr": 8200,
+		"ByNavn": "Aarhus N",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8210": {
+		"PostNr": 8210,
+		"ByNavn": "Aarhus V",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8220": {
+		"PostNr": 8220,
+		"ByNavn": "Brabrand",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8229": {
+		"PostNr": 8229,
+		"ByNavn": "Risskov Ø",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8230": {
+		"PostNr": 8230,
+		"ByNavn": "Åbyhøj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8240": {
+		"PostNr": 8240,
+		"ByNavn": "Risskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8245": {
+		"PostNr": 8245,
+		"ByNavn": "Risskov Ø",
+		"Gade": "",
+		"Firma": "Østjyllands Postcenter + erhvervskunder",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8250": {
+		"PostNr": 8250,
+		"ByNavn": "Egå",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8260": {
+		"PostNr": 8260,
+		"ByNavn": "Viby J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8270": {
+		"PostNr": 8270,
+		"ByNavn": "Højbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8300": {
+		"PostNr": 8300,
+		"ByNavn": "Odder",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8305": {
+		"PostNr": 8305,
+		"ByNavn": "Samsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8310": {
+		"PostNr": 8310,
+		"ByNavn": "Tranbjerg J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8320": {
+		"PostNr": 8320,
+		"ByNavn": "Mårslet",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8330": {
+		"PostNr": 8330,
+		"ByNavn": "Beder",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8340": {
+		"PostNr": 8340,
+		"ByNavn": "Malling",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8350": {
+		"PostNr": 8350,
+		"ByNavn": "Hundslund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8355": {
+		"PostNr": 8355,
+		"ByNavn": "Solbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8361": {
+		"PostNr": 8361,
+		"ByNavn": "Hasselager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8362": {
+		"PostNr": 8362,
+		"ByNavn": "Hørning",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8370": {
+		"PostNr": 8370,
+		"ByNavn": "Hadsten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8380": {
+		"PostNr": 8380,
+		"ByNavn": "Trige",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8381": {
+		"PostNr": 8381,
+		"ByNavn": "Tilst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8382": {
+		"PostNr": 8382,
+		"ByNavn": "Hinnerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8400": {
+		"PostNr": 8400,
+		"ByNavn": "Ebeltoft",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8410": {
+		"PostNr": 8410,
+		"ByNavn": "Rønde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8420": {
+		"PostNr": 8420,
+		"ByNavn": "Knebel",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8444": {
+		"PostNr": 8444,
+		"ByNavn": "Balle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8450": {
+		"PostNr": 8450,
+		"ByNavn": "Hammel",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8462": {
+		"PostNr": 8462,
+		"ByNavn": "Harlev J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8464": {
+		"PostNr": 8464,
+		"ByNavn": "Galten",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8471": {
+		"PostNr": 8471,
+		"ByNavn": "Sabro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8472": {
+		"PostNr": 8472,
+		"ByNavn": "Sporup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8500": {
+		"PostNr": 8500,
+		"ByNavn": "Grenaa",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8520": {
+		"PostNr": 8520,
+		"ByNavn": "Lystrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8530": {
+		"PostNr": 8530,
+		"ByNavn": "Hjortshøj",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8541": {
+		"PostNr": 8541,
+		"ByNavn": "Skødstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8543": {
+		"PostNr": 8543,
+		"ByNavn": "Hornslet",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8544": {
+		"PostNr": 8544,
+		"ByNavn": "Mørke",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8550": {
+		"PostNr": 8550,
+		"ByNavn": "Ryomgård",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8560": {
+		"PostNr": 8560,
+		"ByNavn": "Kolind",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8570": {
+		"PostNr": 8570,
+		"ByNavn": "Trustrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8581": {
+		"PostNr": 8581,
+		"ByNavn": "Nimtofte",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8585": {
+		"PostNr": 8585,
+		"ByNavn": "Glesborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8586": {
+		"PostNr": 8586,
+		"ByNavn": "Ørum Djurs",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8592": {
+		"PostNr": 8592,
+		"ByNavn": "Anholt",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8600": {
+		"PostNr": 8600,
+		"ByNavn": "Silkeborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8620": {
+		"PostNr": 8620,
+		"ByNavn": "Kjellerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8632": {
+		"PostNr": 8632,
+		"ByNavn": "Lemming",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8641": {
+		"PostNr": 8641,
+		"ByNavn": "Sorring",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8643": {
+		"PostNr": 8643,
+		"ByNavn": "Ans By",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8653": {
+		"PostNr": 8653,
+		"ByNavn": "Them",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8654": {
+		"PostNr": 8654,
+		"ByNavn": "Bryrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8660": {
+		"PostNr": 8660,
+		"ByNavn": "Skanderborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8670": {
+		"PostNr": 8670,
+		"ByNavn": "Låsby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8680": {
+		"PostNr": 8680,
+		"ByNavn": "Ry",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8700": {
+		"PostNr": 8700,
+		"ByNavn": "Horsens",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8721": {
+		"PostNr": 8721,
+		"ByNavn": "Daugård",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8722": {
+		"PostNr": 8722,
+		"ByNavn": "Hedensted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8723": {
+		"PostNr": 8723,
+		"ByNavn": "Løsning",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8732": {
+		"PostNr": 8732,
+		"ByNavn": "Hovedgård",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8740": {
+		"PostNr": 8740,
+		"ByNavn": "Brædstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8751": {
+		"PostNr": 8751,
+		"ByNavn": "Gedved",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8752": {
+		"PostNr": 8752,
+		"ByNavn": "Østbirk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8762": {
+		"PostNr": 8762,
+		"ByNavn": "Flemming",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8763": {
+		"PostNr": 8763,
+		"ByNavn": "Rask Mølle",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8765": {
+		"PostNr": 8765,
+		"ByNavn": "Klovborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8766": {
+		"PostNr": 8766,
+		"ByNavn": "Nørre Snede",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8781": {
+		"PostNr": 8781,
+		"ByNavn": "Stenderup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8783": {
+		"PostNr": 8783,
+		"ByNavn": "Hornsyld",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8789": {
+		"PostNr": 8789,
+		"ByNavn": "Endelave",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8799": {
+		"PostNr": 8799,
+		"ByNavn": "Tunø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8800": {
+		"PostNr": 8800,
+		"ByNavn": "Viborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8830": {
+		"PostNr": 8830,
+		"ByNavn": "Tjele",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8831": {
+		"PostNr": 8831,
+		"ByNavn": "Løgstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8832": {
+		"PostNr": 8832,
+		"ByNavn": "Skals",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8840": {
+		"PostNr": 8840,
+		"ByNavn": "Rødkærsbro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8850": {
+		"PostNr": 8850,
+		"ByNavn": "Bjerringbro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8860": {
+		"PostNr": 8860,
+		"ByNavn": "Ulstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8870": {
+		"PostNr": 8870,
+		"ByNavn": "Langå",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8881": {
+		"PostNr": 8881,
+		"ByNavn": "Thorsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8882": {
+		"PostNr": 8882,
+		"ByNavn": "Fårvang",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8883": {
+		"PostNr": 8883,
+		"ByNavn": "Gjern",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8900": {
+		"PostNr": 8900,
+		"ByNavn": "Randers C",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8920": {
+		"PostNr": 8920,
+		"ByNavn": "Randers NV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8930": {
+		"PostNr": 8930,
+		"ByNavn": "Randers NØ",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8940": {
+		"PostNr": 8940,
+		"ByNavn": "Randers SV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8950": {
+		"PostNr": 8950,
+		"ByNavn": "Ørsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8960": {
+		"PostNr": 8960,
+		"ByNavn": "Randers SØ",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8961": {
+		"PostNr": 8961,
+		"ByNavn": "Allingåbro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8963": {
+		"PostNr": 8963,
+		"ByNavn": "Auning",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8970": {
+		"PostNr": 8970,
+		"ByNavn": "Havndal",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8981": {
+		"PostNr": 8981,
+		"ByNavn": "Spentrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8983": {
+		"PostNr": 8983,
+		"ByNavn": "Gjerlev J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"8990": {
+		"PostNr": 8990,
+		"ByNavn": "Fårup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9000": {
+		"PostNr": 9000,
+		"ByNavn": "Aalborg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9029": {
+		"PostNr": 9029,
+		"ByNavn": "Aalborg",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9100": {
+		"PostNr": 9100,
+		"ByNavn": "Aalborg",
+		"Gade": "Postboks",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9200": {
+		"PostNr": 9200,
+		"ByNavn": "Aalborg SV",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9210": {
+		"PostNr": 9210,
+		"ByNavn": "Aalborg SØ",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9220": {
+		"PostNr": 9220,
+		"ByNavn": "Aalborg Øst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9230": {
+		"PostNr": 9230,
+		"ByNavn": "Svenstrup J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9240": {
+		"PostNr": 9240,
+		"ByNavn": "Nibe",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9260": {
+		"PostNr": 9260,
+		"ByNavn": "Gistrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9270": {
+		"PostNr": 9270,
+		"ByNavn": "Klarup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9280": {
+		"PostNr": 9280,
+		"ByNavn": "Storvorde",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9293": {
+		"PostNr": 9293,
+		"ByNavn": "Kongerslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9300": {
+		"PostNr": 9300,
+		"ByNavn": "Sæby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9310": {
+		"PostNr": 9310,
+		"ByNavn": "Vodskov",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9320": {
+		"PostNr": 9320,
+		"ByNavn": "Hjallerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9330": {
+		"PostNr": 9330,
+		"ByNavn": "Dronninglund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9340": {
+		"PostNr": 9340,
+		"ByNavn": "Asaa",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9352": {
+		"PostNr": 9352,
+		"ByNavn": "Dybvad",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9362": {
+		"PostNr": 9362,
+		"ByNavn": "Gandrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9370": {
+		"PostNr": 9370,
+		"ByNavn": "Hals",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9380": {
+		"PostNr": 9380,
+		"ByNavn": "Vestbjerg",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9381": {
+		"PostNr": 9381,
+		"ByNavn": "Sulsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9382": {
+		"PostNr": 9382,
+		"ByNavn": "Tylstrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9400": {
+		"PostNr": 9400,
+		"ByNavn": "Nørresundby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9430": {
+		"PostNr": 9430,
+		"ByNavn": "Vadum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9440": {
+		"PostNr": 9440,
+		"ByNavn": "Aabybro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9460": {
+		"PostNr": 9460,
+		"ByNavn": "Brovst",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9480": {
+		"PostNr": 9480,
+		"ByNavn": "Løkken",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9490": {
+		"PostNr": 9490,
+		"ByNavn": "Pandrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9492": {
+		"PostNr": 9492,
+		"ByNavn": "Blokhus",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9493": {
+		"PostNr": 9493,
+		"ByNavn": "Saltum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9500": {
+		"PostNr": 9500,
+		"ByNavn": "Hobro",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9510": {
+		"PostNr": 9510,
+		"ByNavn": "Arden",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9520": {
+		"PostNr": 9520,
+		"ByNavn": "Skørping",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9530": {
+		"PostNr": 9530,
+		"ByNavn": "Støvring",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9541": {
+		"PostNr": 9541,
+		"ByNavn": "Suldrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9550": {
+		"PostNr": 9550,
+		"ByNavn": "Mariager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9560": {
+		"PostNr": 9560,
+		"ByNavn": "Hadsund",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9574": {
+		"PostNr": 9574,
+		"ByNavn": "Bælum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9575": {
+		"PostNr": 9575,
+		"ByNavn": "Terndrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9600": {
+		"PostNr": 9600,
+		"ByNavn": "Aars",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9610": {
+		"PostNr": 9610,
+		"ByNavn": "Nørager",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9620": {
+		"PostNr": 9620,
+		"ByNavn": "Aalestrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9631": {
+		"PostNr": 9631,
+		"ByNavn": "Gedsted",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9632": {
+		"PostNr": 9632,
+		"ByNavn": "Møldrup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9640": {
+		"PostNr": 9640,
+		"ByNavn": "Farsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9670": {
+		"PostNr": 9670,
+		"ByNavn": "Løgstør",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9681": {
+		"PostNr": 9681,
+		"ByNavn": "Ranum",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9690": {
+		"PostNr": 9690,
+		"ByNavn": "Fjerritslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9700": {
+		"PostNr": 9700,
+		"ByNavn": "Brønderslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9740": {
+		"PostNr": 9740,
+		"ByNavn": "Jerslev J",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9750": {
+		"PostNr": 9750,
+		"ByNavn": "Østervrå",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9760": {
+		"PostNr": 9760,
+		"ByNavn": "Vrå",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9800": {
+		"PostNr": 9800,
+		"ByNavn": "Hjørring",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9830": {
+		"PostNr": 9830,
+		"ByNavn": "Tårs",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9850": {
+		"PostNr": 9850,
+		"ByNavn": "Hirtshals",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9870": {
+		"PostNr": 9870,
+		"ByNavn": "Sindal",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9881": {
+		"PostNr": 9881,
+		"ByNavn": "Bindslev",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9900": {
+		"PostNr": 9900,
+		"ByNavn": "Frederikshavn",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9940": {
+		"PostNr": 9940,
+		"ByNavn": "Læsø",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9970": {
+		"PostNr": 9970,
+		"ByNavn": "Strandby",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9981": {
+		"PostNr": 9981,
+		"ByNavn": "Jerup",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9982": {
+		"PostNr": 9982,
+		"ByNavn": "Ålbæk",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9990": {
+		"PostNr": 9990,
+		"ByNavn": "Skagen",
+		"Gade": "",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9992": {
+		"PostNr": 9992,
+		"ByNavn": "Jylland USF P",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9993": {
+		"PostNr": 9993,
+		"ByNavn": "Jylland USF B",
+		"Gade": "Ufrankerede svarforsendelser",
+		"Firma": "",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9996": {
+		"PostNr": 9996,
+		"ByNavn": "Fakturaservice",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9997": {
+		"PostNr": 9997,
+		"ByNavn": "Fakturascanning",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	},
+	"9998": {
+		"PostNr": 9998,
+		"ByNavn": "Borgerservice",
+		"Gade": "",
+		"Firma": "(Post til scanning)",
+		"Provins": "True",
+		"Land": "1"
+	}
+}

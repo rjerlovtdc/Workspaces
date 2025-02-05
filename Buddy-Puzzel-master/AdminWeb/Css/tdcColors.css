@@ -1,0 +1,66 @@
+﻿
+.ndColorWhite {
+    color: white;
+    font-weight: bold;
+    background-color: #6152D7;
+}
+
+.ndColorGray {
+    color: Gray !important;
+}
+
+.ndColorDarkGray {
+    color: darkgray !important;
+}
+
+.ndColorLightGray {
+    color: lightgray !important;
+}
+
+.ndColorGreen {
+    color: #198754 !important;
+}
+
+.ndColorYellow {
+    color: #E6BF00 !important;
+}
+
+.ndColorRed {
+    color: #DC3545 !important;
+}
+
+.ndColorLightRed {
+    color: lightcoral !important;
+}
+
+.ndColorOrange {
+    color: orange !important;
+}
+
+.ndColorBlue {
+    color: steelblue !important;
+}
+
+.ndColorBlueMark {
+    color: #acbad4 !important;
+}
+
+
+.waitColorHour {
+    color: orangered;
+    font-weight: bold;
+}
+
+.waitColorLong {
+    color: orangered;
+    font-weight: bold;
+}
+
+.waitColorMedium {
+    color: orange;
+    font-weight: bold;
+}
+
+.waitColorNormal {
+    color: black;
+}

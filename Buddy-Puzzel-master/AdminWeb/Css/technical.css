@@ -1,0 +1,27 @@
+﻿tr.tdcBackground {
+    box-shadow: inset 0 0 0 9999px #acbad4 !important;
+    color: inherit;
+    background-color: #fff !important;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th.tdcWidth1 {
+    text-align: center !important;
+    width: 30px
+}
+
+.tdc-popover {
+    --bs-popover-max-width: 350px;
+    --bs-popover-border-color: var(--bd-violet-bg);
+    --bs-popover-header-bg: #0D6EFD;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.tab-content ul li {
+    margin-top: 1px;
+}

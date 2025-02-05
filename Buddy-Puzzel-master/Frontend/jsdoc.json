@@ -1,0 +1,38 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "source": {
+    "includePattern": "\\.js$",
+    "excludePattern": "(node_modules/|docs|Sys|Config)"
+  },
+  "plugins": [ "plugins/markdown" ],
+  "opts": {
+    "encoding": "utf8",
+    "destination": "../DOCS/",
+    "recurse": true,
+    "template": "node_modules/docdash"
+  },
+  "docdash": {
+    "static": true,
+    "sort": true,
+    "search": true,
+    "commonNav": false,
+    "collapse": false,
+    "sectionOrder": [
+      "Classes",
+      "Modules",
+      "Externals",
+      "Events",
+      "Namespaces",
+      "Mixins",
+      "Tutorials",
+      "Interfaces"
+    ],
+    "meta": {
+      "title": "BUDDY",
+      "description": "3.5.0.0",
+      "lastUpdated": "06-01-2025"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#aDiv {
+    width: 100px;
+}
+
+button {
+    margin-bottom: 2em;
+}

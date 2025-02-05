@@ -1,0 +1,12 @@
+﻿cmd
+C:
+cd C:\Workspaces\GIT\Buddy-Puzzel\Frontend
+npm run docs
+
+Template
+C:\Workspaces\GIT\Buddy-Puzzel\Frontend\node_modules\docdash\publish.js
+* function buildNav(members) {
+
+Layout
+"C:\Workspaces\GIT\Buddy-Puzzel\Frontend\node_modules\docdash\tmpl\layout.tmpl"
+"C:\Workspaces\GIT\Buddy-Puzzel\Frontend\node_modules\docdash\tmpl\mainpage.tmpl"

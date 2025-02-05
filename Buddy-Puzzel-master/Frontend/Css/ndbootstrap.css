@@ -1,0 +1,168 @@
+﻿:root {
+    /*--bs-link-color: #0d6efd;*/
+}
+
+.nav-tabs {
+    --bs-nav-link-color: darkslategray;
+    --bs-nav-link-hover-color: #acbad4;
+    --bs-nav-tabs-link-active-color: black;
+    --bs-nav-tabs-link-active-bg: #acbad4;
+}
+
+.card {
+    margin-bottom: 20px;
+    --bs-card-bg: transparent;
+}
+
+.card-header {
+    /*--bs-card-cap-bg: #00000008;*/
+    --bs-card-border-color: #acbad4;
+}
+
+.btn-secondary {
+    /* --bs-btn-color: black; */
+    --bs-btn-bg: #acbad4;
+    --bs-btn-border-color: #acbad4;
+    --bs-btn-hover-color: #acbad4;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #c6cfe1;
+    --bs-btn-hover-border-color: darkslategray;
+}
+
+.btn-group-sm > .btn, .tdc-sm {
+    --bs-btn-bg: steelblue;
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-padding-x: 0.4rem;
+    --bs-btn-font-size: 0.8rem;
+    --bs-btn-border-radius: 0.2rem;
+}
+
+label.tdcLabel {
+    font-size: 10pt;
+    color: steelblue;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: steelblue;
+}
+
+    .custom-tooltip > .tooltip-inner {
+        text-align: left;
+        max-width: 400px !important;
+    }
+
+.custom-tooltip-settings {
+    --bs-tooltip-bg: steelblue;
+}
+
+    .custom-tooltip-settings > .tooltip-inner {
+        text-align: left;
+        max-width: 250px !important;
+    }
+
+.custom-popover {
+    --bs-popover-max-width: 300px;
+    --bs-popover-border-color: var(--bd-violet-bg);
+    --bs-popover-header-bg: #0dcaf0;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+
+/* Button Info */
+.btn-info.tdcDetail {
+    padding: 0px;
+    font-size: 12px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    --bs-btn-color: white;
+    --bs-btn-bg: #acbad4;
+    --bs-btn-border-color: #acbad4;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #acbad4;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #acbad4;
+    --bs-btn-active-border-color: #acbad4;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/* Button ndDanger */
+.btn-ndDanger {
+    color: #212529;
+    background-color: #7cc;
+    border-color: #5bc2c2
+}
+
+    .btn-ndDanger:hover {
+        color: #212529;
+        background-color: #52bebe;
+        border-color: #8ad3d3
+    }
+
+    .btn-ndDanger:focus,
+    .btn-ndDanger.focus {
+        box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+    }
+
+    .btn-ndDanger.disabled,
+    .btn-ndDanger:disabled {
+        color: #212529;
+        background-color: #7cc;
+        border-color: #5bc2c2
+    }
+
+    .btn-ndDanger:not(:disabled):not(.disabled):active,
+    .btn-ndDanger:not(:disabled):not(.disabled).active,
+    .show > .btn-ndDanger.dropdown-toggle {
+        color: #212529;
+        background-color: #9cdada;
+        border-color: #2e7c7c
+    }
+
+        .btn-ndDanger:not(:disabled):not(.disabled):active:focus,
+        .btn-ndDanger:not(:disabled):not(.disabled).active:focus,
+        .show > .btn-ndDanger.dropdown-toggle:focus {
+            box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+        }
+
+.btn-outline-ndDanger {
+    color: #7cc;
+    background-color: transparent;
+    background-image: none;
+    border-color: #7cc
+}
+
+    .btn-outline-ndDanger:hover {
+        color: #222;
+        background-color: #8ad3d3;
+        border-color: #7cc
+    }
+
+    .btn-outline-ndDanger:focus,
+    .btn-outline-ndDanger.focus {
+        box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+    }
+
+    .btn-outline-ndDanger.disabled,
+    .btn-outline-ndDanger:disabled {
+        color: #7cc;
+        background-color: transparent
+    }
+
+    .btn-outline-ndDanger:not(:disabled):not(.disabled):active,
+    .btn-outline-ndDanger:not(:disabled):not(.disabled).active,
+    .show > .btn-outline-ndDanger.dropdown-toggle {
+        color: #212529;
+        background-color: #8ad3d3;
+        border-color: #7cc
+    }
+
+        .btn-outline-ndDanger:not(:disabled):not(.disabled):active:focus,
+        .btn-outline-ndDanger:not(:disabled):not(.disabled).active:focus,
+        .show > .btn-outline-ndDanger.dropdown-toggle:focus {
+            box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+        }

@@ -1,0 +1,278 @@
+﻿/* Table */
+td {
+    font-size: 14px;
+}
+
+    td.ndSecret {
+        text-decoration: line-through !important;
+    }
+
+    td.ndNoTransfer {
+        color: red !important;
+    }
+
+
+/* Selected row color */
+table.display.dataTable > tbody > tr.selected > *,
+table.display.dataTable > tbody > tr.odd.selected > *,
+table.display.dataTable > tbody > tr.selected:hover > * {
+    box-shadow: inset 0 0 0 9999px #acbad4 !important;
+    color: inherit;
+    background-color: #fff !important;
+}
+
+/* Selected row color Warm*/
+table.display.dataTable > tbody > tr.selected.Warm > *,
+table.display.dataTable > tbody > tr.odd.selected.Warm > *,
+table.display.dataTable > tbody > tr.selected.Warm:hover > * {
+    box-shadow: inset 0 0 0 9999px lightcoral !important;
+}
+
+/* Selected row color Department*/
+table.display.dataTable > tbody > tr.selected.Dep > *,
+table.display.dataTable > tbody > tr.odd.selected.Dep > *,
+table.display.dataTable > tbody > tr.selected.Dep:hover > * {
+    color: inherit;
+}
+
+#tableEmpId_wrapper.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    overflow-y: scroll !important;
+}
+
+#tableFavId_wrapper.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    overflow-y: scroll !important;
+}
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    border-bottom: none !important;
+}
+
+table.dataTable td.focus {
+    outline: none !important;
+    font-weight: bolder !important;
+    /* 
+        color: black !important;
+        text-decoration-line: underline !important;
+        outline: 2px solid orange !important;
+    */
+}
+
+th, td.nddHeader {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: -moz-none; /* Firefox */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+}
+
+table.ndSearchTable {
+    width: 1100px;
+}
+
+    table.ndSearchTable tbody {
+        display: block;
+        height: 600px;
+        overflow-y: scroll;
+    }
+
+    table.ndSearchTable.ndHeight200 tbody {
+        height: 200px;
+    }
+
+    table.ndSearchTable tbody tr {
+        display: table;
+        width: 1100px;
+        table-layout: fixed;
+        background-color: #f7fafc;
+    }
+
+        table.ndSearchTable tbody tr.Department {
+            color: darkblue;
+        }
+
+        table.ndSearchTable tbody tr.ndNoTransfer {
+            box-shadow: inset 2px 0px red, inset -2px 0px red, inset 0px 2px red, inset 0px -3px red;
+            /*box-shadow: inset 0px -9px lightcoral;*/
+        }
+
+        table.ndSearchTable tbody tr.ndDummy {
+            color: lightcoral;
+        }
+
+    table .ndSearchTable thead {
+        display: block;
+    }
+
+        table.ndSearchTable thead tr {
+            display: table;
+            table-layout: fixed;
+            background-color: #00000008;
+        }
+
+        table.ndSearchTable thead th {
+        }
+
+    table.ndSearchTable th {
+        padding: 5px;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        border-bottom: 1px solid;
+        border-color: #0d6efd;
+        font-weight: normal;
+    }
+
+    table.ndSearchTable td {
+        font-size: 14px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid;
+        border-color: lightgray;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+
+    table.ndSearchTable tbody tr.selected {
+        background-color: lightgray;
+    }
+
+    table.ndSearchTable tbody tr:hover {
+        background-color: lightgray;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    /* Queues */
+    table.ndSearchTable.Que thead th {
+        border-color: #198754;
+    }
+
+    /* Column Width Queue Search */
+    table.ndSearchTable.Que th:nth-child(1), table.ndSearchTable.Que td:nth-child(1) {
+        width: 75px;
+        height: 35px;
+        text-align: center !important;
+    }
+
+    table.ndSearchTable.Que th:nth-child(2), table.ndSearchTable.Que td:nth-child(2) {
+        width: 275px;
+    }
+
+    table.ndSearchTable.Que th:nth-child(3), table.ndSearchTable.Que td:nth-child(3),
+    table.ndSearchTable.Que th:nth-child(4), table.ndSearchTable.Que td:nth-child(4),
+    table.ndSearchTable.Que th:nth-child(5), table.ndSearchTable.Que td:nth-child(5) {
+        width: 150px;
+        text-align: center !important;
+    }
+
+    table.ndSearchTable.Que th:nth-child(6), table.ndSearchTable.Que td:nth-child(6) {
+        width: 100px;
+        text-align: center !important;
+    }
+
+    table.ndSearchTable.Que th:nth-child(7), table.ndSearchTable.Que td:nth-child(7) {
+        width: 200px;
+        text-align: center !important;
+    }
+
+    /* Employee */
+    table.ndSearchTable.Emp.Fav td {
+        border-bottom: none;
+    }
+
+    /* Column Width Employee Search */
+    table.ndSearchTable.Emp th:nth-child(1), table.ndSearchTable.Emp td:nth-child(1) {
+        width: 230px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(2), table.ndSearchTable.Emp td:nth-child(2) {
+        width: 250px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(3), table.ndSearchTable.Emp td:nth-child(3) {
+        width: 250px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(4), table.ndSearchTable.Emp td:nth-child(4) {
+        width: 140px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(5), table.ndSearchTable.Emp td:nth-child(5) {
+        width: 100px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(6), table.ndSearchTable.Emp td:nth-child(6) {
+        width: 100px;
+    }
+
+    table.ndSearchTable.Emp th:nth-child(7), table.ndSearchTable.Emp td:nth-child(7) {
+        width: 30px;
+    }
+
+
+    /* Favorites */
+    table.ndSearchTable.Fav thead th {
+        border-color: #dc3545;
+    }
+
+/* Phone Columns */
+td.phoneCol {
+    cursor: alias;
+}
+
+    td.phoneCol.None {
+        cursor: pointer;
+    }
+
+        td.phoneCol.None:hover {
+            cursor: pointer;
+        }
+
+
+    td.phoneCol.Green {
+        color: #198754;
+    }
+
+        td.phoneCol.Green:hover {
+            /* cursor: url("../Res/phone_green.png"), alias; */
+        }
+
+    td.phoneCol.Blue {
+        color: #0d6efd;
+    }
+
+        td.phoneCol.Blue:hover {
+            /* cursor: url("../Res/phone_blue.png"), alias; */
+        }
+
+    td.phoneCol.Red {
+        color: #DC3545;
+    }
+
+        td.phoneCol.Red:hover {
+            /* cursor: url("../Res/phone_red.png"), alias; */
+        }
+
+/* DataTables */
+.ndMaxWidth {
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ndMaxWidth2 {
+    width: 300px;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+tr#versionMasterTableId td {
+    font-size: 16px;
+}

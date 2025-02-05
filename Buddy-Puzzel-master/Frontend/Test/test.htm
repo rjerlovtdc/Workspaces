@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../Css/Sys/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="../Css/ndbootstrap.css" rel="stylesheet" />
+    <link href="../Css/ndnetdesign.css" rel="stylesheet" />
+    <link href="../Css/ndcolors.css" rel="stylesheet" />
+    <link href="../Css/ndtables.css" rel="stylesheet" />
+
+    <link href="../Css/nddetail.css" rel="stylesheet" />
+    <link href="../Css/ndcalendar.css?v=008" rel="stylesheet" />
+    <link href="../Css/ndpresence.css?v=008" rel="stylesheet" />
+
+    <link rel="icon" type="image/x-icon" href="https://netdesign-buddy-prod.northeurope.cloudapp.azure.com/favicon.ico">
+
+    <title>TDC Buddy - Test</title>
+</head>
+<body style="margin: 5vh 10vw 5vh 10vw;">
+    <table tabindex="0" class="nddDetail">
+        <tr>
+            <td rowspan="5" width="130" height="130">
+                <img id="userPhoto" width="120" height="120" src="../Res/nophoto.png"
+                     onerror="this.onerror=null; this.src='../Res/nophoto.png'" />
+            </td>
+            <td width="70" class="nddUnderlineDash">Navn</td>
+            <td id="dFullName" colspan="3" class="ndBold nddUnderlineDash">&nbsp;</td>
+        </tr>
+
+
+        <tr>
+            <td>Telefon</td>
+            <td class="ndd ndBold" style="min-width: 175px; max-width: 200px; ">
+                <span id="dPhone">&nbsp;</span>&nbsp;&nbsp;
+                <span id="dPhoneSection" class="ndHide">
+                    <span id="dPhoneStatus" class="fas fa-circle ndColorGray"></span>&nbsp;&nbsp;&nbsp;
+                    <button tabindex="0" id="dCallOutPhone" title="Ring op" type="button" class="btn btn-success ndBtn"><span class="fas fa-phone" /></button>
+                    <button tabindex="0" id="dTransferColdPhone" title="Omstil kold" type="button" class="btn btn-primary btn-sm ndBtn"><span class="fas fa-share" /></button>
+                    <button tabindex="0" id="dTransferWarmPhone" title="Omstil varm" type="button" class="btn btn-danger btn-sm ndBtn"><span class="fas fa-share" /></button>
+                </span>
+            </td>
+            <td rowspan="2" class="ndd ndBorderRight ndSmall">
+                <button id="btnPark_ID" class="tdcBtnPark fas fa-parking ndHidden">
+                </button>
+            </td>
+            <td rowspan="4" style="padding-left: 10px; min-width: 175px; max-width: 200px; ">
+                <div class="row ndBootRow">
+                    <div class="col-sm-1"><span class="fas fa-external-link-alt ndColorBlue"></span></div>
+                    <div class="col-sm-5">Viderestillet</div>
+                    <div class="col-sm-5">
+                        :&nbsp;
+                        <span id="cfaNumber" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="row ndBootRow">
+                    <div class="col-sm-1"><span class="fa-solid fa-user-astronaut ndColorBlue"></span></div>
+                    <div class="col-sm-5">PA</div>
+                    <div class="col-sm-6">
+                        :&nbsp;
+                        <span id="paStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="row ndBootRow">
+                    <div class="col-sm-1"><span class="fa-solid fa-phone-slash ndColorBlue"></span></div>
+                    <div class="col-sm-5">Forstyr ikke</div>
+                    <div class="col-sm-6">
+                        :&nbsp;
+                        <span id="dndStatus">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="row ndBootRow">
+                    <div class="col-sm-1"><span class="fa-regular fa-comment ndColorBlue"></span></div>
+                    <div class="col-sm-5">MS Team</div>
+                    <div class="col-sm-6">
+                        :&nbsp;
+                        <span id="teamsStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="row ndBootRow">
+                    <div class="col-sm-1"><span class="fa-regular fa-envelope ndColorBlue"></span></div>
+                    <div class="col-sm-5">Ikke tilstede</div>
+                    <div class="col-sm-6">
+                        :&nbsp;
+                        <span id="oofStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" " data-bs-html="true">&nbsp;</span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobil</td>
+            <td class="ndd ndBold">
+                <span id="dMobile">&nbsp;</span>&nbsp;&nbsp;
+                <span id="dMobileSection" class="ndHide">
+                    <span id="dMobileStatus" class="fas fa-circle ndColorGray"></span>&nbsp;&nbsp;&nbsp;
+                    <button tabindex="0" id="dCallOutMobile" title="Ring op" type="button" class="btn btn-success btn-sm ndBtn"><span class="fas fa-phone" /></button>
+                    <button tabindex="0" id="dTransferColdMobile" title="Omstil kold" type="button" class="btn btn-primary btn-sm ndBtn"><span class="fas fa-share" /></button>
+                    <button tabindex="0" id="dTransferWarmMobile" title="Omstil varm" type="button" class="btn btn-danger btn-sm ndBtn"><span class="fas fa-share" /></button>
+                    <!-- <button tabindex="0" id="phoneSMS" type="button" class="btn btn-info btn-sm ndBtn"><span class="fas fa-sms" /></button> -->
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="2" class="ndd ndBorderRight ndBold">
+                <span id="dEmail">&nbsp;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td colspan="2" class="ndd ndBorderRight ndBold">
+                <div id="dEmailSection" class="ndHide">
+                    <a tabindex="0" id="dEmailMessage" title="Send besked" class="btn btn-secondary btn-sm ndBtn"><span class="fas fa-envelope" /></a>
+                    <a tabindex="0" id="dEmailChat" title="Start chat" class="btn btn-secondary btn-sm ndBtn"><span class="fas fa-comments" /></a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5" class="ndd nddUnderline"></td>
+        </tr>
+        <tr>
+            <td>Titel</td>
+            <td colspan="4" tabindex="-1">
+                <a tabindex="-1" id="dTitle" href="#">&nbsp;</a>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Afdeling</td>
+            <td colspan="4">
+                <a id="dDepartmentName" href="#">&nbsp;</a>
+            </td>
+        </tr>
+        <tr id="dAdministrationNameRow" class="ndHidden">
+            <td id="dAdministrationNameHeader">Forvaltning</td>
+            <td colspan="4">
+                <span id="dAdministraionName">&nbsp;</span>
+            </td>
+        </tr>
+        <tr id="dDivisionRow" class="ndHide">
+            <td>Center</td>
+            <td colspan="4">
+                <span id="dDivision">&nbsp;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Adresse</td>
+            <td colspan="3">
+                <span id="dAddress">&nbsp;</span>
+            </td>
+            <td id="dRoomNumberRow" class="ndHide">
+                &nbsp;&nbsp;&nbsp;Rumnr&nbsp;&nbsp;:&nbsp;
+                <span id="dRoomNumber">&nbsp;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Leder</td>
+            <td colspan="3">
+                <a id="dManagerName" href="#">&nbsp;</a>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <a id="dManagerEmail" href="#" target="_blank">&nbsp;</a>
+            </td>
+            <td id="dIpPhoneRow" class="ndHide">
+                &nbsp;&nbsp;&nbsp;Lokalnr&nbsp;:&nbsp;
+                <span id="dIpPhone">&nbsp;</span>
+            </td>
+        </tr>
+        <tr id="testRow">
+            <td colspan="5" class="ndd nddUnderline"></td>
+        </tr>
+        <tr id="phoneHoursRow" style="height: 128px; display: block">
+            <td>Tider</td>
+            <td colspan="4">
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 48%">
+                        <span id="dPhoneHoursHeader" class="nddHeader">Telefontider</span>
+                        <br />
+                        <div id="dPhoneHours" style="height: 103px; overflow-y: auto;">&nbsp;</div>
+                    </div>
+                    <div class="flex-fill" style="width: 52%; padding-left: 15px;">
+                        <span id="dOpeningHoursHeader" class="nddHeader">Åbningstider</span>
+                        <br />
+                        <div id="dOpeningHours" style="height: 103px; overflow-y: auto;">&nbsp;</div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr id="phoneHoursRowLine" style="display: none">
+            <td colspan="5" class="ndd nddUnderline"></td>
+        </tr>
+        <tr id="searchWordRow" class="ndd">
+            <td id="dSearchWordHeader" class="ndd ndCenter">Søgeord</td>
+            <td colspan="4" class="ndd ndCenter">
+                <div id="dSearchWord" class="nddSearchWord ">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5" class="ndd nddUnderline"></td>
+        </tr>
+        <tr id="organizationRow" style="height: 128px">
+            <td class="ndd ndCenter">Organisation</td>
+            <td colspan="4" class="ndd ndCenter">
+                <span id="dOrganization"></span>
+            </td>
+        </tr>
+
+    </table>
+
+    <input id="index" value="2" />
+    <button type="button" id="btn1">Add</button>
+
+    <!-- JavaScript -->
+    <script src="../Js/Sys/jquery-3.7.1.min.js"></script>
+    <script src="../Js/Sys/bootstrap.bundle.min.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>

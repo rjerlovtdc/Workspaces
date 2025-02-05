@@ -1,0 +1,257 @@
+﻿@media (display-mode: fullscreen) {
+    html {
+        /* background-color: #F0F3F5;*/
+    }
+}
+
+
+body {
+    margin: 2px 15px 0px 15px;
+    background-color: #F0F3F5;
+    font-family: Verdana, sans-serif;
+    width: 1100px;
+}
+
+h1 {
+    color: #0300c0;
+}
+
+hr.spacer {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid steelblue;
+    opacity: initial;
+}
+
+    hr.spacer.spacer5 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    hr.spacer.spacer10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.title {
+    color: darkslategray;
+    display: inline;
+}
+
+.ndBold {
+    font-weight: bold;
+}
+
+.ndFloatLeft {
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+.ndFloatRight {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.ndSecret {
+    text-decoration: line-through;
+}
+
+
+.ndFont12 {
+    font-size: 12px;
+}
+
+.ndItalic {
+    font-style: italic;
+}
+
+.smallFont {
+    font-size: 8pt;
+    color: darkgray;
+    line-height: 10pt;
+}
+
+.ndLogoFont {
+    font-size: 8pt;
+    color: #0300c0;
+    margin-left: -4px;
+    /*
+        line-height: 10pt;
+        color: #0180BD;
+    */
+}
+
+.fa-star {
+    cursor: pointer;
+}
+
+.tdcHand {
+    cursor: pointer;
+}
+
+.tdcHandCopy {
+    cursor: copy;
+}
+
+.tdcLink {
+    cursor: pointer;
+    color: steelblue;
+}
+
+    .tdcLink:hover {
+        color: #0000EE;
+    }
+
+
+a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+    a:hover {
+        color: #0000EE;
+    }
+
+.ndHide {
+    display: none;
+}
+
+.ndHidden {
+    visibility: hidden;
+}
+
+/* ND Columns*/
+.ndRow {
+    display: flex;
+}
+
+.ndColumn {
+    float: left;
+    padding: 10px;
+}
+
+.ndLeft {
+    width: 550px;
+}
+
+.ndRight {
+    width: 550px;
+}
+
+
+/* Clear floats after the columns */
+.ndRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Puzzel Header */
+section.header .content {
+    background-color: red;
+}
+
+.mark, mark {
+    padding: 0px;
+}
+
+.figure {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #AECBDA;
+    border-radius: 10px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #3071a9;
+    }
+
+.row.ndBootRow {
+    --bs-gutter-x: 0px;
+}
+
+div.detailView {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 1114px;
+    height: 425px;
+}
+
+div#Settings, div#Info {
+    font-size: 14px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90vh;
+}
+
+    div#Info label {
+        /* TODO */
+    }
+
+.form-select-sm {
+    padding-left: inherit;
+    font-size: inherit;
+}
+
+#dInfo {
+    font-size: 12px;
+}
+
+.tdcNoSelect {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: -moz-none; /* Firefox */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+}
+
+.row > * {
+    padding-right: 0px; /*12px*/
+}
+
+
+.tdcBorder {
+    padding-left: 0px;
+    border: 1px dotted #0D6EFD;
+}
+
+.tdcBtnPark {
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    color: #0154A4;
+    padding: 0px;
+}
+
+    /* Darker background on mouse-over */
+    .tdcBtnPark:hover {
+        color: #0D6EFD;
+    }
+
+#inputDummyTxt, #cfaNumberTxt {
+    font-size: 8px;
+    line-height: 10px;
+    border: none;
+    color: #F0F3F5;
+    background-color: #F0F3F5;
+}
+
+    #inputDummyTxt:focus, cfaNumberTxt:focus {
+        outline: none;
+    }

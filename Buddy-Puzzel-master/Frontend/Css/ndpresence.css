@@ -1,0 +1,9 @@
+﻿.NdHookStatus {
+    color: gray;
+}
+    .NdHookStatus.OnHook {
+        color: darkgreen;
+    }
+    .NdHookStatus.OffHook {
+        color: darkred;
+    }

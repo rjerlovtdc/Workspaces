@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="7a188460-049a-41a4-838d-ea44e7a32acf" ChangeDateTime="03/24/2023 08:30:59">
+    <Property Name="ElementName" Value="[dbo].[Logins].[IX_Logins_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[Logins]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_Logins_UserId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1159cb52-bc4b-47df-aaf2-6d2bc8ac0e02" ChangeDateTime="03/24/2023 08:31:43">
+    <Property Name="ElementName" Value="[dbo].[Logins].[IX_Logins_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[Logins]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IX_Logins_CustomerKey]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bfd0cdc6-6fce-4779-9540-2517306b2b1f" ChangeDateTime="03/24/2023 08:50:17">
+    <Property Name="ElementName" Value="[dbo].[Settings].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Settings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ecde91e-9f1d-49d9-8d3c-aceba26dbdcb" ChangeDateTime="03/24/2023 09:09:50">
+    <Property Name="ElementName" Value="[dbo].[SettingIds].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SettingIds]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SettingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cb229e3e-b1ab-40dd-b396-53c10dd37eef" ChangeDateTime="03/24/2023 09:11:10">
+    <Property Name="ElementName" Value="[dbo].[FK_AgentSettings_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[AgentSettings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_AgentSettings_SettingIds]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5469ef3-8f84-4bc8-88d7-0f381711ad70" ChangeDateTime="05/30/2024 05:35:57">
+    <Property Name="ElementName" Value="[dbo].[Customers].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerKey" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0534e68-64f1-4268-bbad-3f3eccbab7f3" ChangeDateTime="06/13/2024 09:11:42">
+    <Property Name="ElementName" Value="[dbo].[Customers].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerStatus" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f583e07-8eba-4d0b-84fc-cacc0c4fca01" ChangeDateTime="06/13/2024 09:11:45">
+    <Property Name="ElementName" Value="[dbo].[Customers].[License]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerLicense" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5fb0ef7e-b075-4c84-b306-2207145e03d6" ChangeDateTime="06/28/2024 11:30:34">
+    <Property Name="ElementName" Value="[dbo].[MobilePresence].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MobilePresence]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerId_FK" />
+  </Operation>
+</Operations>

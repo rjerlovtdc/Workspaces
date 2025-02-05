@@ -1,0 +1,9 @@
+{
+  "ApplicationEnvironment": "PROD",
+  "ApplicationType": "BACKEND",
+  "CmdbName": "Buddy-Prod-1",
+  "ServerNumber": 1,
+  "ServerHostName": "netdesign5y1xhg",
+  "ServerFqdnName": "netdesign5y1xhg.northeurope.cloudapp.azure.com",
+  "ServerIp": "74.234.68.38"
+}

@@ -1,0 +1,155 @@
+<div class="d-flex">
+    <div class="flex-fill">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#createNewCustomer">Opret ny kunde</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#tabAzureId">Azure</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#tabDataSourcesId">Datakilder</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<br />
+<div class="tab-content">
+    <!-- New Customer -->
+    <div class="tab-pane" id="createNewCustomer">
+        <h1>Forudsætninger</h1>
+        <h2>Netværk</h2>
+        <span>Kundens netværk skal tillade adgang til følgende URLs:</span>
+        <ul>
+            <li>
+                https://netdesign-buddy-prod.northeurope.cloudapp.azure.com
+            </li>
+            <li>
+                https://netdesign-buddy-prod.northeurope.cloudapp.azure.com:8443
+            </li>
+        </ul>
+        <span>
+            Dette kan på forhånd testes ved at sende følgende URLs til kunden,
+            og bede dem åbne dem.
+        </span>
+        <ul>
+            <li>
+                <a href="https://netdesign-buddy-prod.northeurope.cloudapp.azure.com/tdcTest.htm" target="_blank">
+                    https://netdesign-buddy-prod.northeurope.cloudapp.azure.com/tdcTest.htm
+                </a>
+            </li>
+            <li>
+                <a href="https://netdesign-buddy-prod.northeurope.cloudapp.azure.com:8443/api/TDC/Status" target="_blank">
+                    https://netdesign-buddy-prod.northeurope.cloudapp.azure.com:8443/api/TDC/Status
+                </a>
+            </li>
+        </ul>
+        <p>
+            Hvis URLs ikke kan åbnes, skyldes det ofte blokering i kundens firewall.
+        </p>
+        <h2>Browser</h2>
+        <span>TDC Buddy er supporteret med disse browsere:</span>
+        <ul>
+            <li>
+                <img src="Res/chrome_logo.png" width="16" height="16" />
+                Google Chrome version <i>125.0.6422.61</i> eller nyere.
+            </li>
+            <li>
+                <img src="Res/edge_logo.png" width="16" height="16" />
+                Edge version <i>125.0.2535.85</i> eller nyere.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Azure -->
+    <div class="tab-pane" id="tabAzureId">
+        <ol>
+            <li>Åbn <a href="https://portal.azure.com" target="_blank">portal.azure.com&nbsp;<span class="fas fa-external-link-alt" /></a></li>
+            <li>Gå til <span class="fst-italic">Microsoft Entra ID</span></li>
+            <li>
+                Vælg <span class="fst-italic">App registrations</span> i venstre side
+            </li>
+            <li>
+                Vælg <a href="https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/CreateApplicationBlade/quickStartType~/null/isMSAApp~/false" target="_blank">New registration&nbsp;<span class="fas fa-external-link-alt" /></a>
+                <br />
+                <img src="Res/Screendumps/azure1.png" />
+            </li>
+            <li>Vælg <a href="" target="_blank">TODO</a></li>
+        </ol>
+    </div>
+    <!-- tabDataSources -->
+    <div id="tabDataSourcesId" class="tab-pane active tdcMargin">
+        <h1>Datakilder</h1>
+        <p>Data i Buddy kan komme fra disse kilder:</p>
+        <ul>
+            <li>
+                Puzzel katalog
+                <ul>
+                    <li>Azure AD Sync</li>
+                    <li>Filupload</li>
+                </ul>
+            </li>
+            <li>Microsoft Azure AD</li>
+            <li>Filupload</li>
+            <li>Kundespecifik connector</li>
+        </ul>
+        <h2>Hvor vises hvilke data</h2>
+        <p>
+            Søgning og visning af resultat sker udelukkende via Puzzel katalog.<br />
+            Eneste undtagelse er Region Hovedstaden som har en custom connector til deres CBAS system
+        </p>
+        <p>
+            Nedenstående er søgeresultat overblik med alle kolonner. Det er muligt at skjule de enkelte kolonner per kunde.<br />
+            Tryk på den enkelte kolonneoverskrift for at læse mere.
+        </p>
+        <a tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-html="true" data-bs-content="And here's some amazing content. It's very engaging.<br />Right?">Navn</a>
+        <table id="searchOverviewTable" class="table table-bordered table-striped border-primary nowrap" style="width: 100%;">
+            <thead>
+                <tr style="border-bottom: 1px solid; cursor: help;">
+                    <th class="tdcWidth1" tabindex="0"
+                        data-bs-custom-class="tdc-popover" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true"
+                        data-bs-title="Aggregeret status"
+                        data-bs-content="Kilde: Beregnet<br>Værdi beregnes på baggrund af øvrige presence informationer<br>Se afsnit: <a href='#AggPresence'>Aggregeret status</a>">
+                        <span class="fas fa-info" />
+                    </th>
+                    <th class="tdcWidth1" title="Mobil status">
+                        <span class="fas fa-phone-volume" />
+                    </th>
+                    <th class="tdcWidth1" title="Kalender status">
+                        <span class="far fa-calendar-alt" />
+                    </th>
+                    <th class="tdcWidth1" title="Teams status">
+                        <span class="fas fa-users" />
+                    </th>
+                    <th class="tdcWidth1" title="Afdelingsfarve">
+                        <span class="fas fa-square-full" />
+                    </th>
+                    <th title="Fuldenavn" style="min-width: 140px;" tabindex="0"
+                        data-bs-custom-class="tdc-popover" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true"
+                        data-bs-title="Fuldenavn" 
+                        data-bs-content="Kilde: Puzzel katalog<br>Feltnavne: [firstName + lastName]">
+                        Navn
+                    </th>
+                    <th title="Titel" style="min-width: 140px;" tabindex="0"
+                        data-bs-custom-class="tdc-popover" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-html="true"
+                        data-bs-title="Titel"
+                        data-bs-content="Kilde: Puzzel katalog<br>Feltnavne: [title]">
+                        Titel
+                    </th>
+                    <th title="Afdeling" style="min-width: 140px;">Afdeling</th>
+                    <th title="Vejnavn" style="min-width: 140px;">Vejnavn</th>
+                    <th title="Telefon" style="min-width: 75px;">Telefon</th>
+                    <th title="Mobil" style="min-width: 75px;">Mobil</th>
+                    <th title="Favorit" style="width: 40px;"><span class="fa-star fas" /></th>
+                </tr>
+            </thead>
+            <tbody />
+        </table>
+        <div id="AggPresence">
+            <h2>AggPresence</h2>
+        </div>
+    </div>
+</div>
+
+<!-- TDC JavaScript -->
+<script src="Js/technical.js"></script>

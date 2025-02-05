@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Monitoring</name>
+    </assembly>
+    <members>
+        <member name="T:Monitoring.Controllers.MonitorController">
+                        <summary>Monitoring.Controllers</summary>
+        </member>
+        <member name="M:Monitoring.Controllers.MonitorController.GetStatus">
+                        <summary>GetStatus</summary>
+                        <remarks>KUK</remarks>
+                        <param name="dtDataTable">DataTable</param>
+                        <param name="strFilePath">Filepath for output</param>
+                        <returns>void</returns>
+                        <example>Eksempel <c>Kode</c></example>
+        </member>
+    </members>
+</doc>

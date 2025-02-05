@@ -1,0 +1,129 @@
+﻿/* Table */
+table.nddDetail {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+    table.nddDetail td {
+        vertical-align: middle;
+    }
+
+        table.nddDetail td.ndSmall {
+            width: 50px !important;
+            color: red;
+        }
+
+        table.nddDetail td.ndCenter {
+            vertical-align: middle;
+        }
+
+        table.nddDetail td.ndBorderRight {
+            border-right: 2px solid #acbad4;
+        }
+
+        table.nddDetail td.nddUnderline {
+            margin-top: 5px;
+            border-top: solid;
+            border-top-width: 2px;
+            border-top-color: #acbad4;
+        }
+
+        table.nddDetail td.nddUnderlineDash {
+            border-bottom: 1px;
+            border-bottom-style: dashed;
+            border-bottom-color: steelblue;
+        }
+
+span.nddHeader {
+    font-size: 12px;
+    color: gray;
+}
+
+.card-body {
+    padding-bottom: 5px;
+}
+
+div .nddSearchWord {
+    overflow-y: auto;
+    height: 85px;
+    max-width: 555px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+div.nddSearchWordTwo {
+    overflow-y: auto;
+    height: 55px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.ndBorderRight {
+    border-right: 2px solid #acbad4;
+}
+
+a:hover.nddHover {
+    /*color: #dc3545 !important;*/
+}
+
+.ndBtn {
+    padding: 0px;
+    font-size: 12px;
+    vertical-align: middle;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.ndArrow {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.ndCalendarToday {
+    padding-left: 15px;
+    color: steelblue;
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+div.dayview-now-marker {
+    position: absolute;
+    z-index: 504;
+    border-top: #acbad4 solid 2px;
+    right: 8px;
+    left: 0;
+    pointer-events: none;
+}
+
+    div.dayview-now-marker:after {
+        background: #acbad4;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        height: 12px;
+        margin-inline-start: -6.5px;
+        margin-top: -7px;
+        width: 12px;
+    }
+
+.dayview-timestring-container {
+    background-color: #F0F3F5 !important;
+}
+
+#dFullName {
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+span.numberInNotes {
+    color: steelblue;
+    cursor: pointer;
+}
+
+    span.numberInNotes:hover {
+        color: blue;
+    }

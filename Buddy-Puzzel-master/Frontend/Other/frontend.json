@@ -1,0 +1,12 @@
+{
+  "ApplicationEnvironment": "PROD",
+  "ApplicationType": "FRONTEND",
+  "CmdbName": "Frontend-Prod-1",
+  "ServerNumber": 1,
+  "ServerHostName": "netdesign5y1xhg",
+  "ServerFqdnName": "netdesign5y1xhg.northeurope.cloudapp.azure.com",
+  "ServerIp": "74.234.68.38",
+  "StatusCode": 200,
+  "ErrorText": "",
+  "Message": "TDC BUDDY Frontend - Responding"
+}

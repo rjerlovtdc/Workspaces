@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToolsConsole</name>
+    </assembly>
+    <members>
+        <member name="T:ToolsConsole.Classes.TdcCsv">
+                    <summary> ToolsConsole.Classes </summary>
+        </member>
+        <member name="M:ToolsConsole.Classes.TdcCsv.ToCSV(System.Data.DataTable,System.String)">
+                        <summary>TdcCsv</summary>
+                        <remarks>KUK</remarks>
+                        <param name="dtDataTable">DataTable</param>
+                        <param name="strFilePath">Filepath for output</param>
+                        <returns>void</returns>
+                        <example>Eksempel <c>Kode</c></example>
+        </member>
+        <member name="M:ToolsConsole.Classes.TdcCsv.ConvertCsvToDataTable(System.String)">
+                        <summary> ConvertCsvToDataTable. </summary>
+        </member>
+    </members>
+</doc>

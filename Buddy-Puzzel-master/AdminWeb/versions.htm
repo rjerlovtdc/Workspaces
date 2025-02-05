@@ -1,0 +1,657 @@
+
+<div class="d-flex">
+    <div class="flex-fill">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#V35">3.5</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#V34">3.4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#V33">3.3</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<br />
+<div class="tab-content">
+    <!-- Version 3.5 -->
+    <div class="tab-pane active" id="V35">
+        <h1>Version 3.5</h1>
+        <p style="font-size: 10pt;">Frigives: 12-02-2025 07:00</p>
+        <hr />
+        <h2>
+            Fejlrettelser&nbsp;<span class="fas fa-bug"></span>
+        </h2>
+        <ul>
+            <li>
+                <span class="fw-bold">Manglende visning af placering</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                Kunder der havde <i>placering</i> i detaljevisning kunne opleve et blank felt<br />
+            </li>
+            <li>
+                <span class="fw-bold">Manglende visning af initialer</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                Kunder der havde <i>initialer</i> i detaljevisning kunne opleve et blank felt<br />
+            </li>
+        </ul>
+        <h2>
+            Visning&nbsp;
+            <span class="fas fa-eye"></span>
+        </h2>
+        <h3>Detaljer</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Rækker/visninger i detaljevisning</span><br />
+                <p>
+                    Den fulde liste af information, der kan vises i detaljevisning, er nu denne i den angive rækkefølge<br />
+                    Misc1 og Misc2 kan benyttes til virkårlige data og vises et vilkårligt sted i oversigten.
+                </p>
+                <ul>
+                    <li>Initialer</li>
+                    <li>Titel</li>
+                    <li>Afdeling</li>
+                    <li>Forvaltning</li>
+                    <li>Center</li>
+                    <li>Placering</li>
+                    <li>Adresse</li>
+                    <li>Leder</li>
+                    <li>Søgeord</li>
+                    <li>Åbningstider</li>
+                    <li>Organisation</li>
+                    <li>Misc1</li>
+                    <li>Misc2</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Kalender</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Visning af sted [lokation] for møde</span><br />
+                <p>Ved mouse-over kalenderaftalen vises den fulde emnetekst og sted for møde.</p>
+                <img src="Res/Versions/35/calendar.png" alt="Kalender Sted" width="343" height="150" class="tdcBorder" />
+            </li>
+        </ul>
+        <h3>Detaljer data</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Kopiering af udvalgte bruger data til clipboard</span><br />
+                <p>
+                    Ved klik på navn, telefonnummer, mobilnummer eller email adresse kopieres værdien
+                    til windows clipboard og kan nemt indsættes i en anden applikation.<br />
+                    Bemærk at cursor skifter til en pil med et lille '+' når teksten kan kopieres.
+                </p>
+                <img src="Res/Versions/35/copyText.png" alt="Kalender Sted" width="315" height="149" class="tdcBorder" />
+            </li>
+        </ul>
+        <h3>Søgeord og noter</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Tekstformatering i noter og søgeord</span><br />
+                Puzzel katalog understøtter ikke tekstformatering i noter og søgeord.<br />
+                For at give denne mulighed i Buddy er der indført følgende 'tags'.<br />
+                Både start og slut tag skal være angivet korrekt ellers ignoreres formateringen.<br />
+                <br />
+                <table class="table table-bordered table-light">
+                    <tr>
+                        <th>Typografi</th>
+                        <th>Start tag</th>
+                        <th>Slut tag</th>
+                        <th>Eksempel</th>
+                        <th>Resultat</th>
+                    </tr>
+                    <tr>
+                        <td>Understreget tekst</td>
+                        <td>$u_</td>
+                        <td>_u$</td>
+                        <td>Dette er en $u_understreget_u$ tekst</td>
+                        <td>
+                            Dette er en
+                            <span class="text-decoration-underline">understreget</span> tekst
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fed tekst</td>
+                        <td>$b_</td>
+                        <td>_b$</td>
+                        <td>Dette er en $b_fed_b$ tekst</td>
+                        <td>
+                            Dette er en
+                            <span class="fw-bold">fed</span> tekst
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kursiv tekst</td>
+                        <td>$i_</td>
+                        <td>_i$</td>
+                        <td>Dette er en $i_kursiv_i$ tekst</td>
+                        <td>
+                            Dette er en
+                            <span class="fst-italic">kursiv</span> tekst
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nummer</td>
+                        <td>$n_</td>
+                        <td>_n$</td>
+                        <td>Dette er et nummer $n_30550517_n$</td>
+                        <td>
+                            Dette er et nummer
+                            <span style="color: steelblue; cursor: pointer;">30550517</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hyperlink</td>
+                        <td>$h_</td>
+                        <td>_h$</td>
+                        <td>Dette er et hyperlink $h_tdc.dk_h$</td>
+                        <td>
+                            Dette er et hyperlink
+                            <a href="https://tdc.dk">tdc.dk</a>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <span class="fw-bold">Nummer tag</span><br />
+                Ved klik på nummeret (blå tekstfarve) kopieres nummeret til telefonnummerboksen
+                foroven, og knapper for ring op eller viderestil benyttes som vanligt.
+            </li>
+            <li>
+                <span class="fw-bold">Hyperlink baseret på #</span><br />
+                Den gamle metode med at angive hyperlinks via '#' er stadig supporteret,
+                men vil på sigt blive erstattet af det nye hyperlink tag.
+            </li>
+            <li>
+                <span class="fw-bold">EKSEMPEL</span><br />
+                Her er et eksempel på en bruger, der har formatering i både noter og søgeord.<br />
+                <img src="Res/Versions/35/notes_formatting.png" alt="Kalender Sted" width="1168" height="540" class="tdcBorder" />
+                <br />
+                <br />
+                <span>Ovenstående bruger har dette stående i <i>beskrivelse</i> feltet i Puzzel katalog. Tegnet '|' adskiller noter fra søgeord</span>
+                <div class="tdcCodeBox">
+                    <code>
+                        $u_Privat website_u$: $h_http://www.jacobhansen.dk_h$<br />
+                        $b_Fed tekst_b$<br />
+                        $i_Kursiv_i$<br />
+                        $n_30550517_n$<br />
+                        |<br />
+                        $u_søgeord 1_u$<br />
+                        $b_søgeord 2_b$<br />
+                        $i_søgeord 3_i$<br />
+                        widget ::  #www.tdc.dk#
+                    </code>
+                </div>
+            </li>
+        </ul>
+        <h2>Indstillinger&nbsp;<span class="fas fa-tools"></span></h2>
+        <h3 id="headerLayout35ID">Layout</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Placering af åbningstider i detaljevisning</span><br />
+                Vælg om åbningstider skal vises før eller efter søgeord.<br />
+                Standardværdi: Før søgeord
+            </li>
+        </ul>
+        <h2>Integrationer / Popup&nbsp;<span class="fas fa-object-group"></span></h2>
+        <p>
+            For alle integrationer kan det vælges om poup skal ske ved præsentation af kald,
+            besvarelse af kald eller ved afslutning af kald.<br />
+            Angivelse af ingrationstype og aktivering af popup sker i Puzzel Flow editor ved at sætte variablen "tdcPopupService".
+        </p>
+        <ul>
+            <li>
+                <span class="fw-bold">Sags- og Partsoverblik (SAPA)</span><br />
+                Integration til SAPA sker via en skjult HTML form, der sender en request til denne URL:<br />
+                <code>https://sapaoverblik.dk/dialogintegration</code><br />
+                <br />
+                Følgende parametre skal angives:<br />
+                <ul>
+                    <li>myndighed (cvr)</li>
+                    <li>objektVaerdi1 (ofte cpr-nummer)</li>
+                </ul>
+                <br />
+            </li>
+            <li>
+                <span class="fw-bold">Solteq Tand</span><br />
+                Kræver at Solteq Tand program er startet på agentens PC.<br />
+                Der sendes en <i>XMLHttpRequest</i> til denne adresse:<br />
+                <code>http://localhost:1100/openpatient?patientCpr={cprnr}</code><br />
+                <br />Følgende parametre skal angives:<br />
+                <ul>
+                    <li>CPR-nummer</li>
+                </ul>
+                <br />
+            </li>
+            <li id="localExe_ID35">
+                <span class="fw-bold">Lokal EXE fil</span><br />
+                Integration til et lokalt installeret klient program kan ske ved hjælp af "TdcBuddyPopup" program.<br />
+                TdcBuddyPopup program registreres som en protokol handler med navnet tdcbuddypopup.
+                Herefter er det muligt at lave en simpel window.open med URL "tdcbuddypopup:44358336".<br />
+                TdcBuddyPopup program vil strippe "tdcbuddypopup:" delen og sende resten videre til den lokale EXE.<br />
+                Teknologien er den samme som for eksempel mailto:, der åbnes brugeres standard mailprogram <span class="far fa-smile"></span><br />
+                <br />
+            </li>
+            <li>
+                <span class="fw-bold">KMD Easy</span><br />
+                Integration til KMD Easy sker via <a href="#localExe_ID35">Lokal EXE fil</a> popup beskrevet ovenfor.<br />
+                Fuld filsti er ofte denne:<br />
+                <code>C:\Program Files (x86)\KMD\KMD Afregning\KMD.FE.EasyStartup.exe -tnr</code><br />
+                <br />Følgende parametre skal angives:<br />
+                <ul>
+                    <li>-tnr</li>
+                </ul>
+                <br />
+            </li>
+            <li>
+                <span class="fw-bold">ServiceNow</span><br />
+                Integration til ServiceNow sker via standard Window Open.<br />
+                Alle "sysparm_query" kan benyttes.<br />
+                <code>https://[instance].service-now.com/incident.do?sysparm_query=number=[inc-number]</code><br />
+                <br />Følgende parametre skal angives:<br />
+                <ul>
+                    <li>-sysparm_query</li>
+                </ul>
+                <br />
+            </li>
+        </ul>
+        <br />
+        <a href="#V35">Tilbage til toppen</a>
+    </div>
+
+
+    <!-- Version 3.4 -->
+    <div class="tab-pane" id="V34">
+        <h1>Version 3.4</h1>
+        <p style="font-size: 10pt;">Frigivet: 24-10-2024 07:00</p>
+        <hr />
+
+        <h2>
+            Fejlrettelser&nbsp;<span class="fas fa-bug"></span>
+        </h2>
+        <!-- <span class="ndColorRed fas fa-times"></span> -->
+        <ul>
+            <li>
+                <span class="fw-bold">Buddy låser</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                I bestemte situationer låste Buddy.
+                Det var ikke muligt at aktivere søgefelt.<br />
+            </li>
+            <li>
+                <span class="fw-bold">Skift til denne widget indstillinger blev ikke gemt</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                Indstillinger for skift til denne widget blev ikke gemt, hvis den var sat til Selvbetjening.nu<br />
+            </li>
+            <li>
+                <span class="fw-bold">Forkert højde på detaljevisning</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                Højden på detaljevisning blev ikke beregnet korrekt ved opstart af Buddy,
+                eller ved skift tilbage til buddy widget fra anden widget.
+            </li>
+            <li>
+                <span class="fw-bold">Scale mobilstatus</span>
+                <span class="ndColorGreen fas fa-check"></span><br />
+                Hvis scale brugernavn var ændret fra standard formatet (mxxxxxxxx),
+                blev der ikke hentet korrekt status for brugeren.
+            </li>
+        </ul>
+        <hr />
+        <h2>
+            Generelt&nbsp;
+            <span class="fas fa-user-astronaut"></span>
+        </h2>
+        <ul>
+            <li>
+                <span class="fw-bold">Escape</span><br />
+                Ved tryk på Escape (Esc) genberegnes højden på detaljevisning,
+                og Buddy låses op, hvis den mod forventning er blevet låst.<br />
+                Cursoren placeres i søgefelt.
+            </li>
+            <li>
+                <span class="fw-bold">Tabulator</span><br />
+                Ved tryk på tabulator (<span class="fas fa-exchange-alt"></span>) genberegnes højden på detaljevisning,
+                og Buddy låses op, hvis den mod forventning er blevet låst.<br />
+                Cursoren placeres i søgefelt.
+            </li>
+        </ul>
+        <hr />
+        <h2>
+            Kaldshåndtering&nbsp;
+            <span class="fas fa-phone"></span>
+        </h2>
+        <ul>
+            <li style="margin-right: 50px;">
+                <span class="fw-bold">Parkering af samtaler [vent mod optaget]</span><br />
+                Hvis et lokalnummer er optaget eller ikke svarer, er det nu muligt at parkere
+                samtalen.<br />
+                Dette gøres ved at trykke på det blå <img width="20" height="21" src="Res/34/Versions/parking.png" />
+                eller tilhørende genvej (standard Alt+F5).<br />
+                Systemet prøver løbende at stille samtalen igennem til medarbejderen.
+                Timer for hvor ofte systemet forsøger kan justeres. Standard er hvert 30. sekund.
+                Hvis samtalen ikke svares indenfor den definerede max ventetid, returneres kaldet til omstillingen.<br />
+                Opkalder hører pausemusik og har løbende mulighed for at trykke '9' for at returnere til omstillingen.<br />
+                Når et parkeret kald returneres og besvares i omstillingen, søges medarbejderen der blev parkeret imod
+                automatisk frem.
+                Aktivering af funktionen kræver tilføjelse af en eller flere parkeringskøer og tilhørende Puzzel kaldsflow scripting.<br />
+                Kontakt TDC Erhverv for udførelse af dette.<br />
+                Når dette er på plads kan funktionen aktiveres under <a href="#headerParkingQueueID">indstillinger</a>.
+            </li>
+        </ul>
+
+        <h2>
+            Detaljevisning&nbsp;
+            <span class="fas fa-asterisk"></span>
+        </h2>
+        <ul>
+            <li>
+                <span class="fw-bold">Visning til højre for detaljer</span><br />
+                Ved tryk på teksten "Kalenderaftaler" skiftes til visning af noter.<br />
+                Ved tryk på teksten "Noter" skiftes til visning af kalenderaftaler.<br />
+                Standard visning kan defineres under <a href="#headerLayout34ID">indstillinger</a>.
+            </li>
+            <li>
+                <span class="fw-bold">Søgeord</span><br />
+                Søgeord vises nu før organisation.
+                Dermed er de altid synlige, også på mindre skærmopløsninger.
+                Søgeord der er lagt ind på hver sin linje, vises nu også på hver sin linje i detaljevisningen.
+            </li>
+        </ul>
+
+        <h2>
+            Kalendervisning&nbsp;
+            <span class="fas fa-calendar"></span>
+        </h2>
+        <ul>
+            <li>
+                <span class="fw-bold">Ledige aftaler</span><br />
+                Aftaler der markeret som Ledig (free) i Outlook vises nu uden baggrundsfarve.<br />
+                Dette gør det nemmere at se, hvornår medarbejderen reelt er ledig.
+            </li>
+            <li>
+                <span class="fw-bold">Overlappende aftaler</span><br />
+                Hvis medarbejderen har mange overlappende aftaler reduceres teksten<br />
+                Dette giver et bedre overblik.
+            </li>
+        </ul>
+
+        <h2>Indstillinger&nbsp;<span class="fas fa-tools"></span></h2>
+        <h3 id="headerLayout34ID">Layout</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Standard visning til højre for detaljer</span><br />
+                Vælg om der standard skal vises Kalender eller Noter til højre for detaljevisningen.<br />
+                Standardværdi: Kalender
+            </li>
+        </ul>
+        <h3 id="headerParkingQueueID">Kaldshåndtering</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Parkeringskø standard</span><br />
+                Vælg hvilken parkeringskø, der skal benyttes ved parkering af kald.
+                Standard er værdien sat til Deaktiveret.<br />
+                Hvis systemet ikke finder nogen parkeringskøer vises teksten [Ingen parkerings køer fundet].<br />
+                Hvis der vælges en kø aktiveres det blå <img width="20" height="21" src="Res/Versions/34/parking.png" />
+                i detaljevisningen.
+            </li>
+            <li>
+                <span class="fw-bold">Parkeringskø Genvejstast</span><br />
+                Vælg genvejstast for parkering af kald.<br />
+                Standardværdi: Alt+F5
+            </li>
+        </ul>
+        <h3>Søgning</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Vis poster uden et telefonnummer</span><br />
+                Poster hvor både Telefon og Mobil er tomme, vil stadig blive vist.<br />
+                Standardværdi: Ja
+            </li>
+            <li>
+                <span class="fw-bold">Nulstil søgeresultat</span><br />
+                Angiv hvornår søgeresultat og detaljevisning skal nulstilles (blankes).<br />
+                Standardværdi: Både ved indgående kald, og ved afslutning af kald
+            </li>
+        </ul>
+        <h3>Køer</h3>
+        <ul>
+            <li>
+                <span class="fw-bold">Marker kø alarm</span><br />
+                Vis angivne køer står med en alarm, vil dette markeres i fanemenuen.<br />
+                Standardværdi: Statisk
+            </li>
+        </ul>
+        <br />
+        <a href="#V34">Tilbage til toppen</a>
+    </div>
+
+    <!-- Version 3.3 -->
+    <div class="tab-pane" id="V33">
+        <h1>Version 3.3</h1>
+        <p style="font-size: 10pt;">Frigivet: 29-05-2024 21:00</p>
+        <hr />
+        <h2>
+            Fejlrettelser&nbsp;<span class="fas fa-bug"></span>
+        </h2>
+        <ul>
+            <li>
+                <span class="ndColorGreen">Forkert opkaldsnummer i telefonbesked</span><br />
+                Hvis en medarbejder var markeret ved nyt indgående kald,
+                blev opkaldsnummer for nyt opkald ikke opdateret i telefonbesked.<br />
+            </li>
+            <li>
+                <span class="ndColorGreen">Kaldsdata</span><br />
+                Ved nyt indgående kald blev forrige kaldsdata ikke slettet fuldstændigt.
+            </li>
+        </ul>
+        <hr />
+        <h2>
+            Generelt&nbsp;
+            <span class="fas fa-user-astronaut"></span>
+        </h2>
+        <ul>
+            <li>
+                <span>Aggregeret statusvisning</span>
+            </li>
+            <li>
+                <span>Scale mobil statusvisning</span>
+            </li>
+            <li>
+                <span>MS Teams statusvisning</span>
+            </li>
+            <li>
+                <span>MS Teams Busy on Busy</span><br />
+                Se <a href="#headerMsIntegrationID">MS Integration</a> under Indstillinger
+            </li>
+            <li>
+                <span>Dynamisk højde</span><br />
+                Højden tilpasses nu automatisk til brugerens skærmopløsning.<br />
+                Ved skift til fuldskærm tilpasses højden yderligere.<br />
+            </li>
+            <li>
+                Support for <a href="https://app.puzzel.com/agent/" target="_blank">https://app.puzzel.com/agent/</a>
+            </li>
+        </ul>
+        <hr />
+
+        <h2>
+            Kaldshåndtering&nbsp;
+            <span class="fas fa-phone"></span>
+        </h2>
+        <ul>
+            <li>
+                <span>Varm omstilling med Enter</span><br />
+                Ved varm omstilling er det nu muligt at stille kaldet igennem ved tryk på Enter<br />
+                Dette kan ske, når der høres ringetone eller hvis kaldet er besvaret i den anden ende<br />
+                Dette gælder for både varm omstilling til kø, telefonbog og favorit.
+            </li>
+            <li>
+                <span>Bedre support for Besvar genvejstast</span><br />
+                Ved indgående kald fjernes fokus fra søgebokse, og dermed kan generel Puzzel genvejstast for Besvar benyttes<br />
+                Vi afventer stadig, at Puzzel stiller decideret API til rådighed for besvarelse af kald.
+            </li>
+            <li>
+                <span>Meld ledig via Alt+I</span><br />
+                Ved tryk på Alt+I sættes agenten til Ready / klar.
+            </li>
+            <li>
+                <span>Afslut opkald</span><br />
+                Ved tryk på Alt+H afsluttes igangværende opkald.
+            </li>
+        </ul>
+        <hr />
+        <h2>
+            Telefonbog&nbsp;
+            <span class="fas fa-user-tie"></span>
+        </h2>
+        <ul>
+            <li>
+                <span>Antal rækker i søgeresultat</span><br />
+                Antallet af rækker i søgeresultat kan indstilles til mellem 6-15 rækker.<br />
+                Højden på detaljevindue justeres i forhold til det valgte antal.
+                Dette for at sikre, at den øverste del af Buddy altid vises.<br />
+                Se <a href="#headerLayoutID">Layout</a> under Indstillinger.
+            </li>
+        </ul>
+        <h3>Rådata</h3>
+        <ul>
+            <li>
+                Ved klik på aggreret presence ikon for medarbejder vises det rå Puzzel response<br />
+                <img src="Res/Screendumps/Releases/show_puzzel_data.png" alt="Raw puzzel response" width="166" height="59" class="tdcBorder" /> =>
+                <img src="Res/Screendumps/Releases/show_puzzel_data_2.png" alt="Raw puzzel response" width="410" height="91" class="tdcBorder" />
+            </li>
+            <li>
+                Ved klik på 'Detaljer' overskrift for medarbejder vises det rå Azure response<br />
+                <img src="Res/Screendumps/Releases/show_azure_data.png" alt="Raw puzzel response" width="200" height="54" class="tdcBorder" /> =>
+                <img src="Res/Screendumps/Releases/show_azure_data_2.png" alt="Raw puzzel response" width="654" height="93" class="tdcBorder" />
+            </li>
+        </ul>
+        <hr />
+        <h2>
+            Kø-fane&nbsp;
+            <span class="fas fa-water"></span>
+        </h2>
+        <h3></h3>
+        <ul>
+            <li>
+                <span>Layout</span><br />
+                Kø-oversigt vises nu på samme måde som Telefonbog og Favoritter.<br />
+                Der kan bladres mellem de forskellige køer på pilene. Ved tryk på Enter stilles kaldet om til markeret kø.<br />
+                Reglerne for varm omstilling følger reglerne for varm omstilling til medarbejdere og favoritter.
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>NodeId</span><br />
+                NodeId hentes nu direkte fra servicelabels for agenten<br />
+                Dermed behøver labels og description ikke længere at matche.
+            </li>
+        </ul>
+
+        <h3>Visning</h3>
+        <p>
+            <ul>
+                <li>
+                    <span>Vis kun favoritter</span><br />
+                    Viser kun køer der er markeret som Favorit
+                </li>
+                <li>
+                    <span>Vis kun relevante</span><br />
+                    Viser kun køer der kan stilles om til, og ud af disse vises kun køer med påloggede agenter.<br />
+                    Under indstillinger kan det sættes, at køer med ingen påloggede agenter også skal vises.<br />
+                    Se indstilling under <a href="#showRelevantID">Kaldshåndtering</a>
+                </li>
+                <li>
+                    <span>Kompakt layout</span><br />
+                    Hvis agenten har behov for at vise mange køer på én gang,
+                    kan layout for kø-overblik sættes til 'kompakt'.<br />
+                    Se <a href="#headerLayoutID">Layout</a> under Indstillinger.
+                </li>
+            </ul>
+
+        </p>
+        <hr />
+
+        <h2>Indstillinger&nbsp;<span class="fas fa-tools"></span></h2>
+        <h3 id="headerCallHandlingID">Kaldshåndtering</h3>
+        <ul>
+            <li>
+                <span>Slet alle kaldsdata ved afslutning af kald.</span><br />
+                Ved afslutning af opkald slettes alle informationer om opkaldet.<br />
+                Det vil ikke være muligt at sende telefonbesked til opkaldsnummer.<br />
+                Standardværdi: Nej
+            </li>
+            <li id="showRelevantID">
+                <span>Inkluder køer med ingen påloggede agenter i 'Vis kun relevante'</span><br />
+                Ved sat til Ja, vil indstillingen 'Vis kun relevante' under køer også vise køer med ingen påloggede agenter.<br />
+                Standardværdi: Nej
+
+            </li>
+        </ul>
+        <h3>Faner</h3>
+        <ul>
+            <li>
+                <span>Aktiv fane ved opstart</span><br />
+                Fane der skal være aktiv, når Buddy startes<br />
+                Standardværdi: Telefonbog
+
+            </li>
+            <li>
+                <span>Aktiv fane ved Besvarelse af kald</span><br />
+                Fane der skal aktiveres ved besvarelse af kald<br />
+                Standardværdi: Deaktiveret
+
+            </li>
+            <li>
+                <span>Aktiv fane ved afslutning af kald</span><br />
+                Fane der skal aktiveres ved afslutning af kald<br />
+                Standardværdi: Deaktiveret
+
+            </li>
+            <li>
+                <span>Aktiv fane ved tryk på Escape</span><br />
+                Fane der skiftes til ved tryk på Escape. Alle søgeindstillinger og visninger bliver nulstillet for fanen.<br />
+                Ved Deaktiveret nulstilles aktuel fane<br />
+                Standardværdi: Deaktiveret
+            </li>
+        </ul>
+        <h3>Detaljevisning</h3>
+        <ul>
+            <li>
+                <span>Handling ved klik på 'viderestillet nummer'</span><br />
+                Standardværdi: Søg på nummer
+            </li>
+        </ul>
+        <h3>Søgning</h3>
+        <ul>
+            <li>
+                <span>Mellemrum ' ' foran søgetekst begrænser søgningen til denne kolonne</span><br />
+                Standardværdi: Efternavn
+            </li>
+        </ul>
+        <h3 id="headerMsIntegrationID">MS Integration</h3>
+        <ul>
+            <li>
+                <span>Når Puzzel agent bliver aktiv i en samtale</span><br />
+                Standardværdi: Ingen handling
+            </li>
+            <li>
+                <span>Når agent bliver aktiv i en samtale på MS Teams</span><br />
+                Standardværdi: Ingen handling
+            </li>
+        </ul>
+        <h3 id="headerLayoutID">Layout</h3>
+        <ul>
+            <li>
+                <span>Antal rækker i søgeresultat</span><br />
+                Standardværdi: 6
+            </li>
+            <li>
+                <span>Køoverblik udseende</span><br />
+                Standardværdi: Normal
+            </li>
+        </ul>
+        <br />
+        <a href="#V33">Tilbage til toppen</a>
+    </div>
+</div>

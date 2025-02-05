@@ -1,0 +1,178 @@
+﻿[
+  {
+    "feature": "Korrekt visning af Tjenester i forhold til omstilling",
+    "prio": 1,
+    "descriptionExternal": "Kø visning vil blive samme oplevelse som Telefonbog og favoritter. Det betyder navigation op og ned med piletasterne kold omstilling med Enter og skift til varm omstilling ved tryk på CTRL.",
+    "descriptionInternal": "Lige nu viser vi en liste over visuelle køer og disse skal matche med modulid for en kø for at vi kan omstille, det giver en stor fejlkilde hvis kunden skifter navn på en visuel kø, eller ønsker at kunne omstille til andet end en kø, f.eks en menu eller en tidsstyring før en kø. Derfor skal vi have fundet en bedre måde at skifte mellem visuelle køer til at vise belastning på kø og så ved indgående kald skifte til at vise Tjenester som der kan omstilles til ligesom Puzzel selv vælger at gøre i deres switchboard. Hvis der så er et sammenhæng mellem en tjeneste og en visuel kø viser vi for den pågældende service kø status.",
+    "releaseDate": "28-03-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Busy on Busy",
+    "prio": 1,
+    "descriptionExternal": "Vi opretter en ny indstilling hvor agenten kan vælge at deres Teams klient bliver sat i status \u0022Vil ikke forstyrres\u0022 når de svarer et opkald i Puzzel klienten, hvis de f.eks bruger Puzzel softphone. Efter endt kald vil status i Teams blive sat tilbage til den status den var i før kaldet blev besvaret.",
+    "descriptionInternal": "Ved Puzzel agent status = connected (samtale), skal MS Teams status sættes til DND (Forstyr ikke).Ved afslutning af kald sættes status tilbage til den oprindelige",
+    "releaseDate": "28-03-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Navigation i Buddy",
+    "prio": 2,
+    "descriptionExternal": "Navigation mellem faneblade [Shift \u002B pil til højre/venstre]. TAB sætter fokus på søgefeltet uden at slette information i søgefeltetESC sætter fokus på søgefelt og sletter søgning, [komma] sætter i Telefonbogsfanebladet fokus på Telefonfeltet til udgående kaldEnter foretager Opringing, når fokus er i Telefon feltet og omstilling når fokus er i søgefeltet. ",
+    "descriptionInternal": "Vi ønsker at man med piletaster navigerer op og ned mellem søgeresultatater, favoritter eller køer. Ved tryk til højre eller ventre på piletasterne skal man kunne navigere mellem Buddy tabs. Indenfor hver buddy tab skal navigation med TAB følge en logisk rute.",
+    "releaseDate": "28-03-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Oprettelse af database til indlæsning af konfiguration for kunde",
+    "prio": 1,
+    "descriptionExternal": "For at kunne tilbyde at kunder selv kan mappe data ind i Buddy har vi brug for at skabe en database hvor vi kan gemme feltmapning for hver kunde. ",
+    "descriptionInternal": "Idag foretager vi tilpasning af kode til kunder direkte i source kode, vi ønsker at man alle de steder hvor vi ser ændringer som er kundespecifikke at kunne læse en konfig fil ud fra kundenummer, som vedligeholdes i en database, så vi ikke piller direkte i koden. Det kræver at funktioner bliver omprogrammeret til at kunne læse variabler fra denne konfig fil.",
+    "releaseDate": "28-03-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Upload af Buddy log",
+    "prio": 1,
+    "descriptionExternal": "Alt log med level Info eller højere logges til array. Der oprettes knap under Info for upload af log fil til TDC",
+    "descriptionInternal": "",
+    "releaseDate": "31-12-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Admin portal til Buddy",
+    "prio": 1,
+    "descriptionExternal": "Mulighed for at tilbyde en admin portal til Buddy, hvor det for kunderne er muligt at sætte datakilde op og mappe hvilken data der skal vises i Buddy og på hvilke felter.Vi ønsker også at informationerne fra Buddy APP registrering kan ske i admin og skriver data ned i en database.",
+    "descriptionInternal": "Vi skal have opretttet en admin portal, hvor kunden har mulighed for at opsætte Buddy, afgøre hvilke felter der skal vises og mappe hvilken information fra hhv katalog (hvis vi bruger det) og Azure (Entra) som skal mappes til hvilke felter i Buddy, på sigt kunne man også angive andre datakilder som f.eks CBAS udlæse datasæt og mappe disse til Buddy",
+    "releaseDate": "28-03-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Redigerbare templates til afsendelse af SMS og Email",
+    "prio": 2,
+    "descriptionExternal": "Mulighed for at skabe og redigere op til 5 templates til e-mail beskeder. Mulighed for at indsætte Datafelter, som f.eks automatisk henter: [Fornavn] og [A-nummer] fra hhv. kontaktperson i Buddy og telefonnummer fra aktivt kald.",
+    "descriptionInternal": "Et userinterface hvor man kan skabe egne skabeloner, både personlige og delbare til alle brugere. Mulighed for at indsætte elementer som Telefonnummer, Kontaktnavn i templates",
+    "releaseDate": "28-03-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Hente kalender direkte fra Azure AD",
+    "prio": 2,
+    "descriptionExternal": "",
+    "descriptionInternal": "Der ligger for mange begrænsninger i catalog kaldender visning og vi ønsker derfor at hente kalender aftaler direkte fra Azure, så den altid stemmer overens med outlook. samtidig vil vi hente eventuel out of office besked",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Agent Søgning og omstilling",
+    "prio": 3,
+    "descriptionExternal": "",
+    "descriptionInternal": "Mulighed for i Buddy at fremsøge agenter og omstille til disse. Dette kan ske enten i en separat fane eller i samme vindue som medarbejder søgning blot med et andet ikon for at angive forskel mellem telefonbogs kontakt og agent kontakter",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Alternativ kalender visning",
+    "prio": 3,
+    "descriptionExternal": "",
+    "descriptionInternal": "Mulighed for at vælge mellem dag, uge eller måned i kalenderview",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Oprette kalender aftaler fra buddy",
+    "prio": 3,
+    "descriptionExternal": "",
+    "descriptionInternal": "En mulighed for via Graph API at oprette nye aftaler.Alternativt gemmes aftaler i databasen og vises kun for omstillingen",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Sende telefonbeskeder gennem graph API",
+    "prio": 3,
+    "descriptionExternal": "",
+    "descriptionInternal": "Sende telefonbeskeder gennem Graph API så man har en log over alle beskeder der er sendt og denne historik ikke ligger hos den enkelte agent.",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Notes felt på kontaktpersoner",
+    "prio": 3,
+    "descriptionExternal": "",
+    "descriptionInternal": "Muligheden for at receptionister kan opdatere notesfelt med omstillingsinformationer, det kan være sekretær information eller andre informationer som giver mening for agenten der omstiller. Dette forudsætter vi har en database hvor vi kan gemme et id på kontaktperson sammen med en note.Alternativt",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Automatisk fremsøgning af additional A-number",
+    "prio": 4,
+    "descriptionExternal": "",
+    "descriptionInternal": "Hvis en medarbejder som ikek er i Puzzel omstiller sin telefon vil dennes nummer sendes med i kaldet som additional A-number når en Puzzel agent modtager kaldet. Vi ønkser at kunne hente information om dette og automatisk fremsøge kontaktpersonen ved besvarelse af kald, så omstillingsagenten kan se hvem der har omstillet kaldet til receptionen.",
+    "releaseDate": "20-06-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Hente out of office besked fra Azure",
+    "prio": 4,
+    "descriptionExternal": "",
+    "descriptionInternal": "hvis en medarbejder har sat status til OOO skal vi kunne hente den besked de sender som OOO og vise den for omstillingsagenten, enten ved en mouseover på status eller ved at vise det under f.eks detaljer - potentielt nyt felt",
+    "releaseDate": "20-06-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Responsive design",
+    "prio": 4,
+    "descriptionExternal": "",
+    "descriptionInternal": "Muligt at skalere Buddy i bredden, så felter skjules eller vises i forhold til bredden.",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Reagere på status i heldagsaftaler",
+    "prio": 4,
+    "descriptionExternal": "",
+    "descriptionInternal": "Hvis en medarbejder har sat en heldagsaftale, skal vi kunne farvekode heldagsaftalen i kalenderen, så den reflekterer om man er tilgængelig, eller away eller noget tredje, ved mouseover skal man kunne se den status der er sat",
+    "releaseDate": "20-06-2024",
+    "isReleased": true
+  },
+  {
+    "feature": "Hente al information fra Azure AD",
+    "prio": 5,
+    "descriptionExternal": "",
+    "descriptionInternal": "I stedet for at skulle sætte både Puzzel catalog sync og Buddy Grap API sync op, så vil vi tilbyde muligheden for at hente al information fra Azure AD.Afhængigt af performance kræver det måske en database",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Søgeord og andre metadata i Azure AD",
+    "prio": 5,
+    "descriptionExternal": "",
+    "descriptionInternal": "Søgeord og andre metadata skal skrives ind i extention attributes i AD. Det kan være en eksisterende extention attributes eller nye, der oprettes til formålet. Kræver at kunde vil give Buddy adgang til at patche extention attributes værdier.",
+    "releaseDate": "20-06-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Themes",
+    "prio": 5,
+    "descriptionExternal": "",
+    "descriptionInternal": "Mulighed for at kunne vælge forskellige farvetemaer",
+    "releaseDate": "12-12-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Sprogvalg",
+    "prio": 5,
+    "descriptionExternal": "",
+    "descriptionInternal": "Muligheden for at vælge default sprog i buddy",
+    "releaseDate": "12-12-2024",
+    "isReleased": false
+  },
+  {
+    "feature": "Fuldskærms verion",
+    "prio": 6,
+    "descriptionExternal": "",
+    "descriptionInternal": "Mulighed for at vælge en fullscreen version. Denne version skal indeholde alle funktioner fra phone widget, så man ikke mangler noget: herunder opkaldsdetaljer, agent assist, årsags registrering og kalds kontrol",
+    "releaseDate": "12-12-2024",
+    "isReleased": false
+  }
+]

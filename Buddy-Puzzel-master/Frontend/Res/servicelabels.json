@@ -1,0 +1,47 @@
+[
+  {
+    "nodeType": "queue",
+    "label": "Backoffice",
+    "nodeId": "queue2"
+  },
+  {
+    "nodeType": "queue",
+    "label": "Call Test",
+    "nodeId": "queue3"
+  },
+  {
+    "nodeType": "audio",
+    "label": "Lukket Speciel",
+    "nodeId": "audio1"
+  },
+  {
+    "nodeType": "audio",
+    "label": "Lukket Speciel1",
+    "nodeId": "audio13"
+  },
+  {
+    "nodeType": "queue",
+    "label": "NewBizz Backoffice",
+    "nodeId": "queue6"
+  },
+  {
+    "nodeType": "queue",
+    "label": "NewBizz Sales",
+    "nodeId": "queue4"
+  },
+  {
+    "nodeType": "queue",
+    "label": "NewBizz Support",
+    "nodeId": "queue5"
+  },
+  {
+    "nodeType": "queue",
+    "label": "Salg",
+    "nodeId": "queue1"
+  },
+  {
+    "nodeType": "queue",
+    "label": "Support",
+    "nodeId": "queue"
+  }
+]

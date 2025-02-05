@@ -1,0 +1,16 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\tdcbuddypopup]
+"URL Protocol"="\"\""
+@="URL:tdcbuddypopup Protocol"
+
+[HKEY_CLASSES_ROOT\tdcbuddypopup\DefaultIcon]
+@="\"TdcBuddyPopup.exe,1\""
+
+[HKEY_CLASSES_ROOT\tdcbuddypopup\shell]
+@="open"
+
+[HKEY_CLASSES_ROOT\tdcbuddypopup\shell\open]
+
+[HKEY_CLASSES_ROOT\tdcbuddypopup\shell\open\command]
+@="\"C:\\TDC\\TdcBuddyPopup\\TdcBuddyPopup.exe\" \"%1\""

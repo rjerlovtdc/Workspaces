@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ndlanguage.js - BUDDY</title>
+    
+    <meta name="description" content="3.5.0.0" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ndAuth.html">ndAuth</a><ul class='methods'><li data-type='method'><a href="module-ndAuth.html#~auth">auth</a></li><li data-type='method'><a href="module-ndAuth.html#~refreshAuth">refreshAuth</a></li></ul></li><li><a href="module-ndBindings.html">ndBindings</a><ul class='methods'><li data-type='method'><a href="module-ndBindings.html#~performSearch">performSearch</a></li></ul></li><li><a href="module-ndEmployees.html">ndEmployees</a><ul class='methods'><li data-type='method'><a href="module-ndEmployees.html#~clearDetailView">clearDetailView</a></li><li data-type='method'><a href="module-ndEmployees.html#~clearEmployeeGrid">clearEmployeeGrid</a></li><li data-type='method'><a href="module-ndEmployees.html#~getDataTable">getDataTable</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableInit">ndDataTableInit</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableSorting">ndDataTableSorting</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndRequestEmployees">ndRequestEmployees</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowCommonDetails">ndShowCommonDetails</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowDetails">ndShowDetails</a></li></ul></li><li><a href="module-ndFavorites.html">ndFavorites</a><ul class='methods'><li data-type='method'><a href="module-ndFavorites.html#~buildFavoritesList">buildFavoritesList</a></li></ul></li><li><a href="module-ndGraph.html">ndGraph</a><ul class='methods'><li data-type='method'><a href="module-ndGraph.html#~getMsToken">getMsToken</a></li><li data-type='method'><a href="module-ndGraph.html#~getPhotoFromAzure">getPhotoFromAzure</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphPhotoFromEmail">msGraphPhotoFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserFromEmail">msGraphUserFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserSearch">msGraphUserSearch</a></li><li data-type='method'><a href="module-ndGraph.html#~ndGetPuzzelUserGraph">ndGetPuzzelUserGraph</a></li></ul></li><li><a href="module-ndLanguage.html">ndLanguage</a></li><li><a href="module-ndParsing.html">ndParsing</a><ul class='methods'><li data-type='method'><a href="module-ndParsing.html#~filterOrganization">filterOrganization</a></li><li data-type='method'><a href="module-ndParsing.html#~getOrgTreeFromService">getOrgTreeFromService</a></li><li data-type='method'><a href="module-ndParsing.html#~ndParseCallState">ndParseCallState</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCbasUserResponse">parseCbasUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCustomerSpecific">parseCustomerSpecific</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseManagerFromServices">parseManagerFromServices</a></li><li data-type='method'><a href="module-ndParsing.html#~parseOpeningHours">parseOpeningHours</a></li><li data-type='method'><a href="module-ndParsing.html#~parsePuzzelUserResponse">parsePuzzelUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseServices">parseServices</a></li><li data-type='method'><a href="module-ndParsing.html#~searchWordFromCustomerKey">searchWordFromCustomerKey</a></li></ul></li><li><a href="module-ndPresence.html">ndPresence</a><ul class='methods'><li data-type='method'><a href="module-ndPresence.html#~calculateAggStatus">calculateAggStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~getTeamsStatus">getTeamsStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~loadPresence">loadPresence</a></li></ul></li><li><a href="module-ndPuzzel.html">ndPuzzel</a><ul class='methods'><li data-type='method'><a href="module-ndPuzzel.html#~fetchUserInfo">fetchUserInfo</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getAccessToken">getAccessToken</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getTestingConfig">getTestingConfig</a></li><li data-type='method'><a href="module-ndPuzzel.html#~loadValuesFromPuzzel">loadValuesFromPuzzel</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndActivateWidget">ndActivateWidget</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndLoadAll">ndLoadAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndSetTitle">ndSetTitle</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndTestingAll">ndTestingAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~outsidePuzzelAllowed">outsidePuzzelAllowed</a></li><li data-type='method'><a href="module-ndPuzzel.html#~tdcGetWidgetOption">tdcGetWidgetOption</a></li><li data-type='method'><a href="module-ndPuzzel.html#~validateUser">validateUser</a></li></ul></li><li><a href="module-ndServices.html">ndServices</a><ul class='methods'><li data-type='method'><a href="module-ndServices.html#~agentSetAvailable">agentSetAvailable</a></li><li data-type='method'><a href="module-ndServices.html#~callAnswer">callAnswer</a></li><li data-type='method'><a href="module-ndServices.html#~callHangup">callHangup</a></li><li data-type='method'><a href="module-ndServices.html#~cbasApiCall">cbasApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithPhone">consultWithPhone</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithServiceQueue">consultWithServiceQueue</a></li><li data-type='method'><a href="module-ndServices.html#~endConsultation">endConsultation</a></li><li data-type='method'><a href="module-ndServices.html#~getMapFromArray">getMapFromArray</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabels">getServiceLabels</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabelsFromSearch">getServiceLabelsFromSearch</a></li><li data-type='method'><a href="module-ndServices.html#~getVisualQueues">getVisualQueues</a></li><li data-type='method'><a href="module-ndServices.html#~outboundCall">outboundCall</a></li><li data-type='method'><a href="module-ndServices.html#~popupWarning">popupWarning</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelApiCall">puzzelApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateTags">puzzelUpdateTags</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsEmp">puzzelUpdateVarsEmp</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsIncoming">puzzelUpdateVarsIncoming</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsQue">puzzelUpdateVarsQue</a></li><li data-type='method'><a href="module-ndServices.html#~scaleApiCall">scaleApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~setButtonStatesFromCurrentCall">setButtonStatesFromCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcBuddyPopupWindow">tdcBuddyPopupWindow</a></li><li data-type='method'><a href="module-ndServices.html#~tdcFetchUrl">tdcFetchUrl</a></li><li data-type='method'><a href="module-ndServices.html#~tdcParkCurrentCall">tdcParkCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcReadJsonFile">tdcReadJsonFile</a></li><li data-type='method'><a href="module-ndServices.html#~transferOnEnter">transferOnEnter</a></li><li data-type='method'><a href="module-ndServices.html#~transferToConsultee">transferToConsultee</a></li><li data-type='method'><a href="module-ndServices.html#~transferToPhone">transferToPhone</a></li><li data-type='method'><a href="module-ndServices.html#~transferToService">transferToService</a></li></ul></li><li><a href="module-ndStart.html">ndStart</a><ul class='methods'><li data-type='method'><a href="module-ndStart.html#~documentReady">documentReady</a></li><li data-type='method'><a href="module-ndStart.html#~windowsLoad">windowsLoad</a></li></ul></li><li><a href="module-ndTools.html">ndTools</a><ul class='methods'><li data-type='method'><a href="module-ndTools.html#~addTextToControl">addTextToControl</a></li><li data-type='method'><a href="module-ndTools.html#~agentObjActive">agentObjActive</a></li><li data-type='method'><a href="module-ndTools.html#~buildDynamicRow">buildDynamicRow</a></li><li data-type='method'><a href="module-ndTools.html#~calculateGridRow">calculateGridRow</a></li><li data-type='method'><a href="module-ndTools.html#~calendarBackForward">calendarBackForward</a></li><li data-type='method'><a href="module-ndTools.html#~calendarNowMark">calendarNowMark</a></li><li data-type='method'><a href="module-ndTools.html#~calendarShow">calendarShow</a></li><li data-type='method'><a href="module-ndTools.html#~checkForHyperlinks">checkForHyperlinks</a></li><li data-type='method'><a href="module-ndTools.html#~clearCallObject">clearCallObject</a></li><li data-type='method'><a href="module-ndTools.html#~clearSearchAndDetail">clearSearchAndDetail</a></li><li data-type='method'><a href="module-ndTools.html#~copyTextToClipboardOld">copyTextToClipboardOld</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedEmp">favoriteChangedEmp</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedQue">favoriteChangedQue</a></li><li data-type='method'><a href="module-ndTools.html#~filterResult">filterResult</a></li><li data-type='method'><a href="module-ndTools.html#~filterSearchWord">filterSearchWord</a></li><li data-type='method'><a href="module-ndTools.html#~getActiveTab">getActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getCalendarPuzzelFromId">getCalendarPuzzelFromId</a></li><li data-type='method'><a href="module-ndTools.html#~getEmailMessageString">getEmailMessageString</a></li><li data-type='method'><a href="module-ndTools.html#~getFavoritesArr">getFavoritesArr</a></li><li data-type='method'><a href="module-ndTools.html#~getInputBoxFromActiveTab">getInputBoxFromActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getOrgPath">getOrgPath</a></li><li data-type='method'><a href="module-ndTools.html#~getPhoneMessageSignature">getPhoneMessageSignature</a></li><li data-type='method'><a href="module-ndTools.html#~getPrevNextTab">getPrevNextTab</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromAzure">getUserFromAzure</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromCBAS">getUserFromCBAS</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromPuzzel">getUserFromPuzzel</a></li><li data-type='method'><a href="module-ndTools.html#~ndEnableSearchBox">ndEnableSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndFocusSearchBox">ndFocusSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetAggStatusForQueue">ndGetAggStatusForQueue</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetSpaces">ndGetSpaces</a></li><li data-type='method'><a href="module-ndTools.html#~ndPageReload">ndPageReload</a></li><li data-type='method'><a href="module-ndTools.html#~ndSetButtonsDefault">ndSetButtonsDefault</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistAsk">ndStoragePersistAsk</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistCheck">ndStoragePersistCheck</a></li><li data-type='method'><a href="module-ndTools.html#~ndTooltip">ndTooltip</a></li><li data-type='method'><a href="module-ndTools.html#~placeSearchWordRow">placeSearchWordRow</a></li><li data-type='method'><a href="module-ndTools.html#~prefixLocalNumber">prefixLocalNumber</a></li><li data-type='method'><a href="module-ndTools.html#~resetCalendar">resetCalendar</a></li><li data-type='method'><a href="module-ndTools.html#~sendEmail">sendEmail</a></li><li data-type='method'><a href="module-ndTools.html#~sendImChat">sendImChat</a></li><li data-type='method'><a href="module-ndTools.html#~setActiveTab">setActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~setShownRows">setShownRows</a></li><li data-type='method'><a href="module-ndTools.html#~setWindowHeight">setWindowHeight</a></li><li data-type='method'><a href="module-ndTools.html#~solteqPopup">solteqPopup</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFormatHighlightText">tdcFormatHighlightText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFullscreen">tdcFullscreen</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetLocalStorage">tdcGetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetPrimaryNumber">tdcGetPrimaryNumber</a></li><li data-type='method'><a href="module-ndTools.html#~tdcIsObjectEmpty">tdcIsObjectEmpty</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLoadPhoneTemplateText">tdcLoadPhoneTemplateText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLocalStorageAvailable">tdcLocalStorageAvailable</a></li><li data-type='method'><a href="module-ndTools.html#~tdcPhoneTemplateReplaceVariables">tdcPhoneTemplateReplaceVariables</a></li><li data-type='method'><a href="module-ndTools.html#~tdcSetLocalStorage">tdcSetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~transferTypeMark">transferTypeMark</a></li><li data-type='method'><a href="module-ndTools.html#~truncText">truncText</a></li><li data-type='method'><a href="module-ndTools.html#~urlExists">urlExists</a></li><li data-type='method'><a href="module-ndTools.html#~writeClipboardText">writeClipboardText</a></li></ul></li><li><a href="module-tdcModels.html">tdcModels</a></li></ul><h3>Events</h3><ul><li><a href="module-ndPuzzel.html#~event:DOMready">DOMready</a></li><li><a href="module-ndBindings.html#~event:btnPark_IDClick">btnPark_ID Click</a></li><li><a href="module-ndBindings.html#~event:cfaNumberClick">cfaNumber Click</a></li><li><a href="module-ndPuzzel.html#~event:contactCentreStatusChanged">contactCentreStatus Changed</a></li><li><a href="module-ndBindings.html#~event:dEmailSectionClick">dEmailSection Click</a></li><li><a href="module-ndBindings.html#~event:detailContentClick">detailContent Click</a></li><li><a href="module-ndBindings.html#~event:detailHeaderIDClick">detailHeaderID Click</a></li><li><a href="module-ndPuzzel.html#~event:eventsAndState">eventsAndState</a></li><li><a href="module-ndTools.html#~event:favoritesExport">favoritesExport</a></li><li><a href="module-ndBindings.html#~event:favoritesExportBtnClick">favoritesExportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportBtnClick">favoritesImportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportFileChanged">favoritesImportFile Changed</a></li><li><a href="module-ndTools.html#~event:favoritesImportSelectedFile">favoritesImportSelectedFile</a></li><li><a href="module-ndPuzzel.html#~event:getPuzzelApi">getPuzzelApi</a></li><li><a href="module-ndBindings.html#~event:modalCommonDataCopyClick">modalCommonDataCopy Click</a></li><li><a href="module-ndBindings.html#~event:nav-linkShown">nav-link Shown</a></li><li><a href="module-ndBindings.html#~event:navBarChanged">navBar Changed</a></li><li><a href="module-ndBindings.html#~event:numberInNotesClick">numberInNotes Click</a></li><li><a href="module-ndPuzzel.html#~event:onCallEventTrigger">onCallEventTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCallProgessChanged">onCallProgess Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallStateChanged">onCallState Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallTrigger">onCallTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCalloutCall">onCalloutCall</a></li><li><a href="module-ndPuzzel.html#~event:onIncomingCall">onIncomingCall</a></li><li><a href="module-ndPuzzel.html#~event:onTabActiveChanged">onTabActive Changed</a></li><li><a href="module-ndPuzzel.html#~event:onUserStateChanged">onUserState Changed</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsDetailViewClick">phoneButtonsDetailView Click</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsTopClick">phoneButtonsTop Click</a></li><li><a href="module-ndBindings.html#~event:phoneInputKeyUp">phoneInput KeyUp</a></li><li><a href="module-ndBindings.html#~event:phoneMessageModal_IDShown">phoneMessageModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:phoneMessageTemplateDDChange">phoneMessageTemplateDD Change</a></li><li><a href="module-ndBindings.html#~event:searchCountDDEmpChanged">searchCountDDEmp Changed</a></li><li><a href="module-ndBindings.html#~event:searchInEmpDDChanged">searchInEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:searchInputEmpKeyUp">searchInputEmp KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputFavKeyUp">searchInputFav KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputQueKeyUp">searchInputQue KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchOrgDDChanged">searchOrgDD Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkDefaultQueueChanged">settingParkDefaultQueue Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkShortcutChanged">settingParkShortcut Changed</a></li><li><a href="module-ndBindings.html#~event:settingsCheckboxClick">settingsCheckbox Click</a></li><li><a href="module-ndBindings.html#~event:settingsDropDownChanged">settingsDropDown Changed</a></li><li><a href="module-ndBindings.html#~event:showOnlineEmpDDChanged">showOnlineEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyBlur">tableDisplay KeyBlur</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyDt">tableDisplay KeyDt</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyFocus">tableDisplay KeyFocus</a></li><li><a href="module-ndBindings.html#~event:tableEmpIdClick">tableEmpId Click</a></li><li><a href="module-ndBindings.html#~event:tableFavIdClick">tableFavId Click</a></li><li><a href="module-ndBindings.html#~event:tableQueIdClick">tableQueId Click</a></li><li><a href="module-ndBindings.html#~event:tdcModal_IDShown">tdcModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:testmarkHtml2BtnClick">testmarkHtml2Btn Click</a></li><li><a href="module-ndBindings.html#~event:testmarkHtmlBtnClick">testmarkHtmlBtn Click</a></li><li><a href="module-ndBindings.html#~event:versionShowDetailBtnClick">versionShowDetailBtn Click</a></li><li><a href="module-ndBindings.html#~event:windowKeyUp">window KeyUp</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ndlanguage.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>﻿/**
+ * @module ndLanguage
+*/
+
+
+/* Global Variables */
+versionObj.ndlanguage = 37;
+
+
+/**
+ * @typedef {object} ndErrorCodes
+ * @property {string} NOT_ALLOWED - "Ikke tilladt"
+ * @property {string} SESSION_NOT_FOUND - "Intet aktivt kald"
+ * @property {string} INVALID_ARGUMENT - "Ugyldigt nummer"
+*/
+const ndErrorCodes = {
+    "NOT_ALLOWED": "Ikke tilladt",
+    "SESSION_NOT_FOUND": "Intet aktivt kald",
+    "INVALID_ARGUMENT": "Ugyldigt nummer",
+    "": ""
+};
+
+
+const searchInDic = {
+    "all": "Alle",
+    "name": "Navn",
+    "firstName": "Fornavn",
+    "lastName": "Efternavn",
+    "info": "Søgeord",
+    "departmentName": "Afdeling",
+    "organizationName": "Forvaltning",
+    "searchPhrases": "Søgeord",
+    "searchWords": "Søgeord",
+    "services": "Vejnavn",
+    "streetAddress": "Vejnavn",
+    "title": "Titel"
+};
+
+
+const searchInTxtToNum = {
+    "all": 0,
+    "name": 2,
+    "info": 3,
+    "departmentName": 1,
+    "organizationName": 1,
+    "searchPhrases": 3,
+    "searchWords": 3,
+    "services": 5,
+    "streetAddress": 5,
+    "title": 4
+};
+
+
+const aggStatusDic = {
+    "-1": {
+        title: "Ukendt", color: "ndColorGray"
+    },
+    "": {
+        title: "Ukendt", color: "ndColorGray"
+    },
+    "0": {
+        title: "Ledig", color: "ndColorGreen"
+    },
+    "1": {
+        title: "Måske ledig", color: "ndColorYellow"
+    },
+    "2": {
+        title: "Optaget", color: "ndColorRed"
+    }
+}
+
+
+const paStatusDic = {
+    "": {
+        title: "Ikke aktiv", color: "ndColorGray", state: "-1"
+    },
+    "NotEnabled": {
+        title: "Ukendt", color: "ndColorGray", state: "-1"
+    },
+    "Business Trip": {
+        title: "På forretningsrejse", color: "ndColorYellow", state: "1"
+    },
+    "Gone for the Day": {
+        title: "Gået for idag", color: "ndColorRed", state: "2"
+    },
+    "Lunch": {
+        title: "Til frokost", color: "ndColorYellow", state: "1"
+    },
+    "Meeting": {
+        title: "I møde", color: "ndColorRed", state: "2"
+    },
+    "None": {
+        title: "Ikke aktiv", color: "ndColorGreen", state: "0"
+    },
+    "Out Of Office":
+    {
+        title: "Ikke på kontoret", color: "ndColorGray", state: "-1"
+    },
+    "Temporarily Out": {
+        title: "Midlertidigt ikke til stede", color: "ndColorYellow", state: "1"
+    },
+    "Training": {
+        title: "På kursus", color: "ndColorRed", state: "2"
+    },
+    "Unavailable": {
+        title: "Kan ikke træffes", color: "ndColorRed", state: "2"
+    },
+    "Vacation": {
+        title: "Holder ferie", color: "ndColorRed", state: "2"
+    }
+}
+
+
+const teamsAvailability = {
+    "": {
+        title: "Ukendt", color: "ndColorGray", state: "-1"
+    },
+    "Offline": {
+        title: "Offline", color: "ndColorGray", state: "-1"
+    },
+    "Available": {
+        title: "Ledig", color: "ndColorGreen", state: "0"
+    },
+    "AvailableIdle": {
+        title: "Ledig", color: "ndColorGreen", state: "0"
+    },
+    "Away": {
+        title: "Væk", color: "ndColorYellow", state: "1"
+    },
+    "BeRightBack": {
+        title: "Straks tilbage", color: "ndColorYellow", state: "1"
+    },
+    "Busy": {
+        title: "Optaget", color: "ndColorRed", state: "2"
+    },
+    "BusyIdle": {
+        title: "Optaget Ledig", color: "ndColorRed", state: "2"
+    },
+    "DoNotDisturb": {
+        title: "Forstyr Ikke", color: "ndColorRed", state: "2"
+    },
+    "Inactive": {
+        title: "Logget af", color: "ndColorGray", state: "-1"
+    },
+    "PresenceUnknown": {
+        title: "Ukendt", color: "ndColorGray", state: "-1"
+    }
+}
+
+const teamsActivity = {
+    "": "Ukendt",
+    "Available": "Ledig",
+    "AvailableIdle": "Ledig",
+    "Away": "Væk",
+    "BeRightBack": "Straks tilbage",
+    "Busy": "Optaget",
+    "DoNotDisturb": "Forstyr Ikke",
+    "InACall": "Samtale",
+    "Inactive": "Inaktiv",
+    "InAConferenceCall": "Konference",
+    "InAMeeting": "I møde",
+    "Offline": "Offline",
+    "OutOfOffice": "Ude af kontoret",
+    "OffWork": "Fri",
+    "Presenting": "Præsenterer",
+    "PresenceUnknown": "Ukendt",
+    "UrgentInterruptionsOnly": "Kun vigtige"
+};
+
+
+const custGroupIdToName = {
+    14: "AMH",
+    15: "BFH",
+    11: "BOH",
+    19: "CEJ",
+    9: "AKUT",
+    16: "DSV",
+    17: "DSV",
+    8: "GEH",
+    7: "GLH",
+    12: "HGH",
+    6: "HVH",
+    5: "CIMT",
+    10: "CHR",
+    4: "STB",
+    3: "NOH",
+    13: "RAP",
+    1: "RHP",
+    2: "RH",
+    18: "SDC",
+    0: "",
+    "": "",
+    "-1": "NA"
+};
+
+
+const ndHttpErrorCodes = {
+    "en": {
+        "0": {
+            "short": "Network Error",
+            "large": "Network Error"
+        },
+        "1xx": {
+            "short": "Informational",
+            "large": "Request received, continuing process. This class of status code indicates a provisional response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers must not send a 1xx response to an HTTP/1.0 client except under experimental conditions."
+        },
+        "100": {
+            "short": "Continue",
+            "large": "The server has received the request headers and the client should proceed to send the request body (in the case of a request for which a body needs to be sent; for example, a POST request). Sending a large request body to a server after a request has been rejected for inappropriate headers would be inefficient. To have a server check the request's headers, a client must send Expect: 100-continue as a header in its initial request and receive a 100 Continue status code in response before sending the body. The response 417 Expectation Failed indicates the request should not be continued."
+        },
+        "101": {
+            "short": "Switching Protocols",
+            "large": "The requester has asked the server to switch protocols and the server has agreed to do so."
+        },
+        "102": {
+            "short": "Processing",
+            "large": "A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost."
+        },
+        "103": {
+            "short": "Checkpoint",
+            "large": "A POST or PUT request that was previously aborted is to be resumed."
+        },
+        "2xx": {
+            "short": "Success",
+            "large": "This class of status codes indicates the action requested by the client was received, understood, accepted, and processed successfully."
+        },
+        "200": {
+            "short": "OK",
+            "large": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action."
+        },
+        "201": {
+            "short": "Created",
+            "large": "The request has been fulfilled, resulting in the creation of a new resource."
+        },
+        "202": {
+            "short": "Accepted",
+            "large": "The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs."
+        },
+        "203": {
+            "short": "Non-Authoritative Information",
+            "large": "The server is a transforming proxy (e.g. a Web accelerator) that received a 200 OK from its origin, but is returning a modified version of the origin's response."
+        },
+        "204": {
+            "short": "No Content",
+            "large": "The server successfully processed the request and is not returning any content."
+        },
+        "205": {
+            "short": "Reset Content",
+            "large": "The server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view."
+        },
+        "206": {
+            "short": "Partial Content",
+            "large": "The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams."
+        },
+        "207": {
+            "short": "Multi-Status",
+            "large": "The message body that follows is an XML message and can contain a number of separate response codes, depending on how many sub-requests were made."
+        },
+        "208": {
+            "short": "Already Reported",
+            "large": "The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again."
+        },
+        "3xx": {
+            "short": "Redirection",
+            "large": "This class of status code indicates the client must take additional action to complete the request. Many of these status codes are used in URL redirection. A user agent may carry out the additional action with no user interaction only if the method used in the second request is GET or HEAD. A user agent may automatically redirect a request. A user agent should detect and intervene to prevent cyclical redirects."
+        },
+        "300": {
+            "short": "Multiple Choices",
+            "large": "Indicates multiple options for the resource from which the client may choose (via agent-driven content negotiation). For example, this code could be used to present multiple video format options, to list files with different filename extensions, or to suggest word-sense disambiguation."
+        },
+        "301": {
+            "short": "Moved Permanently",
+            "large": "This and all future requests should be directed to the given URI."
+        },
+        "302": {
+            "short": "Found",
+            "large": "This is an example of industry practice contradicting the standard. The HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was 'Moved Temporarily'), but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours. However, some Web applications and frameworks use the 302 status code as if it were the 303."
+        },
+        "303": {
+            "short": "See Other",
+            "large": "The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message."
+        },
+        "304": {
+            "short": "Not Modified",
+            "large": "Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. In such case, there is no need to retransmit the resource since the client still has a previously-downloaded copy."
+        },
+        "305": {
+            "short": "Use Proxy",
+            "large": "The requested resource is available only through a proxy, the address for which is provided in the response. Many HTTP clients (such as Mozilla and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons."
+        },
+        "306": {
+            "short": "Switch Proxy",
+            "large": "No longer used. Originally meant 'Subsequent requests should use the specified proxy.'"
+        },
+        "307": {
+            "short": "Temporary Redirect",
+            "large": "In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, the request method is not allowed to be changed when reissuing the original request. For example, a POST request should be repeated using another POST request."
+        },
+        "308": {
+            "short": "Permanent Redirect",
+            "large": "The request and all future requests should be repeated using another URI. 307 and 308 parallel the behaviors of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly."
+        },
+        "4xx": {
+            "short": "Client Error",
+            "large": "The 4xx class of status code is intended for situations in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user."
+        },
+        "400": {
+            "short": "Bad Request",
+            "large": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing)."
+        },
+        "401": {
+            "short": "Unauthorized",
+            "large": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. See Basic access authentication and Digest access authentication.[33] 401 semantically means 'unauthenticated' the user does not have the necessary credentials. Note: Some sites issue HTTP 401 when an IP address is banned from the website (usually the website domain) and that specific address is refused permission to access a website."
+        },
+        "402": {
+            "short": "Payment Required",
+            "large": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. Google Developers API uses this status if a particular developer has exceeded the daily limit on requests."
+        },
+        "403": {
+            "short": "Forbidden",
+            "large": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource."
+        },
+        "404": {
+            "short": "Not Found",
+            "large": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible."
+        },
+        "405": {
+            "short": "Method Not Allowed",
+            "large": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource."
+        },
+        "406": {
+            "short": "Not Acceptable",
+            "large": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request."
+        },
+        "407": {
+            "short": "Proxy Authentication Required",
+            "large": "The client must first authenticate itself with the proxy."
+        },
+        "408": {
+            "short": "Request Time-out",
+            "large": "The server timed out waiting for the request. According to HTTP specifications: 'The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.'"
+        },
+        "409": {
+            "short": "Conflict",
+            "large": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates."
+        },
+        "410": {
+            "short": "Gone",
+            "large": "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a '404 Not Found' may be used instead."
+        },
+        "411": {
+            "short": "Length Required",
+            "large": "The request did not specify the length of its content, which is required by the requested resource."
+        },
+        "412": {
+            "short": "Precondition Failed",
+            "large": "The server does not meet one of the preconditions that the requester put on the request."
+        },
+        "413": {
+            "short": "Request Entity Too Large",
+            "large": "The request is larger than the server is willing or able to process. Previously called 'Request Entity Too Large'."
+        },
+        "414": {
+            "short": "Request-URI Too Long",
+            "large": "The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request. Called 'Request-URI Too Long' previously."
+        },
+        "415": {
+            "short": "Unsupported Media Type",
+            "large": "The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format."
+        },
+        "416": {
+            "short": "Requested Range Not Satisfiable",
+            "large": "The client has asked for a portion of the file (byte serving), but the server cannot supply that portion. For example, if the client asked for a part of the file that lies beyond the end of the file.[46] Called 'Requested Range Not Satisfiable' previously."
+        },
+        "417": {
+            "short": "Expectation Failed",
+            "large": "The server cannot meet the requirements of the Expect request-header field."
+        },
+        "418": {
+            "short": "I'm a teapot",
+            "large": "This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by teapots requested to brew coffee.[49] This HTTP status is used as an Easter egg in some websites, including Google.com."
+        },
+        "421": {
+            "short": "Unprocessable Entity",
+            "large": "The request was directed at a server that is not able to produce a response (for example because a connection reuse)."
+        },
+        "422": {
+            "short": "Misdirected Request",
+            "large": "The request was well-formed but was unable to be followed due to semantic errors."
+        },
+        "423": {
+            "short": "Locked",
+            "large": "The resource that is being accessed is locked."
+        },
+        "424": {
+            "short": "Failed Dependency",
+            "large": "The request failed due to failure of a previous request (e.g., a PROPPATCH)."
+        },
+        "426": {
+            "short": "Upgrade Required",
+            "large": "The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field."
+        },
+        "428": {
+            "short": "Precondition Required",
+            "large": "The origin server requires the request to be conditional. Intended to prevent the 'lost update' problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict."
+        },
+        "429": {
+            "short": "Too Many Requests",
+            "large": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes."
+        },
+        "431": {
+            "short": "Request Header Fileds Too Large",
+            "large": "The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large."
+        },
+        "451": {
+            "short": "Unavailable For Legal Reasons",
+            "large": "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource. The code 451 was chosen as a reference to the novel Fahrenheit 451."
+        },
+        "5xx": {
+            "short": "Server Error",
+            "large": "The server failed to fulfill an apparently valid request. Response status codes beginning with the digit 5 indicate cases in which the server is aware that it has encountered an error or is otherwise incapable of performing the request. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and indicate whether it is a temporary or permanent condition. Likewise, user agents should display any included entity to the user. These response codes are applicable to any request method."
+        },
+        "500": {
+            "short": "Internal Server Error",
+            "large": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable."
+        },
+        "501": {
+            "short": "Not Implemented",
+            "large": "The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API)."
+        },
+        "502": {
+            "short": "Bad Gateway",
+            "large": "The server was acting as a gateway or proxy and received an invalid response from the upstream server."
+        },
+        "503": {
+            "short": "Service Unavailable",
+            "large": "The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state."
+        },
+        "504": {
+            "short": "Gateway Timeout",
+            "large": "The server was acting as a gateway or proxy and did not receive a timely response from the upstream server."
+        },
+        "505": {
+            "short": "HTTP Version Not Supported",
+            "large": "The server does not support the HTTP protocol version used in the request."
+        },
+        "506": {
+            "short": "Variant Also Negotiates",
+            "large": "Transparent content negotiation for the request results in a circular reference."
+        },
+        "507": {
+            "short": "Insufficient Storage",
+            "large": "The server is unable to store the representation needed to complete the request."
+        },
+        "508": {
+            "short": "Loop Detected",
+            "large": "The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported)."
+        },
+        "509": {
+            "short": "Bandwidth Limit Exceeded",
+            "large": "Bandwidth Limit Exceeded. This status code, despite being used by many servers, is not official."
+        },
+        "510": {
+            "short": "Not Extended",
+            "large": "Further extensions to the request are required for the server to fulfill it."
+        },
+        "511": {
+            "short": "Network Authentication Required",
+            "large": "The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., 'captive portals' used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot)."
+        }
+    }
+}
+
+const teamsLoginErrorTexts = {
+    "DA": {
+        "interaction_in_progress": {
+            "Title": "Microsoft Teams Login",
+            "ErrorText": "Login vindue er åbent i en anden fane ..",
+            "Name": "BrowserAuthError"
+        }
+    },
+    "EN": {
+        "interaction_in_progress": {
+            "Title": "Interaction in progress",
+            "ErrorText": "Interaction is currently in progress. Please ensure that this interaction has been completed before calling an interactive API.  For more visit: aka.ms/msaljs/browser-errors",
+            "Name": "BrowserAuthError"
+        }
+    }
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    
+    <span style="float: right;">
+		BUDDY&nbsp;
+		v3.5.0.0
+		<br>
+		Last updated: 06-01-2025&nbsp;
+		<!-- 14-00-2025 -->
+	</span>
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

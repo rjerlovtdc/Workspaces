@@ -1,0 +1,20 @@
+﻿{
+  "masterVersion": "3.4.4.8",
+  "fileVersions": {
+    "defaulthtm": 38,
+    "ndbindingsny": 37,
+    "ndemployeesny": 38,
+    "ndfavoritesny": 37,
+    "ndgraph": 37,
+    "ndlanguage": 37,
+    "ndparsing": 37,
+    "ndpresence": 37,
+    "ndpuzzel": 37,
+    "ndqueues": 37,
+    "ndservices": 37,
+    "ndsettings": 37,
+    "ndstart": 37,
+    "ndtools": 39,
+    "tdcInitializing": 37
+  }
+}

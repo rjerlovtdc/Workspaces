@@ -1,0 +1,18 @@
+"system_call_progress": "ABORTED",
+"system_call_progress": "HANGUP",
+
+"system_caller_progress": "CS_IDLE"
+
+"system_call_progress": "ALERTING"
+"system_call_progress": "SETUP",
+"system_call_progress": "CONNECTED",
+
+"system_caller_progress": "CS_CALL_CONNECTED",
+    
+    
+"leg.Caller.state": "CONNECTED"
+"leg.Callee.state": "CONNECTED",
+
+    "system_CalledPartyNumber": "70802026",
+    "system_caller_ano": "44358336",
+    "system_CallingPartyNumber": "44358336",

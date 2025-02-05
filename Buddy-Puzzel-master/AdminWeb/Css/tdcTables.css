@@ -1,0 +1,60 @@
+﻿th {
+    font-style: italic;
+    color: #0d6efd !important;
+    font-weight: normal;
+}
+
+td.childRow {
+    padding-left: 50px;
+    padding-right: 250px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: black;
+}
+
+td.ndRow {
+    cursor: pointer;
+}
+
+    td.ndRow:hover {
+        color: steelblue;
+    }
+
+
+.ndRowRelease1 {
+    text-align: center !important;
+    min-width: 75px;
+    max-width: 100px;
+}
+
+.ndRowRelease2 {
+    text-align: center !important;
+    min-width: 150px;
+    max-width: 200px;
+}
+
+tr.dt-hasChild td.ndRow {
+    color: steelblue !important;
+}
+
+/*
+.table > :not(caption) > * > * {
+    background-color: transparent;
+}
+ */
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    overflow-y: scroll !important;
+    /* border-bottom: 2px solid #acbad4; */
+}
+
+/*
+table.display.dataTable > tbody > tr.selected:hover > * {
+    box-shadow: inset 0 0 0 9999px #acbad4 !important;
+    color: inherit;
+    background-color: #fff !important;
+}
+*/
+
+div.dt-container div.dt-search {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+﻿{
+  "sProcessing": "Henter...",
+  "sLengthMenu": "Vis _MENU_ linjer",
+  "sZeroRecords": "Ingen favoritter",
+  "sInfo": "Viser _TOTAL_ linjer",
+  "sInfoEmpty": "Ingen resultater",
+  "sInfoFiltered": "(filtreret fra _MAX_ linjer)",
+  "sInfoPostFix": "",
+  "sSearch": "Søgning",
+  "sUrl": "",
+  "oPaginate": {
+    "sFirst": "F&oslash;rste",
+    "sPrevious": "Forrige",
+    "sNext": "N&aelig;ste",
+    "sLast": "Sidste"
+  }
+}

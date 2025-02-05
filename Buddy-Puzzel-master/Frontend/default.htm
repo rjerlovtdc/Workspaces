@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- No Cache -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="Css/Sys/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="Css/Sys/all.min.css" rel="stylesheet" />
+
+    <!-- DataTables -->
+    <link href="Css/Sys/datatables.min.css" rel="stylesheet" />
+
+    <!-- NetDesign Styles-->
+    <link href="Css/ndbootstrap.css" rel="stylesheet" />
+
+    <link href="Css/ndnetdesign.css?v=008" rel="stylesheet" />
+    <link href="Css/ndcolors.css?v=008" rel="stylesheet" />
+    <link href="Css/ndtables.css?v=008" rel="stylesheet" />
+
+    <link href="Css/nddetail.css?v=008" rel="stylesheet" />
+    <link href="Css/ndcalendar.css?v=008" rel="stylesheet" />
+    <link href="Css/ndpresence.css?v=008" rel="stylesheet" />
+
+    <link rel="icon" type="image/x-icon" href="https://netdesign-buddy-prod.northeurope.cloudapp.azure.com/favicon.ico">
+
+    <title>TDC Erhverv - BUDDY</title>
+</head>
+
+<body id="bodyId">
+    <div id="validateBody">
+        <h1 id="validateHeader">Validerer bruger ...</h1>
+        <figure>
+            <a href="https://tdc.dk" target="_blank">
+                <img src="Res/logo.png" width="100" height="44" alt="logo" />
+            </a>
+            <figcaption class="ndLogoFont">&nbsp;</figcaption>
+        </figure>
+    </div>
+    <div id="errorBody" class="ndHide">
+        <h1>Fejl under godkendelse</h1>
+        <p>Det var ikke muligt at godkende login til TDC Buddy</p>
+        <figure>
+            <a href="https://tdc.dk" target="_blank">
+                <img src="Res/logo.png" width="87" height="32" alt="logo" />
+                <figcaption class="ndLogoFont">&nbsp;</figcaption>
+            </a>
+        </figure>
+    </div>
+    <div id="divBodyId" class="ndHide">
+        <div class="d-flex">
+            <div class="p-1 flex-fill">
+                <input tabindex="0" id="phoneInput" type="number" class="form-control" min="10000000" max="99999999" placeholder="Telefonnummer" value="">
+                <!-- Copy Controls -->
+                <div id="copyControlsDiv">
+                    <input id="inputDummyTxt" type="text" class="ndHide">
+                    <input id="cfaNumberTxt" type="text" class="ndHide">
+                    <a id="hrefDummy" href="#" target="_blank" class="ndHide">&nbsp;</a>
+                </div>
+            </div>
+            <div id="phoneButtonsTop" class="p-1 flex-fill">
+                <button id="callOut" type="button" class="btn btn-success" title="Ring op" disabled><span class="fas fa-phone" /></button>
+                <button id="callHangup" type="button" class="btn btn-secondary" title="Læg på" disabled><span class="fas fa-phone-slash" /></button>
+                <button id="transferPhoneCold" type="button" class="btn btn-primary" title="Omstil" disabled><span class="fas fa-share" /></button>
+                <button id="transferPhoneCancel" type="button" class="btn btn-secondary" title="Træk tilbage" hidden><span class="fas fa-reply" /></button>
+                <button id="transferPhoneWarm" type="button" class="btn btn-danger" title="Præsenter" disabled><span class="fas fa-share" /></button>
+                <button id="transferPhoneWarm2" type="button" class="btn btn-primary" title="Omstil" hidden><span class="fas fa-share-square" /></button>
+            </div>
+            <div id="topMenuID" class="p-1 flex-fill">
+                <!-- Nav Tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a id="navItemQueues" class="nav-link" data-bs-toggle="pill" href="#Queues"><span id="queueAlarmIconID">&nbsp;</span>Køer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navItemEmployees" class="nav-link active" data-bs-toggle="pill" href="#Employees">Telefonbog</a>
+                    </li>
+                    <li class="nav-item ndHide">
+                        <a id="navItemContacts" class="nav-link" data-bs-toggle="pill" href="#Contacts">Kontakter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navItemFavorites" class="nav-link" data-bs-toggle="pill" href="#Favorites">Favoritter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navItemSettings" class="nav-link" data-bs-toggle="pill" href="#Settings">Indstillinger</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navItemInfo" class="nav-link" data-bs-toggle="pill" href="#Info">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navItemTestmark" class="nav-link" data-bs-toggle="pill" href="#TESTMARK">&nbsp;</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-1 flex-end">
+                <figure>
+                    <a tabindex="-1" href="https://tdc.dk" target="_blank">
+                        <img align="right" src="Res/logo.png" width="87" height="32" alt="logo" />
+                        <figcaption class="ndLogoFont vMaster">38</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </div>
+
+        <div id="tabContentId" class="tab-content">
+            <!-- Queues -->
+            <div class="tab-pane" id="Queues">
+                <div class="d-flex">
+                    <div class="p-1 col-3">
+                        <input id="searchInputQue" type="text" class="form-control" placeholder="Søgeord">
+                    </div>
+                    <div class="p-1 flex-fill">
+                        <span>&nbsp;</span>
+                    </div>
+                    <div id="settingQueue" class="p-1 align-content-lg-center flex-end form-check">
+                        <label class="form-check-label tdcLabel" for="queuesShowFavOnly">Vis kun favoritter</label>
+                        <input id="queuesShowFavOnly" class="form-check-input" type="checkbox" value="">
+                        <br />
+                        <label class="form-check-label tdcLabel" for="queuesShowRelevantOnly">Vis kun relevante</label>
+                        <input id="queuesShowRelevantOnly" class="form-check-input" type="checkbox" value="">
+                    </div>
+                </div><hr class="spacer spacer10" />
+                <div>
+                    <table id="tableQueId" class="display nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><span class="fas fa-info" /></th>
+                                <th><span class="fas fa-bell" /></th>
+                                <th>Kønavn</th>
+                                <th>Samtaler</th>
+                                <th>Callback</th>
+                                <th>Ventetid</th>
+                                <th>Logget På</th>
+                                <th>Klar</th>
+                                <th><span class="fa-star fas" /></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <hr class="spacer spacer10" />
+            </div>
+
+            <!-- Employees -->
+            <div id="Employees" class="tab-pane active" role="tabpanel">
+                <div class="d-flex">
+                    <div class="p-1 col-3">
+                        <input tabindex="1" id="searchInputEmp" name="searchInputEmp" type="text" class="form-control" placeholder="Søg ..">
+                    </div>
+                    <div class="p-1 col-2">
+                        <select tabindex="2" id="searchInEmpDD" class="form-select" aria-label="Søg i">
+                            <option value="all" selected>Alle</option>
+                        </select>
+                    </div>
+                    <div class="p-1 ndHide" style="width: 100px; min-width: 100px;">
+                        <select tabindex="2" id="showOnlineEmpDD" class="form-select" aria-label="Filtrer status">
+                            <option value="all" selected>Alle</option>
+                            <option value="online">Ledig</option>
+                        </select>
+                    </div>
+                    <div class="p-1" style="width: 100px; min-width: 100px;">
+                        <select tabindex="3" id="searchCountDDEmp" class="form-select" aria-label="Antal Poster" style="background-color: #f7fafc;">
+                            <option value="5">5</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100" selected>100</option>
+                            <option value="250">250</option>
+                            <option value="500">500</option>
+                        </select>
+                    </div>
+                    <div class="p-1 flex-fill">
+                        <div id="searchingLblEmp" class="p-1 ndItalic">&nbsp;</div>
+                    </div>
+                    <div id="settingEmployee" class="p-1 ndHide" style="width: 75px; min-width: 75px; margin-top: 5px;">
+                        <label class="form-check-label" for="employeesShowFnrOnly">FNR</label>
+                        <input id="employeesShowFnrOnly" class="form-check-input" type="checkbox" value="">
+                    </div>
+                    <div class="p-1 flex-end">
+                        <select id="searchOrgDD" class="form-select ndHide" aria-label="Søg i" style="background-color: #f7fafc;">
+                            <option value="" selected>Alle</option>
+                        </select>
+                    </div>
+                </div>
+
+                <hr class="spacer spacer10" />
+
+                <div>
+                    <table id="tableEmpId" class="display compact nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th title="Aggregeret Status"><span class="fas fa-info" /></th>
+                                <th title="Mobil status"><span class="fas fa-phone-volume" /></th>
+                                <th title="Kalender status"><span class="far fa-calendar-alt" /></th>
+                                <th title="MS Teams Status"><span class="fas fa-users" /></th>
+                                <th title="Afdelingsfarve"><span class="fas fa-square-full" /></th>
+                                <th title="Navn">Navn</th>
+                                <th title="Titel">Titel</th>
+                                <th title="Afdelingsnavn">Afdeling</th>
+                                <th title="Vejnavn">Vejnavn</th>
+                                <th title="Telefon" class="thPhone">Telefon</th>
+                                <th title="Mobil" class="thPhone">Mobil</th>
+                                <th title="Favorit"><span class="fa-star fas" /></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <hr class="spacer spacer10" />
+
+                <!-- Detail View -->
+                <div id="detailView" class="row detailView" style="height: 250px;">
+                    <div class="col-sm-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex justify-content-between">
+                                    <span id="detailHeaderID" class="ndColorBlue">Detaljer</span>
+                                    <span id="detailOrgPath" class="ndHide"></span>
+                                    <div id="presenceStatusDetail" class="ndHide">
+                                        <span id="dDetailStatus" class="fas fa-circle ndColorGray" style="font-size: 20px;" />
+                                    </div>
+                                    <div id="custGroupId" class="ndHide">
+                                        <span id="dCustGroupName" class="ndColorBlue">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table tabindex="0" class="nddDetail">
+                                    <tr>
+                                        <td rowspan="5" width="130" height="130">
+                                            <img id="userPhoto" width="120" height="120" src="Res/nophoto.png"
+                                                 onerror="this.onerror=null; this.src='../Res/nophoto.png'" />
+                                        </td>
+                                        <td width="70" class="nddUnderlineDash">Navn</td>
+                                        <td id="dFullName" colspan="3" class="ndBold nddUnderlineDash tdcHandCopy">&nbsp;</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>Telefon</td>
+                                        <td class="ndd ndBold" style="min-width: 175px; max-width: 200px; ">
+                                            <span id="dPhone" class="tdcHandCopy">&nbsp;</span>&nbsp;&nbsp;
+                                            <span id="dPhoneSection" class="ndHide">
+                                                <span id="dPhoneStatus" class="fas fa-circle ndColorGray"></span>&nbsp;&nbsp;&nbsp;
+                                                <button tabindex="0" id="dCallOutPhone" title="Ring op" type="button" class="btn btn-success ndBtn"><span class="fas fa-phone" /></button>
+                                                <button tabindex="0" id="dTransferColdPhone" title="Omstil kold" type="button" class="btn btn-primary btn-sm ndBtn"><span class="fas fa-share" /></button>
+                                                <button tabindex="0" id="dTransferWarmPhone" title="Omstil varm" type="button" class="btn btn-danger btn-sm ndBtn"><span class="fas fa-share" /></button>
+                                            </span>
+                                        </td>
+                                        <td rowspan="2" class="ndd ndBorderRight ndSmall">
+                                            <button id="btnPark_ID" class="tdcBtnPark fas fa-parking ndHidden">
+                                            </button>
+                                        </td>
+                                        <td rowspan="4" style="padding-left: 10px; min-width: 175px; max-width: 200px; ">
+                                            <div class="row ndBootRow">
+                                                <div class="col-sm-1"><span class="fas fa-external-link-alt ndColorBlue"></span></div>
+                                                <div class="col-sm-5">Viderestillet</div>
+                                                <div class="col-sm-5">
+                                                    :&nbsp;
+                                                    <span id="cfaNumber" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ndBootRow">
+                                                <div class="col-sm-1"><span class="fa-solid fa-user-astronaut ndColorBlue"></span></div>
+                                                <div class="col-sm-5">PA</div>
+                                                <div class="col-sm-6">
+                                                    :&nbsp;
+                                                    <span id="paStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ndBootRow">
+                                                <div class="col-sm-1"><span class="fa-solid fa-phone-slash ndColorBlue"></span></div>
+                                                <div class="col-sm-5">Forstyr ikke</div>
+                                                <div class="col-sm-6">
+                                                    :&nbsp;
+                                                    <span id="dndStatus">&nbsp;</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ndBootRow">
+                                                <div class="col-sm-1"><span class="fa-regular fa-comment ndColorBlue"></span></div>
+                                                <div class="col-sm-5">MS Team</div>
+                                                <div class="col-sm-6">
+                                                    :&nbsp;
+                                                    <span id="teamsStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" ">&nbsp;</span>
+                                                </div>
+                                            </div>
+                                            <div class="row ndBootRow">
+                                                <div class="col-sm-1"><span class="fa-regular fa-envelope ndColorBlue"></span></div>
+                                                <div class="col-sm-5">Ikke tilstede</div>
+                                                <div class="col-sm-6">
+                                                    :&nbsp;
+                                                    <span id="oofStatus" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title=" " data-bs-html="true">&nbsp;</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mobil</td>
+                                        <td class="ndd ndBold">
+                                            <span id="dMobile" class="tdcHandCopy">&nbsp;</span>&nbsp;&nbsp;
+                                            <span id="dMobileSection" class="ndHide">
+                                                <span id="dMobileStatus" class="fas fa-circle ndColorGray"></span>&nbsp;&nbsp;&nbsp;
+                                                <button tabindex="0" id="dCallOutMobile" title="Ring op" type="button" class="btn btn-success btn-sm ndBtn"><span class="fas fa-phone" /></button>
+                                                <button tabindex="0" id="dTransferColdMobile" title="Omstil kold" type="button" class="btn btn-primary btn-sm ndBtn"><span class="fas fa-share" /></button>
+                                                <button tabindex="0" id="dTransferWarmMobile" title="Omstil varm" type="button" class="btn btn-danger btn-sm ndBtn"><span class="fas fa-share" /></button>
+                                                <!-- <button tabindex="0" id="phoneSMS" type="button" class="btn btn-info btn-sm ndBtn"><span class="fas fa-sms" /></button> -->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email</td>
+                                        <td colspan="2" class="ndd ndBorderRight ndBold">
+                                            <span id="dEmail" class="tdcHandCopy">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td colspan="2" class="ndd ndBorderRight ndBold">
+                                            <div id="dEmailSection" class="ndHide">
+                                                <a tabindex="0" id="dEmailMessage" title="Send besked" class="btn btn-info tdcDetail"><span class="fas fa-envelope" /></a>
+                                                <a tabindex="0" id="dEmailChat" title="Start chat" class="btn btn-info tdcDetail"><span class="fas fa-comments" /></a>
+                                                <a tabindex="0" id="dEmailMessage2" title="Start besked" class="btn btn-info tdcDetail ndHide"><span class="fab fa-mailchimp" /></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="ndd nddUnderline"></td>
+                                    </tr>
+                                    <tr id="dInitialsRow" class="ndHide">
+                                        <td>Initialer</td>
+                                        <td colspan="4" tabindex="-1">
+                                            <span id="dInitials">&nbsp;</span>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Titel</td>
+                                        <td colspan="4" tabindex="-1">
+                                            <a tabindex="-1" id="dTitle" href="#">&nbsp;</a>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Afdeling</td>
+                                        <td colspan="4">
+                                            <a id="dDepartmentName" href="#">&nbsp;</a>
+                                        </td>
+                                    </tr>
+                                    <tr id="dAdministrationNameRow" class="ndHide">
+                                        <td id="dAdministrationNameHeader">Forvaltning</td>
+                                        <td colspan="4">
+                                            <span id="dAdministraionName">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr id="dDivisionRow" class="ndHide">
+                                        <td id="dDivisionHeader">Center</td>
+                                        <td colspan="4">
+                                            <span id="dDivision">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr id="dLocationRow" class="ndHide">
+                                        <td id="dLocationHeader">Placering</td>
+                                        <td colspan="4">
+                                            <span id="dLocation">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adresse</td>
+                                        <td colspan="3">
+                                            <span id="dAddress">&nbsp;</span>
+                                        </td>
+                                        <td id="dRoomNumberRow" class="ndHide">
+                                            &nbsp;&nbsp;&nbsp;Rumnr&nbsp;&nbsp;:&nbsp;
+                                            <span id="dRoomNumber">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Leder</td>
+                                        <td colspan="3">
+                                            <a id="dManagerName" href="#">&nbsp;</a>
+                                            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                            <a id="dManagerEmail" href="#" target="_blank">&nbsp;</a>
+                                        </td>
+                                        <td id="dIpPhoneRow" class="ndHide">
+                                            &nbsp;&nbsp;&nbsp;Lokalnr&nbsp;:&nbsp;
+                                            <span id="dIpPhone">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr id="detailMasterLine">
+                                        <td colspan="5" class="ndd nddUnderline"></td>
+                                    </tr>
+                                    <tr id="phoneHoursRow" style="height: 128px; display: none">
+                                        <td>Tider</td>
+                                        <td colspan="4">
+                                            <div class="d-flex">
+                                                <div class="flex-fill" style="width: 48%">
+                                                    <span id="dPhoneHoursHeader" class="nddHeader">Telefontider</span>
+                                                    <br />
+                                                    <div id="dPhoneHours" style="height: 103px; overflow-y: auto;">&nbsp;</div>
+                                                </div>
+                                                <div class="flex-fill" style="width: 52%; padding-left: 15px;">
+                                                    <span id="dOpeningHoursHeader" class="nddHeader">Åbningstider</span>
+                                                    <br />
+                                                    <div id="dOpeningHours" style="height: 103px; overflow-y: auto;">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="phoneHoursRowLine" style="display: none">
+                                        <td colspan="5" class="ndd nddUnderline"></td>
+                                    </tr>
+                                    <tr id="searchWordRow" class="ndd">
+                                        <td id="dSearchWordHeader" class="ndd ndCenter">Søgeord</td>
+                                        <td colspan="4" class="ndd ndCenter">
+                                            <div id="dSearchWord" class="nddSearchWord ">&nbsp;</div>
+                                        </td>
+                                    </tr>
+                                    <tr id="searchWordRowLine">
+                                        <td colspan="5" class="ndd nddUnderline"></td>
+                                    </tr>
+                                    <tr id="organizationRow" style="height: 128px">
+                                        <td class="ndd ndCenter">Organisation</td>
+                                        <td colspan="4" class="ndd ndCenter">
+                                            <span id="dOrganization"></span>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- InfoContainer -->
+                    <div id="infoContainer" class="col-sm-4 ndHide">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <span id="infoContainerHeader_ID" class="ndColorBlue tdcNoSelect tdcHand" onclick="calendarShow(true)">Bemærkninger</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body" style="height: 490px; overflow-y: auto;">
+                                <span id="dInfo"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calendar View -->
+                    <div id="calendarContainer" class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <span id="calendarContainerHeader_ID" class="ndColorBlue tdcNoSelect tdcHand" onclick="calendarShow(false)">Kalenderaftaler</span>
+                                    </div>
+                                    <div>
+                                        <span id="dCalendarStatus" class="fas fa-calendar ndColorGreen" style="font-size: 20px;" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <a href="#" class="ndCalendarToday" onclick="calendarBackForward(0);">I dag</a>
+                                </div>
+                                <div>
+                                    <span id="dCurrentTime" class="text-center ndColorBlue ndFont12">&nbsp;</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="fas fa-arrow-left ndColorBlue" onclick="calendarBackForward(-1);"></a>
+                                    <a href="#" class="fas fa-arrow-right ndArrow ndColorBlue" onclick="calendarBackForward(1);"></a>
+
+                                </div>
+                            </div>
+                            <div dir="rtl" class="card-body">
+                                <div class="dayview-container" style="height: 444px;">
+                                    <div class="dayview-timestrings-container">
+                                        <div class="dayview-timestrings">
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    07:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    08:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    09:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    10:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    11:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    12:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    13:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    14:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    15:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    16:00
+                                                </div>
+                                            </div>
+                                            <div class="dayview-timestring-container">
+                                                <div class="dayview-timestring">
+                                                    17:00
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dayview-grid-container">
+                                        <div class="dayview-grid">
+                                            <div class="dayview-grid-tiles">
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                                <div class="dayview-grid-tile"></div>
+                                            </div>
+                                            <div class="dayview-now-marker"></div>
+                                            <div class="dayview-grid-marker-start"></div>
+                                            <div class="dayview-gridcell-container">
+                                                <div id="dCalendar" class="dayview-gridcell">
+                                                </div>
+                                            </div>
+                                            <div class="dayview-grid-marker-end"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Favorites -->
+            <div id="Favorites" class="tab-pane" role="tabpanel">
+                <div class="d-flex">
+                    <div class="p-1 col-3">
+                        <input tabindex="1" id="searchInputFav" name="searchInputFav" type="text" class="form-control" placeholder="Søg ..">
+                    </div>
+                    <div class="p-1 flex-fill">
+                        <span>&nbsp;</span>
+                    </div>
+                    <div class="p-1 align-content-lg-center flex-end">
+                        <button id="favoritesImportBtn" type="button" class="btn btn-secondary tdc-sm" title="Hent favoritter"><span class="fas fa-file-import"></span>&nbsp;Importer</button>
+                        <button id="favoritesExportBtn" type="button" class="btn btn-secondary tdc-sm" title="Gem favoritter"><span class="fas fa-share-square"></span>&nbsp;Eksporter</button>
+                    </div>
+                    <input type="file" id="favoritesImportFile" accept=".buddy" class="ndHide">
+                </div>
+
+                <hr class="spacer spacer10" />
+                <div>
+                    <table id="tableFavId" class="display compact nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><span class="fas fa-info" /></th>
+                                <th><span class="fas fa-phone-volume" /></th>
+                                <th><span class="far fa-calendar-alt" /></th>
+                                <th><span class="fas fa-users" /></th>
+                                <th><span class="fas fa-square-full" /></th>
+                                <th>Navn</th>
+                                <th>Titel</th>
+                                <th>Afdeling</th>
+                                <th>Vejnavn</th>
+                                <th class="thPhone">Telefon</th>
+                                <th class="thPhone">Mobil</th>
+                                <th><span class="fa-star fas" /></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+
+
+
+            <!-- Settings -->
+            <div id="Settings" class="tab-pane" role="tabpanel" style="padding-right: 25px;">
+                <!-- Layout -->
+                <div class="card">
+                    <div class="card-header">Layout</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Antal rækker i søgeresultat
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingShownRowsDD" class="form-select form-select-sm">
+                                    <option value="6" selected>6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Køoverblik udseende
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingQueueLayoutDD" class="form-select form-select-sm">
+                                    <option value="NORMAL" selected>Normal</option>
+                                    <option value="COMPACT">Kompakt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Inkluder køer med ingen påloggede agenter i <span class="fst-italic">Vis kun relevante</span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingQueueShowNoAgentDD" class="form-select form-select-sm">
+                                    <option value="0" selected>Nej</option>
+                                    <option value="1">Ja</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="settingLayoutRightSectionID" class="form-group row">
+                            <div class="col-sm-7">
+                                Standard visning til højre for Detaljer
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Angiv om der som standard skal vises kalender information eller noter for medarbejder">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingLayoutRightSectionDD" class="form-select form-select-sm">
+                                    <option value="CALENDAR" selected>Kalender</option>
+                                    <option value="NOTES">Noter</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="settingLayoutOpeningHoursID" class="form-group row">
+                            <div class="col-sm-7">
+                                Placering af åbningstider i detaljevisning
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Vælg om åbningstider skal vises før eller efter søgeord">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingLayoutOpeningHoursDD" class="form-select form-select-sm">
+                                    <option value="TOP" selected>Før søgeord</option>
+                                    <option value="BOTTOM">Efter søgeord</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Transfer Settings -->
+                <div class="card">
+                    <div class="card-header">Omstillingshåndtering</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Enter omstiller til (standard)</div>
+                            <div class="col-sm-5">
+                                <select id="settingTransferPhoneDD" class="form-select form-select-sm">
+                                    <option value="phone" selected>Telefon</option>
+                                    <option value="mobile">Mobil</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">Omstillingstype (standard)</div>
+                            <div class="col-sm-5">
+                                <select id="settingTransferTypeDD" class="form-select form-select-sm">
+                                    <option value="cold" selected>Kold</option>
+                                    <option value="warm">Varm</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Parkeringskø standard
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingParkDefaultQueue" class="form-select form-select-sm">
+                                    <option value="0" selected>[Ingen parkerings køer fundet]</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Parkeringskø Genvejstast
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Genvejstast for at stille kaldet om til parkeringskøen">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingParkShortcut" class="form-select form-select-sm">
+                                    <option value="F1">ALT + F1</option>
+                                    <option value="F2">ALT + F2</option>
+                                    <option value="F3">ALT + F3</option>
+                                    <option value="F4">ALT + F4</option>
+                                    <option value="F5" selected>ALT + F5</option>
+                                    <option value="F6">ALT + F6</option>
+                                    <option value="F7">ALT + F7</option>
+                                    <option value="F8">ALT + F8</option>
+                                    <option value="F9">ALT + F9</option>
+                                    <option value="F10">ALT + F10</option>
+                                    <option value="F11">ALT + F11</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Call Settings -->
+                <div class="card">
+                    <div class="card-header">Kaldshåndtering</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Skift til denne widget ved indgående kald</div>
+                            <div class="col-sm-5">
+                                <select id="settingCallIncomingTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="NDBUDDY_TAB">TDC Buddy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">Skift til denne widget ved besvarelse af kald</div>
+                            <div class="col-sm-5">
+                                <select id="settingCallAnswerTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="NDBUDDY_TAB">TDC Buddy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">Skift til denne widget ved afslutning af kald</div>
+                            <div class="col-sm-5">
+                                <select id="settingCallEndTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="NDBUDDY_TAB">TDC Buddy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Slet alle kaldsdata ved afslutning af kald
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Alle data på afsluttet kald fjernes. Det er ikke muligt at få opkaldsnummer over i telefonbesked, der sendes efter afsluttet kald">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingCallEndClearCallObjDD" class="form-select form-select-sm">
+                                    <option value="0" selected>Nej</option>
+                                    <option value="1">Ja</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Settings -->
+                <div class="card">
+                    <div class="card-header">Faner</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Aktiv fane ved opstart
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Fane der skal være aktiv, når TDC Buddy startes">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingBuddyStartTabDD" class="form-select form-select-sm">
+                                    <option value="Queues">Køer</option>
+                                    <option value="Employees" selected>Telefonbog</option>
+                                    <option value="Favorites">Favoritter</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Aktiv fane ved Besvarelse af kald
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Kan kombineres med indstilling under kaldshåndtering">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingIncomingTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="Queues">Køer</option>
+                                    <option value="Employees">Telefonbog</option>
+                                    <option value="Favorites">Favoritter</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Aktiv fane ved afslutning af kald
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Kan kombineres med indstilling under kaldshåndtering">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingHangupTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="Queues">Køer</option>
+                                    <option value="Employees">Telefonbog</option>
+                                    <option value="Favorites">Favoritter</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Aktiv fane ved tryk på Escape
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Fane der skiftes til ved tryk på Escape. Alle søgeindstillinger og visninger bliver nulstillet for fanen. Ved Deaktiveret nulstilles aktuel fane">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingEscapeTabDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Deaktiveret</option>
+                                    <option value="Queues">Køer</option>
+                                    <option value="Employees">Telefonbog</option>
+                                    <option value="Favorites">Favoritter</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Detaljevisning -->
+                <div class="card">
+                    <div class="card-header">Detaljevisning</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Handling ved klik på <span class="fst-italic">viderestillet nummer</span></div>
+                            <div class="col-sm-5">
+                                <select id="settingDetailClickCfa" class="form-select form-select-sm">
+                                    <option value="none">Ingen</option>
+                                    <option value="copy" selected>Kopier nummer til clipboard</option>
+                                    <option value="search" selected>Søg på nummer</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Callout Number -->
+                <div class="card">
+                    <div class="card-header">Vist nummer ved udgående kald</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label for="settingCalloutNum" class="col-sm-7 col-form-label">Aktuelt nummer</label>
+                            <div class="col-sm-5">
+                                <input id="settingCalloutNum" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7" style="padding-top: 10px;">Vælg nummer</div>
+                            <div class="col-sm-5 ">
+                                <select id="settingCalloutNumSelect" class="form-select form-select-sm">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wild Card Search -->
+                <div id="regionHovedstaden1_ID" class="card ndHide">
+                    <div class="card-header">Telefonbog</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Wildcard søgning</div>
+                            <div class="col-sm-5">
+                                <select id="settingWildcardDD" class="form-select form-select-sm">
+                                    <option value="0">Deaktiveret</option>
+                                    <option value="1" selected>Aktiveret</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">Fonetisk søgning</div>
+                            <div class="col-sm-5">
+                                <select id="settingPhoneticDD" class="form-select form-select-sm">
+                                    <option value="1">Deaktiveret</option>
+                                    <option value="0" selected>Standard</option>
+                                    <option value="2">Kun fonetisk</option>
+                                    <option value="3">Kombineret</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search -->
+                <div id="settingDepartmentShowTop" class="card">
+                    <div class="card-header">Søgning</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Vis afdelinger øverst</div>
+                            <div class="col-sm-5">
+                                <select id="settingDepartmentDD" class="form-select form-select-sm">
+                                    <option value="1">Ja</option>
+                                    <option value="0" selected>Nej</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Vis poster uden et telefonnummer
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings" data-bs-html="true"
+                                      data-bs-title="Poster hvor både Telefon og Mobil er tomme,<br>vil stadig blive vist">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingSearchNoNumberDD" class="form-select form-select-sm">
+                                    <option value="1" selected>Ja</option>
+                                    <option value="0">Nej</option>
+                                </select>
+                            </div>
+                        </div><div class="form-group row">
+                            <div class="col-sm-7">Mellemrum ' ' foran søgetekst begrænser søgningen til denne kolonne</div>
+                            <div class="col-sm-5">
+                                <select id="settingSearchSpaceDD" class="form-select form-select-sm">
+                                    <option value="DISABLED">Deaktiveret</option>
+                                    <option value="departmentName">Afdeling</option>
+                                    <option value="name">Fulde navn</option>
+                                    <option value="firstName">Fornavn</option>
+                                    <option value="lastName" selected>Efternavn</option>
+                                    <option value="searchWords">Søgeord</option>
+                                    <option value="title">Titel</option>
+                                    <option value="streetAddress">Vejnavn</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Fonetisk søgning
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings" data-bs-html="true"
+                                      data-bs-title="Vær opmærksom på, at fonetisk søgning øger søgetiden.<br>Du kan manuelt aktivere fonetisk søgning ved at starte søgeordet med en '#'.<br>For eksempel:&nbsp;<b>#jacob</b>">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingFoneticDD" class="form-select form-select-sm">
+                                    <option value="1">Altid aktiv</option>
+                                    <option value="0" selected>Manuelt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Nulstil søgeresultat
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings" data-bs-html="true"
+                                      data-bs-title="Angiv hvornår søgeresultat og detaljevisning skal nulstilles (blankes)">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingClearSearchResultDD" class="form-select form-select-sm">
+                                    <option value="NEVER">Aldrig</option>
+                                    <option value="INCOMING">Ved nyt indgående kald</option>
+                                    <option value="HANGUP">Ved afslutning af kald</option>
+                                    <option value="BOTH" selected>Både ved indgående kald, og ved afslutning af kald</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Queues -->
+                <div id="settingQueuesCard_ID" class="card">
+                    <div class="card-header">Køer</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Marker kø alarm
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Vis angivne køer står med en alarm, vil dette markeres i fanemenuen">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingQueuesAlarmDD" class="form-select form-select-sm">
+                                    <option value="BLINK">Blink</option>
+                                    <option value="STATIC" selected>Statisk</option>
+                                    <option value="NONE">Ingen</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MS Teams -->
+                <div id="settingMsTeamsCard_ID" class="card ndHide">
+                    <div class="card-header">MS Integration</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Når Puzzel agent bliver aktiv i en samtale
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Efter endt samtale skiftes MS Teams status tilbage til den oprindelige">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                <select id="settingMsTeamsPuzzelBusyDD" class="form-select form-select-sm">
+                                    <option value="DISABLED" selected>Ingen handling</option>
+                                    <option value="DND">Skift MS Teams status til DND</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                Når agent bliver aktiv i en samtale på MS Teams
+                                <span class="far fa-question-circle" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip-settings"
+                                      data-bs-title="Når agenten bliver optaget på sin Teams klient, markeres Puzzel agent som Busy">
+                                </span>
+                            </div>
+                            <div class="col-sm-5">
+                                &nbsp;&nbsp;<span class="fst-italic">Funktionen skal konfigures via Puzzel integrationen</span>
+                                <select id="settingMsTeamsBusyDD" class="form-select form-select-sm ndHide">
+                                    <option value="DISABLED" selected>Ingen handling</option>
+                                    <option value="PAUSE">Sæt Puzzel agent status til pause</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <!-- SAPA -->
+                <div id="settingSapa" class="card ndHide">
+                    <div class="card-header">Sapa</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Popup</div>
+                            <div class="col-sm-5">
+                                <select id="settingSapaDD" class="form-select form-select-sm">
+                                    <option value="DISABLED">Deaktiveret</option>
+                                    <option value="_blank">Ny fane</option>
+                                    <option value="sapa" selected>Samme fane</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Solteq -->
+                <div id="settingSolteq" class="card ndHide">
+                    <div class="card-header">Solteq</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="col-sm-7">Popup ved</div>
+                            <div class="col-sm-5">
+                                <select id="settingSolteqDD" class="form-select form-select-sm">
+                                    <option value="DISABLED">Deaktiveret</option>
+                                    <option value="ALERTING">Præsentation af kald</option>
+                                    <option value="CONNECTED" selected>Besvarelse af kald</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+            </div>
+
+            <!-- Info -->
+            <div id="Info" class="tab-pane" role="tabpanel">
+                <div class="card col-8">
+                    <div class="card-header">Mine oplysninger</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label for="userInfoUserId" class="col-sm-5 col-form-label">Bruger ID</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoUserId" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userInfoUserName" class="col-sm-5 col-form-label">Brugernavn</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoUserName" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userInfoName" class="col-sm-5 col-form-label">Navn</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoName" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userGroupName" class="col-sm-5 col-form-label">Gruppe</label>
+                            <div class="col-sm-7">
+                                <input id="userGroupName" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="infoMsTeamsCard_ID" class="card col-8 ndHide">
+                    <div class="card-header">MS Integration</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label for="infoMsUsername" class="col-sm-5 col-form-label">Microsoft Teams brugernavn</label>
+                            <div class="col-sm-5">
+                                <input id="infoMsUsername" type="text" class="form-control-plaintext form-control-sm ndColorLightRed" value="<ikke logget på>">
+                            </div>
+                            <div class="col-sm-2">
+                                <button id="infoMsSignInBtn" type="button" class="btn btn-primary btn-sm" onclick="signIn();">
+                                    Login
+                                </button>
+                                <button id="infoMsSignOutBtn" type="button" class="btn btn-danger btn-sm ndHide" onclick="signOut();">
+                                    Logud
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-8">
+                    <div class="card-header">Kunde oplysninger</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label for="userInfoCustomerName" class="col-sm-5 col-form-label">Kundenavn</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoCustomerName" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userInfoCustomerKey" class="col-sm-5 col-form-label">Kundenøgle</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoCustomerKey" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userInfoCustomerId" class="col-sm-5 col-form-label">Kunde ID</label>
+                            <div class="col-sm-7">
+                                <input id="userInfoCustomerId" type="text" class="form-control-plaintext" readonly>
+                            </div>
+                            <div class="form-group row">
+                                <label for="userInfoLicense" class="col-sm-5 col-form-label">Licens</label>
+                                <div class="col-sm-7">
+                                    <input id="userInfoLicense" type="text" class="form-control-plaintext form-control-sm" value="&nbsp;Gyldig" readonly>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-8">
+                    <div class="card-header">Applikation Server</div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label for="ndBuddyAppServer" class="col-sm-5 col-form-label">App Server</label>
+                            <div class="col-sm-7">
+                                <input id="ndBuddyAppServer" type="text" class="form-control-plaintext" value="&nbsp;" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="ndBuddyAppServerSubSite" class="col-sm-5 col-form-label">Site Navn</label>
+                            <div class="col-sm-7">
+                                <input id="ndBuddyAppServerSubSite" type="text" class="form-control-plaintext" value="&nbsp;" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="ndBuddyVersionTxt" class="col-sm-5 col-form-label">Widget version</label>
+                            <div class="col-sm-5">
+                                <input id="ndBuddyVersionTxt" type="text" class="form-control-plaintext" value="&nbsp;" readonly>
+                            </div>
+                            <div class="col-sm-2">
+                                <button id="versionShowDetailBtn" type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#versionModal_ID">
+                                    Detaljer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TESTMARK -->
+            <div id="TESTMARK" class="tab-pane" role="tabpanel">
+                <div class="d-flex">
+                    <div class="flex-fill">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a id="navItemTmHttp" class="nav-link" data-bs-toggle="pill" href="#TestmarkHttpID">HTTP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="navItemTmForm" class="nav-link" data-bs-toggle="pill" href="#TestmarkFormID">FORM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="navItemTmHtml" class="nav-link" data-bs-toggle="pill" href="#TestmarkHtmlID">HTML</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <div class="tab-content">
+                    <div id="TestmarkHttpID" class="tab-pane">
+                        <h1>SOLTEQ</h1>
+                        <br />
+                        <div class="form-group row">
+                            <label for="TestmarkHttpUrlTxt" class="col-sm-2 col-form-label">URL</label>
+                            <div class="col-sm-7">
+                                <input id="TestmarkHttpUrlTxt" class="form-control" value="http://localhost:1100/openpatient?patientCpr=2204731234">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="TestmarkHttpAutoCloseTxt" class="col-sm-2 col-form-label">Autoclose (ms)</label>
+                            <div class="col-sm-7">
+                                <input id="TestmarkHttpAutoCloseTxt" class="form-control" value="1000">
+                            </div>
+                        </div>
+                        <br />
+                        <hr />
+                        <br />
+                        <div class="form-group row">
+                            <div class="col-sm-3">
+                                <button type="button" class="btn btn-primary" onclick="testMarkHref();">
+                                    Almindelig Popup
+                                </button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" class="btn btn-primary" onclick="testMarkPopup();">
+                                    Minimeret Popup
+                                </button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" class="btn btn-primary" onclick="testMarkForm();">
+                                    XMLHttpRequest
+                                </button>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" class="btn btn-primary" onclick="TestmarkHttpClear();">
+                                    Nulstil response
+                                </button>
+                            </div>
+                        </div>
+                        <br />
+                        <label for="TestmarkTextAreaHttp" class="form-label">Request:</label>
+                        <textarea id="TestmarkTextAreaHttp" class="form-control" rows="15"></textarea>
+                    </div>
+                    <div id="TestmarkFormID" class="tab-pane">
+                        <h1>SAPA</h1>
+                        <br />
+                        <div class="form-group row">
+                            <label for="TestmarkFormMyndighedTxt" class="col-sm-2 col-form-label">Myndighed</label>
+                            <div class="col-sm-10">
+                                <input id="TestmarkFormMyndighedTxt" class="form-control" value="35202285">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="TestmarkFormCprTxt" class="col-sm-2 col-form-label">CPRnr</label>
+                            <div class="col-sm-10">
+                                <input id="TestmarkFormCprTxt" class="form-control" value="2204731234">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-2 col-form-label">
+                                &nbsp;
+                            </div>
+                            <div class="col-sm-10">
+                                <button id="TestmarkFormBtn" type="button" class="btn btn-primary float-end" onclick="TestmarkFormSend();">
+                                    SEND
+                                </button>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <label for="TestmarkTextAreaForm" class="form-label">Response:</label>
+                                <textarea id="TestmarkTextAreaForm" class="form-control" rows="15"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="TestmarkHtmlID" class="tab-pane">
+                        <h1>HTML</h1>
+                        <br />
+                        <div class="form-group row">
+                            <label for="TestmarkHtmlNumberTxt" class="col-sm-2 col-form-label">Telefonnummer</label>
+                            <div class="col-sm-4">
+                                <input id="TestmarkHtmlNumberTxt" class="form-control" value="30550517">
+                            </div>
+                            <div class="col-sm-4">
+                                <button id="testmarkHtmlBtn" type="button" class="btn btn-primary">
+                                    SEND
+                                </button>
+                                <button id="testmarkHtml2Btn" type="button" class="btn btn-primary">
+                                    Window Open
+                                </button>
+                            </div>
+                        </div>
+                        <a id="tdcPopupId" href="tdcbuddypopup:44358336" target="tdcbuddypopup">TDC Buddy Popup</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--  SAPA -->
+            <div id="sapaDiv">
+                <form id="sapaForm" action="https://sapaoverblik.dk/dialogintegration" method="post" target="_blank" style="display: none;">
+                    <input id="myndighed" name="myndighed" value="">
+                    <input id="kontekst" name="kontekst" value="PART">
+                    <input id="objekt1" name="objekt1" value="PART">
+                    <input id="objektVaerdi1" name="objektVaerdi1" />
+                </form>
+            </div>
+
+            <!-- Modal Popup FileVersion-->
+            <div class="modal" id="versionModal_ID" tabindex="-1" aria-labelledby="versionModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="versionModalLabel">Versionstjek</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Luk"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-striped table-sm" style="margin-bottom: 0px;">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 150px;">Emne</th>
+                                        <th style="min-width: 75px;">Lokal</th>
+                                        <th style="min-width: 75px;">Server</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="versionTableBodyId">
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Luk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modals -->
+            <div id="modalCommon" class="modal fade" tabindex="-1" aria-labelledby="modalCommonLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="modalCommonLabel">modalCommon</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Luk"></button>
+                        </div>
+                        <div class="modal-body">
+                            <textarea id="modalCommonTextarea" rows="12" cols="110">&nbsp;</textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <div id="modalCommonDataCopyStatus">&nbsp;</div>
+                            <button id="modalCommonDataCopy" type="button" class="btn btn-primary">Kopier data</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Luk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Phonemessage -->
+            <div id="phoneMessageModal_ID" class="modal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Telefonbesked: <span id="phoneMessageEmail" class="fst-italic">jha@tdc.dk</span></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Luk"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input-group mb-3">
+                                <label for="phoneMessageTemplateDD" class="input-group-text col-2">Skabelon</label>
+                                <select id="phoneMessageTemplateDD" class="form-select">
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text col-2">Emne</span>
+                                <input id="phoneMessageSubjectTxt" type="text" class="form-control" placeholder="Emne" aria-label="Emne">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" col-2">Beskedtekst</span>
+                                <textarea id="phoneMessageBodyTxt" class="form-control" aria-label="Beskedtekst" rows="12"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Send</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuller</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal MS Teams login errors -->
+            <div id="tdcModal_ID" class="modal" tabindex="-1" aria-labelledby="tdcModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="tdcModalLabel">Microsoft Teams Login</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Luk"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Login vindue er allerede åbent</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Luk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome -->
+    <!-- <script src="https://kit.fontawesome.com/052ca07378.js" crossorigin="anonymous"></script> -->
+    <script src="Js/Sys/fontawesome_6.js"></script>
+
+
+    <!-- JavaScript -->
+    <script src="Js/Sys/jquery-3.7.1.min.js"></script>
+    <script src="Js/Sys/bootstrap.bundle.min.js"></script>
+    <script src="Js/Sys/moment-with-locales.js"></script>
+
+    <!-- Puzzel JS -->
+    <script src="Js/Sys/mousetrap.1.6.5.min.js"></script>
+    <script src="Js/Sys/mousetrap-global-bind.min.js"></script>
+    <script src="Js/Sys/Puzzel/widget-api-lib.1.3.2.min.js"></script>
+
+
+    <!-- NetDesign JS -->
+    <script src="Js/ndstart.js?v=008"></script>
+    <script src="Js/ndsettings.js?v=008" defer></script>
+
+    <!-- JavaScript MS Graph -->
+    <script src="Js/Sys/MsGraph/msal-browser.js"></script>
+    <script src="Js/Sys/MsGraph/authConfig.js"></script>
+    <script src="Js/Sys/MsGraph/authPopup.js"></script>
+    <!-- <script src="Js/Sys/MsGraph/authRedirect.js"></script> -->
+    <script src="Js/Sys/MsGraph/graphConfig.js"></script>
+    <script src="Js/Sys/MsGraph/graph.js"></script>
+
+    <!-- DataTables -->
+    <script src="Js/Sys/datatables.min.js" type="text/javascript"></script>
+
+    <!-- NetDesign scripts -->
+    <script src="Js/ndlanguage.js?v=008"></script>
+    <script src="Js/Config/ndTesting.js?v=008"></script>
+    <script src="Js/Config/ndCustomerConfig.js?v=008"></script>
+    <script src="Js/ndauth.js?v=008"></script>
+    <script src="Js/ndgraph.js?v=008"></script>
+    <script src="Js/ndparsing.js?v=009"></script>
+    <script src="Js/ndtools.js?v=008"></script>
+    <script src="Js/ndpuzzel.js?v=008"></script>
+    <script src="Js/ndservices.js?v=008"></script>
+    <script src="Js/ndqueues.js?v=008"></script>
+    <script src="Js/ndpresence.js?v=008"></script>
+    <script src="Js/ndemployees.js?v=008"></script>
+    <script src="Js/ndfavorites.js?v=008"></script>
+    <script src="Js/ndbindings.js?v=008" defer></script>
+    <script src="Js/tdcInitializing.js?v=008" defer></script>
+
+
+</body>
+</html>

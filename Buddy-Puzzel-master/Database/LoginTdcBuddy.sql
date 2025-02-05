@@ -1,0 +1,1 @@
+﻿CREATE LOGIN [tdcbuddy] WITH PASSWORD = 'igyjP;zrm|zGwm uddahb+YfmsFT7'

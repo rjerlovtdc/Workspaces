@@ -1,0 +1,13 @@
+{
+  "disconected": [
+    {
+      "callAnswer": false,
+      "callOut": true,
+      "callHangup": false,
+      "transferPhoneCold": false,
+      "transferPhoneCancel": false,
+      "transferPhoneWarm": false,
+      "transferPhoneWarm2": false
+    }
+  ]
+}

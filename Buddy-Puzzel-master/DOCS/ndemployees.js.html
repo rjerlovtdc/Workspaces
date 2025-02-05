@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ndemployees.js - BUDDY</title>
+    
+    <meta name="description" content="3.5.0.0" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ndAuth.html">ndAuth</a><ul class='methods'><li data-type='method'><a href="module-ndAuth.html#~auth">auth</a></li><li data-type='method'><a href="module-ndAuth.html#~refreshAuth">refreshAuth</a></li></ul></li><li><a href="module-ndBindings.html">ndBindings</a><ul class='methods'><li data-type='method'><a href="module-ndBindings.html#~performSearch">performSearch</a></li></ul></li><li><a href="module-ndEmployees.html">ndEmployees</a><ul class='methods'><li data-type='method'><a href="module-ndEmployees.html#~clearDetailView">clearDetailView</a></li><li data-type='method'><a href="module-ndEmployees.html#~clearEmployeeGrid">clearEmployeeGrid</a></li><li data-type='method'><a href="module-ndEmployees.html#~getDataTable">getDataTable</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableInit">ndDataTableInit</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableSorting">ndDataTableSorting</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndRequestEmployees">ndRequestEmployees</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowCommonDetails">ndShowCommonDetails</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowDetails">ndShowDetails</a></li></ul></li><li><a href="module-ndFavorites.html">ndFavorites</a><ul class='methods'><li data-type='method'><a href="module-ndFavorites.html#~buildFavoritesList">buildFavoritesList</a></li></ul></li><li><a href="module-ndGraph.html">ndGraph</a><ul class='methods'><li data-type='method'><a href="module-ndGraph.html#~getMsToken">getMsToken</a></li><li data-type='method'><a href="module-ndGraph.html#~getPhotoFromAzure">getPhotoFromAzure</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphPhotoFromEmail">msGraphPhotoFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserFromEmail">msGraphUserFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserSearch">msGraphUserSearch</a></li><li data-type='method'><a href="module-ndGraph.html#~ndGetPuzzelUserGraph">ndGetPuzzelUserGraph</a></li></ul></li><li><a href="module-ndLanguage.html">ndLanguage</a></li><li><a href="module-ndParsing.html">ndParsing</a><ul class='methods'><li data-type='method'><a href="module-ndParsing.html#~filterOrganization">filterOrganization</a></li><li data-type='method'><a href="module-ndParsing.html#~getOrgTreeFromService">getOrgTreeFromService</a></li><li data-type='method'><a href="module-ndParsing.html#~ndParseCallState">ndParseCallState</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCbasUserResponse">parseCbasUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCustomerSpecific">parseCustomerSpecific</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseManagerFromServices">parseManagerFromServices</a></li><li data-type='method'><a href="module-ndParsing.html#~parseOpeningHours">parseOpeningHours</a></li><li data-type='method'><a href="module-ndParsing.html#~parsePuzzelUserResponse">parsePuzzelUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseServices">parseServices</a></li><li data-type='method'><a href="module-ndParsing.html#~searchWordFromCustomerKey">searchWordFromCustomerKey</a></li></ul></li><li><a href="module-ndPresence.html">ndPresence</a><ul class='methods'><li data-type='method'><a href="module-ndPresence.html#~calculateAggStatus">calculateAggStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~getTeamsStatus">getTeamsStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~loadPresence">loadPresence</a></li></ul></li><li><a href="module-ndPuzzel.html">ndPuzzel</a><ul class='methods'><li data-type='method'><a href="module-ndPuzzel.html#~fetchUserInfo">fetchUserInfo</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getAccessToken">getAccessToken</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getTestingConfig">getTestingConfig</a></li><li data-type='method'><a href="module-ndPuzzel.html#~loadValuesFromPuzzel">loadValuesFromPuzzel</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndActivateWidget">ndActivateWidget</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndLoadAll">ndLoadAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndSetTitle">ndSetTitle</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndTestingAll">ndTestingAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~outsidePuzzelAllowed">outsidePuzzelAllowed</a></li><li data-type='method'><a href="module-ndPuzzel.html#~tdcGetWidgetOption">tdcGetWidgetOption</a></li><li data-type='method'><a href="module-ndPuzzel.html#~validateUser">validateUser</a></li></ul></li><li><a href="module-ndServices.html">ndServices</a><ul class='methods'><li data-type='method'><a href="module-ndServices.html#~agentSetAvailable">agentSetAvailable</a></li><li data-type='method'><a href="module-ndServices.html#~callAnswer">callAnswer</a></li><li data-type='method'><a href="module-ndServices.html#~callHangup">callHangup</a></li><li data-type='method'><a href="module-ndServices.html#~cbasApiCall">cbasApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithPhone">consultWithPhone</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithServiceQueue">consultWithServiceQueue</a></li><li data-type='method'><a href="module-ndServices.html#~endConsultation">endConsultation</a></li><li data-type='method'><a href="module-ndServices.html#~getMapFromArray">getMapFromArray</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabels">getServiceLabels</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabelsFromSearch">getServiceLabelsFromSearch</a></li><li data-type='method'><a href="module-ndServices.html#~getVisualQueues">getVisualQueues</a></li><li data-type='method'><a href="module-ndServices.html#~outboundCall">outboundCall</a></li><li data-type='method'><a href="module-ndServices.html#~popupWarning">popupWarning</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelApiCall">puzzelApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateTags">puzzelUpdateTags</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsEmp">puzzelUpdateVarsEmp</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsIncoming">puzzelUpdateVarsIncoming</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsQue">puzzelUpdateVarsQue</a></li><li data-type='method'><a href="module-ndServices.html#~scaleApiCall">scaleApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~setButtonStatesFromCurrentCall">setButtonStatesFromCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcBuddyPopupWindow">tdcBuddyPopupWindow</a></li><li data-type='method'><a href="module-ndServices.html#~tdcFetchUrl">tdcFetchUrl</a></li><li data-type='method'><a href="module-ndServices.html#~tdcParkCurrentCall">tdcParkCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcReadJsonFile">tdcReadJsonFile</a></li><li data-type='method'><a href="module-ndServices.html#~transferOnEnter">transferOnEnter</a></li><li data-type='method'><a href="module-ndServices.html#~transferToConsultee">transferToConsultee</a></li><li data-type='method'><a href="module-ndServices.html#~transferToPhone">transferToPhone</a></li><li data-type='method'><a href="module-ndServices.html#~transferToService">transferToService</a></li></ul></li><li><a href="module-ndStart.html">ndStart</a><ul class='methods'><li data-type='method'><a href="module-ndStart.html#~documentReady">documentReady</a></li><li data-type='method'><a href="module-ndStart.html#~windowsLoad">windowsLoad</a></li></ul></li><li><a href="module-ndTools.html">ndTools</a><ul class='methods'><li data-type='method'><a href="module-ndTools.html#~addTextToControl">addTextToControl</a></li><li data-type='method'><a href="module-ndTools.html#~agentObjActive">agentObjActive</a></li><li data-type='method'><a href="module-ndTools.html#~buildDynamicRow">buildDynamicRow</a></li><li data-type='method'><a href="module-ndTools.html#~calculateGridRow">calculateGridRow</a></li><li data-type='method'><a href="module-ndTools.html#~calendarBackForward">calendarBackForward</a></li><li data-type='method'><a href="module-ndTools.html#~calendarNowMark">calendarNowMark</a></li><li data-type='method'><a href="module-ndTools.html#~calendarShow">calendarShow</a></li><li data-type='method'><a href="module-ndTools.html#~checkForHyperlinks">checkForHyperlinks</a></li><li data-type='method'><a href="module-ndTools.html#~clearCallObject">clearCallObject</a></li><li data-type='method'><a href="module-ndTools.html#~clearSearchAndDetail">clearSearchAndDetail</a></li><li data-type='method'><a href="module-ndTools.html#~copyTextToClipboardOld">copyTextToClipboardOld</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedEmp">favoriteChangedEmp</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedQue">favoriteChangedQue</a></li><li data-type='method'><a href="module-ndTools.html#~filterResult">filterResult</a></li><li data-type='method'><a href="module-ndTools.html#~filterSearchWord">filterSearchWord</a></li><li data-type='method'><a href="module-ndTools.html#~getActiveTab">getActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getCalendarPuzzelFromId">getCalendarPuzzelFromId</a></li><li data-type='method'><a href="module-ndTools.html#~getEmailMessageString">getEmailMessageString</a></li><li data-type='method'><a href="module-ndTools.html#~getFavoritesArr">getFavoritesArr</a></li><li data-type='method'><a href="module-ndTools.html#~getInputBoxFromActiveTab">getInputBoxFromActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getOrgPath">getOrgPath</a></li><li data-type='method'><a href="module-ndTools.html#~getPhoneMessageSignature">getPhoneMessageSignature</a></li><li data-type='method'><a href="module-ndTools.html#~getPrevNextTab">getPrevNextTab</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromAzure">getUserFromAzure</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromCBAS">getUserFromCBAS</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromPuzzel">getUserFromPuzzel</a></li><li data-type='method'><a href="module-ndTools.html#~ndEnableSearchBox">ndEnableSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndFocusSearchBox">ndFocusSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetAggStatusForQueue">ndGetAggStatusForQueue</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetSpaces">ndGetSpaces</a></li><li data-type='method'><a href="module-ndTools.html#~ndPageReload">ndPageReload</a></li><li data-type='method'><a href="module-ndTools.html#~ndSetButtonsDefault">ndSetButtonsDefault</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistAsk">ndStoragePersistAsk</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistCheck">ndStoragePersistCheck</a></li><li data-type='method'><a href="module-ndTools.html#~ndTooltip">ndTooltip</a></li><li data-type='method'><a href="module-ndTools.html#~placeSearchWordRow">placeSearchWordRow</a></li><li data-type='method'><a href="module-ndTools.html#~prefixLocalNumber">prefixLocalNumber</a></li><li data-type='method'><a href="module-ndTools.html#~resetCalendar">resetCalendar</a></li><li data-type='method'><a href="module-ndTools.html#~sendEmail">sendEmail</a></li><li data-type='method'><a href="module-ndTools.html#~sendImChat">sendImChat</a></li><li data-type='method'><a href="module-ndTools.html#~setActiveTab">setActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~setShownRows">setShownRows</a></li><li data-type='method'><a href="module-ndTools.html#~setWindowHeight">setWindowHeight</a></li><li data-type='method'><a href="module-ndTools.html#~solteqPopup">solteqPopup</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFormatHighlightText">tdcFormatHighlightText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFullscreen">tdcFullscreen</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetLocalStorage">tdcGetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetPrimaryNumber">tdcGetPrimaryNumber</a></li><li data-type='method'><a href="module-ndTools.html#~tdcIsObjectEmpty">tdcIsObjectEmpty</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLoadPhoneTemplateText">tdcLoadPhoneTemplateText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLocalStorageAvailable">tdcLocalStorageAvailable</a></li><li data-type='method'><a href="module-ndTools.html#~tdcPhoneTemplateReplaceVariables">tdcPhoneTemplateReplaceVariables</a></li><li data-type='method'><a href="module-ndTools.html#~tdcSetLocalStorage">tdcSetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~transferTypeMark">transferTypeMark</a></li><li data-type='method'><a href="module-ndTools.html#~truncText">truncText</a></li><li data-type='method'><a href="module-ndTools.html#~urlExists">urlExists</a></li><li data-type='method'><a href="module-ndTools.html#~writeClipboardText">writeClipboardText</a></li></ul></li><li><a href="module-tdcModels.html">tdcModels</a></li></ul><h3>Events</h3><ul><li><a href="module-ndPuzzel.html#~event:DOMready">DOMready</a></li><li><a href="module-ndBindings.html#~event:btnPark_IDClick">btnPark_ID Click</a></li><li><a href="module-ndBindings.html#~event:cfaNumberClick">cfaNumber Click</a></li><li><a href="module-ndPuzzel.html#~event:contactCentreStatusChanged">contactCentreStatus Changed</a></li><li><a href="module-ndBindings.html#~event:dEmailSectionClick">dEmailSection Click</a></li><li><a href="module-ndBindings.html#~event:detailContentClick">detailContent Click</a></li><li><a href="module-ndBindings.html#~event:detailHeaderIDClick">detailHeaderID Click</a></li><li><a href="module-ndPuzzel.html#~event:eventsAndState">eventsAndState</a></li><li><a href="module-ndTools.html#~event:favoritesExport">favoritesExport</a></li><li><a href="module-ndBindings.html#~event:favoritesExportBtnClick">favoritesExportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportBtnClick">favoritesImportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportFileChanged">favoritesImportFile Changed</a></li><li><a href="module-ndTools.html#~event:favoritesImportSelectedFile">favoritesImportSelectedFile</a></li><li><a href="module-ndPuzzel.html#~event:getPuzzelApi">getPuzzelApi</a></li><li><a href="module-ndBindings.html#~event:modalCommonDataCopyClick">modalCommonDataCopy Click</a></li><li><a href="module-ndBindings.html#~event:nav-linkShown">nav-link Shown</a></li><li><a href="module-ndBindings.html#~event:navBarChanged">navBar Changed</a></li><li><a href="module-ndBindings.html#~event:numberInNotesClick">numberInNotes Click</a></li><li><a href="module-ndPuzzel.html#~event:onCallEventTrigger">onCallEventTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCallProgessChanged">onCallProgess Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallStateChanged">onCallState Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallTrigger">onCallTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCalloutCall">onCalloutCall</a></li><li><a href="module-ndPuzzel.html#~event:onIncomingCall">onIncomingCall</a></li><li><a href="module-ndPuzzel.html#~event:onTabActiveChanged">onTabActive Changed</a></li><li><a href="module-ndPuzzel.html#~event:onUserStateChanged">onUserState Changed</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsDetailViewClick">phoneButtonsDetailView Click</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsTopClick">phoneButtonsTop Click</a></li><li><a href="module-ndBindings.html#~event:phoneInputKeyUp">phoneInput KeyUp</a></li><li><a href="module-ndBindings.html#~event:phoneMessageModal_IDShown">phoneMessageModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:phoneMessageTemplateDDChange">phoneMessageTemplateDD Change</a></li><li><a href="module-ndBindings.html#~event:searchCountDDEmpChanged">searchCountDDEmp Changed</a></li><li><a href="module-ndBindings.html#~event:searchInEmpDDChanged">searchInEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:searchInputEmpKeyUp">searchInputEmp KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputFavKeyUp">searchInputFav KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputQueKeyUp">searchInputQue KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchOrgDDChanged">searchOrgDD Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkDefaultQueueChanged">settingParkDefaultQueue Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkShortcutChanged">settingParkShortcut Changed</a></li><li><a href="module-ndBindings.html#~event:settingsCheckboxClick">settingsCheckbox Click</a></li><li><a href="module-ndBindings.html#~event:settingsDropDownChanged">settingsDropDown Changed</a></li><li><a href="module-ndBindings.html#~event:showOnlineEmpDDChanged">showOnlineEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyBlur">tableDisplay KeyBlur</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyDt">tableDisplay KeyDt</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyFocus">tableDisplay KeyFocus</a></li><li><a href="module-ndBindings.html#~event:tableEmpIdClick">tableEmpId Click</a></li><li><a href="module-ndBindings.html#~event:tableFavIdClick">tableFavId Click</a></li><li><a href="module-ndBindings.html#~event:tableQueIdClick">tableQueId Click</a></li><li><a href="module-ndBindings.html#~event:tdcModal_IDShown">tdcModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:testmarkHtml2BtnClick">testmarkHtml2Btn Click</a></li><li><a href="module-ndBindings.html#~event:testmarkHtmlBtnClick">testmarkHtmlBtn Click</a></li><li><a href="module-ndBindings.html#~event:versionShowDetailBtnClick">versionShowDetailBtn Click</a></li><li><a href="module-ndBindings.html#~event:windowKeyUp">window KeyUp</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ndemployees.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>﻿/**
+ * @module ndEmployees
+ */
+
+/* Global Variables */
+versionObj.ndemployeesny = 38;
+
+var EmployeesDT;
+var loadPresenceIntervalG = 0, loadDetailsIntervalG = 0, showDetailsTimeoutG = 0;
+
+/* Document Ready */
+$(function () {
+    $(document).on('preInit.dt', function (e, settings) {
+        //TODO
+    });
+
+    $(document).on('init.dt.dt', function (e, settings) {
+        $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();
+    });
+});
+
+
+/** @function 
+ * @name ndRequestEmployees
+ * @async
+ * @param {string} [searchValue=""] - Text to search for
+ * @param {string} [filterColumn=""] - Name of filter column
+ * @param {boolean} [bSame=false] - Search in same contxt
+ * @description Search in Puzzel catalog from search text
+ * @since 1.0.0.0
+*/
+const ndRequestEmployees = async (searchValue = "", filterColumn = "", bSame = false) => {
+    console.debug("(ndRequestEmployees) In");
+    const requestStart = moment();
+    console.info("(ndRequestEmployees) requestStart", requestStart);
+
+    let ndUserArr = [];
+
+    if (searchValue === "") {
+        searchValue = $("#searchInputEmp").val();
+    }
+
+    if (filterColumn === "") {
+        filterColumn = $("#searchInEmpDD").val();
+    }
+
+    if (bSame) {
+        $("#searchInputEmp").val(searchValue + " ");
+        ndFocusSearchBox();
+    }
+    searchValue = searchValue.replaceAll('*', '%').replaceAll(',', ' ');
+
+    $("#searchingLblEmp").html("S&amp;oslash;ger ..");
+
+    let spaceFilter = $("#settingSearchSpaceDD").val();
+    if (spaceFilter !== "DISABLED" &amp;&amp; !bSame &amp;&amp; searchValue.startsWith(' ')) {
+        filterColumn = spaceFilter;
+        searchValue = searchValue.slice(1)
+    }
+
+    let numberValue = Number.parseInt(searchValue);
+    let isNumber = !Number.isNaN(numberValue);
+
+    if (custObj.customerKey === "45524905" &amp;&amp; searchValue.length === 5 &amp;&amp; isNumber) {
+        searchValue = prefixLocalNumber(numberValue);
+        $("#searchInputEmp").val(searchValue);
+        //searchValue = "%" + searchValue;
+    }
+
+    if (!bSame &amp;&amp; $("#settingFoneticDD").val() === "1" &amp;&amp; !isNumber) {
+        searchValue = "#" + searchValue;
+    }
+
+    console.info("(ndRequestEmployees) searchValue", searchValue);
+
+    switch (custObj.customerKey) {
+        case "2647119":  //Region H
+            const phoneticFlag = $("#settingPhoneticDD").val();
+            const maximumRows = $("#searchCountDDEmp").val();
+
+            const organizationIds = $("#searchOrgDD").val();
+            let organizationIdsArr = [0];
+
+            if (organizationIds !== "") {
+                organizationIdsArr = [];
+                $.each(organizationIds.split(','), function (index, orgId) {
+                    organizationIdsArr.push(parseInt(orgId));
+                });
+            }
+
+            const ndSearchObj = searchWordFromCustomerKey(searchValue);
+
+            let bodyObj =
+            {
+                searchItems: ndSearchObj.searchValue,
+                searchColumnSetId: parseInt(ndSearchObj.searchColumnSetId),
+                organizationIds: organizationIdsArr,
+                phoneticFlag: parseInt(phoneticFlag),
+                maximumRows: parseInt(maximumRows)
+            };
+
+            console.info("(ndRequestEmployees) bodyObj", bodyObj);
+
+            EmployeesArr = await cbasApiCall("POST", JSON.stringify(bodyObj));
+            break;
+        default:
+            let apiUrl = `${puzzelUrl}${custObj.customerKey}/users/${agentObj.userId}/catalog/contacts/search`;
+            let body = { searchString: searchValue };
+
+            let organizationalUnit = $("#searchOrgDD").val() || "";
+
+            if (custObj.orgPath) {
+                body.organizationalUnit = organizationalUnit.replaceAll("_", "|") + "%";
+            }
+            console.info("(ndRequestEmployees) body", body);
+            EmployeesArr = await puzzelApiCall(apiUrl, "POST", JSON.stringify(body));
+            break;
+    }
+
+    console.info("(ndRequestEmployees) EmployeesArr", EmployeesArr);
+    if (EmployeesArr == null) {
+        console.error("(ndRequestEmployees) Error In Api Call");
+        clearDetailView();
+        $("#searchingLblEmp").html('Fejl i søgning !!');
+        clearEmployeeGrid();
+        return;
+    }
+
+    if (EmployeesArr.length === 0) {
+        console.info("(ndRequestEmployees) Empty Array");
+        clearDetailView();
+        $("#searchingLblEmp").html('');
+        clearEmployeeGrid();
+        return;
+    }
+
+    /* Parse data */
+    let settingNoNumber = $("#settingSearchNoNumberDD").val();
+    $.each(EmployeesArr, function (index, employee) {
+        switch (custObj.customerKey) {
+            case "2647119":  //Region H
+                ndUserArr.push(parseCbasUserResponse(employee));
+                break;
+            default:
+                let ndUserTmp = parsePuzzelUserResponse(employee);
+                if (settingNoNumber === "1") {
+                    ndUserArr.push(ndUserTmp);
+                }
+                else if (ndUserTmp.phone !== "" || ndUserTmp.mobile !== "") {
+                    ndUserArr.push(ndUserTmp);
+                }
+                break;
+        }
+    });
+
+    console.info("(ndRequestEmployees) ndUserArr", ndUserArr);
+
+    /* Filter ndUser Array */
+    if (filterColumn !== "all" &amp;&amp; custObj.customerKey !== "2647119") {
+        if (filterColumn === "searchWords" &amp;&amp; custObj.customerKey == "45524905") {
+            ndUserArr = filterSearchWord(ndUserArr, searchValue);
+        }
+        else {
+            ndUserArr = filterResult(ndUserArr, searchValue, filterColumn, bSame);
+        }
+    }
+
+    /* Empty Array */
+    if (ndUserArr.length === 0) {
+        console.info("(ndRequestEmployees) Empty Array After Filter");
+        clearDetailView();
+        $("#searchingLblEmp").html('');
+        clearEmployeeGrid();
+        return;
+    }
+    console.info("ndUserArr", ndUserArr);
+
+    /* Limit number of results based on value in dropdown */
+    var searchResultAllNum = ndUserArr.length;
+
+    if (
+        custObj.customerKey !== "4054040" &amp;&amp;
+        custObj.customerKey !== "2647119" &amp;&amp;
+        ndUserArr.length > $("#searchCountDDEmp").val()) {
+        ndUserArr = ndUserArr.slice(0, $("#searchCountDDEmp").val());
+    }
+
+    var searchResultShownNum = ndUserArr.length;
+
+    if (!$.fn.DataTable.isDataTable('#tableEmpId')) {
+        console.debug("(ndRequestEmployees) DataTable Not Initialized");
+        ndDataTableInit("#tableEmpId");
+        setTimeout(() => {
+            EmployeesDT.rows.add(ndUserArr).draw();
+            EmployeesDT.cell(':eq(0)', colIndexObj.name).focus();
+        }, 200);
+    }
+    else {
+        EmployeesDT.clear();
+        EmployeesDT.rows.add(ndUserArr).draw(false);
+        EmployeesDT.cell(':eq(0)', colIndexObj.name).focus();
+    }
+
+    if (presenceObj.enabled) {
+        clearInterval(loadPresenceIntervalG);
+        setTimeout(loadPresence, 400);
+        loadPresenceIntervalG = setInterval(loadPresence, presenceObj.timer * 1000);
+    }
+
+    $("#searchingLblEmp").html(`${searchResultShownNum}&amp;nbsp;/&amp;nbsp;${searchResultAllNum}&amp;nbsp;&amp;nbsp;(${searchInDic[filterColumn]})`);
+
+    const requestEnd = moment();
+    const requestDuration = requestEnd.diff(requestStart);
+    const requestDurationDisplay = moment(requestDuration).format('ss:SSS');
+    console.info("(ndRequestEmployees) requestDuration", requestDurationDisplay);
+    $("#searchingLblEmp").attr("title", requestDurationDisplay);
+
+    console.debug("(ndRequestEmployees) Out");
+}
+
+
+/** @function
+ * @name ndDataTableInit
+ * @async
+ * @param {string} tableName - Name of table
+ * @param {object[]} [data=[]] - Data to load into table
+ * @description Init datatable for Employee or Favorites
+*/
+const ndDataTableInit = async (tableName, data = []) => {
+    console.debug("(ndDataTableInit) In");
+    console.info("(ndDataTableInit) tableName", tableName);
+
+    if ($.fn.DataTable.isDataTable(tableName)) {
+        console.debug("(ndDataTableInit) Allready Initialized");
+        return;
+    }
+
+    let dtColumns = [];
+    let dtSorting = [];
+    let shownRowsSetting = $("#settingShownRowsDD").val() || "";
+    console.info("(ndDataTableInit) shownRowsSetting", shownRowsSetting);
+
+    if (shownRowsSetting === "") {
+        console.warn("(ndDataTableInit) shownRowsSetting blank");
+        shownRowsSetting = 6;
+        $("#settingShownRowsDD").val(6);
+    }
+
+    let scrollY = 179 + (shownRowsSetting - 6) * 30 + "px";
+
+    console.debug("ndDataTableInit scrollY", scrollY);
+
+    switch (tableName) {
+        case "#tableEmpId":
+            dtColumns = ndColoumnsEmp[custObj.customerKey];
+            dtColumns = (typeof dtColumns === "undefined") ? ndColoumnsEmp["DEFAULT"] : dtColumns
+            dtSorting = ndDataTableSorting(true);
+            EmployeesDT = getDataTable(tableName, dtColumns, data, dtSorting, scrollY);
+            break;
+        case "#tableFavId":
+            dtColumns = ndColoumnsEmp[custObj.customerKey];
+            dtColumns = (typeof dtColumns === "undefined") ? ndColoumnsEmp["DEFAULT"] : dtColumns
+            dtSorting = ndDataTableSorting(false);
+            FavoritesDT = getDataTable(tableName, dtColumns, data, dtSorting, "72vh");
+            break;
+    }
+
+    console.info("ndDataTableInit dtColumns", dtColumns);
+    console.debug("ndDataTableInit Out");
+}
+
+
+/** @function
+ * @name getDataTable
+ * @param {string} tableName - Name of table
+ * @param {string[]} dtColumns - Columns to load into table
+ * @param {object[]} [data=[]] - Data to load into table
+ * @param {string} dtSorting - Set sorting for table
+ * @param {string} scrollY - Height of datatable grid
+ * @returns {object} - Datatable
+ * @description Get DataTable
+*/
+function getDataTable(tableName, dtColumns, data, dtSorting, scrollY) {
+    let languageFile = (tableName === "#tableEmpId") ? "datatables_emp" : "datatables_fav";
+    let datatable =
+        $(tableName).DataTable({
+            dom: 't',
+            data: data,
+            language: {
+                "url": `Res/${languageFile}.json`
+            },
+            "initComplete": function (settings, json) {
+                //TODO
+            },
+            responsive: false,
+            "bSort": true,
+            paging: false,
+            autoWidth: false,
+            scrollX: true,
+            scrollY: scrollY,
+            scrollCollapse: false,
+            fixedColumns: false,
+            order: dtSorting,
+            orderClasses: false,
+            keys: {
+                keys: [13, 38, 40],  //Enter, Up, Down
+                blurable: false
+            },
+            columns: dtColumns,
+            'createdRow': function (row, data, dataIndex) {
+                /*
+                if (data.rowColor !== "") {
+                    //$(row).attr("style", "background-color: " + data.rowColor + ";");
+                }
+                */
+
+                if (data.isDepartment) {
+                    $(row).addClass('ndColorBlue');
+                    //$(row).attr("style", "color: steelblue;");
+                }
+            },
+            columnDefs: [
+                {
+                    targets: [0],  //Agg status
+                    className: 'dt-center',
+                    orderable: false,
+                    render: function (data, type) {
+                        if (type === 'display') {
+                            const returnObj = aggStatusDic[data];
+                            return `&lt;span title="${returnObj.title}" class="fas fa-circle ${returnObj.color}" />`;
+                        }
+                        return data;
+                    }
+                },
+                {
+                    targets: [1],  //Phone status
+                    className: 'dt-center',
+                    orderable: false,
+                    render: function (data, type, row) {
+                        if (type === 'display') {
+                            const returnObj = getPhonePresenceText(row);
+                            return `&lt;span title="${returnObj.title}" class="fas fa-circle ${returnObj.color}" />`;
+                        }
+
+                        return data;
+                    }
+                },
+                {
+                    targets: [2],  //Calendar status
+                    className: 'dt-center',
+                    orderable: false,
+                    render: function (data, type) {
+                        if (type === 'display') {
+                            if (data === true) {
+                                return '&lt;span title="Optaget" class="fas fa-circle ndColorRed" />';
+                            }
+                            else {
+                                return '&lt;span title="Ledig" class="fas fa-circle ndColorGreen" />';
+                            }
+                        }
+
+                        return data;
+                    }
+                },
+                {
+                    targets: [3],  //Calendar status
+                    className: 'dt-center',
+                    orderable: false,
+                    render: function (data, type) {
+                        if (type === 'display' &amp;&amp; data !== "") {
+                            const returnObj = teamsAvailability[data.availability];
+                            return `&lt;span title="${returnObj?.title || "Ukendt"}" class="fas fa-circle ${returnObj?.color || "ndColorGray"}" />`;
+                        }
+
+                        return data;
+                    }
+                },
+                {
+                    targets: [4],  //Color
+                    className: 'dt-center',
+                    orderable: false,
+                    render: function (data, type) {
+                        if (type === 'display' &amp;&amp; typeof data !== "undefined" &amp;&amp; data !== "") {
+                            let colorObj = rowColorFromBit[data];
+                            if (typeof colorObj !== "undefined" &amp;&amp; colorObj.colorName !== "") {
+                                return `
+                                    &lt;span title="${colorObj.depName}" class="fas fa-square-full" style="color: ${colorObj.colorName};" />
+                                `;
+                            }
+                            return "";
+                        }
+                        return "";
+
+                    },
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        /*
+                        if (typeof rowData.rowColor !== "undefined" &amp;&amp; rowData.rowColor !== "") {
+                            //$(td).addClass('ndColorBlue');
+                            //$(td).attr("title", "Funktionsnummer");
+                        }
+                        */
+                    }
+                }, {
+                    targets: [5],  //Name
+                    render: function (data, type) {
+                        if (type !== 'sort') {
+                            if (data.startsWith("!")) {
+                                return data.slice(1);
+                            }
+                        }
+                        return data;
+                    },
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        if (rowData.isDepartment) {
+                            //$(td).addClass('ndColorBlue');
+                        }
+                        $(td).attr("title", cellData);
+                    }
+                },
+                {
+                    targets: [6],  //Title
+                    render: function (data, type) {
+                        if (type !== 'sort') {
+                            if (data.startsWith("!")) {
+                                return data.slice(1);
+                            }
+                        }
+                        return data;
+                    },
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        if (rowData.isDepartment) {
+                            //$(td).addClass('ndColorBlue');
+                        }
+                        $(td).attr("title", cellData);
+                    }
+                },
+                {
+                    targets: [7],  //Department
+                    render: function (data, type) {
+                        if (type !== 'sort') {
+                            if (data.startsWith("!")) {
+                                return data.slice(1);
+                            }
+                        }
+                        return data;
+                    },
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        if (rowData.rowColor !== "") {
+                            //$(td).attr("style", "color: " + rowData.rowColor + ";");
+                            //$(td).addClass('ndColorBlue');
+                        }
+                        $(td).attr("title", cellData);
+                    }
+                },
+                {
+                    targets: [8],  //StreetAddress
+                    render: function (data, type) {
+                        if (type === 'display') {
+                            if (data.includes(",")) {
+                                return data.split(',')[0];
+                            }
+                        }
+                        return data;
+                    }
+                },
+                {
+                    "targets": [9],  //Phone
+                    orderable: false,
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        if (rowData.noTransfer) {
+                            $(td).addClass('ndNoTransfer');
+                        }
+
+                        if (rowData.secretPhone) {
+                            $(td).addClass('ndSecret');
+                        }
+                    }
+                },
+                {
+                    "targets": [10],  //Mobile
+                    orderable: false,
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        if (rowData.noTransfer) {
+                            $(td).addClass('ndNoTransfer');
+                        }
+
+                        if (rowData.secretMobile) {
+                            $(td).addClass('ndSecret');
+                        }
+                    }
+                },
+                {
+                    targets: [11],  //Favorite
+                    render: function (data, type) {
+                        if (type === 'display') {
+                            if (data === true) {
+                                return '&lt;span class="fa-star fas">&lt;/span>';
+                            }
+                            else {
+                                return '&lt;span class="fa-star far">&lt;/span>';
+                            }
+                        }
+
+                        return data;
+                    }
+                }
+            ]
+        });
+    return datatable;
+}
+
+
+
+/** @function 
+ * @name clearDetailView
+ * @description Clear Detail View
+ * @since 1.0.0.0
+*/
+function clearDetailView() {
+    $('#dFullName').html("&amp;nbsp;");
+    $('#dFullName').attr("title", "");
+    $('#dFullName').attr("tdcId", "");
+    $('#detailOrgPath').html("");
+
+    $('#dPhone').html("&amp;nbsp;");
+    $('#dPhone').removeClass("ndSecret");
+    $('#dMobile').html("&amp;nbsp;");
+    $('#dMobile').removeClass("ndSecret");
+    $('#dEmail').html("&amp;nbsp;");
+    $('#dInitials').html("&amp;nbsp;");
+    $('#dTitle').html("&amp;nbsp;");
+    $('#dAddress').html("&amp;nbsp;");
+    $('#dPostalCity').html("&amp;nbsp;");
+
+    $('#dAdministraionName').html("&amp;nbsp;");
+    $('#dDepartmentName').html("&amp;nbsp;");
+    $('#dDivision').html("&amp;nbsp;");
+    $('#dLocation').html("&amp;nbsp;");
+
+    $('#dManagerName').html("&amp;nbsp;");
+    $('#dManagerEmail').html("&amp;nbsp;");
+    $('#dOrganization').html("&amp;nbsp;");
+
+    $('#dRoomNumber').html("&amp;nbsp;");
+    $('#dIpPhone').html("&amp;nbsp;");
+
+    $('#dPhoneHours').html("&amp;nbsp;");
+    $('#dOpeningHours').html("&amp;nbsp;");
+    $("#phoneHoursRow").hide();
+    $("#phoneHoursRowLine").hide();
+    $("#organizationRow").show();
+
+    $('#dSearchWord').html("&amp;nbsp;");
+    $('#dCustGroupName').html("&amp;nbsp;");
+    $('#dInfo').html("&amp;nbsp;");
+
+    $("#userPhoto").attr("src", "Res/nophoto.png");
+
+    $("#dPhoneSection").hide();
+    $("#dMobileSection").hide();
+    $("#dEmailSection").hide();
+    $("#btnPark_ID").addClass("ndHidden");
+    $("#dFullName").attr("lastParkedNumber", "");
+
+    $("#cfaNumber").html("");
+    $("#cfaNumberTxt").val("")
+    $("#paStatus").html("");
+    $("#dndStatus").html("");
+    $("#teamsStatus").html("");
+    $("#oofStatus").html("");
+
+    $("#dDetailStatus").removeClass("ndColorGreen").removeClass("ndColorYellow").removeClass("ndColorRed");
+    $("#dDetailStatus").addClass("ndColorGray");
+    $("#dDetailStatus").attr("title", "Ukendt");
+
+    /* Tooltips Clear */
+    ndTooltip("teamsStatus");
+    ndTooltip("oofStatus");
+    ndTooltip("cfaNumber");
+    $("[data-bs-custom-class='custom-tooltip-calendar']").tooltip('dispose');
+
+    /* Calendar */
+    resetCalendar();
+    let settingRightSection = ($("#settingLayoutRightSectionDD").val() === "CALENDAR");
+    calendarShow(settingRightSection);
+}
+
+
+/** @function 
+ * @name ndShowDetails
+ * @async
+ * @param {object} ndUser - ndUser object
+ * @description Show details for user
+ * @since 1.0.0.0
+*/
+const ndShowDetails = async (ndUser) => {
+    console.debug("(ndShowDetails) In");
+    console.debug("(ndShowDetails) ndUser", ndUser);
+
+    let tdcIdAttr = $("#dFullName").attr("tdcId") || "";
+
+    /* Already Shown Exit */
+    if (tdcIdAttr === ndUser.id.toString()) {
+        console.debug("(ndShowDetails) Already Shown");
+        return;
+    }
+
+    clearDetailView();
+
+    ndShowCommonDetails(ndUser);
+
+
+    /* Info [Noter] */
+    $("#dInfo").html(ndUser.info);
+
+    /* Group Name (RegH) */
+    $('#dCustGroupName').html(custGroupIdToName[ndUser.customGroup]);
+
+    /* Søgeord */
+    let searchValue = $("#searchInputEmp").val().trim().replaceAll("+", "").replaceAll("-", "");
+    let searchWords = ndUser.searchWords;
+    console.info("(ndShowDetails) searchWords", searchWords);
+
+    switch (custObj.customerKey) {
+        case "2647119":  //RegH
+            let searchWordsArr = [];
+            $.each(searchWords, function (index, searchWord) {
+                if (searchValue !== "") {
+                    searchWord = searchWord.replace(new RegExp(searchValue, 'gi'), '&lt;mark>$&amp;&lt;/mark>');
+                    searchWordsArr.push(searchWord + "&lt;br>");
+                }
+            });
+            searchWords = searchWordsArr;
+            console.info("(ndShowDetails) searchWordsArr", searchWordsArr);
+            break;
+        default:
+            //searchWords = tdcFormatHighlightText(searchWords, searchValue);
+            break;
+    }
+    $('#dSearchWord').html(searchWords);
+
+
+    /* Region Syd - OrgText from Services */
+    if (custObj.customerKey === "45524905") {
+        $('#dOrganization').html(ndUser.orgTree);
+    }
+
+    /* Calendar */
+    if (ndUser.isCalenderBusy) {
+        $("#dCalendarStatus").removeClass().addClass("far fa-calendar-times ndColorRed");
+    }
+    else {
+        $("#dCalendarStatus").removeClass().addClass("fas fa-calendar ndColorGreen");
+    }
+
+    /* Get Scale Presence */
+    calculatePresenceDetail(ndUser);
+
+    /* File Uploaded Department */
+    if (ndUser.isDepartment) {
+        $("#organizationRow").hide();
+        $("#phoneHoursRow").show();
+        $("#phoneHoursRowLine").show();
+        $("#userPhoto").attr("src", "Res/office.png");
+
+        /* Administration Name (Forvaltning) */
+        $('#dAdministraionName').html(ndUser.administrationName);
+
+        /* Address */
+        $('#dAddress').html(truncText(ndUser.streetAddress, 45, " .."));
+        $('#dAddress').attr("title", ndUser.streetAddress);
+
+        /* Room Number */
+        $('#dRoomNumber').html(ndUser.roomNumber);
+
+        /* Ip Phone */
+        $('#dIpPhone').html(ndUser.ipPhone);
+
+        /* Opening Hours */
+        $('#dPhoneHours').html(ndUser.phoneHours.replace(/(\\n)/g, '&lt;br>'));
+        $('#dOpeningHours').html(ndUser.openingHours.replace(/(\\n)/g, '&lt;br>'));
+
+        /* Manager */
+        $('#dManagerName').html(ndUser.managerName);
+        if (ndUser.managerName !== "") {
+            $("#dManagerName").attr("onclick", "ndRequestEmployees('" + ndUser.managerName + "', 'name', true)");
+        }
+
+        $('#dManagerEmail').html(ndUser.managerEmail);
+        if (ndUser.managerEmail !== "") {
+            $("#dManagerEmail").attr("onclick", `sendEmail('','${ndUser.managerEmail}');`);
+        }
+
+        return;
+    }
+
+    /* Puzzel Catalog */
+    $("#phoneHoursRow").hide();
+    $("#phoneHoursRowLine").hide();
+    $("#organizationRow").show();
+
+    /* Region H Image from Cbas */
+    if (custObj.customerKey === "2647119") {
+        if (ndUser.imageUrl !== "") {
+            if (urlExists(ndUser.imageUrl)) {
+                document.getElementById("userPhoto").setAttribute("src", ndUser.imageUrl);
+            }
+        }
+        console.debug("(ndShowDetails) Out");
+        return;
+    }
+
+    getCalendarPuzzelFromId();
+
+    /* Get User data from Azure */
+    if (custObj.azureAd &amp;&amp; ndUser.email !== "") {
+        console.debug("(ndShowDetails) Azure Data In");
+
+        const ndUserAzure = await getUserFromAzure(ndUser);
+        console.info("(ndShowDetails) Azure Data ndUserAzure", ndUserAzure);
+
+        /* User Found */
+        if (ndUserAzure.statusText === "OK") {
+            /* Initials */
+            if ($("#dInitials").text() === "") {
+                $("#dInitials").html(ndUserAzure.initials);
+            }
+            $('#dAddress').html(truncText(ndUserAzure.fullAddress, 45, " .."));
+            $('#dAddress').attr("title", ndUserAzure.fullAddress);
+            $('#dOrganization').html(ndUserAzure.organizationText);
+
+            /* Manager */
+            let managerName = ndUserAzure.managerDisplayName;
+            if (managerName !== "") {
+                $('#dManagerName').html(managerName);
+                $("#dManagerName").attr("onclick",
+                    `ndRequestEmployees("${ndUserAzure.managerGivenName} ${ndUserAzure.managerSurname}", "name", true)`);
+            }
+
+            let managerEmail = ndUserAzure.managerEmail
+            if (managerEmail !== "") {
+                $('#dManagerEmail').html(managerEmail);
+                $("#dManagerEmail").attr("onclick", `sendEmail('','${managerEmail}');`);
+            }
+
+            /* Administration Name [Forvaltning] */
+            $('#dAdministraionName').html(ndUserAzure.administrationName);
+
+            /* Division [Center] */
+            $('#dDivision').html(ndUserAzure.division);
+
+            /* Location [Placering] */
+            $('#dLocation').html(ndUserAzure.officeLocation);
+
+            /* Get Photo from Azure */
+            getPhotoFromAzure(ndUser);
+
+            console.debug("(ndShowDetails) Azure Data Out");
+        }
+    }
+
+    console.debug("(ndShowDetails) Out");
+}
+
+
+/** @function 
+ * @name ndShowCommonDetails
+ * @param {object} ndUser - ndUser object
+ * @description Show common details for user
+ * @since 1.0.0.0
+*/
+function ndShowCommonDetails(ndUser) {
+    console.debug("(ndShowCommonDetails) In");
+    console.debug("(ndShowCommonDetails) ndUser", ndUser);
+
+    /* Full name and id */
+    $('#dFullName').html(ndUser.fullName.replace("!", ""));
+    $('#dFullName').attr("title", ndUser.fullName);
+    $('#dFullName').attr("tdcId", ndUser.id);
+
+    /* OrgPath */
+    $('#detailOrgPath').html(ndUser.organizationPath);
+
+    /* Phone */
+    if (ndUser.phone != "") {
+        $('#dPhone').html(ndUser.phone);
+        $('#dPhone').addClass(ndUser.secretPhone);
+        $("#dPhoneSection").show();
+    }
+    else {
+        $("#dPhoneSection").hide();
+    }
+
+    /* Mobile */
+    if (ndUser.mobile != "") {
+        $('#dMobile').html(ndUser.mobile);
+        $('#dMobile').addClass(ndUser.secretMobile);
+        $("#dMobileSection").show();
+    } else {
+        $("#dMobileSection").hide();
+    }
+
+    /* Park Call */
+    let parkQueueVal = $("#settingParkDefaultQueue").val();
+    if (parkQueueVal !== "0") {
+        $("#btnPark_ID").removeClass("ndHidden");
+        $("#dFullName").attr("lastParkedNumber", "");
+    }
+
+    /* Email */
+    if (ndUser.email != "") {
+        $('#dEmail').html(truncText(ndUser.email, 26, " .."));
+        $('#dEmail').attr("title", ndUser.email);
+        $("#dEmailSection").show();
+    }
+    else {
+        $("#dEmailSection").hide();
+    }
+
+    /* Initials */
+    $('#dInitials').html(ndUser.initials);
+
+    /* Title */
+    $('#dTitle').html(ndUser.title);
+    if (ndUser.title !== "") {
+        $("#dTitle").attr("onclick", "ndRequestEmployees('" + ndUser.title + "', 'title', true)");
+    }
+
+    /* Department */
+    $("#dDepartmentName").html(ndUser.departmentName);
+    if (ndUser.departmentName !== "") {
+        $("#dDepartmentName").attr("onclick", "ndRequestEmployees('" + ndUser.departmentName + "', 'departmentName', true)");
+    }
+
+    /* Administration [Forvaltning] */
+    $('#dAdministraionName').html(ndUser.administrationName);
+
+    /* Division [Center] */
+    $('#dDivision').html(ndUser.division);
+
+    /* Location [Placering] */
+    $('#dAdministraionName').html(ndUser.location);
+
+    /* Address */
+    $('#dAddress').html(truncText(ndUser.streetAddress, 45, " .."));
+    $('#dAddress').attr("title", ndUser.streetAddress);
+
+    /* Room Number */
+    $('#dRoomNumber').html(ndUser.roomNumber);
+
+    /* Ip Phone */
+    $('#dIpPhone').html(ndUser.ipPhone);
+
+    /* Opening Hours */
+    $('#dAdministraionName').html(ndUser.phoneHours);
+    console.debug("(ndShowCommonDetails) Out");
+}
+
+
+/** @function 
+ * @name ndDataTableSorting
+ * @param {boolean} [departmentSort=false] - Sort on department
+ * @description Set datatable sorting
+ * @since 1.0.0.0
+*/
+function ndDataTableSorting(departmentSort = false) {
+    console.debug("(ndDataTableSorting) IN");
+    let returnArr = [[colIndexObj.isFavorite, "desc"], [colIndexObj.name, "asc"]];
+
+    let settingDepartmentSorting = $("#settingDepartmentDD").val();
+    if (departmentSort &amp;&amp; settingDepartmentSorting === "1") {
+        returnArr = [[colIndexObj.isFavorite, "desc"], [colIndexObj.isDep, "desc"], [colIndexObj.name, "asc"]];
+    }
+
+    console.debug("(ndDataTableSorting) Out");
+    return returnArr;
+}
+
+
+/** @function 
+ * @name clearEmployeeGrid
+ * @description Clear Employee datatable
+ * @since 1.0.0.0
+*/
+function clearEmployeeGrid() {
+    EmployeesDT.clear().draw();
+    EmployeesDT.columns.adjust();
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    
+    <span style="float: right;">
+		BUDDY&nbsp;
+		v3.5.0.0
+		<br>
+		Last updated: 06-01-2025&nbsp;
+		<!-- 14-00-2025 -->
+	</span>
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

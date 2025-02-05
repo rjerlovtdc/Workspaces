@@ -1,0 +1,74 @@
+[
+  {
+    "Name": "TDC Default",
+    "subject": "Telefonbesked",
+    "bodyText": [
+      "Du bedes ringe til: ",
+      "Telefon: {callObj.caller} ",
+      "Angående: "
+    ],
+    "signature": [
+      "",
+      "",
+      "Venlig hilsen,",
+      "Omstillingen"
+    ],
+    "listName": "Du bedes ringe til: Telefon: {callObj.caller} Angående: ",
+    "default": false
+  },
+  {
+    "Name": "TDC Venlig",
+    "subject": "Vi er høflige",
+    "bodyText": [
+      "Kære {fullName}",
+      "",
+      "Du bedes ringe til: ",
+      "Telefon: {callObj.caller} ",
+      "Angående: "
+    ],
+    "signature": [
+      "",
+      "",
+      "Venlig hilsen,",
+      "Omstillingen"
+    ],
+    "listName": "TDC Personlig",
+    "default": false
+  },
+  {
+    "Name": "ITF",
+    "subject": "Besked fra {agentObj.groupName}",
+    "bodyText": [
+      "Vil du ringe til: {callObj.caller}",
+      "Til orientering: ",
+      "",
+      "NAVN: ",
+      "CPR/CVR/Firma: ",
+      "Telefonnummer: ",
+      "Vedr: ",
+      "Øvrige bemærkninger: "
+    ],
+    "signature": [
+      "",
+      "",
+      "Venlig hilsen,",
+      "{agentObj.groupName}"
+    ],
+    "listName": "ITF Standard",
+    "default": true
+  },
+  {
+    "Name": "Alarm",
+    "subject": "Advarsel",
+    "bodyText": [
+      "ALARM",
+      "Telefon: {callObj.caller}"
+    ],
+    "signature": [
+      "",
+      "Omstillingen"
+    ],
+    "listName": "Alarm",
+    "default": false
+  }
+]

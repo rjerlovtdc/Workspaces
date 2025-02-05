@@ -1,0 +1,66 @@
+﻿[
+  {
+    "feature": "Popup styring",
+    "prio": 1,
+    "descriptionInternal": "Styring af TdcPopup via parametre i call flow",
+    "descriptionExternal": "Styring af TdcPopup via parametre i call flow",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Wallboard",
+    "prio": 4,
+    "descriptionInternal": "Visning af køer i oversigtsform til højre for Buddy",
+    "descriptionExternal": "Visning af køer i oversigtsform til højre for Buddy",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Agent søgning",
+    "prio": 4,
+    "descriptionInternal": "Muligt at søge på agenter. Enten i eksisterende Telefonbogs fane eller ny fane",
+    "descriptionExternal": "Muligt at søge på agenter. Enten i eksisterende Telefonbogs fane eller ny fane",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Agent markering",
+    "prio": 4,
+    "descriptionInternal": "Markering af Agenter i søgeresultat i Telefonbog",
+    "descriptionExternal": "Markering af Agenter i søgeresultat i Telefonbog",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Agent status",
+    "prio": 7,
+    "descriptionInternal": "Agent status / tilgængelighed skal vises ved søgninger",
+    "descriptionExternal": "Agent status / tilgængelighed skal vises ved søgninger",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Buddy til WebEx Calling",
+    "prio": 1,
+    "descriptionInternal": "Ingen yderligere info",
+    "descriptionExternal": "Ingen yderligere info",
+    "releaseDate": "27-03-2025",
+    "isReleased": false
+  },
+  {
+    "feature": "Buddy til WebEx CC",
+    "prio": 2,
+    "descriptionInternal": "Ingen yderligere info",
+    "descriptionExternal": "Ingen yderligere info",
+    "releaseDate": "19-06-2025",
+    "isReleased": false
+  },
+  {
+    "feature": "Buddy Genesys",
+    "prio": 3,
+    "descriptionInternal": "Ingen yderligere info",
+    "descriptionExternal": "Ingen yderligere info",
+    "releaseDate": "09-10-2025",
+    "isReleased": false
+  }
+]

@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ndParsing - BUDDY</title>
+    
+    <meta name="description" content="3.5.0.0" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ndAuth.html">ndAuth</a><ul class='methods'><li data-type='method'><a href="module-ndAuth.html#~auth">auth</a></li><li data-type='method'><a href="module-ndAuth.html#~refreshAuth">refreshAuth</a></li></ul></li><li><a href="module-ndBindings.html">ndBindings</a><ul class='methods'><li data-type='method'><a href="module-ndBindings.html#~performSearch">performSearch</a></li></ul></li><li><a href="module-ndEmployees.html">ndEmployees</a><ul class='methods'><li data-type='method'><a href="module-ndEmployees.html#~clearDetailView">clearDetailView</a></li><li data-type='method'><a href="module-ndEmployees.html#~clearEmployeeGrid">clearEmployeeGrid</a></li><li data-type='method'><a href="module-ndEmployees.html#~getDataTable">getDataTable</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableInit">ndDataTableInit</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableSorting">ndDataTableSorting</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndRequestEmployees">ndRequestEmployees</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowCommonDetails">ndShowCommonDetails</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowDetails">ndShowDetails</a></li></ul></li><li><a href="module-ndFavorites.html">ndFavorites</a><ul class='methods'><li data-type='method'><a href="module-ndFavorites.html#~buildFavoritesList">buildFavoritesList</a></li></ul></li><li><a href="module-ndGraph.html">ndGraph</a><ul class='methods'><li data-type='method'><a href="module-ndGraph.html#~getMsToken">getMsToken</a></li><li data-type='method'><a href="module-ndGraph.html#~getPhotoFromAzure">getPhotoFromAzure</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphPhotoFromEmail">msGraphPhotoFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserFromEmail">msGraphUserFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserSearch">msGraphUserSearch</a></li><li data-type='method'><a href="module-ndGraph.html#~ndGetPuzzelUserGraph">ndGetPuzzelUserGraph</a></li></ul></li><li><a href="module-ndLanguage.html">ndLanguage</a></li><li><a href="module-ndParsing.html">ndParsing</a><ul class='methods'><li data-type='method'><a href="module-ndParsing.html#~filterOrganization">filterOrganization</a></li><li data-type='method'><a href="module-ndParsing.html#~getOrgTreeFromService">getOrgTreeFromService</a></li><li data-type='method'><a href="module-ndParsing.html#~ndParseCallState">ndParseCallState</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCbasUserResponse">parseCbasUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCustomerSpecific">parseCustomerSpecific</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseManagerFromServices">parseManagerFromServices</a></li><li data-type='method'><a href="module-ndParsing.html#~parseOpeningHours">parseOpeningHours</a></li><li data-type='method'><a href="module-ndParsing.html#~parsePuzzelUserResponse">parsePuzzelUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseServices">parseServices</a></li><li data-type='method'><a href="module-ndParsing.html#~searchWordFromCustomerKey">searchWordFromCustomerKey</a></li></ul></li><li><a href="module-ndPresence.html">ndPresence</a><ul class='methods'><li data-type='method'><a href="module-ndPresence.html#~calculateAggStatus">calculateAggStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~getTeamsStatus">getTeamsStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~loadPresence">loadPresence</a></li></ul></li><li><a href="module-ndPuzzel.html">ndPuzzel</a><ul class='methods'><li data-type='method'><a href="module-ndPuzzel.html#~fetchUserInfo">fetchUserInfo</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getAccessToken">getAccessToken</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getTestingConfig">getTestingConfig</a></li><li data-type='method'><a href="module-ndPuzzel.html#~loadValuesFromPuzzel">loadValuesFromPuzzel</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndActivateWidget">ndActivateWidget</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndLoadAll">ndLoadAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndSetTitle">ndSetTitle</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndTestingAll">ndTestingAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~outsidePuzzelAllowed">outsidePuzzelAllowed</a></li><li data-type='method'><a href="module-ndPuzzel.html#~tdcGetWidgetOption">tdcGetWidgetOption</a></li><li data-type='method'><a href="module-ndPuzzel.html#~validateUser">validateUser</a></li></ul></li><li><a href="module-ndServices.html">ndServices</a><ul class='methods'><li data-type='method'><a href="module-ndServices.html#~agentSetAvailable">agentSetAvailable</a></li><li data-type='method'><a href="module-ndServices.html#~callAnswer">callAnswer</a></li><li data-type='method'><a href="module-ndServices.html#~callHangup">callHangup</a></li><li data-type='method'><a href="module-ndServices.html#~cbasApiCall">cbasApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithPhone">consultWithPhone</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithServiceQueue">consultWithServiceQueue</a></li><li data-type='method'><a href="module-ndServices.html#~endConsultation">endConsultation</a></li><li data-type='method'><a href="module-ndServices.html#~getMapFromArray">getMapFromArray</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabels">getServiceLabels</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabelsFromSearch">getServiceLabelsFromSearch</a></li><li data-type='method'><a href="module-ndServices.html#~getVisualQueues">getVisualQueues</a></li><li data-type='method'><a href="module-ndServices.html#~outboundCall">outboundCall</a></li><li data-type='method'><a href="module-ndServices.html#~popupWarning">popupWarning</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelApiCall">puzzelApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateTags">puzzelUpdateTags</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsEmp">puzzelUpdateVarsEmp</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsIncoming">puzzelUpdateVarsIncoming</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsQue">puzzelUpdateVarsQue</a></li><li data-type='method'><a href="module-ndServices.html#~scaleApiCall">scaleApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~setButtonStatesFromCurrentCall">setButtonStatesFromCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcBuddyPopupWindow">tdcBuddyPopupWindow</a></li><li data-type='method'><a href="module-ndServices.html#~tdcFetchUrl">tdcFetchUrl</a></li><li data-type='method'><a href="module-ndServices.html#~tdcParkCurrentCall">tdcParkCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcReadJsonFile">tdcReadJsonFile</a></li><li data-type='method'><a href="module-ndServices.html#~transferOnEnter">transferOnEnter</a></li><li data-type='method'><a href="module-ndServices.html#~transferToConsultee">transferToConsultee</a></li><li data-type='method'><a href="module-ndServices.html#~transferToPhone">transferToPhone</a></li><li data-type='method'><a href="module-ndServices.html#~transferToService">transferToService</a></li></ul></li><li><a href="module-ndStart.html">ndStart</a><ul class='methods'><li data-type='method'><a href="module-ndStart.html#~documentReady">documentReady</a></li><li data-type='method'><a href="module-ndStart.html#~windowsLoad">windowsLoad</a></li></ul></li><li><a href="module-ndTools.html">ndTools</a><ul class='methods'><li data-type='method'><a href="module-ndTools.html#~addTextToControl">addTextToControl</a></li><li data-type='method'><a href="module-ndTools.html#~agentObjActive">agentObjActive</a></li><li data-type='method'><a href="module-ndTools.html#~buildDynamicRow">buildDynamicRow</a></li><li data-type='method'><a href="module-ndTools.html#~calculateGridRow">calculateGridRow</a></li><li data-type='method'><a href="module-ndTools.html#~calendarBackForward">calendarBackForward</a></li><li data-type='method'><a href="module-ndTools.html#~calendarNowMark">calendarNowMark</a></li><li data-type='method'><a href="module-ndTools.html#~calendarShow">calendarShow</a></li><li data-type='method'><a href="module-ndTools.html#~checkForHyperlinks">checkForHyperlinks</a></li><li data-type='method'><a href="module-ndTools.html#~clearCallObject">clearCallObject</a></li><li data-type='method'><a href="module-ndTools.html#~clearSearchAndDetail">clearSearchAndDetail</a></li><li data-type='method'><a href="module-ndTools.html#~copyTextToClipboardOld">copyTextToClipboardOld</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedEmp">favoriteChangedEmp</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedQue">favoriteChangedQue</a></li><li data-type='method'><a href="module-ndTools.html#~filterResult">filterResult</a></li><li data-type='method'><a href="module-ndTools.html#~filterSearchWord">filterSearchWord</a></li><li data-type='method'><a href="module-ndTools.html#~getActiveTab">getActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getCalendarPuzzelFromId">getCalendarPuzzelFromId</a></li><li data-type='method'><a href="module-ndTools.html#~getEmailMessageString">getEmailMessageString</a></li><li data-type='method'><a href="module-ndTools.html#~getFavoritesArr">getFavoritesArr</a></li><li data-type='method'><a href="module-ndTools.html#~getInputBoxFromActiveTab">getInputBoxFromActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getOrgPath">getOrgPath</a></li><li data-type='method'><a href="module-ndTools.html#~getPhoneMessageSignature">getPhoneMessageSignature</a></li><li data-type='method'><a href="module-ndTools.html#~getPrevNextTab">getPrevNextTab</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromAzure">getUserFromAzure</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromCBAS">getUserFromCBAS</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromPuzzel">getUserFromPuzzel</a></li><li data-type='method'><a href="module-ndTools.html#~ndEnableSearchBox">ndEnableSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndFocusSearchBox">ndFocusSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetAggStatusForQueue">ndGetAggStatusForQueue</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetSpaces">ndGetSpaces</a></li><li data-type='method'><a href="module-ndTools.html#~ndPageReload">ndPageReload</a></li><li data-type='method'><a href="module-ndTools.html#~ndSetButtonsDefault">ndSetButtonsDefault</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistAsk">ndStoragePersistAsk</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistCheck">ndStoragePersistCheck</a></li><li data-type='method'><a href="module-ndTools.html#~ndTooltip">ndTooltip</a></li><li data-type='method'><a href="module-ndTools.html#~placeSearchWordRow">placeSearchWordRow</a></li><li data-type='method'><a href="module-ndTools.html#~prefixLocalNumber">prefixLocalNumber</a></li><li data-type='method'><a href="module-ndTools.html#~resetCalendar">resetCalendar</a></li><li data-type='method'><a href="module-ndTools.html#~sendEmail">sendEmail</a></li><li data-type='method'><a href="module-ndTools.html#~sendImChat">sendImChat</a></li><li data-type='method'><a href="module-ndTools.html#~setActiveTab">setActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~setShownRows">setShownRows</a></li><li data-type='method'><a href="module-ndTools.html#~setWindowHeight">setWindowHeight</a></li><li data-type='method'><a href="module-ndTools.html#~solteqPopup">solteqPopup</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFormatHighlightText">tdcFormatHighlightText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFullscreen">tdcFullscreen</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetLocalStorage">tdcGetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetPrimaryNumber">tdcGetPrimaryNumber</a></li><li data-type='method'><a href="module-ndTools.html#~tdcIsObjectEmpty">tdcIsObjectEmpty</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLoadPhoneTemplateText">tdcLoadPhoneTemplateText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLocalStorageAvailable">tdcLocalStorageAvailable</a></li><li data-type='method'><a href="module-ndTools.html#~tdcPhoneTemplateReplaceVariables">tdcPhoneTemplateReplaceVariables</a></li><li data-type='method'><a href="module-ndTools.html#~tdcSetLocalStorage">tdcSetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~transferTypeMark">transferTypeMark</a></li><li data-type='method'><a href="module-ndTools.html#~truncText">truncText</a></li><li data-type='method'><a href="module-ndTools.html#~urlExists">urlExists</a></li><li data-type='method'><a href="module-ndTools.html#~writeClipboardText">writeClipboardText</a></li></ul></li><li><a href="module-tdcModels.html">tdcModels</a></li></ul><h3>Events</h3><ul><li><a href="module-ndPuzzel.html#~event:DOMready">DOMready</a></li><li><a href="module-ndBindings.html#~event:btnPark_IDClick">btnPark_ID Click</a></li><li><a href="module-ndBindings.html#~event:cfaNumberClick">cfaNumber Click</a></li><li><a href="module-ndPuzzel.html#~event:contactCentreStatusChanged">contactCentreStatus Changed</a></li><li><a href="module-ndBindings.html#~event:dEmailSectionClick">dEmailSection Click</a></li><li><a href="module-ndBindings.html#~event:detailContentClick">detailContent Click</a></li><li><a href="module-ndBindings.html#~event:detailHeaderIDClick">detailHeaderID Click</a></li><li><a href="module-ndPuzzel.html#~event:eventsAndState">eventsAndState</a></li><li><a href="module-ndTools.html#~event:favoritesExport">favoritesExport</a></li><li><a href="module-ndBindings.html#~event:favoritesExportBtnClick">favoritesExportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportBtnClick">favoritesImportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportFileChanged">favoritesImportFile Changed</a></li><li><a href="module-ndTools.html#~event:favoritesImportSelectedFile">favoritesImportSelectedFile</a></li><li><a href="module-ndPuzzel.html#~event:getPuzzelApi">getPuzzelApi</a></li><li><a href="module-ndBindings.html#~event:modalCommonDataCopyClick">modalCommonDataCopy Click</a></li><li><a href="module-ndBindings.html#~event:nav-linkShown">nav-link Shown</a></li><li><a href="module-ndBindings.html#~event:navBarChanged">navBar Changed</a></li><li><a href="module-ndBindings.html#~event:numberInNotesClick">numberInNotes Click</a></li><li><a href="module-ndPuzzel.html#~event:onCallEventTrigger">onCallEventTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCallProgessChanged">onCallProgess Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallStateChanged">onCallState Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallTrigger">onCallTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCalloutCall">onCalloutCall</a></li><li><a href="module-ndPuzzel.html#~event:onIncomingCall">onIncomingCall</a></li><li><a href="module-ndPuzzel.html#~event:onTabActiveChanged">onTabActive Changed</a></li><li><a href="module-ndPuzzel.html#~event:onUserStateChanged">onUserState Changed</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsDetailViewClick">phoneButtonsDetailView Click</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsTopClick">phoneButtonsTop Click</a></li><li><a href="module-ndBindings.html#~event:phoneInputKeyUp">phoneInput KeyUp</a></li><li><a href="module-ndBindings.html#~event:phoneMessageModal_IDShown">phoneMessageModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:phoneMessageTemplateDDChange">phoneMessageTemplateDD Change</a></li><li><a href="module-ndBindings.html#~event:searchCountDDEmpChanged">searchCountDDEmp Changed</a></li><li><a href="module-ndBindings.html#~event:searchInEmpDDChanged">searchInEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:searchInputEmpKeyUp">searchInputEmp KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputFavKeyUp">searchInputFav KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputQueKeyUp">searchInputQue KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchOrgDDChanged">searchOrgDD Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkDefaultQueueChanged">settingParkDefaultQueue Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkShortcutChanged">settingParkShortcut Changed</a></li><li><a href="module-ndBindings.html#~event:settingsCheckboxClick">settingsCheckbox Click</a></li><li><a href="module-ndBindings.html#~event:settingsDropDownChanged">settingsDropDown Changed</a></li><li><a href="module-ndBindings.html#~event:showOnlineEmpDDChanged">showOnlineEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyBlur">tableDisplay KeyBlur</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyDt">tableDisplay KeyDt</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyFocus">tableDisplay KeyFocus</a></li><li><a href="module-ndBindings.html#~event:tableEmpIdClick">tableEmpId Click</a></li><li><a href="module-ndBindings.html#~event:tableFavIdClick">tableFavId Click</a></li><li><a href="module-ndBindings.html#~event:tableQueIdClick">tableQueId Click</a></li><li><a href="module-ndBindings.html#~event:tdcModal_IDShown">tdcModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:testmarkHtml2BtnClick">testmarkHtml2Btn Click</a></li><li><a href="module-ndBindings.html#~event:testmarkHtmlBtnClick">testmarkHtmlBtn Click</a></li><li><a href="module-ndBindings.html#~event:versionShowDetailBtnClick">versionShowDetailBtn Click</a></li><li><a href="module-ndBindings.html#~event:windowKeyUp">window KeyUp</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ndParsing</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line1">line 1</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="~filterOrganization"><span class="type-signature type-signature-inner">(inner) </span>filterOrganization<span class="signature">(orgName)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Filter organization from Azure AD</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line642">line 642</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>orgName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Full orgname from CN string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~getOrgTreeFromService"><span class="type-signature type-signature-inner">(inner) </span>getOrgTreeFromService<span class="signature">(services)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse Organization Tree from Services</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line367">line 367</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>services</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>services string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>orgText</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~ndParseCallState"><span class="type-signature type-signature-inner">(inner) </span>ndParseCallState<span class="signature">(call, pageReload<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse Call State</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line759">line 759</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>call</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Puzell cal object</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pageReload</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Puzell cal object</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndSearchObj</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseCbasUserResponse"><span class="type-signature type-signature-inner">(inner) </span>parseCbasUserResponse<span class="signature">(cUser)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse CBAS user response and return ndUser object</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>cUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>CBAS user object</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndUSer</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseCustomerSpecific"><span class="type-signature type-signature-inner">(inner) </span>parseCustomerSpecific<span class="signature">(ndUser, pUser)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Customer specific parsing</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line253">line 253</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ndUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>ndUser object</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Puzzel user object</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndUSer</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseDataFromAzure"><span class="type-signature type-signature-inner">(inner) </span>parseDataFromAzure<span class="signature">(azureUser, ndUser)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse Data From Azure</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line476">line 476</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>azureUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Microsoft user object from Azure</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>ndUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>ndUser object</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndUserAzure</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseDataFromAzure"><span class="type-signature type-signature-inner">(inner) </span>parseDataFromAzure<span class="signature">(ndUserAzure, ndUser, azureUser)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Customer Specific Parsing Azure AD</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line613">line 613</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ndUserAzure</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>ndUserAzure object</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>ndUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>ndUser object</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>azureUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Microsoft user object from Azure</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndUserAzure</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseManagerFromServices"><span class="type-signature type-signature-inner">(inner) </span>parseManagerFromServices<span class="signature">(services)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse Manager From Service</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line414">line 414</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>services</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>services string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndService</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseOpeningHours"><span class="type-signature type-signature-inner">(inner) </span>parseOpeningHours<span class="signature">(services)</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>v</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line444">line 444</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>services</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>services string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>returnText</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parsePuzzelUserResponse"><span class="type-signature type-signature-inner">(inner) </span>parsePuzzelUserResponse<span class="signature">(pUser)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse Puzzel user response and return ndUser object</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line120">line 120</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>pUser</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Puzzel user object</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndUSer</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~parseServices"><span class="type-signature type-signature-inner">(inner) </span>parseServices<span class="signature">(services)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Parse services string and return ndService object</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line296">line 296</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>services</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>services string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndService</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="~searchWordFromCustomerKey"><span class="type-signature type-signature-inner">(inner) </span>searchWordFromCustomerKey<span class="signature">(searchValue)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Searchword from CustomerKey</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ndparsing.js.html">ndparsing.js</a>, <a href="ndparsing.js.html#line713">line 713</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Value to search for</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>ndSearchObj</li>
+</ul>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    
+    <span style="float: right;">
+		BUDDY&nbsp;
+		v3.5.0.0
+		<br>
+		Last updated: 06-01-2025&nbsp;
+		<!-- 14-00-2025 -->
+	</span>
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

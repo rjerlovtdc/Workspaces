@@ -1,0 +1,74 @@
+﻿[
+  {
+    "feature": "Telenor presence",
+    "prio": 4,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Telia Presence",
+    "prio": 4,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "3 Presence",
+    "prio": 7,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Genesys presence",
+    "prio": 7,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Cisco Presence",
+    "prio": 7,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Teams presence",
+    "prio": 4,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Webex presence",
+    "prio": 7,
+    "descriptionInternal": "Vi skal have bygget en presence hub hvor vi kan lægge alle de forskellige presence fra operatører ind, der skal bygges et interface hvor man på kundeniveau kan vælge hvilke presence der skal være tilgængelige.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Presence på udenlandske teleudbydere",
+    "prio": 7,
+    "descriptionInternal": "Vonage, vodafone, O2 osv.",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  },
+  {
+    "feature": "Yderligere Scale funktioner",
+    "prio": 4,
+    "descriptionInternal": "Hvad ligger der af interessante informationer vi kan hive ud af Scale løsningen som giver mening for en omstillingsagent, f.eks. Status på mindre scale kontaktcentre",
+    "descriptionExternal": "",
+    "releaseDate": "-",
+    "isReleased": false
+  }
+]

@@ -1,0 +1,497 @@
+[
+	{
+		"id": 73946,
+		"firstName": "Kristineberg",
+		"lastName": "Natasja Balslev",
+		"title": "Psykiater",
+		"info": "For Psykiatrien.",
+		"isDepartment": false,
+		"streetAddress": "Region Hovedstadens Psykiatri, Kristineberg 3, 2100 København Ø",
+		"customGroup": 1,
+		"organization": {
+			"name": "Region Hovedstadens Psykiatri",
+			"code": "RHP",
+			"center": "",
+			"departmentName": "Administrationen, overafd.",
+			"section": "",
+			"room": "Kristineberg",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "38640016",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		],
+		"searchphrases": [
+			"CBAS",
+			"CIMT",
+			"Ekstern",
+			"Konsulent"
+		],
+		"openingHours": "Mandag 07:40 - 14:30\nTirsdag 07:40 - 18:30\nOnsdag 07:40 - 14:30*\nTorsdag 07:40 - 14:30\nFredag 07:40 - 12:30?\n*(dog til 18:20 for aferesedonorer med tidsbestilling)"
+	},
+	{
+		"id": 74922,
+		"firstName": "Kortnummer 1103 - Blegdamsvej",
+		"lastName": "Kvindehjemmet Jagtvej",
+		"title": "",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "",
+			"departmentName": "",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": []
+	},
+	{
+		"id": 74964,
+		"firstName": "Kortnummer 1357 - Blegdamsvej",
+		"lastName": "Pastor Stefan Lamhauge Hansen",
+		"title": "",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "",
+			"departmentName": "",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": []
+	},
+	{
+		"id": 75327,
+		"firstName": "Jane",
+		"lastName": "Bach",
+		"title": "Socialsygeplejerske",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "",
+			"departmentName": "",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "51684705",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 75451,
+		"firstName": "Jane",
+		"lastName": "Skjøth-Rasmussen",
+		"title": "Overlæge",
+		"info": "Data kommer fra en hardkodet variabel.\nDer er ikke adgang til CBAS !!",
+		"isDepartment": false,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Neurocentret",
+			"departmentName": "Afdeling for Hjerne- og Nervekirurgi",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "EMail",
+				"remoteAddress": "jane.skjoeth-rasmussen@regionh.dk",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35452095",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35452841",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Other",
+				"remoteAddress": "35453188",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		],
+		"searchphrases": [
+			"CBAS",
+			"CIMT",
+			"Ekstern",
+			"Konsulent"
+		],
+		"openingHours": "Mandag 07:40 - 14:30\nTirsdag 07:40 - 18:30\nOnsdag 07:40 - 14:30*\nTorsdag 07:40 - 14:30\nFredag 07:40 - 12:30?\n*(dog til 18:20 for aferesedonorer med tidsbestilling)"
+	},
+	{
+		"id": 75474,
+		"firstName": "Jane ",
+		"lastName": "Lindschou",
+		"title": "Senior Clinical Research Consult",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Copenhagen Trial Unit",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "EMail",
+				"remoteAddress": "jl@ctu.dk",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35457163",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35457101",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 75718,
+		"firstName": "Birgitte",
+		"lastName": "Janischefska",
+		"title": "Pårørende mentor",
+		"info": "Psykiatrisk Center Østerbro, Strandboulevarden 96, 2100 København Ø, Mandag til fredag fra kl. 9.00 til 15.",
+		"isDepartment": true,
+		"streetAddress": "Bispebjerg Bakke 23, Indg. 52, 4., 2400 København NV",
+		"customGroup": 1,
+		"organization": {
+			"name": "Region Hovedstadens Psykiatri",
+			"code": "RHP",
+			"center": "",
+			"departmentName": "PC København",
+			"section": "PCK, C8031C, Psykiatrisk ambulatorium, Østerbro",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "EMail",
+				"remoteAddress": "birgitte.janischefska@regionh.dk",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "21151429",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 75987,
+		"firstName": "SE info",
+		"lastName": "Kommunikation - Jacob Aaen",
+		"title": "",
+		"info": "Marianne uldahl passer som regel telefonen i week 2673 0495 (nr ikke oplyses til journalister (omstillingen sætter igennem) Hvis marianne ikke svarer sættes til regionsgårdens presse afd. 7020 9588",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Kommunikation",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35454142",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Other",
+				"remoteAddress": "35455327",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 75999,
+		"firstName": "Janne",
+		"lastName": "Diætist",
+		"title": "",
+		"info": "Opgang 8 stuen",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Servicecentret",
+			"departmentName": "Enhed for Mad og Drikke",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "38633447",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 76595,
+		"firstName": "Hjælpemiddel og sengeredning",
+		"lastName": "Teamleder Jan Stenholt",
+		"title": "",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Servicecentret",
+			"departmentName": "Forsyning og Logistik",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35453192",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 76631,
+		"firstName": "Kontakt Niels Theis Hansen",
+		"lastName": "Træningscenter Administrativ",
+		"title": "",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "",
+			"departmentName": "",
+			"section": "",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35456680",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 77197,
+		"firstName": "Marija",
+		"lastName": "Barbateskovic",
+		"title": "Ph.d. Clinical Research Associate",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Copenhagen Trial Unit",
+			"section": "Copenhagen Trial Unit",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35457113",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35457101",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 77198,
+		"firstName": "Janus",
+		"lastName": "Engstrøm",
+		"title": "IT Manager",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Copenhagen Trial Unit",
+			"section": "Copenhagen Trial Unit",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35457161",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35457101",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 77200,
+		"firstName": "Mette Vaupell",
+		"lastName": "Hansen",
+		"title": "Sekretær",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Copenhagen Trial Unit",
+			"section": "Copenhagen Trial Unit",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35457155",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35457101",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	},
+	{
+		"id": 77201,
+		"firstName": "Janus Christian",
+		"lastName": "Jakobsen",
+		"title": "Professor, dr. med.",
+		"info": "",
+		"isDepartment": true,
+		"streetAddress": "Blegdamsvej 9, 2100 København Ø",
+		"customGroup": 2,
+		"organization": {
+			"name": "Rigshospitalet",
+			"code": "RH",
+			"center": "Administrationen",
+			"departmentName": "Copenhagen Trial Unit",
+			"section": "Copenhagen Trial Unit",
+			"room": "",
+			"office": ""
+		},
+		"communicationPoints": [
+			{
+				"communicationType": "Phone",
+				"remoteAddress": "35457153",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			},
+			{
+				"communicationType": "Fax",
+				"remoteAddress": "35457101",
+				"isHidden": false,
+				"isBlocked": false,
+				"presence": ""
+			}
+		]
+	}
+]

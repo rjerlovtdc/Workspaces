@@ -1,0 +1,90 @@
+{
+  "id": 41664364, //Id
+  "firstName": "Jacob", //Fornavn
+  "lastName": "Hansen", //Efternavn
+  "title": "System Konsulent", //Titel
+  "info": "widget guru", //Info
+  "services": "C2", //Noter
+  "isCalenderBusy": false,
+  "organizationId": 150120,
+  "organizationPath": "TOP|4054040|Netdesign|Customer CX",
+  "isDepartment": false, //Er afdeling
+  "streetAddress": "Teglholmsgade 1-3, 2450 København K", //Adresse
+  "postalCode": "", //Postnr
+  "cityName": "", //By
+  "phoneHours": "", //Åbningstider Telefon
+  "openingHours": "", //Åbningstider
+  "url": "",  //Hjemmeside
+  "imageUrl": "", //URL til billede
+  "customGroup": 6, //customGroup
+  "organization": {
+    "name": "Rigshospitalet", //Virksomhed
+    "code": "RH", //VirksomhedKode
+    "center": "Hjertecentret", //center
+    "departmentName": "Hjertemedicinsk Klinik", //afdeling
+    "administrationName": "",
+    "section": "2013", //Afsnit
+    "room": "", //Rumnummer
+    "office": "", //Kontor
+    "managerName": "",
+    "managerEmail": ""
+  },
+  "communicationPoints": [
+    {
+      "communicationType": "EMail", //email
+      "remoteAddress": "jha@sw8p.onmicrosoft.com",
+      "isHidden": false,
+      "isBlocked": false,
+      "presence": ""
+    },
+    {
+      "communicationType": "Phone", //Telefon
+      "remoteAddress": "44358336",
+      "isHidden": false, //Må ikke vises
+      "isBlocked": false, //Må ikke omstilles til
+      "presence": ""
+    },
+    {
+      "communicationType": "Cell", //Mobil
+      "remoteAddress": "30550517",
+      "isHidden": false, //Må ikke vises
+      "isBlocked": false, //Må ikke omstilles til
+      "presence": ""
+    },
+    {
+      "communicationType": "Fax", //Fax
+      "remoteAddress": "",
+      "isHidden": false,
+      "isBlocked": false,
+      "presence": ""
+    },
+    {
+      "communicationType": "Other", //Andet device
+      "remoteAddress": "",
+      "isHidden": false,
+      "isBlocked": false,
+      "presence": ""
+    }
+  ],
+  "misc": {
+    "misc1": "",
+    "misc2": "",
+    "misc3": "",
+    "misc4": "",
+    "misc5": "",
+    "misc6": "",
+    "misc7": "",
+    "misc8": "",
+    "misc9": "",
+    "misc10": "",
+    "misc11": "",
+    "misc12": "",
+    "misc13": "",
+    "misc14": "",
+    "misc15": ""
+  },
+  "responseStatus": {
+    "code": 0,
+    "text": "OK"
+  }
+}

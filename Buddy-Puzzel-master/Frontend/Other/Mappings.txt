@@ -1,0 +1,8 @@
+﻿queueSize => I kø
+waitTimeMaxSeconds => Max ventetid
+
+agentsLoggedOn => Agenter
+agentsReady
+
+agentsUnavailable
+

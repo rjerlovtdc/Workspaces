@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ndparsing.js - BUDDY</title>
+    
+    <meta name="description" content="3.5.0.0" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ndAuth.html">ndAuth</a><ul class='methods'><li data-type='method'><a href="module-ndAuth.html#~auth">auth</a></li><li data-type='method'><a href="module-ndAuth.html#~refreshAuth">refreshAuth</a></li></ul></li><li><a href="module-ndBindings.html">ndBindings</a><ul class='methods'><li data-type='method'><a href="module-ndBindings.html#~performSearch">performSearch</a></li></ul></li><li><a href="module-ndEmployees.html">ndEmployees</a><ul class='methods'><li data-type='method'><a href="module-ndEmployees.html#~clearDetailView">clearDetailView</a></li><li data-type='method'><a href="module-ndEmployees.html#~clearEmployeeGrid">clearEmployeeGrid</a></li><li data-type='method'><a href="module-ndEmployees.html#~getDataTable">getDataTable</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableInit">ndDataTableInit</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableSorting">ndDataTableSorting</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndRequestEmployees">ndRequestEmployees</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowCommonDetails">ndShowCommonDetails</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowDetails">ndShowDetails</a></li></ul></li><li><a href="module-ndFavorites.html">ndFavorites</a><ul class='methods'><li data-type='method'><a href="module-ndFavorites.html#~buildFavoritesList">buildFavoritesList</a></li></ul></li><li><a href="module-ndGraph.html">ndGraph</a><ul class='methods'><li data-type='method'><a href="module-ndGraph.html#~getMsToken">getMsToken</a></li><li data-type='method'><a href="module-ndGraph.html#~getPhotoFromAzure">getPhotoFromAzure</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphPhotoFromEmail">msGraphPhotoFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserFromEmail">msGraphUserFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserSearch">msGraphUserSearch</a></li><li data-type='method'><a href="module-ndGraph.html#~ndGetPuzzelUserGraph">ndGetPuzzelUserGraph</a></li></ul></li><li><a href="module-ndLanguage.html">ndLanguage</a></li><li><a href="module-ndParsing.html">ndParsing</a><ul class='methods'><li data-type='method'><a href="module-ndParsing.html#~filterOrganization">filterOrganization</a></li><li data-type='method'><a href="module-ndParsing.html#~getOrgTreeFromService">getOrgTreeFromService</a></li><li data-type='method'><a href="module-ndParsing.html#~ndParseCallState">ndParseCallState</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCbasUserResponse">parseCbasUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCustomerSpecific">parseCustomerSpecific</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseManagerFromServices">parseManagerFromServices</a></li><li data-type='method'><a href="module-ndParsing.html#~parseOpeningHours">parseOpeningHours</a></li><li data-type='method'><a href="module-ndParsing.html#~parsePuzzelUserResponse">parsePuzzelUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseServices">parseServices</a></li><li data-type='method'><a href="module-ndParsing.html#~searchWordFromCustomerKey">searchWordFromCustomerKey</a></li></ul></li><li><a href="module-ndPresence.html">ndPresence</a><ul class='methods'><li data-type='method'><a href="module-ndPresence.html#~calculateAggStatus">calculateAggStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~getTeamsStatus">getTeamsStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~loadPresence">loadPresence</a></li></ul></li><li><a href="module-ndPuzzel.html">ndPuzzel</a><ul class='methods'><li data-type='method'><a href="module-ndPuzzel.html#~fetchUserInfo">fetchUserInfo</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getAccessToken">getAccessToken</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getTestingConfig">getTestingConfig</a></li><li data-type='method'><a href="module-ndPuzzel.html#~loadValuesFromPuzzel">loadValuesFromPuzzel</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndActivateWidget">ndActivateWidget</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndLoadAll">ndLoadAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndSetTitle">ndSetTitle</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndTestingAll">ndTestingAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~outsidePuzzelAllowed">outsidePuzzelAllowed</a></li><li data-type='method'><a href="module-ndPuzzel.html#~tdcGetWidgetOption">tdcGetWidgetOption</a></li><li data-type='method'><a href="module-ndPuzzel.html#~validateUser">validateUser</a></li></ul></li><li><a href="module-ndServices.html">ndServices</a><ul class='methods'><li data-type='method'><a href="module-ndServices.html#~agentSetAvailable">agentSetAvailable</a></li><li data-type='method'><a href="module-ndServices.html#~callAnswer">callAnswer</a></li><li data-type='method'><a href="module-ndServices.html#~callHangup">callHangup</a></li><li data-type='method'><a href="module-ndServices.html#~cbasApiCall">cbasApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithPhone">consultWithPhone</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithServiceQueue">consultWithServiceQueue</a></li><li data-type='method'><a href="module-ndServices.html#~endConsultation">endConsultation</a></li><li data-type='method'><a href="module-ndServices.html#~getMapFromArray">getMapFromArray</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabels">getServiceLabels</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabelsFromSearch">getServiceLabelsFromSearch</a></li><li data-type='method'><a href="module-ndServices.html#~getVisualQueues">getVisualQueues</a></li><li data-type='method'><a href="module-ndServices.html#~outboundCall">outboundCall</a></li><li data-type='method'><a href="module-ndServices.html#~popupWarning">popupWarning</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelApiCall">puzzelApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateTags">puzzelUpdateTags</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsEmp">puzzelUpdateVarsEmp</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsIncoming">puzzelUpdateVarsIncoming</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsQue">puzzelUpdateVarsQue</a></li><li data-type='method'><a href="module-ndServices.html#~scaleApiCall">scaleApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~setButtonStatesFromCurrentCall">setButtonStatesFromCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcBuddyPopupWindow">tdcBuddyPopupWindow</a></li><li data-type='method'><a href="module-ndServices.html#~tdcFetchUrl">tdcFetchUrl</a></li><li data-type='method'><a href="module-ndServices.html#~tdcParkCurrentCall">tdcParkCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcReadJsonFile">tdcReadJsonFile</a></li><li data-type='method'><a href="module-ndServices.html#~transferOnEnter">transferOnEnter</a></li><li data-type='method'><a href="module-ndServices.html#~transferToConsultee">transferToConsultee</a></li><li data-type='method'><a href="module-ndServices.html#~transferToPhone">transferToPhone</a></li><li data-type='method'><a href="module-ndServices.html#~transferToService">transferToService</a></li></ul></li><li><a href="module-ndStart.html">ndStart</a><ul class='methods'><li data-type='method'><a href="module-ndStart.html#~documentReady">documentReady</a></li><li data-type='method'><a href="module-ndStart.html#~windowsLoad">windowsLoad</a></li></ul></li><li><a href="module-ndTools.html">ndTools</a><ul class='methods'><li data-type='method'><a href="module-ndTools.html#~addTextToControl">addTextToControl</a></li><li data-type='method'><a href="module-ndTools.html#~agentObjActive">agentObjActive</a></li><li data-type='method'><a href="module-ndTools.html#~buildDynamicRow">buildDynamicRow</a></li><li data-type='method'><a href="module-ndTools.html#~calculateGridRow">calculateGridRow</a></li><li data-type='method'><a href="module-ndTools.html#~calendarBackForward">calendarBackForward</a></li><li data-type='method'><a href="module-ndTools.html#~calendarNowMark">calendarNowMark</a></li><li data-type='method'><a href="module-ndTools.html#~calendarShow">calendarShow</a></li><li data-type='method'><a href="module-ndTools.html#~checkForHyperlinks">checkForHyperlinks</a></li><li data-type='method'><a href="module-ndTools.html#~clearCallObject">clearCallObject</a></li><li data-type='method'><a href="module-ndTools.html#~clearSearchAndDetail">clearSearchAndDetail</a></li><li data-type='method'><a href="module-ndTools.html#~copyTextToClipboardOld">copyTextToClipboardOld</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedEmp">favoriteChangedEmp</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedQue">favoriteChangedQue</a></li><li data-type='method'><a href="module-ndTools.html#~filterResult">filterResult</a></li><li data-type='method'><a href="module-ndTools.html#~filterSearchWord">filterSearchWord</a></li><li data-type='method'><a href="module-ndTools.html#~getActiveTab">getActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getCalendarPuzzelFromId">getCalendarPuzzelFromId</a></li><li data-type='method'><a href="module-ndTools.html#~getEmailMessageString">getEmailMessageString</a></li><li data-type='method'><a href="module-ndTools.html#~getFavoritesArr">getFavoritesArr</a></li><li data-type='method'><a href="module-ndTools.html#~getInputBoxFromActiveTab">getInputBoxFromActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getOrgPath">getOrgPath</a></li><li data-type='method'><a href="module-ndTools.html#~getPhoneMessageSignature">getPhoneMessageSignature</a></li><li data-type='method'><a href="module-ndTools.html#~getPrevNextTab">getPrevNextTab</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromAzure">getUserFromAzure</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromCBAS">getUserFromCBAS</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromPuzzel">getUserFromPuzzel</a></li><li data-type='method'><a href="module-ndTools.html#~ndEnableSearchBox">ndEnableSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndFocusSearchBox">ndFocusSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetAggStatusForQueue">ndGetAggStatusForQueue</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetSpaces">ndGetSpaces</a></li><li data-type='method'><a href="module-ndTools.html#~ndPageReload">ndPageReload</a></li><li data-type='method'><a href="module-ndTools.html#~ndSetButtonsDefault">ndSetButtonsDefault</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistAsk">ndStoragePersistAsk</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistCheck">ndStoragePersistCheck</a></li><li data-type='method'><a href="module-ndTools.html#~ndTooltip">ndTooltip</a></li><li data-type='method'><a href="module-ndTools.html#~placeSearchWordRow">placeSearchWordRow</a></li><li data-type='method'><a href="module-ndTools.html#~prefixLocalNumber">prefixLocalNumber</a></li><li data-type='method'><a href="module-ndTools.html#~resetCalendar">resetCalendar</a></li><li data-type='method'><a href="module-ndTools.html#~sendEmail">sendEmail</a></li><li data-type='method'><a href="module-ndTools.html#~sendImChat">sendImChat</a></li><li data-type='method'><a href="module-ndTools.html#~setActiveTab">setActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~setShownRows">setShownRows</a></li><li data-type='method'><a href="module-ndTools.html#~setWindowHeight">setWindowHeight</a></li><li data-type='method'><a href="module-ndTools.html#~solteqPopup">solteqPopup</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFormatHighlightText">tdcFormatHighlightText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFullscreen">tdcFullscreen</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetLocalStorage">tdcGetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetPrimaryNumber">tdcGetPrimaryNumber</a></li><li data-type='method'><a href="module-ndTools.html#~tdcIsObjectEmpty">tdcIsObjectEmpty</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLoadPhoneTemplateText">tdcLoadPhoneTemplateText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLocalStorageAvailable">tdcLocalStorageAvailable</a></li><li data-type='method'><a href="module-ndTools.html#~tdcPhoneTemplateReplaceVariables">tdcPhoneTemplateReplaceVariables</a></li><li data-type='method'><a href="module-ndTools.html#~tdcSetLocalStorage">tdcSetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~transferTypeMark">transferTypeMark</a></li><li data-type='method'><a href="module-ndTools.html#~truncText">truncText</a></li><li data-type='method'><a href="module-ndTools.html#~urlExists">urlExists</a></li><li data-type='method'><a href="module-ndTools.html#~writeClipboardText">writeClipboardText</a></li></ul></li><li><a href="module-tdcModels.html">tdcModels</a></li></ul><h3>Events</h3><ul><li><a href="module-ndPuzzel.html#~event:DOMready">DOMready</a></li><li><a href="module-ndBindings.html#~event:btnPark_IDClick">btnPark_ID Click</a></li><li><a href="module-ndBindings.html#~event:cfaNumberClick">cfaNumber Click</a></li><li><a href="module-ndPuzzel.html#~event:contactCentreStatusChanged">contactCentreStatus Changed</a></li><li><a href="module-ndBindings.html#~event:dEmailSectionClick">dEmailSection Click</a></li><li><a href="module-ndBindings.html#~event:detailContentClick">detailContent Click</a></li><li><a href="module-ndBindings.html#~event:detailHeaderIDClick">detailHeaderID Click</a></li><li><a href="module-ndPuzzel.html#~event:eventsAndState">eventsAndState</a></li><li><a href="module-ndTools.html#~event:favoritesExport">favoritesExport</a></li><li><a href="module-ndBindings.html#~event:favoritesExportBtnClick">favoritesExportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportBtnClick">favoritesImportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportFileChanged">favoritesImportFile Changed</a></li><li><a href="module-ndTools.html#~event:favoritesImportSelectedFile">favoritesImportSelectedFile</a></li><li><a href="module-ndPuzzel.html#~event:getPuzzelApi">getPuzzelApi</a></li><li><a href="module-ndBindings.html#~event:modalCommonDataCopyClick">modalCommonDataCopy Click</a></li><li><a href="module-ndBindings.html#~event:nav-linkShown">nav-link Shown</a></li><li><a href="module-ndBindings.html#~event:navBarChanged">navBar Changed</a></li><li><a href="module-ndBindings.html#~event:numberInNotesClick">numberInNotes Click</a></li><li><a href="module-ndPuzzel.html#~event:onCallEventTrigger">onCallEventTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCallProgessChanged">onCallProgess Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallStateChanged">onCallState Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallTrigger">onCallTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCalloutCall">onCalloutCall</a></li><li><a href="module-ndPuzzel.html#~event:onIncomingCall">onIncomingCall</a></li><li><a href="module-ndPuzzel.html#~event:onTabActiveChanged">onTabActive Changed</a></li><li><a href="module-ndPuzzel.html#~event:onUserStateChanged">onUserState Changed</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsDetailViewClick">phoneButtonsDetailView Click</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsTopClick">phoneButtonsTop Click</a></li><li><a href="module-ndBindings.html#~event:phoneInputKeyUp">phoneInput KeyUp</a></li><li><a href="module-ndBindings.html#~event:phoneMessageModal_IDShown">phoneMessageModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:phoneMessageTemplateDDChange">phoneMessageTemplateDD Change</a></li><li><a href="module-ndBindings.html#~event:searchCountDDEmpChanged">searchCountDDEmp Changed</a></li><li><a href="module-ndBindings.html#~event:searchInEmpDDChanged">searchInEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:searchInputEmpKeyUp">searchInputEmp KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputFavKeyUp">searchInputFav KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputQueKeyUp">searchInputQue KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchOrgDDChanged">searchOrgDD Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkDefaultQueueChanged">settingParkDefaultQueue Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkShortcutChanged">settingParkShortcut Changed</a></li><li><a href="module-ndBindings.html#~event:settingsCheckboxClick">settingsCheckbox Click</a></li><li><a href="module-ndBindings.html#~event:settingsDropDownChanged">settingsDropDown Changed</a></li><li><a href="module-ndBindings.html#~event:showOnlineEmpDDChanged">showOnlineEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyBlur">tableDisplay KeyBlur</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyDt">tableDisplay KeyDt</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyFocus">tableDisplay KeyFocus</a></li><li><a href="module-ndBindings.html#~event:tableEmpIdClick">tableEmpId Click</a></li><li><a href="module-ndBindings.html#~event:tableFavIdClick">tableFavId Click</a></li><li><a href="module-ndBindings.html#~event:tableQueIdClick">tableQueId Click</a></li><li><a href="module-ndBindings.html#~event:tdcModal_IDShown">tdcModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:testmarkHtml2BtnClick">testmarkHtml2Btn Click</a></li><li><a href="module-ndBindings.html#~event:testmarkHtmlBtnClick">testmarkHtmlBtn Click</a></li><li><a href="module-ndBindings.html#~event:versionShowDetailBtnClick">versionShowDetailBtn Click</a></li><li><a href="module-ndBindings.html#~event:windowKeyUp">window KeyUp</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ndparsing.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>﻿/**
+ * @module ndParsing
+*/
+
+/* Global Variables */
+versionObj.ndparsing = 37;
+var setFocusTimeoutId1G = 0;
+var setFocusTimeoutId2G = 0;
+
+
+/** @function 
+ * @name parseCbasUserResponse
+ * @param {object} cUser - CBAS user object 
+ * @return {object} - ndUSer
+ * @description Parse CBAS user response and return ndUser object
+ * @since 1.0.0.0
+*/
+function parseCbasUserResponse(cUser) {
+    console.debug("(parseCbasUserResponse) In");
+    console.info("(parseCbasUserResponse) cUser", cUser);
+
+    let ndUser = {
+        id: cUser?.id,
+        azureId: "",
+        initials: "",
+        firstName: cUser?.firstName || "",
+        lastName: cUser?.lastName || "",
+        title: cUser?.title || "",
+        isAgent: false,
+
+        email: "", phone: "", mobile: "", fax: "", altFax: "",
+        secretEmail: "", secretPhone: "", secretMobile: "", secretFax: "",
+
+        searchWords: cUser?.searchphrases || [""],
+        imageUrl: cUser?.imageUrl || "",
+
+        isDepartment: cUser.isDepartment,
+        departmentName: cUser.organization?.departmentName || "",
+
+        organizationName: cUser.organization?.name || "",
+        organizationCode: cUser.organization?.code || "",
+        organizationCenter: cUser.organization?.center || "",
+        organizationSection: cUser.organization?.section || "",
+        organizationRoom: cUser.organization?.room || "",
+        organizationOffice: cUser.organization?.office || "",
+        organizationPath: "",
+        info: cUser?.info || "", customGroup: cUser?.customGroup || "",
+        division: "", location: "",
+
+        isCalenderBusy: "",
+
+        managerName: "", managerEmail: "",
+        administrationName: "",
+        streetAddress: cUser?.streetAddress || "",
+        roomNumber: "",
+        phoneHours: "",
+        openingHours: cUser?.openingHours || "",
+        url: "", rowColor: "",
+
+        presenceAggregated: "",
+        presencePhone: "",
+        presenceMobile: "",
+        presenceCFANumber: "",
+        presencePA: "",
+        presenceDND: "",
+        presenceTeams: "",
+        presenceAgent: "",
+
+        statusText: "OK"
+    };
+
+    ndUser.openingHours = ndUser.openingHours?.replace(/(?:\r\n|\r|\n)/g, "&lt;br>") || "";
+    ndUser.info = ndUser.info?.replace(/(?:\r\n|\r|\n)/g, "&lt;br>") || "";
+
+    ndUser.fullName = ndUser.firstName + " " + ndUser.lastName
+    ndUser.favorite = favoritesEmpArr.includes(ndUser.id);
+
+    if (ndUser.searchWords.toString() === "") {
+        ndUser.searchWords = "";
+    }
+
+    /* Phone Numbers */
+    if (cUser.communicationPoints !== null) {
+        $.each(cUser.communicationPoints, function (index, comPoint) {
+            switch (comPoint.communicationType) {
+                case "EMail":
+                    ndUser.email = comPoint?.remoteAddress || "";
+                    ndUser.secretEmail = (comPoint?.isHidden);
+                    break;
+                case "Phone":
+                    ndUser.phone = comPoint?.remoteAddress || "";
+                    ndUser.phone = ndUser.phone.replace("+45", "").replace("+1", "").replace("+2", "");
+                    ndUser.secretPhone = (comPoint?.isHidden);
+                    break;
+                case "Cell":
+                    ndUser.mobile = comPoint?.remoteAddress || "";
+                    ndUser.mobile = ndUser.mobile.replace("+45", "").replace("+1", "").replace("+2", "");
+                    ndUser.secretMobile = (comPoint?.isHidden);
+                    break;
+                case "Fax":
+                    ndUser.fax = comPoint?.remoteAddress || "";
+                    ndUser.fax = ndUser.fax.replace("+45", "").replace("+1", "").replace("+2", "");
+                    ndUser.secretFax = (comPoint?.isHidden);
+                    break;
+            }
+        });
+    }
+
+    /* Customer Specific Parsing */
+    let ndCustomerSpecific = parseCustomerSpecific(ndUser, cUser);
+    Object.assign(ndUser, ndCustomerSpecific);
+
+    console.info("(parseCbasUserResponse) ndUser", ndUser);
+    console.debug("(parseCbasUserResponse) Out");
+
+    return ndUser;
+}
+
+
+/** @function 
+ * @name parsePuzzelUserResponse
+ * @param {object} pUser - Puzzel user object 
+ * @return {object} - ndUSer
+ * @description Parse Puzzel user response and return ndUser object
+ * @since 1.0.0.0
+*/
+function parsePuzzelUserResponse(pUser) {
+    console.debug("(parsePuzzelUserResponse) In");
+    console.info("(parsePuzzelUserResponse) pUser", pUser);
+
+    const ndUser = {
+        id: pUser?.id,
+        azureId: pUser?.azureObjectId || "",
+        initials: "",
+        firstName: pUser?.firstName || "",
+        lastName: pUser?.lastName || "",
+        title: pUser?.title || "",
+        isAgent: false,
+
+        email: "", phone: "", mobile: "", fax: "", altFax: "",
+        secretPhone: "", secretMobile: "", noTransfer: false,
+
+        organizationId: pUser?.organizationId || "",
+        departmentName: pUser?.organizationName || "",
+        organizationPath: pUser?.organizationPath || "",
+        division: "", location: "", customGroup: "",
+        isDepartment: false,
+
+        info: pUser?.info?.replace(/(?:\r\n|\r|\n)/g, "&lt;br>") || "",
+        services: pUser?.services || "",
+        searchWords: "",
+
+        isCalenderBusy: pUser?.isCalenderBusy || false,
+
+        managerName: "", managerEmail: "",
+        administrationName: "", streetAddress: "", roomNumber: "",
+        phoneHours: "", openingHours: "",
+        url: "", rowColor: "", imageUrl: "",
+
+        presenceAggregated: "",
+        presencePhone: "",
+        presenceMobile: "",
+        presenceCFANumber: "",
+        presencePA: "",
+        presenceDND: "",
+        presenceTeams: "",
+        presenceAgent: "",
+
+        statusText: "OK"
+    };
+
+    ndUser.info = ndUser.info.replaceAll("$b_", "&lt;b>").replaceAll("_b$", "&lt;/b>");
+    ndUser.info = ndUser.info.replaceAll("$i_", "&lt;i>").replaceAll("_i$", "&lt;/i>");
+    ndUser.info = ndUser.info.replaceAll("$u_", "&lt;u>").replaceAll("_u$", "&lt;/u>");
+    ndUser.info = ndUser.info.replaceAll("$h_", "&lt;a>").replaceAll("_h$", "&lt;/a>");
+    ndUser.info = ndUser.info
+        .replaceAll("$n_", `&lt;span class="numberInNotes">`)
+        .replaceAll("_n$", "&lt;/span>");
+
+    ndUser.fullName = ndUser.firstName + " " + ndUser.lastName;
+    ndUser.favorite = favoritesEmpArr.includes(ndUser.id.toString());
+
+    /* Phone Numbers */
+    if (pUser.communicationPoints !== null) {
+        $.each(pUser.communicationPoints, function (index, comPoint) {
+            switch (comPoint.communicationType) {
+                case "EMail":
+                    ndUser.email = comPoint?.remoteAddress || "";
+                    break;
+                case "Phone":
+                    ndUser.phone = comPoint?.remoteAddress || "";
+                    ndUser.phone = ndUser.phone.replace("+45", "").replace("+1", "").replace("+2", "");
+                    break;
+                case "Cell":
+                    ndUser.mobile = comPoint?.remoteAddress || "";
+                    ndUser.mobile = ndUser.mobile.replace("+45", "").replace("+1", "").replace("+2", "");
+                    break;
+                case "Fax":
+                    ndUser.fax = comPoint?.remoteAddress || "";
+                    /* Secret Number */
+                    if (ndUser.fax.length === 8) {
+                        ndUser.secretPhone = (ndUser.fax.charAt(0) === "1");
+                        ndUser.secretMobile = (ndUser.fax.charAt(1) === "1");
+                        ndUser.noTransfer = (ndUser.fax.charAt(2) === "1");
+                        ndUser.rowColor = ndUser.fax.charAt(3);
+                    }
+                    break;
+            }
+        });
+    }
+
+    /* Info [Notes] and Search Words both in Info field*/
+    let searchWordsArr = ndUser.info.split('|');
+    if (searchWordsArr.length > 1) {
+        ndUser.info = tdcFormatHighlightText(searchWordsArr[0]);
+        ndUser.searchWords = tdcFormatHighlightText(searchWordsArr[1]);
+    }
+    else {
+        ndUser.searchWords = tdcFormatHighlightText(ndUser.info);
+        ndUser.info = "";
+    }
+
+    /*  Department Puzzel (OrganizationName) replace \\ */
+    ndUser.departmentName = ndUser.departmentName.replace("\\", ">");
+
+    /* Department File Upload (fullName start with '!') */
+    if (ndUser.fullName.startsWith("!")) {
+        ndUser.fullName = ndUser.fullName.slice(1);
+        ndUser.departmentName = ndUser.fullName;
+        ndUser.isDepartment = true;
+    }
+
+    /* Multiple values in services (contains '|') */
+    if (ndUser.services.includes("|")) {
+        const ndService = parseServices(ndUser.services)
+        Object.assign(ndUser, ndService);
+    }
+    else {
+        ndUser.streetAddress = ndUser.services;
+    }
+
+    /* Custome Specific Parsing */
+    const ndCustomerSpecific = parseCustomerSpecific(ndUser, pUser);
+    Object.assign(ndUser, ndCustomerSpecific);
+
+    console.info("(parsePuzzelUserResponse) ndUser", ndUser);
+    console.debug("(parsePuzzelUserResponse) Out");
+
+    return ndUser;
+}
+
+
+/** @function 
+ * @name parseCustomerSpecific
+ * @param {object} ndUser - ndUser object 
+ * @param {object} pUser - Puzzel user object 
+ * @return {object} - ndUSer
+ * @description Customer specific parsing
+ * @since 1.0.0.0
+*/
+function parseCustomerSpecific(ndUser, pUser) {
+    console.debug("parseCustomerSpecific In");
+
+    let orgPath = ndUser.organizationPath;
+
+    switch (custObj.customerKey) {
+        case "45524905":  //Region Syd 
+            ndUser.isDepartment = (ndUser.title.substring(0, 3).toUpperCase() === "FNR");
+
+            if (typeof ndUser.orgTree !== "undefined") {
+                ndUser.orgTree = getOrgTreeFromService(ndUser.orgTree);
+            }
+
+            if (orgPath.includes("|REG|")) {  //REG
+                if (!ndUser.services.includes("|")) {
+                    ndUser.roomNumber = ndUser.services;
+                    ndUser.streetAddress = "";
+                }
+            }
+            break;
+        case "1018811":  //Vejdirektorat
+            ndUser.location = pUser?.services || ""
+            ndUser.streetAddress = "";
+            break;
+        case "458631":  //ABB
+            ndUser.initials = ndUser.services;
+            ndUser.departmentName = ndUser.departmentName.split(',')[0] || "";
+            break;
+    }
+
+    console.debug("parseCustomerSpecific Out");
+    return ndUser;
+}
+
+
+/** @function 
+ * @name parseServices
+ * @param {string} services - services string
+ * @return {object} - ndService
+ * @description Parse services string and return ndService object
+ * @since 1.0.0.0
+*/
+function parseServices(services) {
+    console.debug("parseServices In");
+
+    const ndService = {
+        managerName: "", managerEmail: "",
+        administrationName: "", altFax: "",
+        phoneHours: "", openingHours: "",
+        streetAddress: "", url: "",
+        orgTree: "", roomNumber: "", ipPhone: ""
+        //, rowColor: ""
+    };
+
+    const serviceArr = services.split("|");
+    console.info("parseServices serviceArr", serviceArr);
+
+    /* Services Iterating */
+    $.each(serviceArr, function (index, service) {
+        let serviceValue = service.trim();
+        switch (index) {
+            case 0:  //Administration Name (Forvaltning)
+                ndService.administrationName = (service === "X") ? "" : serviceValue;
+                break;
+            case 1: //Opening Hours Phone
+                ndService.phoneHours = parseOpeningHours(serviceValue)
+
+                break;
+            case 2: //Opening Hours
+                ndService.openingHours = parseOpeningHours(serviceValue)
+                break;
+            case 3:  //Address
+                ndService.streetAddress = serviceValue;
+                break;
+            case 4:  //Manager
+                const ndManager = parseManagerFromServices(serviceValue);
+                Object.assign(ndService, ndManager);
+                break;
+            case 5:  //URL
+                ndService.url = serviceValue;
+                break;
+            case 6:  //OrgTree
+                ndService.orgTree = serviceValue;
+                break;
+            case 7:  //RowColor
+                //ndService.rowColor = serviceValue;
+                break;
+            case 8:  //FaxNumber
+                ndService.altFax = serviceValue;
+                break;
+            case 9:  //RoomNumber
+                ndService.roomNumber = serviceValue;
+                break;
+            case 10:  //IpPhone
+                ndService.ipPhone = serviceValue;
+                break;
+        }
+    });
+
+    console.info("parseServices ndService", ndService);
+    console.debug("parseServices Out");
+
+    return ndService;
+}
+
+
+/** @function 
+ * @name getOrgTreeFromService
+ * @param {string} services - services string
+ * @return {object} - orgText
+ * @description Parse Organization Tree from Services
+ * @since 1.0.0.0
+*/
+function getOrgTreeFromService(services) {
+    console.debug("getOrgTreeFromService In");
+    console.info("getOrgTreeFromService services", services);
+
+    if (typeof services === "undefined") {
+        return;
+    }
+
+    let servicesArr = services.split(',');
+    console.info("getOrgTreeFromService services", services);
+
+    let arrowDown = "&lt;span class='fas fa-caret-down'>&lt;/span>";
+    let arrowRight = "&lt;span class='fas fa-long-arrow-alt-right'>&lt;/span>";
+    let orgText = "", counter = 0;
+
+    $.each(servicesArr, function (index, text) {
+        let trimTxt = text.trim();
+        console.info("getOrgTreeFromService index", index);
+        switch (index) {
+            case 0:  //First row
+                orgText = (trimTxt !== "") ? trimTxt + ndGetSpaces(2) + arrowDown + "&lt;br />" : "";
+                break;
+            case servicesArr.length - 1:  //Last row
+                orgText += (trimTxt !== "") ? ndGetSpaces(index * 4) + arrowRight + ndGetSpaces(2) + trimTxt : "";
+                break;
+            case 1:  //Second row
+                orgText += (trimTxt !== "") ? ndGetSpaces(index * 4) + arrowRight + ndGetSpaces(2) + trimTxt + "&lt;br />" : "";
+                break;
+            default:
+                orgText += (trimTxt !== "") ? ndGetSpaces(index * 4) + arrowRight + ndGetSpaces(2) + trimTxt + ndGetSpaces(2) + "&lt;br />" : "";
+                break;
+        }
+    });
+
+    console.info("getOrgTreeFromService orgText", orgText);
+    console.debug("getOrgTreeFromService Out");
+    return orgText;
+}
+
+
+/** @function 
+ * @name parseManagerFromServices
+ * @param {string} services - services string
+ * @return {object} - ndService
+ * @description Parse Manager From Service
+ * @since 1.0.0.0
+*/
+function parseManagerFromServices(services) {
+    const ndService = {
+        managerName: "",
+        managerEmail: "",
+    };
+
+    const serviceArr = services.split(',');
+
+    $.each(serviceArr, function (index, services) {
+        switch (index) {
+            case 0:  //Manager Name
+                ndService.managerName = services;
+                break;
+            case 1: //Manager Email
+                ndService.managerEmail = services;
+                break;
+        }
+    });
+
+    return ndService;
+}
+
+
+/** @function 
+ * @name parseOpeningHours
+ * @param {string} services - services string
+ * @return {string} - returnText
+ * @description v
+ * @since 1.0.0.0
+*/
+function parseOpeningHours(services) {
+    let returnText = "";
+    const openingHoursArr = services.split(',');
+
+    $.each(openingHoursArr, function (index, openingHours) {
+        switch (index) {
+            case 0:
+                returnText = openingHours;
+                break;
+            case 1:
+                returnText += "&lt;br />" + openingHours;
+                break;
+            case 2:
+                returnText += "&lt;br />" + openingHours;
+                break;
+            case 3:
+                returnText += "&lt;br />" + openingHours;
+                break;
+        }
+    });
+
+    return returnText;
+}
+
+
+/** @function 
+ * @name parseDataFromAzure
+ * @param {object} azureUser - Microsoft user object from Azure
+ * @param {object} ndUser - ndUser object
+ * @return {object} - ndUserAzure
+ * @description Parse Data From Azure
+ * @since 1.0.0.0
+*/
+function parseDataFromAzure(azureUser, ndUser) {
+    console.debug("(parseDataFromAzure) In");
+
+    console.info("(parseDataFromAzure) ndUser", ndUser);
+    console.info("(parseDataFromAzure) azureUser", azureUser);
+
+    const ndUserAzure = {
+        initials: "",
+        administrationName: azureUser?.Department || "",
+        streetAddress: azureUser?.StreetAddress || "",
+        postalCode: azureUser?.PostalCode || "",
+        city: azureUser?.City || "",
+        officeLocation: azureUser?.OfficeLocation || "",
+        onPremisesDistinguishedName: azureUser?.OnPremisesDistinguishedName || "",
+        onPremisesExtensionAttributes: azureUser?.OnPremisesExtensionAttributes || "",
+        organizationText: "",
+        division: azureUser?.ndDivision || "",
+        managerGivenName: azureUser.Manager?.GivenName || "",
+        managerSurname: azureUser.Manager?.Surname || "",
+        managerDisplayName: azureUser.Manager?.DisplayName || "",
+        managerEmail: azureUser.Manager?.Mail || "",
+        statusText: "OK"
+    }
+
+    /* Initials */
+    ndUserAzure.initials = azureUser.UserPrincipalName.split('@')[0].toUpperCase();
+
+    /* Address */
+    ndUserAzure.fullAddress = (ndUserAzure.streetAddress !== "") ?
+        ndUserAzure.streetAddress + ", " + ndUserAzure.postalCode + " " + ndUserAzure.city : "";
+
+    /* Organization */
+    let arrowDown = "&lt;span class='fas fa-caret-down'>&lt;/span>";
+    let arrowRight = "&lt;span class='fas fa-long-arrow-alt-right'>&lt;/span>";
+
+    let organizationText = "";
+
+    /* Organization from OnPremisesExtensionAttributes */
+    let customerKeys = ["4054040", "474898"]; //NetDesign and Gribskov
+    let bolValue = customerKeys.some(element => custObj.customerKey.includes(element))
+    let startKey = (custObj.customerKey !== "474898") ? 1 : 11;
+
+    let counter = 0;
+    if (bolValue &amp;&amp; ndUserAzure.onPremisesExtensionAttributes !== "") {
+        console.debug("OnPremisesExtensionAttributes In");
+
+        let preValue = "";
+        let extAttArr = new Map();
+
+        $.each(ndUserAzure.onPremisesExtensionAttributes, function (key, value) {
+            let keyValue = parseInt(key.replace('ExtensionAttribute', ''));
+            if (keyValue >= startKey &amp;&amp; keyValue &lt;= startKey + 4) {
+                extAttArr.set(keyValue, value);
+            }
+        });
+
+        var extAttSortedArr = new Map([...extAttArr].sort((a, b) => a[0] - b[0]));  //spread operator ..., expands array > list
+        console.debug("OnPremisesExtensionAttributes extAttArr", extAttSortedArr);
+
+        extAttSortedArr.forEach((value, key) => {
+            if (key === startKey) {
+                organizationText = value + ndGetSpaces(2) + arrowDown + "&lt;br />";  //First row
+            }
+
+            if (key !== startKey &amp;&amp; value != preValue) {
+                organizationText += ndGetSpaces(counter * 4) + arrowRight + ndGetSpaces(2) + value + "&lt;br />";
+            }
+
+            preValue = value;
+            counter++;
+        });
+
+        ndUserAzure.organizationText = organizationText;
+    }
+
+    /* Organization from OnPremisesDistinguishedName */
+    if (!bolValue &amp;&amp; ndUserAzure.onPremisesDistinguishedName !== "") {
+        const organizationArr = ndUserAzure.onPremisesDistinguishedName.split(",");
+        let organizationArrFiltered = organizationArr.filter(filterOrganization);
+
+        if (custObj.customerKey === "454014") {
+            organizationArrFiltered.reverse();
+        }
+
+        if (custObj.customerKey === "458631") {
+            organizationArrFiltered = ndUserAzure.administrationName.split(',');
+        }
+
+        if (ndUser.organizationPath.includes("TOP|454014|Allerød")) {
+            organizationArrFiltered = ndUserAzure.onPremisesExtensionAttributes.ExtensionAttribute3.split('/');
+            organizationArrFiltered.splice(4);
+        }
+
+        $.each(organizationArrFiltered, function (index, org) {
+            let orgText = org.replaceAll("OU=", "").replaceAll("\\", "");
+
+            switch (index) {
+                case 0:  //First row
+                    organizationText = orgText + ndGetSpaces(2) + arrowDown + "&lt;br />";
+                    break;
+                case organizationArrFiltered.length - 1:  //Last row
+                    organizationText += ndGetSpaces(index * 4) + arrowRight + ndGetSpaces(2) + orgText;
+                    break;
+                default:
+                    organizationText += ndGetSpaces(index * 4) + arrowRight + ndGetSpaces(2) + orgText + ndGetSpaces(2) + arrowDown + "&lt;br />";
+                    break;
+            }
+        });
+
+
+        if (ndUser.organizationPath.includes("TOP|454014|Egedal")) {
+            organizationText = ndUserAzure.division + ndGetSpaces(2) + arrowDown + "&lt;br />";
+            organizationText += ndGetSpaces(counter * 4) + arrowRight + ndGetSpaces(2) + ndUser.departmentName;
+        }
+
+        ndUserAzure.organizationText = organizationText;
+    }
+
+    /* Customer Specific Parsing */
+    const ndCustomerSpecific = parseCustomerSpecificAzure(ndUserAzure, ndUser, azureUser);
+    Object.assign(ndUserAzure, ndCustomerSpecific);
+
+    console.info("(parseDataFromAzure) ndUserAzure", ndUserAzure);
+    console.debug("(parseDataFromAzure) Out");
+
+    return ndUserAzure;
+}
+
+
+/** @function 
+ * @name parseDataFromAzure
+ * @param {object} ndUserAzure - ndUserAzure object
+ * @param {object} ndUser - ndUser object
+ * @param {object} azureUser - Microsoft user object from Azure
+ * @return {object} - ndUserAzure
+ * @description Customer Specific Parsing Azure AD
+ * @since 1.0.0.0
+*/
+function parseCustomerSpecificAzure(ndUserAzure, ndUser, azureUser) {
+    console.debug("(parseCustomerSpecificAzure) In");
+
+    /* IT-Forsynigen */
+    if (ndUser.organizationPath.includes("|454014|Furesø") ||
+        ndUser.organizationPath.includes("|454014|Fredensborg")) {
+        ndUserAzure.officeLocation = azureUser?.Department || "";
+        ndUserAzure.administrationName = azureUser?.OfficeLocation || "";
+    }
+
+    if (custObj.customerKey === "4054040") {
+        ndUserAzure.administrationName = azureUser?.OnPremisesExtensionAttributes.ExtensionAttribute1;
+    }
+
+    console.info("(parseCustomerSpecificAzure) ndUserAzure", ndUserAzure);
+    console.debug("(parseCustomerSpecificAzure) Out");
+    return ndUserAzure;
+}
+
+
+/** @function 
+ * @name filterOrganization
+ * @param {string} orgName - Full orgname from CN string
+ * @return {boolean}
+ * @description Filter organization from Azure AD
+ * @since 1.0.0.0
+*/
+function filterOrganization(orgName) {
+    var conditions = [];
+
+    switch (custObj.customerKey) {
+        case "458631":  //ABB
+            conditions = ["CN=", "DC=dabbolig", "DC=dk"];
+            break;
+        case "474896":  //Apcoa
+            conditions = ["CN=", "OU=Users", "DC=epd", "DC=intern"];
+            break;
+        case "10117738":  //DAB
+            conditions = ["CN=", "OU=Users", "OU=Gribskov", "DC=gribskov", "DC=local"];
+            break;
+        case "474898":  //Gribskov
+            conditions = ["CN=", "OU=Users", "OU=Gribskov", "DC=gribskov", "DC=local"];
+            break;
+        case "4517111":  //HelsinFor
+            conditions = ["CN=", "OU=Users", "OU=Gribskov", "OU=.Forsyning Helsingoer", "DC=int", "DC=fh", "DC=dk"];
+            break;
+        case "454265":  //Morsø Kommune
+            conditions = ["CN=", "OU=Users", "OU=Morsø Kommune", "DC=mk", "DC=local"];
+            break;
+        case "4517222":  //Munck Gruppen
+            conditions = ["CN=", "OU=Users", "DC=munck", "DC=net"];
+            break;
+        case "4054040":  //NetDesign
+            conditions = ["CN=", "OU=Users"];
+            break;
+        case "455160":  //Novafos
+            conditions = ["CN=", "OU=Users", "DC=nv", "DC=local"];
+            break;
+        case "454056":  //Odense
+            conditions = ["CN=", "OU=Users", "OU=Odense", "DC=OdkNet", "DC=dk"];
+            break;
+        case "2647119":  //Region H
+            conditions = ["CN=", "OU=Users"]
+            break;
+        case "454335":  //Scanvaegt
+            conditions = ["CN=", "OU=Users", "DC=ad", "DC=lan"]
+            break;
+        case "454014":  //IT-Forsyningen
+            conditions = [
+                "OU=Ballerup Kommune", "DC=balk",
+                "OU=Fredensborg", "DC=alpha", "DC=local",
+                "OU=Direktionen", "OU=Furesø Kommune", "DC=FURESOE", "DC=KOMMUNE",
+                "OU=Brugere", "DC=egedal", "DC=egekom", "DC=org",
+                "CN=", "OU=Users", "DC=intern", "DC=itfors", "DC=dk"
+            ]
+            break;
+        case "12820":  //PFA
+            conditions = ["CN=", "OU=User Accounts", "OU=PFA", "DC=prod", "DC=pfaintern", "DC=dk"]
+            //OU = PROD Users, OU = Internal User
+            break;
+        case "1018811":  //Vejdirek
+            conditions = ["CN=", "OU=Users", "DC=vdnet", "DC=dk"]
+            break;
+    }
+
+    let bolValue = !conditions.some(element => orgName.includes(element))
+
+    return bolValue;
+}
+
+
+/** @function 
+ * @name searchWordFromCustomerKey
+ * @param {string} searchValue - Value to search for
+ * @return {object} - ndSearchObj
+ * @description Searchword from CustomerKey
+ * @since 1.0.0.0
+*/
+function searchWordFromCustomerKey(searchValue) {
+    switch (custObj.customerKey) {
+        case "2647119":  //Region H
+            console.debug("(searchWordFromCustomerKey) In");
+
+            const searchColumnSetId = searchInTxtToNum[$("#searchInEmpDD").val()];
+            const ndSearchObj = { searchColumnSetId: searchColumnSetId };
+            const wildCard = $('#settingWildcardDD').val();
+            console.info("searchColumnSetId", searchColumnSetId);
+
+            switch (searchColumnSetId) {
+                case 3:  //Search whole sentence
+                case 9:  //Search whole sentence
+                    ndSearchObj.searchValue = [searchValue];
+                    break;
+                default:
+                    /* Wildcard search for CBAS */
+                    ndSearchObj.searchValue = (wildCard === "1") ? searchValue.replaceAll(' ', '% ') + "%" : searchValue;
+                    ndSearchObj.searchValue = ndSearchObj.searchValue.split(' ')
+                    break;
+            }
+
+            switch (searchValue[0]) {
+                case "-": //Search whole sentence
+                    ndSearchObj.searchValue = [searchValue.slice(1)];
+                    break;
+                case "+": //Search Phrase
+                    ndSearchObj.searchValue = [searchValue.slice(1)];
+                    ndSearchObj.searchColumnSetId = 3;
+            }
+
+            console.info("(searchWordFromCustomerKey) ndSearchObj", ndSearchObj);
+            console.debug("(searchWordFromCustomerKey) In");
+
+            return ndSearchObj;
+    }
+}
+
+
+/** @function 
+ * @name ndParseCallState
+ * @param {object} call - Puzell cal object
+ * @param {boolean} [pageReload=false] - Puzell cal object
+ * @return {object} - ndSearchObj
+ * @description Parse Call State
+ * @since 1.0.0.0
+*/
+async function ndParseCallState(call, pageReload = false) {
+    console.debug("(ndParseCallState) In");
+    console.info("(ndParseCallState) call", call);
+
+    if (typeof call === "undefined") {
+        ndSetButtonsDefault();
+        ndSetTitle(false);
+        ndEnableSearchBox(-9);
+        return;
+    }
+
+    callObj.sessionId = call.sessionId, callObj.requestId = call.requestId;
+    callObj.queueKey = call.queueKey, callObj.caller = call.caller;
+    callObj.isConnected = call.isConnected, callObj.isOutboundConnected = call.isOutboundConnected;
+    callObj.callProgress = "", callObj.transferState = "";
+
+    callObj.callerTransfered = call.vars?.system_caller_transfered || "FALSE";
+    callObj.callerTransferedTo = call.vars?.Omstillet_til || "";
+    if (callObj.callerTransferedTo === "") {
+        callObj.callerTransferedTo = call.vars?.tdcCatCalledNumber || "";
+    }
+
+    callObj.tdcCustGroupIds = call.vars?.tdcCustGroupIds || "0";
+    callObj.tdcOrgUnit = call.vars?.tdcOrgUnit || "";
+    callObj.cpr_number = call.vars?.cpr_number || "";
+
+
+    let variablesArr = new Map();
+
+    if (call.hasOwnProperty('vars')) {
+        console.info("(ndParseCallState) vars", call.vars);
+        $.each(call.vars, function (key, value) {
+            variablesArr.set(key, value);
+        });
+    }
+    console.info("(ndParseCallState) variablesArr", variablesArr);
+
+    if (!callObj.queueKey.toUpperCase().includes("PARKE")) {
+        callObj.lastCalledQueue = variablesArr.get("system_queue_id");
+        puzzelUpdateVarsIncoming(callObj.lastCalledQueue);
+    }
+
+
+    let settingClear = $("#settingClearSearchResultDD").val();
+
+    if (variablesArr.has("system_call_progress")) {
+        callObj.callProgress = variablesArr.get("system_call_progress");
+        console.info("(ndParseCallState) callObj.callProgress", callObj.callProgress);
+        let inputBoxName = getInputBoxFromActiveTab();
+
+        switch (callObj.callProgress) {
+            case "ALERTING":
+                if (firstIncomingG) {
+                    ndFocusSearchBox(-1);
+                    ndEnableSearchBox(-1);
+
+                    $(window).trigger('focus');
+                    firstIncomingG = false;
+                }
+                break;
+            case "SETUP":
+                $('#callOut').prop('disabled', true);
+                ndFocusSearchBox(1, inputBoxName);
+                ndFocusSearchBox(3, inputBoxName);
+                break;
+            case "CONNECTED":
+                $('#callHangup').prop('disabled', false);
+
+                ndRequestQueues(false, true);
+                console.info("(ndParseCallState) callObj", callObj);
+
+                if (call.isOutbound === false) {
+                    ndActivateWidget("CallAnswer");
+                    ndEnableSearchBox(-9);
+
+                    if (callObj.tdcManuel) {
+                        ndFocusSearchBox(0, "phoneInput");
+                    }
+                    else {
+                        console.info("(ndParseCallState) Focus Search");
+                        ndFocusSearchBox(2, inputBoxName);
+                        ndFocusSearchBox(4, inputBoxName);
+                    }
+
+                    if (call.isConnected) {
+                        console.info("(ndParseCallState) isConnected");
+                        $('#transferPhoneCold').prop('disabled', false);
+                        $('#transferPhoneWarm').prop('disabled', false);
+                    }
+                }
+                else {
+                    if (call.isOutboundConnected) {
+                        console.info("(ndParseCallState) isOutboundConnected");
+                        $('#transferPhoneCold').prop('disabled', false);
+                        $('#transferPhoneWarm').prop('disabled', false);
+                    }
+                }
+                break;
+            case "ABORTED":
+                ndSetButtonsDefault();
+                ndSetTitle(false);
+                ndEnableSearchBox(-9);
+
+                if ($("#settingCallEndClearCallObjDD").val() === "1") {
+                    clearCallObject()
+                }
+                if (settingClear === "HANGUP" || settingClear === "BOTH") {
+                    clearSearchAndDetail("HANGUP");
+                }
+
+                transferTypeMark();
+                break;
+            case "HANGUP":
+                console.debug("(ndParseCallState) HANGUP");
+                ndSetButtonsDefault();
+                ndSetTitle(false);
+                transferTypeMark();
+                ndActivateWidget("CallEnd");
+                ndEnableSearchBox(-9);
+
+                if ($("#settingCallEndClearCallObjDD").val() === "1") {
+                    clearCallObject()
+                }
+                if (settingClear === "HANGUP" || settingClear === "BOTH") {
+                    clearSearchAndDetail("HANGUP");
+                }
+
+                if ($("#settingMsTeamsPuzzelBusyDD").val() === "DND") {
+                    console.debug("(ndParseCallState) setMyTeamsPresence");
+                    setMyTeamsPresence("HANGUP");
+                }
+                break;
+            case "BUSY":
+                ndEnableSearchBox(-9);
+                break;
+            default:
+                ndEnableSearchBox(-9);
+                break;
+        }
+    }
+
+    if (variablesArr.has("leg.Transferee.state")) {
+        callObj.transferState = variablesArr.get("leg.Transferee.state");
+        console.info("(ndParseCallState) callObj.transferState", callObj.transferState);
+        switch (callObj.transferState) {
+            case "ALERTING":
+                console.info("(ndParseCallState) Consulation Alerting");
+                $('#transferPhoneCancel').prop('disabled', false);
+                $('#transferPhoneWarm2').prop('disabled', false);
+
+                $('#transferPhoneCold').prop('hidden', true);
+                $('#transferPhoneWarm').prop('hidden', true);
+                $('#transferPhoneCancel').prop('hidden', false);
+                $('#transferPhoneWarm2').prop('hidden', false);
+                break;
+            case "CONNECTED":
+                console.info("(ndParseCallState) Consulation Connected");
+                $('#transferPhoneCancel').prop('disabled', false);
+                $('#transferPhoneWarm2').prop('disabled', false);
+
+                $('#transferPhoneCold').prop('hidden', true);
+                $('#transferPhoneWarm').prop('hidden', true);
+                $('#transferPhoneCancel').prop('hidden', false);
+                $('#transferPhoneWarm2').prop('hidden', false);
+                break;
+            default:
+                $('#transferPhoneCancel').prop('disabled', true);
+                $('#transferPhoneWarm2').prop('disabled', true);
+
+                $('#transferPhoneCold').prop('hidden', false);
+                $('#transferPhoneWarm').prop('hidden', false);
+                $('#transferPhoneCancel').prop('hidden', true);
+                $('#transferPhoneWarm2').prop('hidden', true);
+        }
+    }
+
+    if (variablesArr.has("is_consult_to_queue")) {
+        callObj.isConsultToQueue = variablesArr.get("is_consult_to_queue");
+        console.info("(ndParseCallState) callObj.isConsultToQueue", callObj.isConsultToQueue);
+
+        if (callObj.isConsultToQueue === "true") {
+            console.info("(ndParseCallState) isConsultToQueue: true");
+            $('#transferPhoneCold').prop('hidden', true);
+            $('#transferPhoneWarm').prop('hidden', true);
+
+            $('#transferPhoneCancel').prop('hidden', false);
+            $('#transferPhoneWarm2').prop('hidden', false);
+            $('#transferPhoneCancel').prop('disabled', false);
+            $('#transferPhoneWarm2').prop('disabled', false);
+        }
+    }
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    
+    <span style="float: right;">
+		BUDDY&nbsp;
+		v3.5.0.0
+		<br>
+		Last updated: 06-01-2025&nbsp;
+		<!-- 14-00-2025 -->
+	</span>
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

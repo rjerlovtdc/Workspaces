@@ -1,0 +1,61 @@
+﻿html {
+    background-color: #dadada;
+    transition: 1.2s;
+}
+
+.box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    --opacity: 1;
+    all: unset;
+    background-color: rgb(255 221 64/var(--opacity));
+    padding: 15px;
+    font-family: monospace;
+    font-size: 2.5vw;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: rotateZ(0deg);
+    transition: 1.2s;
+    margin: auto;
+    animation: dance 7s infinite;
+}
+
+    button::before {
+        content: "Click to use @media (display-mode: fullscreen) styles";
+    }
+
+    button:hover, button:focus {
+        --opacity: 0.8;
+    }
+
+@keyframes dance {
+    0%, 45%, 53.01% {
+        transform: rotateZ(0deg);
+    }
+
+    45.01%, 47%, 49%, 51%, 53% {
+        transform: rotateZ(5deg);
+    }
+
+    46%, 48%, 50%, 52% {
+        transform: rotateZ(-5deg);
+    }
+}
+
+@media (display-mode: fullscreen) {
+    html {
+        background-color: #ffdd40;
+    }
+
+    button {
+        background-color: rgb(14 190 255/var(--opacity));
+    }
+
+        button::before {
+            content: "Click to Close @media (display-mode: fullscreen) styles";
+        }
+}

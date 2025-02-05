@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ndpresence.js - BUDDY</title>
+    
+    <meta name="description" content="3.5.0.0" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ndAuth.html">ndAuth</a><ul class='methods'><li data-type='method'><a href="module-ndAuth.html#~auth">auth</a></li><li data-type='method'><a href="module-ndAuth.html#~refreshAuth">refreshAuth</a></li></ul></li><li><a href="module-ndBindings.html">ndBindings</a><ul class='methods'><li data-type='method'><a href="module-ndBindings.html#~performSearch">performSearch</a></li></ul></li><li><a href="module-ndEmployees.html">ndEmployees</a><ul class='methods'><li data-type='method'><a href="module-ndEmployees.html#~clearDetailView">clearDetailView</a></li><li data-type='method'><a href="module-ndEmployees.html#~clearEmployeeGrid">clearEmployeeGrid</a></li><li data-type='method'><a href="module-ndEmployees.html#~getDataTable">getDataTable</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableInit">ndDataTableInit</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndDataTableSorting">ndDataTableSorting</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndRequestEmployees">ndRequestEmployees</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowCommonDetails">ndShowCommonDetails</a></li><li data-type='method'><a href="module-ndEmployees.html#~ndShowDetails">ndShowDetails</a></li></ul></li><li><a href="module-ndFavorites.html">ndFavorites</a><ul class='methods'><li data-type='method'><a href="module-ndFavorites.html#~buildFavoritesList">buildFavoritesList</a></li></ul></li><li><a href="module-ndGraph.html">ndGraph</a><ul class='methods'><li data-type='method'><a href="module-ndGraph.html#~getMsToken">getMsToken</a></li><li data-type='method'><a href="module-ndGraph.html#~getPhotoFromAzure">getPhotoFromAzure</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphPhotoFromEmail">msGraphPhotoFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserFromEmail">msGraphUserFromEmail</a></li><li data-type='method'><a href="module-ndGraph.html#~msGraphUserSearch">msGraphUserSearch</a></li><li data-type='method'><a href="module-ndGraph.html#~ndGetPuzzelUserGraph">ndGetPuzzelUserGraph</a></li></ul></li><li><a href="module-ndLanguage.html">ndLanguage</a></li><li><a href="module-ndParsing.html">ndParsing</a><ul class='methods'><li data-type='method'><a href="module-ndParsing.html#~filterOrganization">filterOrganization</a></li><li data-type='method'><a href="module-ndParsing.html#~getOrgTreeFromService">getOrgTreeFromService</a></li><li data-type='method'><a href="module-ndParsing.html#~ndParseCallState">ndParseCallState</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCbasUserResponse">parseCbasUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseCustomerSpecific">parseCustomerSpecific</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseDataFromAzure">parseDataFromAzure</a></li><li data-type='method'><a href="module-ndParsing.html#~parseManagerFromServices">parseManagerFromServices</a></li><li data-type='method'><a href="module-ndParsing.html#~parseOpeningHours">parseOpeningHours</a></li><li data-type='method'><a href="module-ndParsing.html#~parsePuzzelUserResponse">parsePuzzelUserResponse</a></li><li data-type='method'><a href="module-ndParsing.html#~parseServices">parseServices</a></li><li data-type='method'><a href="module-ndParsing.html#~searchWordFromCustomerKey">searchWordFromCustomerKey</a></li></ul></li><li><a href="module-ndPresence.html">ndPresence</a><ul class='methods'><li data-type='method'><a href="module-ndPresence.html#~calculateAggStatus">calculateAggStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~getTeamsStatus">getTeamsStatus</a></li><li data-type='method'><a href="module-ndPresence.html#~loadPresence">loadPresence</a></li></ul></li><li><a href="module-ndPuzzel.html">ndPuzzel</a><ul class='methods'><li data-type='method'><a href="module-ndPuzzel.html#~fetchUserInfo">fetchUserInfo</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getAccessToken">getAccessToken</a></li><li data-type='method'><a href="module-ndPuzzel.html#~getTestingConfig">getTestingConfig</a></li><li data-type='method'><a href="module-ndPuzzel.html#~loadValuesFromPuzzel">loadValuesFromPuzzel</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndActivateWidget">ndActivateWidget</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndLoadAll">ndLoadAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndSetTitle">ndSetTitle</a></li><li data-type='method'><a href="module-ndPuzzel.html#~ndTestingAll">ndTestingAll</a></li><li data-type='method'><a href="module-ndPuzzel.html#~outsidePuzzelAllowed">outsidePuzzelAllowed</a></li><li data-type='method'><a href="module-ndPuzzel.html#~tdcGetWidgetOption">tdcGetWidgetOption</a></li><li data-type='method'><a href="module-ndPuzzel.html#~validateUser">validateUser</a></li></ul></li><li><a href="module-ndServices.html">ndServices</a><ul class='methods'><li data-type='method'><a href="module-ndServices.html#~agentSetAvailable">agentSetAvailable</a></li><li data-type='method'><a href="module-ndServices.html#~callAnswer">callAnswer</a></li><li data-type='method'><a href="module-ndServices.html#~callHangup">callHangup</a></li><li data-type='method'><a href="module-ndServices.html#~cbasApiCall">cbasApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithPhone">consultWithPhone</a></li><li data-type='method'><a href="module-ndServices.html#~consultWithServiceQueue">consultWithServiceQueue</a></li><li data-type='method'><a href="module-ndServices.html#~endConsultation">endConsultation</a></li><li data-type='method'><a href="module-ndServices.html#~getMapFromArray">getMapFromArray</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabels">getServiceLabels</a></li><li data-type='method'><a href="module-ndServices.html#~getServiceLabelsFromSearch">getServiceLabelsFromSearch</a></li><li data-type='method'><a href="module-ndServices.html#~getVisualQueues">getVisualQueues</a></li><li data-type='method'><a href="module-ndServices.html#~outboundCall">outboundCall</a></li><li data-type='method'><a href="module-ndServices.html#~popupWarning">popupWarning</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelApiCall">puzzelApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateTags">puzzelUpdateTags</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsEmp">puzzelUpdateVarsEmp</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsIncoming">puzzelUpdateVarsIncoming</a></li><li data-type='method'><a href="module-ndServices.html#~puzzelUpdateVarsQue">puzzelUpdateVarsQue</a></li><li data-type='method'><a href="module-ndServices.html#~scaleApiCall">scaleApiCall</a></li><li data-type='method'><a href="module-ndServices.html#~setButtonStatesFromCurrentCall">setButtonStatesFromCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcBuddyPopupWindow">tdcBuddyPopupWindow</a></li><li data-type='method'><a href="module-ndServices.html#~tdcFetchUrl">tdcFetchUrl</a></li><li data-type='method'><a href="module-ndServices.html#~tdcParkCurrentCall">tdcParkCurrentCall</a></li><li data-type='method'><a href="module-ndServices.html#~tdcReadJsonFile">tdcReadJsonFile</a></li><li data-type='method'><a href="module-ndServices.html#~transferOnEnter">transferOnEnter</a></li><li data-type='method'><a href="module-ndServices.html#~transferToConsultee">transferToConsultee</a></li><li data-type='method'><a href="module-ndServices.html#~transferToPhone">transferToPhone</a></li><li data-type='method'><a href="module-ndServices.html#~transferToService">transferToService</a></li></ul></li><li><a href="module-ndStart.html">ndStart</a><ul class='methods'><li data-type='method'><a href="module-ndStart.html#~documentReady">documentReady</a></li><li data-type='method'><a href="module-ndStart.html#~windowsLoad">windowsLoad</a></li></ul></li><li><a href="module-ndTools.html">ndTools</a><ul class='methods'><li data-type='method'><a href="module-ndTools.html#~addTextToControl">addTextToControl</a></li><li data-type='method'><a href="module-ndTools.html#~agentObjActive">agentObjActive</a></li><li data-type='method'><a href="module-ndTools.html#~buildDynamicRow">buildDynamicRow</a></li><li data-type='method'><a href="module-ndTools.html#~calculateGridRow">calculateGridRow</a></li><li data-type='method'><a href="module-ndTools.html#~calendarBackForward">calendarBackForward</a></li><li data-type='method'><a href="module-ndTools.html#~calendarNowMark">calendarNowMark</a></li><li data-type='method'><a href="module-ndTools.html#~calendarShow">calendarShow</a></li><li data-type='method'><a href="module-ndTools.html#~checkForHyperlinks">checkForHyperlinks</a></li><li data-type='method'><a href="module-ndTools.html#~clearCallObject">clearCallObject</a></li><li data-type='method'><a href="module-ndTools.html#~clearSearchAndDetail">clearSearchAndDetail</a></li><li data-type='method'><a href="module-ndTools.html#~copyTextToClipboardOld">copyTextToClipboardOld</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedEmp">favoriteChangedEmp</a></li><li data-type='method'><a href="module-ndTools.html#~favoriteChangedQue">favoriteChangedQue</a></li><li data-type='method'><a href="module-ndTools.html#~filterResult">filterResult</a></li><li data-type='method'><a href="module-ndTools.html#~filterSearchWord">filterSearchWord</a></li><li data-type='method'><a href="module-ndTools.html#~getActiveTab">getActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getCalendarPuzzelFromId">getCalendarPuzzelFromId</a></li><li data-type='method'><a href="module-ndTools.html#~getEmailMessageString">getEmailMessageString</a></li><li data-type='method'><a href="module-ndTools.html#~getFavoritesArr">getFavoritesArr</a></li><li data-type='method'><a href="module-ndTools.html#~getInputBoxFromActiveTab">getInputBoxFromActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~getOrgPath">getOrgPath</a></li><li data-type='method'><a href="module-ndTools.html#~getPhoneMessageSignature">getPhoneMessageSignature</a></li><li data-type='method'><a href="module-ndTools.html#~getPrevNextTab">getPrevNextTab</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromAzure">getUserFromAzure</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromCBAS">getUserFromCBAS</a></li><li data-type='method'><a href="module-ndTools.html#~getUserFromPuzzel">getUserFromPuzzel</a></li><li data-type='method'><a href="module-ndTools.html#~ndEnableSearchBox">ndEnableSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndFocusSearchBox">ndFocusSearchBox</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetAggStatusForQueue">ndGetAggStatusForQueue</a></li><li data-type='method'><a href="module-ndTools.html#~ndGetSpaces">ndGetSpaces</a></li><li data-type='method'><a href="module-ndTools.html#~ndPageReload">ndPageReload</a></li><li data-type='method'><a href="module-ndTools.html#~ndSetButtonsDefault">ndSetButtonsDefault</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistAsk">ndStoragePersistAsk</a></li><li data-type='method'><a href="module-ndTools.html#~ndStoragePersistCheck">ndStoragePersistCheck</a></li><li data-type='method'><a href="module-ndTools.html#~ndTooltip">ndTooltip</a></li><li data-type='method'><a href="module-ndTools.html#~placeSearchWordRow">placeSearchWordRow</a></li><li data-type='method'><a href="module-ndTools.html#~prefixLocalNumber">prefixLocalNumber</a></li><li data-type='method'><a href="module-ndTools.html#~resetCalendar">resetCalendar</a></li><li data-type='method'><a href="module-ndTools.html#~sendEmail">sendEmail</a></li><li data-type='method'><a href="module-ndTools.html#~sendImChat">sendImChat</a></li><li data-type='method'><a href="module-ndTools.html#~setActiveTab">setActiveTab</a></li><li data-type='method'><a href="module-ndTools.html#~setShownRows">setShownRows</a></li><li data-type='method'><a href="module-ndTools.html#~setWindowHeight">setWindowHeight</a></li><li data-type='method'><a href="module-ndTools.html#~solteqPopup">solteqPopup</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFormatHighlightText">tdcFormatHighlightText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcFullscreen">tdcFullscreen</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetLocalStorage">tdcGetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~tdcGetPrimaryNumber">tdcGetPrimaryNumber</a></li><li data-type='method'><a href="module-ndTools.html#~tdcIsObjectEmpty">tdcIsObjectEmpty</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLoadPhoneTemplateText">tdcLoadPhoneTemplateText</a></li><li data-type='method'><a href="module-ndTools.html#~tdcLocalStorageAvailable">tdcLocalStorageAvailable</a></li><li data-type='method'><a href="module-ndTools.html#~tdcPhoneTemplateReplaceVariables">tdcPhoneTemplateReplaceVariables</a></li><li data-type='method'><a href="module-ndTools.html#~tdcSetLocalStorage">tdcSetLocalStorage</a></li><li data-type='method'><a href="module-ndTools.html#~transferTypeMark">transferTypeMark</a></li><li data-type='method'><a href="module-ndTools.html#~truncText">truncText</a></li><li data-type='method'><a href="module-ndTools.html#~urlExists">urlExists</a></li><li data-type='method'><a href="module-ndTools.html#~writeClipboardText">writeClipboardText</a></li></ul></li><li><a href="module-tdcModels.html">tdcModels</a></li></ul><h3>Events</h3><ul><li><a href="module-ndPuzzel.html#~event:DOMready">DOMready</a></li><li><a href="module-ndBindings.html#~event:btnPark_IDClick">btnPark_ID Click</a></li><li><a href="module-ndBindings.html#~event:cfaNumberClick">cfaNumber Click</a></li><li><a href="module-ndPuzzel.html#~event:contactCentreStatusChanged">contactCentreStatus Changed</a></li><li><a href="module-ndBindings.html#~event:dEmailSectionClick">dEmailSection Click</a></li><li><a href="module-ndBindings.html#~event:detailContentClick">detailContent Click</a></li><li><a href="module-ndBindings.html#~event:detailHeaderIDClick">detailHeaderID Click</a></li><li><a href="module-ndPuzzel.html#~event:eventsAndState">eventsAndState</a></li><li><a href="module-ndTools.html#~event:favoritesExport">favoritesExport</a></li><li><a href="module-ndBindings.html#~event:favoritesExportBtnClick">favoritesExportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportBtnClick">favoritesImportBtn Click</a></li><li><a href="module-ndBindings.html#~event:favoritesImportFileChanged">favoritesImportFile Changed</a></li><li><a href="module-ndTools.html#~event:favoritesImportSelectedFile">favoritesImportSelectedFile</a></li><li><a href="module-ndPuzzel.html#~event:getPuzzelApi">getPuzzelApi</a></li><li><a href="module-ndBindings.html#~event:modalCommonDataCopyClick">modalCommonDataCopy Click</a></li><li><a href="module-ndBindings.html#~event:nav-linkShown">nav-link Shown</a></li><li><a href="module-ndBindings.html#~event:navBarChanged">navBar Changed</a></li><li><a href="module-ndBindings.html#~event:numberInNotesClick">numberInNotes Click</a></li><li><a href="module-ndPuzzel.html#~event:onCallEventTrigger">onCallEventTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCallProgessChanged">onCallProgess Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallStateChanged">onCallState Changed</a></li><li><a href="module-ndPuzzel.html#~event:onCallTrigger">onCallTrigger</a></li><li><a href="module-ndPuzzel.html#~event:onCalloutCall">onCalloutCall</a></li><li><a href="module-ndPuzzel.html#~event:onIncomingCall">onIncomingCall</a></li><li><a href="module-ndPuzzel.html#~event:onTabActiveChanged">onTabActive Changed</a></li><li><a href="module-ndPuzzel.html#~event:onUserStateChanged">onUserState Changed</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsDetailViewClick">phoneButtonsDetailView Click</a></li><li><a href="module-ndBindings.html#~event:phoneButtonsTopClick">phoneButtonsTop Click</a></li><li><a href="module-ndBindings.html#~event:phoneInputKeyUp">phoneInput KeyUp</a></li><li><a href="module-ndBindings.html#~event:phoneMessageModal_IDShown">phoneMessageModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:phoneMessageTemplateDDChange">phoneMessageTemplateDD Change</a></li><li><a href="module-ndBindings.html#~event:searchCountDDEmpChanged">searchCountDDEmp Changed</a></li><li><a href="module-ndBindings.html#~event:searchInEmpDDChanged">searchInEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:searchInputEmpKeyUp">searchInputEmp KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputFavKeyUp">searchInputFav KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchInputQueKeyUp">searchInputQue KeyUp</a></li><li><a href="module-ndBindings.html#~event:searchOrgDDChanged">searchOrgDD Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkDefaultQueueChanged">settingParkDefaultQueue Changed</a></li><li><a href="module-ndBindings.html#~event:settingParkShortcutChanged">settingParkShortcut Changed</a></li><li><a href="module-ndBindings.html#~event:settingsCheckboxClick">settingsCheckbox Click</a></li><li><a href="module-ndBindings.html#~event:settingsDropDownChanged">settingsDropDown Changed</a></li><li><a href="module-ndBindings.html#~event:showOnlineEmpDDChanged">showOnlineEmpDD Changed</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyBlur">tableDisplay KeyBlur</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyDt">tableDisplay KeyDt</a></li><li><a href="module-ndBindings.html#~event:tableDisplayKeyFocus">tableDisplay KeyFocus</a></li><li><a href="module-ndBindings.html#~event:tableEmpIdClick">tableEmpId Click</a></li><li><a href="module-ndBindings.html#~event:tableFavIdClick">tableFavId Click</a></li><li><a href="module-ndBindings.html#~event:tableQueIdClick">tableQueId Click</a></li><li><a href="module-ndBindings.html#~event:tdcModal_IDShown">tdcModal_ID Shown</a></li><li><a href="module-ndBindings.html#~event:testmarkHtml2BtnClick">testmarkHtml2Btn Click</a></li><li><a href="module-ndBindings.html#~event:testmarkHtmlBtnClick">testmarkHtmlBtn Click</a></li><li><a href="module-ndBindings.html#~event:versionShowDetailBtnClick">versionShowDetailBtn Click</a></li><li><a href="module-ndBindings.html#~event:windowKeyUp">window KeyUp</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ndpresence.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>﻿/**
+ * @module ndPresence
+*/
+
+/* Global Variables */
+versionObj.ndpresence = 37;
+var puzzelStateSavedG = false, msTeamsStateSavedG = "", myTeamsStatusIntervalG = 0;
+
+
+$(function () {
+    myTeamsStatusIntervalG = setInterval(pollMyTeamsStatus, 10000);
+});
+
+
+/** @function 
+ * @name loadPresence
+ * @async
+ * @description Update presence on all visbile rows in datatable
+ * @since 1.0.0.0
+*/
+async function loadPresence() {
+    console.debug("(loadPresence) In");
+
+    /* Only Run on Employees or Favorites page */
+    let employeesTabActive = $("#navItemEmployees").hasClass("active");
+    let favoritesTabActive = $("#navItemFavorites").hasClass("active");
+
+    console.info("(loadPresence) EmployeesTabActive", employeesTabActive);
+    console.info("(loadPresence) FavoritesTabActive", favoritesTabActive);
+
+    if (!(employeesTabActive || favoritesTabActive)) {
+        console.log("(loadPresence) Employees or Favorites Tab Not Active");
+        clearInterval(loadPresenceIntervalG);
+        return;
+    }
+
+    let _presenceDT = (employeesTabActive) ? EmployeesDT : FavoritesDT;
+    console.info("(loadPresence) _presenceDT", _presenceDT);
+
+    if (typeof _presenceDT === "undefined") {
+        console.info("(loadPresence) No data");
+        return;
+    }
+
+    var msTokenRequest = {};
+    var continueLoop = true;
+
+    _presenceDT.rows().every(async function (rowIdx) {
+        if (!continueLoop) {
+            return false;
+        }
+
+        let rowData = this.data();
+        let number = (rowData.mobile === "") ? rowData?.phone || "" : rowData.mobile;
+        console.info("(loadPresence) rowData", rowData);
+        console.info("(loadPresence) presenceObj.tdcScale", presenceObj.tdcScale);
+
+        /* TDC Scale */
+        if (presenceObj.tdcScale &amp;&amp; number !== "") {
+            continueLoop = await calculateStatusScale(rowIdx, rowData, _presenceDT);
+        }
+
+
+        /* Teams */
+        if (presenceObj.msTeams &amp;&amp; msalUsername !== "" &amp;&amp; (rowData.azureId !== "" || rowData.email !== "")) {
+            let orgPath = rowData.organizationPath;
+
+            if (typeof msTokenRequest?.accessToken === "undefined") {
+                msTokenRequest = await getTokenPopup(tokenRequest);
+            }
+
+            if (agentObj.orgPath === "DEFAULT" || orgPath.includes(agentObj.orgPath)) {
+                await getTeamsStatus(rowIdx, rowData, msTokenRequest.accessToken, _presenceDT);
+            }
+        }
+
+        /* Agg Status */
+        await calculateAggStatus(rowIdx, _presenceDT);
+
+        if (employeesTabActive) {
+            let tdcIdAttr = $("#dFullName").attr("tdcId") || "";
+            if (rowData.id.toString() === tdcIdAttr) {
+                let ndUser = EmployeesDT.row(rowIdx).data();
+                calculatePresenceDetail(ndUser);
+            }
+        }
+    });
+    console.debug("(loadPresence) Out");
+}
+
+
+/** @function 
+ * @name calculateAggStatus
+ * @async
+ * @param {number} rowIdx - Index for datatable row
+ * @param {object} _presenceDT - Datatable object
+ * @description Update presence on all visbile rows in datatable
+ * @since 1.0.0.0
+*/
+async function calculateAggStatus(rowIdx, _presenceDT) {
+    console.debug("(calculateAggStatus) In");
+
+    let rowData = _presenceDT.row(rowIdx).data();
+    if (typeof rowData === "undefined") {
+        console.debug("(calculateAggStatus) No rowData");
+        return;
+    }
+    let aggCell = _presenceDT.cell(rowIdx, 0);
+    const scalePaState = paStatusDic[rowData.presencePA]?.state || -1;
+    const msTeamsState = teamsAvailability[rowData.presenceTeams.availability]?.state || -1;
+
+    /* Phone Busy or DND */
+    if (presenceObj.tdcScale &amp;&amp; rowData.presencePhone === "Off-Hook" || rowData.presencePhone === "DND") {
+        aggCell.data("2")
+        return;
+    }
+
+    /* Phone Personal Assistant RED */
+    if (presenceObj.tdcScale &amp;&amp; scalePaState === "2") {
+        aggCell.data("2")
+        return;
+    }
+
+    /* Teams RED */
+    if (presenceObj.msTeams &amp;&amp; msTeamsState === "2") {
+        aggCell.data("2")
+        return;
+    }
+
+    /* Out of Office */
+    if (presenceObj.msTeams &amp;&amp; msTeamsState === "2") {
+        aggCell.data("2")
+        return;
+    }
+
+    /* Phone CFA */
+    if (presenceObj.tdcScale &amp;&amp; rowData.presencePhone === "CFA") {
+        aggCell.data("1")
+        return;
+    }
+
+    /* Phone Personal Assistant YELLOW */
+    if (presenceObj.tdcScale &amp;&amp; scalePaState === "1") {
+        aggCell.data("1")
+        return;
+    }
+
+    /* Teams YELLOW */
+    if (presenceObj.msTeams &amp;&amp; presenceObj.msTeams &amp;&amp; msTeamsState === "1") {
+        aggCell.data("1")
+        return;
+    }
+
+    /* Calendar */
+    if (presenceObj.calendar &amp;&amp; rowData.isCalenderBusy) {
+        aggCell.data("1");
+        return;
+    }
+
+    /* GREEN */
+    aggCell.data("0");
+}
+
+
+/** @function 
+ * @name getTeamsStatus
+ * @async
+ * @param {number} rowIdx - Index for datatable row
+ * @param {object} _presenceDT - Datatable object
+ * @description Update presence on all visbile rows in datatable
+ * @since 1.0.0.0
+*/
+async function getTeamsStatus(rowIdx, rowData, teamsToken, _presenceDT) {
+    console.debug("(getTeamsStatus) In");
+    console.info("(getTeamsStatus) rowData", rowData);
+
+    let azureId = rowData?.azureId || "";
+    
+    if (azureId === "" ||
+        rowData.organizationPath.includes("TOP|454014|Furesø") ||
+        rowData.organizationPath.includes("TOP|454014|Allerød")
+    ) {
+        /* Get Azure ID From Email */
+        const urlUser = `https://graph.microsoft.com/v1.0/users?$filter=mail eq '${rowData.email}'`
+        let tdcUserJson = await getFromMSGraph(urlUser, teamsToken);
+        console.info("(getTeamsStatus) tdcUserJson", tdcUserJson);
+        if (typeof tdcUserJson.value[0]?.id === "undefined") {
+            return;
+        }
+        azureId = tdcUserJson.value[0]?.id || "";
+    }
+
+    console.info("(getTeamsStatus) azureId", azureId);
+    const url = `https://graph.microsoft.com/beta/users/${azureId}/presence`;
+
+    let tdcJson = await getFromMSGraph(url, teamsToken);
+    console.info("(getTeamsStatus) tdcJson", tdcJson);
+
+    _presenceDT.cell(rowIdx, 3).data(tdcJson);
+
+    console.debug("(getTeamsStatus) Out");
+}
+
+
+const calculateStatusScale = async (rowIdx, rowData, _presenceDT) => {
+    console.debug("(calculateStatusScale) In");
+
+    let number = (rowData.mobile === "") ? rowData?.phone || "" : rowData.mobile;
+    let orgPath = getOrgPath(rowData.organizationPath);
+    console.debug("(calculateStatusScale) orgPath", orgPath);
+
+    if (number === "" || orgPath === "") {
+        console.info("(calculateStatusScale) no phonenumber found: ", rowData);
+        _presenceDT.cell(rowIdx, colIndexObj.pa).data("NotEnabled");
+        _presenceDT.cell(rowIdx, colIndexObj.dnd).data("NotEnabled");
+        return true;
+    }
+
+    /* PresenceHUB TEST */
+    if (testingConfig === "regionsyd2" || testingConfig === "netdesign2") {
+        console.debug("PHUB In");
+        const phubToken = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJwZmNFcTNWSEFxRDF0cElXc0ZlUkhnR0hoUlJ4MW5wTDBFRE1aNTl2Xy1JIn0.eyJleHAiOjE3Mjg2NTEzNTIsImlhdCI6MTcyODYzMzM1MiwianRpIjoiZjVkMzIwNzUtNWU0Ni00ZjMxLWIzNDAtN2M4ZDFkYzIzZGM1IiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay1odWIucHVibGljLmxxZC5kay9yZWFsbXMvUHJlc2VuY2VIdWIiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNGQwM2Q5NDUtNTU5NS00NWRjLThkYzEtNDY0ZjFkOTgyM2E3IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicHJlc2VuY2VodWItY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjI0YTRhZWRlLTQxYzItNGE2Mi1iMzYzLTE1MTgzMzFlMTI0YSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsicHJlc2VuY2Uvc2NhbGUvcmVhZC92azE3NzgxMyIsIm9mZmxpbmVfYWNjZXNzIiwiYWRtaW4iLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtcHJlc2VuY2VodWIiLCJwcmVzZW5jZS9zY2FsZS9yZWFkL3ZrMTUwOTYxIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiMjRhNGFlZGUtNDFjMi00YTYyLWIzNjMtMTUxODMzMWUxMjRhIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJyb2xlcyI6WyJwcmVzZW5jZS9zY2FsZS9yZWFkL3ZrMTc3ODEzIiwib2ZmbGluZV9hY2Nlc3MiLCJhZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1wcmVzZW5jZWh1YiIsInByZXNlbmNlL3NjYWxlL3JlYWQvdmsxNTA5NjEiXSwibmFtZSI6Ikplc3BlciBIaW5nZWxiamVyZyIsInByZWZlcnJlZF91c2VybmFtZSI6InByZXNlbmNlaHVidXNlciIsImdpdmVuX25hbWUiOiJKZXNwZXIiLCJmYW1pbHlfbmFtZSI6IkhpbmdlbGJqZXJnIiwiZW1haWwiOiJ0ZXN0QGZpc2suYm9sbGUifQ.k8_bPupJiabMyjWtSqNHUR8CRl7sYxVWyddcNgX9X7tohyUowxiDdPbGoONcvB07kp_l6EnK0_BirQdGdMaeVZ3Ou3cxmYrRHIb8SHJRh49-kzNJLKL4XShZY-gnYN6GkpmCPrrZ5p0JWP72y0En9_VAM7YC_V2PxQdcQh28uk4716OnD2uG694VdcWEQytmIzfDUJW_vneT2eV-FrNVyMN-ho0BwP6EbisPQBoFo1NWKQPwM8NE3gTSW4FEBn0Xo5J4cYjVj0Hir8pP_VEKMGF4Q22sOI_U2PR9137DIrhKShenOdkv1CI9akXF1xO1gs99vO1OV_QotRhxsydmug";
+        const phubUrl = "https://mobilepartners.northeurope.cloudapp.azure.com/PresenceHub/api/Presence/?number=30550517";
+        console.info("PHUB phubUrl", phubUrl);
+        const phubRes = await scaleApiCall(phubUrl, "GET", "", phubToken);
+
+        console.info("PHUB phubRes", phubRes);
+        console.debug("PHUB Out");
+        return;
+    }
+
+    /* Get Hook Status Mobile */
+    const resUrl = `Scale?phoneNumber=${number}&amp;customerKey=${custObj.customerKey}&amp;orgPath=${orgPath}`;
+
+    const scalePresenceRes = await scaleApiCall(resUrl);
+    console.log("(calculateStatusScale) scalePresenceRes", scalePresenceRes);
+
+    if (scalePresenceRes?.HasError) {
+        _presenceDT.cell(rowIdx, colIndexObj.pa).data("NotEnabled");
+        _presenceDT.cell(rowIdx, colIndexObj.dnd).data("NotEnabled");
+        console.info("(calculateStatusScale) presence not found for user: ", rowData.fullName);
+        return true;
+    }
+
+    if (typeof _presenceDT.cell(rowIdx, colIndexObj.id).data() === "undefined") {
+        console.info("(calculateStatusScale) row was removed");
+        return false;
+    }
+
+    if (_presenceDT.cell(rowIdx, colIndexObj.id).data() !== rowData.id) {
+        console.info("(calculateStatusScale) row wrong");
+        return false;
+    }
+
+    let hookStatus = scalePresenceRes.hookStatus;
+    let paPresence = scalePresenceRes.paPresence;
+    let dndActive = scalePresenceRes.dndActive;
+    let cfaActive = scalePresenceRes.cfaActive;
+    let cfaPhoneNumber = (cfaActive) ? scalePresenceRes.cfaPhoneNumber : "";
+    console.info("cfaPhoneNumber", cfaPhoneNumber);
+
+    /* Set Values */
+    _presenceDT.cell(rowIdx, colIndexObj.dnd).data(dndActive);  //DND
+    _presenceDT.cell(rowIdx, colIndexObj.pa).data(paPresence);  //PA
+    _presenceDT.cell(rowIdx, colIndexObj.cfa).data(cfaPhoneNumber);  //CFA
+
+
+    /* Off-Hook*/
+    if (hookStatus === "Off-Hook") {
+        _presenceDT.cell(rowIdx, 1).data("Off-Hook");
+        return true;
+    }
+
+    /* DND */
+    if (dndActive) {
+        _presenceDT.cell(rowIdx, 1).data("DND");
+        return true;
+    }
+
+    /* PA */
+    if (paPresence !== "" &amp;&amp; paPresence !== "None") {
+        _presenceDT.cell(rowIdx, 1).data(paPresence);
+        return true;
+    }
+
+    /* CFA */
+    if (cfaActive) {
+        _presenceDT.cell(rowIdx, 1).data("CFA");
+        return true;
+    }
+
+    _presenceDT.cell(rowIdx, 1).data("On-Hook");
+
+    console.debug("(calculateStatusScale) Out");
+
+    return true;
+}
+
+
+function getPhonePresenceText(row) {
+    console.debug("(getPhonePresenceText) In", row);
+
+    let returnObj = { title: "Ukendt", color: "ndColorGray", state: "-1" };
+
+    if (typeof row === "undefined") {
+        console.debug("(getPhonePresenceText) Out");
+        return returnObj;
+    }
+
+    switch (row.presencePhone) {
+        case "":
+            returnObj = { title: "Ukendt", color: "ndColorGray", state: "-1" };
+            break;
+        case "On-Hook":
+            returnObj = { title: "Ledig", color: "ndColorGreen", state: "0" };
+            break;
+        case "Off-Hook":
+            returnObj = { title: "Optaget", color: "ndColorRed", state: "0" };
+            return returnObj;
+        case "DND":
+            returnObj = { title: "DND Aktiv", color: "ndColorRed", state: "2" };
+            return returnObj;
+        case "CFA":
+            returnObj = {
+                title: `Viderestillet`, color: "ndColorYellow", state: "1"
+            };
+            return returnObj;
+    }
+
+    /* PA Status */
+    if (row.presencePA !== "" &amp;&amp; row.presencePA !== "None") {
+        returnObj = paStatusDic[row.presencePA];
+        return returnObj;
+    }
+
+    console.debug("(getPhonePresenceText) Out");
+    return returnObj;
+}
+
+
+function getAggPresenceText(data) {
+    const returnObj = { title: "Ukendt", color: "ndColorGray" };
+
+    switch (data) {
+        case "0":
+            returnObj.title = "Ledig", returnObj.color = "ndColorGreen";
+            break;
+        case "1":
+            returnObj.title = "Måske ledig", returnObj.color = "ndColorYellow";
+            break;
+        case "2":
+            returnObj.title = "Optaget", returnObj.color = "ndColorRed";
+            break;
+    }
+
+    return returnObj;
+}
+
+
+/* Get Scale calculatePresenceDetail */
+function calculatePresenceDetail(ndUser) {
+    console.debug("(calculatePresenceDetail) In");
+    console.info("(calculatePresenceDetail) ndUser", ndUser);
+
+    /* Agg Status */
+    const aggPresenceObj = aggStatusDic[ndUser.presenceAggregated];
+    $("#dDetailStatus").removeClass("ndColorGray").removeClass("ndColorGray").removeClass("ndColorGreen").removeClass("ndColorYellow").removeClass("ndColorRed");
+    $("#dDetailStatus").addClass(aggPresenceObj.color);
+    $("#dDetailStatus").attr("title", aggPresenceObj.title);
+
+    /* Phone Presence */
+    const phonePresenceObj = getPhonePresenceText(ndUser);
+    $("#dPhoneStatus").removeClass("ndColorGray").removeClass("ndColorGray").removeClass("ndColorGreen").removeClass("ndColorYellow").removeClass("ndColorRed");
+    $("#dPhoneStatus").addClass(phonePresenceObj.color);
+    $("#dPhoneStatus").attr("title", phonePresenceObj.title);
+
+    $("#dMobileStatus").removeClass("ndColorGray").removeClass("ndColorGray").removeClass("ndColorGreen").removeClass("ndColorYellow").removeClass("ndColorRed");
+    $("#dMobileStatus").addClass(phonePresenceObj.color);
+    $("#dMobileStatus").attr("title", phonePresenceObj.title);
+
+    /* PA */
+    const paStatusObj = paStatusDic[ndUser.presencePA];
+    let deactivatedTexts = ["", "None", "NotEnabled"];
+    console.info("paStatusObj", paStatusObj);
+    if (!deactivatedTexts.includes(ndUser.presencePA)) {
+        $("#paStatus").html("Aktiv");
+        ndTooltip("paStatus", paStatusObj?.title || "");
+    }
+    else {
+        $("#paStatus").html("Ikke aktiv");
+        ndTooltip("paStatus");
+    }
+
+    /* DND */
+    let dndStatus = (ndUser.presenceDND === true) ? "Aktiv" : "Ikke aktiv";
+    $("#dndStatus").html(dndStatus);
+
+
+    /* CFA */
+    let cfaActive = ndUser.presenceCFANumber !== "";
+    if (cfaActive) {
+        $("#cfaNumber").html("Aktiv");
+        $("#cfaNumberTxt").val(ndUser.presenceCFANumber);
+        ndTooltip("cfaNumber", ndUser.presenceCFANumber.toString());
+    }
+    else {
+        $("#cfaNumber").html("Ikke aktiv");
+        $("#cfaNumberTxt").val("");
+        ndTooltip("cfaNumber");
+    }
+
+
+    /* MS Teams */
+    if (ndUser.presenceTeams !== "") {
+        let teamsStatus = ndUser.presenceTeams?.activity || "";
+        let teamsStatusMessage = ndUser.presenceTeams.statusMessage?.message.content || "";
+        console.info("(presenceTeams) teamsStatus", ndUser.presenceTeams);
+
+        $("#teamsStatus").html(teamsActivity[teamsStatus]);
+        ndTooltip("teamsStatus", teamsStatusMessage);
+
+        /* Out of Office */
+        let oofActive = ndUser.presenceTeams.outOfOfficeSettings?.isOutOfOffice || false;
+        let oofMessage = ndUser.presenceTeams.outOfOfficeSettings?.message || "";
+
+        if (oofActive) {
+            oofMessage = oofMessage.replaceAll('\n\n\n', '&lt;br />').replaceAll('\n\n', '&lt;br />')
+
+            ndTooltip("oofStatus", oofMessage);
+            $("#oofStatus").html("Aktiv");
+        }
+        else {
+            ndTooltip("oofStatus");
+            $("#oofStatus").html("Ikke aktiv");
+        }
+    }
+    else {
+        $("#teamsStatus").html(`&lt;span class="ndColorBlue">-&lt;/span>`);
+        $("#oofStatus").html(`&lt;span class="ndColorBlue">-&lt;/span>`);
+        ndTooltip("teamsStatus");
+        ndTooltip("oofStatus");
+    }
+}
+
+async function getMyTeamsPresence() {
+    console.debug("(getMyTeamsPresence) In");
+
+    if (typeof msTokenRequest === "undefined" || typeof msTokenRequest.accessToken === "undefined") {
+        msTokenRequest = await getTokenPopup(tokenRequest);
+        return null;
+    }
+
+    let tdcJson = await getFromMSGraph(graphEndpointsMe.mePresence, msTokenRequest.accessToken);
+    console.info("(getMyTeamsPresence) tdcJson", tdcJson);
+
+    let returnObj = { "availability": tdcJson.availability, "activity": tdcJson.activity };
+    console.info("(getMyTeamsPresence) returnObj", returnObj);
+
+    console.debug("(getMyTeamsPresence) Out");
+
+    return returnObj;
+}
+
+
+async function setMyTeamsPresence(stateName, stateObj = {}) {
+    console.debug("(setMyTeamsPresence) In");
+
+    if (typeof msTokenRequest === "undefined" || typeof msTokenRequest?.accessToken === "undefined") {
+        msTokenRequest = await getTokenPopup(tokenRequest);
+    }
+
+    switch (stateName) {
+        case "CONNECTED":
+            msTeamsStateSavedG = await getMyTeamsPresence();
+            console.info("(setMyTeamsPresence) Old Presence Saved", msTeamsStateSavedG);
+            stateObj = { "availability": "DoNotDisturb", "activity": "DoNotDisturb" };
+            break;
+        case "HANGUP":
+            stateObj = msTeamsStateSavedG;
+            break;
+        default:
+            msTeamsStateSavedG = await getMyTeamsPresence();
+            break;
+    }
+
+    await postMSGraph(graphEndpointsMe.mePreferedPresenceSet, msTokenRequest.accessToken, stateObj);
+    console.info("(setMyTeamsPresence) New presence set to", stateObj);
+
+    console.debug("(setMyTeamsPresence) Out");
+}
+
+async function clearMyTeamsPresence() {
+    console.debug("(clearMyTeamsPresence) In");
+
+    if (typeof msTokenRequest === "undefined" || typeof msTokenRequest?.accessToken === "undefined") {
+        msTokenRequest = await getTokenPopup(tokenRequest);
+    }
+
+    const headers = new Headers();
+    headers.append("Content-Type", "application/json");
+    headers.append("Authorization", `Bearer ${msTokenRequest.accessToken}`);
+
+    const options = {
+        method: "POST",
+        headers: headers,
+    };
+
+    fetch(graphEndpointsMe.mePreferedPresenceClear, options)
+        .then(response => {
+            console.info("(clearMyTeamsPresence) reponse", response);
+        })
+        .catch(error => console.error("(clearMyTeamsPresence) error", error));
+
+    console.debug("(clearMyTeamsPresence) Out");
+}
+
+
+async function pollMyTeamsStatus() {
+    console.info("pollMyTeamsStatus In", $("#settingMsTeamsBusyDD").val());
+
+    if ($("#settingMsTeamsBusyDD").val() === "DISABLED") {
+        clearInterval(myTeamsStatusIntervalG);
+        return;
+    }
+
+    let currentState = await getMyTeamsPresence();
+    console.info("pollMyTeamsStatus MS Status", currentState);
+
+    if (currentState === null) {
+        return;
+    }
+
+    if (!puzzelStateSavedG &amp;&amp; currentState.activity === "InACall") {
+        let returnObj = await getMyPuzzelStatus();
+        console.info("pollMyTeamsStatus agentStatus", returnObj);
+
+        if (returnObj.userStatus !== "Available" || returnObj.agentCcStatus !== "LoggedOn") {
+            console.debug("pollMyTeamsStatus Break");
+            return;
+        }
+        puzzelStateSavedG = true;
+        setAgentPause();
+    }
+
+    console.info("pollMyTeamsStatus puzzelStateSavedG", puzzelStateSavedG);
+    if (puzzelStateSavedG &amp;&amp; currentState.activity !== "InACall") {
+        console.debug("pollMyTeamsStatus HER1");
+        await agentSetAvailable();
+        puzzelStateSavedG = false;
+    }
+}
+
+
+
+async function getMyPuzzelStatus() {
+    let userStatus = await api.get('agent.userStatus');
+    let agentCcStatus = await api.call('agent.contactCentreStatus');
+
+    let returnObj = {
+        userStatus: userStatus,
+        agentCcStatus: agentCcStatus
+    }
+
+    console.info("getMyPuzzelStatus userStatus", returnObj);
+
+    return returnObj;
+}
+
+async function setAgentPause(pauseTypeId = 4812) {
+    let apiUrl = `${puzzelUrl}${custObj.customerKey}/users/${agentObj.userId}/pauseon`;
+    let apiBody = JSON.stringify({ "pauseTypeId": pauseTypeId });  //Busy Teams
+
+    let response = await puzzelApiCall(apiUrl, "POST", apiBody);
+    console.info("setAgentPause reponse", response);
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    
+    <span style="float: right;">
+		BUDDY&nbsp;
+		v3.5.0.0
+		<br>
+		Last updated: 06-01-2025&nbsp;
+		<!-- 14-00-2025 -->
+	</span>
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
