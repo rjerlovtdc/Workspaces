@@ -15,7 +15,7 @@ const hangUpButton = document.getElementById("hang-up-button");
 const acceptCallButton = document.getElementById('accept-call-button');
 
 async function genAccessToken() {
-    const connectionString = 'endpoint=https://tdc-acs-test.europe.communication.azure.com/;accesskey=B59lXxd1krxV3EJ5GpgASQRjiDQ3CkTe1ovQ4PHAVdnIzeuMXZ2bJQQJ99BBACULyCpuGsnbAAAAAZCSqlFv';
+    const connectionString = 'endpoint=https://rj-acs-testing.europe.communication.azure.com/;accesskey=82ADmXybPhzpn0y31ZU82I4oqI6KyxakpmtIjNpqhPBzo2freObEJQQJ99BBACULyCpuGsnbAAAAAZCSnvCW';
 
     const identityClient = new CommunicationIdentityClient(connectionString);
     let identityResponse = await identityClient.createUser();
