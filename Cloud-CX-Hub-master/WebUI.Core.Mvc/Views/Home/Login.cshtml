@@ -3,6 +3,7 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 <!DOCTYPE html>
@@ -11,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.8.0/js/msal-browser.min.js"></script>
-
+    <script type="text/javascript" src="/js/auth.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="SHORTCUT ICON" href="https://c.s-microsoft.com/favicon.ico?v2" type="image/x-icon">
@@ -31,9 +32,6 @@
         </div>
     </div>
 </nav>
-
-<br>
-<br>
 <div class="row" style="margin:auto">
     <div id="card-div" class="col-md-3" style="display:none">
         <div class="card text-center">
@@ -75,10 +73,13 @@
 <script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
 
 <!-- importing app scripts | load order is important -->
-<script type="text/javascript" src="./wwwroot/js/authConfig.js"></script>
-<script type="text/javascript" src="./wwwroot/js/ui.js"></script>
-<script type="text/javascript" src="./wwwroot/js/auth.js"></script>
-<script type="text/javascript" src="./wwwroot/js/graph.js"></script>
+<script type="text/javascript" src="/js/authConfig.js"></script>
+<script type="text/javascript" src="/js/ui.js"></script>
+<script type="text/javascript" src="/js/graph.js"></script>
+@{
+    await RenderSectionAsync("Scripts", required: false);
+}
+
 </body>
 </html>
 
