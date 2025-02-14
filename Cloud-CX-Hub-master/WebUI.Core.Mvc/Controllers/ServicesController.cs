@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Core.Mvc.Controllers
 {
-    [Authorize]
+    [Authorize(Roles= "Cloud Application Administrators")]
     public class ServicesController : Controller
     {
        
@@ -12,8 +12,12 @@ namespace WebUI.Core.Mvc.Controllers
        
         public IActionResult ContactCenter() {return View();}
 
-       
-        public IActionResult Buddy() { return View(); }
+        HttpContext context = new DefaultHttpContext();
+
+        public IActionResult Buddy()
+        {
+            return View();
+        }
 
        
         public IActionResult Widgets() { return View(); }

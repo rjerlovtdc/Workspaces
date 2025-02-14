@@ -18,14 +18,14 @@
         </div>
         <div class="d-flex flex-row" style="height:90vh; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px">
             <div id="mainMenu" style="width: 200px; border-right: 1px solid lightgrey; margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;height: 100%">
-                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Index">&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;Overview</a></div>
+                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Login">&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;Overview</a></div>
 
                 <div class="menuSpacer"></div>
                 <div class="text-uppercase menuHeaders">Management</div>
-                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Users">&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Users</a></div>
-                <div class="menuItems">&nbsp;<i class="fa fa-users"></i>&nbsp;Groups</div>
-                <div class="menuItems">&nbsp;<i class="fa fa-building"></i>&nbsp;&nbsp;Departments</div>
-                <div class="menuItems">&nbsp;<i class="fa fa-copy"></i>&nbsp;&nbsp;License</div>
+                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Users">&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Users</a></div>
+                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Groups">&nbsp;<i class="fa fa-users"></i>&nbsp;Groups</a></div>
+                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management" asp-action="Departments"><i class="fa fa-building"></i>&nbsp;&nbsp;Departments</a></div>
+                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management" asp-action="License"><i class="fa fa-copy"></i>&nbsp;&nbsp;License</a></div>
 
                 <div class="menuSpacer"></div>
                 <div class="text-uppercase menuHeaders">Services</div>
@@ -37,9 +37,10 @@
 
                 <div class="menuSpacer"></div>
                 <div class="text-uppercase menuHeaders">Monitoring</div>
-                <div class="menuItems">&nbsp;<i class="fa fa-paragraph"></i>&nbsp;&nbsp;&nbsp;Reports</div>
-                <div class="menuItems">&nbsp;<i class="fa fa-plug"></i>&nbsp;&nbsp;Analyse</div>
-                <div class="menuItems">&nbsp;<i class="fa fa-google-wallet"></i>&nbsp;&nbsp;Billing</div>
+                @*TODOOOOOOO ASP ACTION*@
+                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Reports"><i class="fa fa-paragraph"></i>&nbsp;&nbsp;&nbsp;Reports</a></div>
+                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Analysis"><i class="fa fa-plug"></i>&nbsp;&nbsp;Analysis</a></div>
+                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Billing"><i class="fa fa-google-wallet"></i>&nbsp;&nbsp;Billing</a></div>
             </div>
             <div style="margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px;"> @RenderBody()</div>
         </div>

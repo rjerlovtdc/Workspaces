@@ -3,11 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Core.Mvc.Controllers
 {
-    [Authorize]
+    [Authorize(Roles= "Cloud Application Administrators")]
     public class MonitoringController : Controller
     {
         
-        public IActionResult Index()
+        public IActionResult Analysis()
+        {
+            return View();
+        }
+        public IActionResult Billing()
+        {
+            return View();
+        }
+        public IActionResult Reports()
         {
             return View();
         }

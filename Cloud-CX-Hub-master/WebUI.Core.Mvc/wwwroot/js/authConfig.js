@@ -1,6 +1,7 @@
 // Config object to be passed to Msal on creation
 console.log("authconfig is loading...")
 console.log("msal: ", msal)
+
 const msalConfig = {
     auth: {
         clientId: "aac91e08-a40e-45c2-a204-51339371d299",
