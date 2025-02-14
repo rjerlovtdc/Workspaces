@@ -10,11 +10,12 @@ const authHeader = document.getElementById("authHeader");
 function showWelcomeMessage(account) {
     // Reconfiguring DOM elements
     cardDiv.style.display = 'initial';
-   
+
     welcomeDiv.innerHTML = `Welcome ${account.name}`;
+    
     signInButton.nextElementSibling.style.display = 'none';
     signInButton.setAttribute("onclick", "signOut();");
-    signInButton.setAttribute('class', "btn btn-success")
+    signInButton.setAttribute('class', "btn btn-success");
     signInButton.innerHTML = "Sign Out";
     authHeader.innerHTML = "Signed in.";
 }
@@ -72,7 +73,7 @@ function updateUI(data, endpoint) {
             });
         }
     }
-    
+
 }
 
 function showAccounts(accs) {
@@ -89,3 +90,9 @@ function showAccounts(accs) {
     });
     document.body.appendChild(accountList);
 }
+
+document.addEventListener("DomContentLoaded", function () {
+    const welcomeMessage = document.getElementById("welcomeMessage");
+    welcomeMessage.classList.add("welcome-message")
+    welcomeMessage.textContent = "Welcome to the Graph Tutorial!";
+})

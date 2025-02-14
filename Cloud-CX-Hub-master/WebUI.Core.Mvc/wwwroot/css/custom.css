@@ -1,0 +1,8 @@
+﻿.welcome-message {
+    display: inline-block; /* Ensure the message is displayed inline */
+    font-size: 1.5em; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    white-space: nowrap; /* Prevent the text from breaking */
+}
+
+

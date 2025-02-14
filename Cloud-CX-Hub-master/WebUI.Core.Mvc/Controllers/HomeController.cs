@@ -7,7 +7,6 @@ using WebUI.Core.Mvc.Models;
 
 namespace WebUI.Core.Mvc.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,32 +16,11 @@ namespace WebUI.Core.Mvc.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
-        [AllowAnonymous]
-        [HttpPost]
-        public async Task<IActionResult> Login(string username, string password)
-        {
-            
-            return View();
-        }
-        [AllowAnonymous]
-        [HttpPost]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Login", "Home");
-        }
-        
-        public IActionResult Index()
-        {
-            
-            return View();
-        }
         [Authorize]
         public IActionResult Privacy()
         {

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Core.Mvc.Controllers
 {
-    [Authorize(Roles= "Cloud Application Administrators")]
+    // [Authorize(Policy = "RequireAdmin")]
 
     public class ManagementController : Controller
     {
