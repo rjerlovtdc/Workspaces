@@ -10,7 +10,7 @@ const msalConfig = {
     },
     cache: {
         cacheLocation: "localStorage", // This configures where your cache will be stored
-        storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+        storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge
     },
     system: {
         loggerOptions: {
@@ -41,8 +41,12 @@ const myMSALObj = new msal.PublicClientApplication(msalConfig);
 
 // Add here scopes for id token to be used at MS Identity Platform endpoints.
 const loginRequest = {
-    scopes: ["User.Read"]
+    scopes: ["User.Read"],
+    extraQueryParameters: {
+        domain_hint: "tdc.dk"
+    }
 };
+
 
 // Add here the endpoints for MS Graph API services you would like to use.
 const graphConfig = {

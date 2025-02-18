@@ -38,9 +38,27 @@ if (myMSALObj !== undefined) {
 }
 
 // Redirect: once login is successful and redirects with tokens, call Graph API
+const checkDomain = async () => {
+    const accounts = await myMSALObj.getAllAccounts();
+    if (accounts.length === 0) {
+        try {
+            console.log("checking domain...");
+            const silenRequest = {
+                scopes: ["User.Read"],
+                loginHint: "tdc.dk"
+            };
+            const response = await myMSALObj.ssoSilent(silenRequest);
+            handleResponse(response);
+        } catch (error) {
+            console.error("Silent authentication failed: ", error);
+            signIn("loginPopup");
+        }
+    } else {
+        handleResponse(accounts[0])
+    }
+}
 
-
-function handleResponse(resp) {
+const handleResponse = (resp) => {
     console.log("Handling response...");
     if (resp !== null) {
         accountId = resp.account.homeAccountId;
@@ -59,14 +77,16 @@ function handleResponse(resp) {
     }
 }
 
-async function signIn(method) {
+const signIn = async (method) => {
     signInType = isIE ? "loginRedirect" : method;
     if (signInType === "loginPopup") {
         return myMSALObj.loginPopup(loginRequest).then(handleResponse).catch(function (error) {
             console.log(error);
         });
     } else if (signInType === "loginRedirect") {
-        return myMSALObj.loginRedirect(loginRequest)
+        return myMSALObj.loginRedirect(loginRequest).then(handleResponse).catch(function (error) {
+            console.log(error);
+        })
     }
 }
 
@@ -107,3 +127,7 @@ async function getTokenRedirect(request, account) {
         }
     });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    checkDomain();
+});

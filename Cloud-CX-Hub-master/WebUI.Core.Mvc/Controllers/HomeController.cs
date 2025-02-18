@@ -21,6 +21,7 @@ namespace WebUI.Core.Mvc.Controllers
 
         public IActionResult Overview()
         {
+            
             if (User.Identity.IsAuthenticated)
             {
                 string username = User.GetDisplayName();

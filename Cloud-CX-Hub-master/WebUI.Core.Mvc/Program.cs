@@ -47,64 +47,71 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+//Token acquisition
 
-// static async Task GetATokenForGraph()
-// {
-//     string authority = "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2";
-//     string redirectUri = "https://rjvm.northeurope.cloudapp.azure.com/AdminPortal";
-//     
-//     string[] scopes = new [] { "User.Read", "Application.Read.All" };
-//     IConfidentialClientApplication msalApp = ConfidentialClientApplicationBuilder
-//         .Create(clientId)
-//         .WithClientSecret(clientSecret)
-//         .WithAuthority(authority)
-//         .WithRedirectUri(redirectUri)
-//         .Build();
-//     
-//     
-//     Console.WriteLine($"Authority: {authority}");
-//     var accounts = await msalApp.GetAccountsAsync();
-//     
-//     Console.WriteLine($"Accounts: {accounts.Count()}");
-//     AuthenticationResult result = null;
-//     
-//     if (accounts.Any())
-//     {
-//         Console.WriteLine("Account found");
-//         Console.WriteLine("Attempting to acquire token silently");
-//         result = await msalApp.AcquireTokenSilent(scopes, accounts.FirstOrDefault())
-//             .ExecuteAsync();
-//     }
-//     else
-//     {
-//         try
-//         {
-//             Console.WriteLine("No account found");
-//             Console.WriteLine("Starting interactive authentication");
-//             result = await msalApp.AcquireTokenByAuthorizationCode(scopes, clientSecret)
-//                 .ExecuteAsync();
-//         }
-//         catch (MsalUiRequiredException msuiex)
-//         {
-//             Console.WriteLine($"MsalUiRequiredException: {msuiex.Message}");
-//             Console.WriteLine($"Helplink: {msuiex.HelpLink}");
-//         }
-//         catch (MsalServiceException mservex)
-//         {
-//             Console.WriteLine($"MsalServiceException: {mservex.Message}");
-//         }
-//         catch (MsalClientException msce)
-//         {
-//             Console.WriteLine($"MsalClientException: {msce.Message}");
-//             
-//         }
-//     }
-//
-//     Console.WriteLine(result.Account);
-//     Console.WriteLine(result == null);
-// }
 
-// GetATokenForGraph();
+async Task GetATokenForGraph()
+{
+    string clientId = builder.Configuration["AzureAD:ClientId"];
+    string authority = "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2";
+    string redirectUri = "https://rjvm.northeurope.cloudapp.azure.com/AdminPortal";
+    string[] scopes = new [] { "User.Read" };
+
+    IPublicClientApplication app = PublicClientApplicationBuilder
+        .Create(clientId)
+        .WithAuthority(authority)
+        .Build();
+
+    var accounts = await app.GetAccountsAsync();
+    Console.WriteLine($"Authority: {authority}");
+    Console.WriteLine($"Accounts: {accounts.Count()}");
+    
+    
+    AuthenticationResult result = null;
+    
+    if (accounts.Any())
+    {
+        Console.WriteLine("Account found");
+        Console.WriteLine("Attempting to acquire token silently");
+        result = await app.AcquireTokenSilent(scopes, accounts.FirstOrDefault())
+            .ExecuteAsync();
+    }
+    else
+    {
+        try
+        {
+            Console.WriteLine("No account found");
+            Console.WriteLine("Starting interactive authentication");
+            result = await app.AcquireTokenByIntegratedWindowsAuth(scopes)
+                .ExecuteAsync(CancellationToken.None);
+        }
+        catch (MsalUiRequiredException msuiex)
+        {
+            Console.WriteLine($"MsalUiRequiredException: {msuiex.Message}");
+            Console.WriteLine($"Helplink: {msuiex.HelpLink}");
+        }
+        catch (MsalServiceException mservex)
+        {
+            Console.WriteLine($"MsalServiceException: {mservex.Message}");
+        }
+        catch (MsalClientException msce)
+        {
+            Console.WriteLine($"MsalClientException: {msce.Message}");
+            
+        }
+    }
+
+    Console.WriteLine(result.Account);try
+    {
+        Console.WriteLine(result.Account);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Exception: {ex.Message}");
+    }
+}
+
+await GetATokenForGraph();
 
 app.UseRouting();
 app.UseAuthorization();
