@@ -50,8 +50,6 @@ app.UseStaticFiles();
 
 // static async Task GetATokenForGraph()
 // {
-//     string clientSecret = "5c198d5b-359f-4e0e-806e-4a58c77521af";
-//     string clientId = "aac91e08-a40e-45c2-a204-51339371d299";
 //     string authority = "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2";
 //     string redirectUri = "https://rjvm.northeurope.cloudapp.azure.com/AdminPortal";
 //     
