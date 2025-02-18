@@ -1,23 +1,18 @@
 // Select DOM elements to work with
-const welcomeDiv = document.getElementById("WelcomeMessage");
-const signInButton = document.getElementById("SignIn");
-const cardDiv = document.getElementById("card-div");
-const mailButton = document.getElementById("readMail");
-const profileButton = document.getElementById("seeProfile");
-const profileDiv = document.getElementById("profile-div");
-const authHeader = document.getElementById("authHeader");
+let welcomeDiv = document.getElementById("WelcomeMessage");
+let signInButton = document.getElementById("SignIn");
+let cardDiv = document.getElementById("card-div");
+let mailButton = document.getElementById("readMail");
+let profileButton = document.getElementById("seeProfile");
+let profileDiv = document.getElementById("profile-div");
+let authHeader = document.getElementById("authHeader");
 
 function showWelcomeMessage(account) {
     // Reconfiguring DOM elements
     cardDiv.style.display = 'initial';
 
     welcomeDiv.innerHTML = `Welcome ${account.name}`;
-    
-    signInButton.nextElementSibling.style.display = 'none';
-    signInButton.setAttribute("onclick", "signOut();");
-    signInButton.setAttribute('class', "btn btn-success");
-    signInButton.innerHTML = "Sign Out";
-    authHeader.innerHTML = "Signed in.";
+    signInButton.style.display = 'none';
 }
 
 function updateUI(data, endpoint) {

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Identity.Web;
 using WebUI.Core.Mvc.Models;
 
@@ -27,6 +28,14 @@ namespace WebUI.Core.Mvc.Controllers
                 Console.WriteLine($"User {username} with ID {name} is authenticated");
             }
             return View();
+        }
+        
+        public IActionResult Signout()
+        {
+            return SignOut(
+                new AuthenticationProperties { RedirectUri = "/" },
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                OpenIdConnectDefaults.AuthenticationScheme);
         }
 
         [Authorize]
