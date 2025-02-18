@@ -53,6 +53,7 @@ app.UseStaticFiles();
 async Task GetATokenForGraph()
 {
     string clientId = builder.Configuration["AzureAD:ClientId"];
+    Console.WriteLine(clientId);
     string authority = "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2";
     string redirectUri = "https://rjvm.northeurope.cloudapp.azure.com/AdminPortal";
     string[] scopes = new [] { "User.Read" };
@@ -93,6 +94,7 @@ async Task GetATokenForGraph()
         catch (MsalServiceException mservex)
         {
             Console.WriteLine($"MsalServiceException: {mservex.Message}");
+            Console.WriteLine(mservex.Headers);
         }
         catch (MsalClientException msce)
         {
@@ -100,15 +102,14 @@ async Task GetATokenForGraph()
             
         }
     }
-
-    Console.WriteLine(result.Account);try
-    {
-        Console.WriteLine(result.Account);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Exception: {ex.Message}");
-    }
+    
+    // try {
+    //     Console.WriteLine(result.Account);
+    // }
+    // catch (Exception ex)
+    // {
+    //     Console.WriteLine($"Exception: {ex.Message}");
+    // }
 }
 
 await GetATokenForGraph();

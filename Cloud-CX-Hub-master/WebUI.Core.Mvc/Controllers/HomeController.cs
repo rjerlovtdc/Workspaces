@@ -28,6 +28,10 @@ namespace WebUI.Core.Mvc.Controllers
                 string name = User.GetNameIdentifierId();
                 Console.WriteLine($"User {username} with ID {name} is authenticated");
             }
+
+            // ViewBag.DisplayName = User.GetDisplayName();
+            ViewBag.DisplayName = User.FindFirst("name")?.Value ?? User.Identity.Name;
+            ViewBag.UserId = User.GetNameIdentifierId();
             return View();
         }
         

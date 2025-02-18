@@ -9,7 +9,6 @@ let authHeader = document.getElementById("authHeader");
 
 function showWelcomeMessage(account) {
     // Reconfiguring DOM elements
-    cardDiv.style.display = 'initial';
 
     welcomeDiv.innerHTML = `Welcome ${account.name}`;
     signInButton.style.display = 'none';
