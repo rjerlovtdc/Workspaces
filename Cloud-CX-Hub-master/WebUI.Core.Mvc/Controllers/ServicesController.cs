@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Core.Mvc.Controllers
 {
-    // [Authorize(Policy = "RequireAdmin")]
+    [Authorize]
     public class ServicesController : Controller
     {
        
