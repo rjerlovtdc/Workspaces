@@ -3,8 +3,6 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var username = ViewBag.Username;
-    var userId = ViewBag.UserId;
     var displayName = ViewBag.DisplayName;
 }
 <!DOCTYPE html>
@@ -27,10 +25,10 @@
         <div id="profile-div"></div>
         <br>
         <br>
-        <button class="btn btn-primary" id="seeProfile" onclick="seeProfile()">See Profile</button>
+        <button class="btn btn-primary" id="seeProfile" asp-area="" asp-controller="Home" asp-action="Profile">See Profile</button>
         <br>
         <br>
-        <button class="btn btn-primary" id="readMail" onclick="readMail()">Read Mails</button>
+        <button class="btn btn-primary" id="readMail" asp-area="" asp-controller="Home" asp-action="Mails">Read Mails</button>
     </div>
 </div>
 <br>

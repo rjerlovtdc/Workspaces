@@ -1,18 +1,14 @@
 // Select DOM elements to work with
 let welcomeDiv = document.getElementById("WelcomeMessage");
 let signInButton = document.getElementById("SignIn");
-let cardDiv = document.getElementById("card-div");
 let mailButton = document.getElementById("readMail");
 let profileButton = document.getElementById("seeProfile");
 let profileDiv = document.getElementById("profile-div");
-let authHeader = document.getElementById("authHeader");
 
-function showWelcomeMessage(account) {
-    // Reconfiguring DOM elements
-
-    welcomeDiv.innerHTML = `Welcome ${account.name}`;
-    signInButton.style.display = 'none';
-}
+// function showWelcomeMessage(account) {
+//     // Reconfiguring DOM elements
+//
+// }
 
 function updateUI(data, endpoint) {
     console.log('Graph API responded at: ' + new Date().toString());
@@ -84,9 +80,3 @@ function showAccounts(accs) {
     });
     document.body.appendChild(accountList);
 }
-
-document.addEventListener("DomContentLoaded", function () {
-    const welcomeMessage = document.getElementById("welcomeMessage");
-    welcomeMessage.classList.add("welcome-message")
-    welcomeMessage.textContent = "Welcome to the Graph Tutorial!";
-})

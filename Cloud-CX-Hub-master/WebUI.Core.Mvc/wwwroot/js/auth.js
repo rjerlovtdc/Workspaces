@@ -26,16 +26,7 @@ const mockAccounts = [
 // Create the main myMSALObj instance
 // configuration parameters are located at authConfig.js
 
-if (myMSALObj !== undefined) {
-    myMSALObj.handleRedirectPromise()
-        .then(handleResponse)
-        .catch(err => {
-            console.error(err);
-        });
-} else {
-    myMSALObj = new msal.PublicClientApplication(msalConfig);
 
-}
 
 // Redirect: once login is successful and redirects with tokens, call Graph API
 const checkDomain = async () => {
@@ -75,6 +66,17 @@ const handleResponse = (resp) => {
             showWelcomeMessage(currentAccounts[0]);
         }
     }
+}
+
+if (myMSALObj !== undefined) {
+    myMSALObj.handleRedirectPromise()
+        .then(handleResponse)
+        .catch(err => {
+            console.error(err);
+        });
+} else {
+    myMSALObj = new msal.PublicClientApplication(msalConfig);
+
 }
 
 const signIn = async (method) => {

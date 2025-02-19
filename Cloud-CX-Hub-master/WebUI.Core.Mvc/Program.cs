@@ -56,7 +56,7 @@ async Task GetATokenForGraph()
     Console.WriteLine(clientId);
     string authority = "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2";
     string redirectUri = "https://rjvm.northeurope.cloudapp.azure.com/AdminPortal";
-    string[] scopes = new [] { "User.Read" };
+    string[] scopes = new [] { "User.Read", "Mail.Read" };
 
     IPublicClientApplication app = PublicClientApplicationBuilder
         .Create(clientId)
@@ -89,12 +89,10 @@ async Task GetATokenForGraph()
         catch (MsalUiRequiredException msuiex)
         {
             Console.WriteLine($"MsalUiRequiredException: {msuiex.Message}");
-            Console.WriteLine($"Helplink: {msuiex.HelpLink}");
         }
         catch (MsalServiceException mservex)
         {
             Console.WriteLine($"MsalServiceException: {mservex.Message}");
-            Console.WriteLine(mservex.Headers);
         }
         catch (MsalClientException msce)
         {

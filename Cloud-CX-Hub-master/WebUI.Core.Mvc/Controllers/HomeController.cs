@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Identity.Web;
+using NuGet.Protocol;
 using WebUI.Core.Mvc.Models;
 
 namespace WebUI.Core.Mvc.Controllers
@@ -21,26 +22,38 @@ namespace WebUI.Core.Mvc.Controllers
 
         public IActionResult Overview()
         {
-            
             if (User.Identity.IsAuthenticated)
             {
                 string username = User.GetDisplayName();
                 string name = User.GetNameIdentifierId();
-                Console.WriteLine($"User {username} with ID {name} is authenticated");
-            }
+                ViewBag.DisplayName = User.FindFirst("name")?.Value ?? User.Identity.Name;
+                Console.WriteLine($"{ViewBag.DisplayName} is authenticated.");
 
+            }
+        
             // ViewBag.DisplayName = User.GetDisplayName();
-            ViewBag.DisplayName = User.FindFirst("name")?.Value ?? User.Identity.Name;
-            ViewBag.UserId = User.GetNameIdentifierId();
             return View();
         }
-        
+
         public IActionResult Signout()
         {
             return SignOut(
                 new AuthenticationProperties { RedirectUri = "/" },
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 OpenIdConnectDefaults.AuthenticationScheme);
+        }
+
+        [Authorize]
+        public IActionResult Profile()
+        {
+            Console.WriteLine("Profile page accessed");
+            return View();
+        }
+        [Authorize]
+        public IActionResult Mails()
+        {
+            Console.WriteLine("Mails page accessed");
+            return View();
         }
 
         [Authorize]

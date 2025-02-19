@@ -20,6 +20,7 @@ function callMSGraph(endpoint, accessToken, callback) {
 }
 
 async function seeProfile() {
+    
     const currentAcc = myMSALObj.getAccountByHomeId(accountId);
     if (currentAcc) {
         const response = await getTokenPopup(loginRequest, currentAcc).catch(error => {
@@ -27,7 +28,6 @@ async function seeProfile() {
         });
         await callMSGraph(graphConfig.graphMeEndpoint, response.accessToken, updateUI);
 
-        profileButton.style.display = 'none';
     }
 }
 
@@ -38,7 +38,6 @@ async function readMail() {
             console.log(error);
         });
         callMSGraph(graphConfig.graphMailEndpoint, response.accessToken, updateUI);
-        mailButton.style.display = 'none';
     }
 }
 
@@ -49,7 +48,6 @@ async function seeProfileRedirect() {
             console.log(error);
         });
         callMSGraph(graphConfig.graphMeEndpoint, response.accessToken, updateUI);
-        profileButton.style.display = 'none';
     }
 }
 
@@ -60,6 +58,5 @@ async function readMailRedirect() {
             console.log(error);
         });
         callMSGraph(graphConfig.graphMailEndpoint, response.accessToken, updateUI);
-        mailButton.style.display = 'none';
     }
 }
