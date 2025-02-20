@@ -36,8 +36,9 @@ const msalConfig = {
         }
     }
 };
+
 console.log("Creating MSAL object")
-// const myMSALObj = new msal.PublicClientApplication(msalConfig);
+const myMSALObj = new msal.PublicClientApplication(msalConfig);
 
 // Add here scopes for id token to be used at MS Identity Platform endpoints.
 const loginRequest = {

@@ -13,7 +13,10 @@ using WebUI.Core.Mvc;
 using Microsoft.Identity.Web.TokenCacheProviders;
 using Microsoft.Kiota.Abstractions.Authentication;
 using Moq;
-
+using WebUI.Core.Mvc.Services;
+string clientId = "aac91e08-a40e-45c2-a204-51339371d299";
+string tenantId = "84adce5c-2f55-4a74-bb37-3f1609020ba2";
+string auhtority = $"https://login.microsoftonline.com/{tenantId}";
 
 var builder = WebApplication.CreateBuilder();
 
@@ -28,6 +31,8 @@ builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
 
 builder.Services.AddControllersWithViews()
     .AddMicrosoftIdentityUI();
+
+
 
 var app = builder.Build();
 Console.WriteLine("Finished building app");
@@ -48,7 +53,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 //Token acquisition
-
+Console.WriteLine("TokenRequest.RequestTokenAsync() called");
+await TokenRequest.RequestTokenAsync();
+Console.WriteLine("TokenRequest.RequestTokenAsync() Done");
 
 async Task GetATokenForGraph()
 {
@@ -62,7 +69,7 @@ async Task GetATokenForGraph()
         .Create(clientId)
         .WithAuthority(authority)
         .Build();
-
+    
     var accounts = await app.GetAccountsAsync();
     Console.WriteLine($"Authority: {authority}");
     Console.WriteLine($"Accounts: {accounts.Count()}");
@@ -85,6 +92,7 @@ async Task GetATokenForGraph()
             Console.WriteLine("Starting interactive authentication");
             result = await app.AcquireTokenByIntegratedWindowsAuth(scopes)
                 .ExecuteAsync(CancellationToken.None);
+            Console.WriteLine(result.AccessToken);
         }
         catch (MsalUiRequiredException msuiex)
         {
