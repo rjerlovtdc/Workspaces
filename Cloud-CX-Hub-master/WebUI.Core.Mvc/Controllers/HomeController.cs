@@ -7,6 +7,7 @@ using Azure.Identity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Graph;
 using Microsoft.Graph.Drives.Item.Items.Item.Workbook.Functions.Skew_p;
 using Microsoft.Graph.Models.ExternalConnectors;
@@ -15,7 +16,6 @@ using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Claims;
 using NuGet.Protocol;
 using WebUI.Core.Mvc.Models;
-using WebUI.Core.Mvc.Services;
 
 namespace WebUI.Core.Mvc.Controllers
 {
@@ -26,14 +26,12 @@ namespace WebUI.Core.Mvc.Controllers
         private readonly ILogger<HomeController> _logger;
         private  Configuration _configuration;
         private string clientId = "aac91e08-a40e-45c2-a204-51339371d299";
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController() 
         {
-            _logger = logger;
         }
 
 
-        public IActionResult Overview()
+        public async Task<IActionResult> Overview()
         {
             if (User.Identity.IsAuthenticated)
             {
@@ -41,6 +39,19 @@ namespace WebUI.Core.Mvc.Controllers
                 string name = User.GetNameIdentifierId();
                 ViewBag.DisplayName = User.FindFirst("name")?.Value ?? User.Identity.Name;
                 Console.WriteLine($"{ViewBag.DisplayName} is authenticated.");
+                
+                var clientId = this.clientId;
+                Console.WriteLine($"Clientid: {clientId}");
+                
+                var userIdentity = User.FindFirst("name")?.Value;
+                var userMail = User.FindFirst("preferred_username")?.Value;
+                var tenantId = User.FindFirst("http://schemas.microsoft.com/identity/claims/tenantid")?.Value;
+                var objectId = User.FindFirst("http://schemas.microsoft.com/identity/claims/objectidentifier")?.Value;
+                
+                Console.WriteLine($"Tenantid: {tenantId}");
+                Console.WriteLine($"Objectid: {objectId}");
+                ViewBag.Username = userIdentity;
+                ViewBag.UserMail = userMail;
             }
 
             // ViewBag.DisplayName = User.GetDisplayName();

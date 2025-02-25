@@ -21,14 +21,15 @@
 
 <div class="card text-center" style="display: block">
     <div class="card-body" style="display: block">
-        <h5 class="card-title" id="WelcomeMessage" style="display: block">Welcome @displayName</h5>
+        <h5 class="card-title" id="WelcomeMessage" style="display: block">Welcome <br/> @displayName</h5>
         <div id="profile-div"></div>
         <br>
         <br>
-        <a class="btn btn-primary" id="seeProfile" asp-area="" asp-controller="Home" asp-action="Profile">See Profile</a>
+        <a class="btn btn-primary" id="seeProfile" onclick="showProfile()">See Profile</a>
+        
         <br>
         <br>
-        <a class="btn btn-primary" id="readMail" asp-area="" asp-controller="Home" asp-action="Mails">Read Mails</a>
+        <a class="btn btn-primary" id="readMail" onclick="readMail()">Read Mails</a>
     </div>
 </div>
 <br>
@@ -53,11 +54,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-<script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
+@* <script src="content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script> *@
 
 <!-- importing app scripts | load order is important -->
 @* <script type="text/javascript" src="/js/authConfig.js"></script> *@
-<script type="text/javascript" src="/js/ui.js"></script>
+@* <script type="text/javascript" src="/js/ui.js"></script> *@
 @* <script type="text/javascript" src="/js/auth.js"></script> *@
 @* <script type="text/javascript" src="/js/graph.js"></script> *@
 

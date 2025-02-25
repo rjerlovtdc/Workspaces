@@ -1,12 +1,11 @@
 // Config object to be passed to Msal on creation
 console.log("authconfig is loading...")
-console.log("msal: ", msal)
 
 const msalConfig = {
     auth: {
         clientId: "aac91e08-a40e-45c2-a204-51339371d299",
         authority: "https://login.microsoftonline.com/84adce5c-2f55-4a74-bb37-3f1609020ba2",
-        redirectURI: 'https://rjvm.northeurope.cloudapp.azure.com/AdminPortal/'
+        redirectURI: 'localhost:5108/'
     },
     cache: {
         cacheLocation: "localStorage", // This configures where your cache will be stored
@@ -15,34 +14,32 @@ const msalConfig = {
     system: {
         loggerOptions: {
             loggerCallback: (level, message, containsPii) => {
-                if (containsPii) {	
-                    return;	
+                if (containsPii) {
+                    return;
                 }
-                switch (level) {	
-                    case msal.LogLevel.Error:	
-                        console.error(message);	
-                        return;	
-                    case msal.LogLevel.Info:	
-                        console.info(message);	
-                        return;	
-                    case msal.LogLevel.Verbose:	
-                        console.debug(message);	
-                        return;	
-                    case msal.LogLevel.Warning:	
-                        console.warn(message);	
-                        return;	
+                switch (level) {
+                    case msal.LogLevel.Error:
+                        console.error(message);
+                        return;
+                    case msal.LogLevel.Info:
+                        console.info(message);
+                        return;
+                    case msal.LogLevel.Verbose:
+                        console.debug(message);
+                        return;
+                    case msal.LogLevel.Warning:
+                        console.warn(message);
+                        return;
                 }
             }
         }
     }
 };
 
-console.log("Creating MSAL object")
 const myMSALObj = new msal.PublicClientApplication(msalConfig);
 
-// Add here scopes for id token to be used at MS Identity Platform endpoints.
 const loginRequest = {
-    scopes: ["User.Read"],
+    scopes: ["User.Read", "Mail.Read", "Group.Read.All"],
     extraQueryParameters: {
         domain_hint: "tdc.dk"
     }
@@ -52,19 +49,22 @@ const loginRequest = {
 // Add here the endpoints for MS Graph API services you would like to use.
 const graphConfig = {
     graphMeEndpoint: "https://graph.microsoft.com/v1.0/me",
-    graphMailEndpoint: "https://graph.microsoft.com/v1.0/me/messages"
+    graphMailEndpoint: "https://graph.microsoft.com/v1.0/me/messages",
+    graphGroupsEndpoint: "https://graph.microsoft.com/v1.0/groups",
+    graphUsersEndpoint: 'https://graph.microsoft.com/v1.0/users'
 };
 
 // Add here scopes for access token to be used at MS Graph API endpoints.
 const tokenRequest = {
-    scopes: ["Mail.Read", "User.Read"],
+    scopes: ["Mail.Read", "User.Read.All", "Group.Read.All"],
     forceRefresh: false // Set this to "true" to skip a cached token and go to the server to get a new token
 };
 
 const accounts = myMSALObj.getAllAccounts();
+console.log(accounts)
 if (accounts.length > 0) {
     const silentRequest = {
-        scopes: ["openid", "profile", "User.Read", "Mail.Read"],
+        scopes: ["openid", "profile", "User.Read.All", "Mail.Read", "Group.Read.All"],
         account: accounts[0]
     };
 

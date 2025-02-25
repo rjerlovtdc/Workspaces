@@ -1,62 +1,94 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>TDX CX Hub - @ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/lib/fontawesome/font-awesome.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/WebUI.Core.Mvc.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.8.0/js/msal-browser.min.js"></script>
+    
+    <link rel="stylesheet" href="~/lib/fontawesome/font-awesome.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/WebUI.Core.Mvc.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true"/>
 </head>
 <body>
-     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm " style="height: 60px; background-color: #0000BF; margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold"><span class="align-middle"><i onclick="toggleMenu()" class="fa fa-bars" style="cursor: pointer;"></i>&nbsp;&nbsp;&nbsp; TDC Customer Experience Hub</span></div>
-            <div class="col-sm text-end" style="height: 60px; background-color: #0000BF; margin: 0px 10px 0px 0px; padding: 18px 0px 0px 0px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold"><span class="fa fa-user"></span>&nbsp;&nbsp;Mit Navn (Profil)&nbsp;&nbsp;</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm "
+             style="height: 60px; background-color: #0000BF; margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold">
+            <span class="align-middle"><i onclick="toggleMenu()" class="fa fa-bars" style="cursor: pointer;"></i>&nbsp;&nbsp;&nbsp; TDC Customer Experience Hub</span>
         </div>
-        <div class="d-flex flex-row" style="height:90vh; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px">
-            <div id="mainMenu" style="width: 200px; border-right: 1px solid lightgrey; margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;height: 100%">
-                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Overview">&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;Overview</a></div>
-
-                <div class="menuSpacer"></div>
-                <div class="text-uppercase menuHeaders">Management</div>
-                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Users">&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Users</a></div>
-                <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Groups">&nbsp;<i class="fa fa-users"></i>&nbsp;Groups</a></div>
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management" asp-action="Departments"><i class="fa fa-building"></i>&nbsp;&nbsp;Departments</a></div>
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management" asp-action="License"><i class="fa fa-copy"></i>&nbsp;&nbsp;License</a></div>
-
-                <div class="menuSpacer"></div>
-                <div class="text-uppercase menuHeaders">Services</div>
-                <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services" asp-action="ContactCenter">&nbsp;<i class="fa fa-headphones"></i>&nbsp;&nbsp;Contact Center</a></div>
-                <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services" asp-action="TextToSpeech">&nbsp;<i class="fa fa-headphones"></i>&nbsp;&nbsp;Text-To-Speech</a></div>
-                <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services" asp-action="Survey">&nbsp;<i class="fa fa-square"></i>&nbsp;&nbsp;Survey</a></div>
-                <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services" asp-action="Buddy">&nbsp;<i class="fa fa-diamond"></i>&nbsp;Buddy</a></div>
-                <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services" asp-action="Widgets">&nbsp;<i class="fa fa-mars"></i>&nbsp;&nbsp;Widgets</a></div>
-
-                <div class="menuSpacer"></div>
-                <div class="text-uppercase menuHeaders">Monitoring</div>
-                @*TODOOOOOOO ASP ACTION*@
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Reports"><i class="fa fa-paragraph"></i>&nbsp;&nbsp;&nbsp;Reports</a></div>
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Analysis"><i class="fa fa-plug"></i>&nbsp;&nbsp;Analysis</a></div>
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring" asp-action="Billing"><i class="fa fa-google-wallet"></i>&nbsp;&nbsp;Billing</a></div>
-                
-                <div class="menuSpacer"></div>
-                <div class="text-uppercase menuHeaders">Account</div>
-                <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Home" asp-action="SignOut"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Sign out</a></div>
-            </div>
-            <div style="margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px;"> @RenderBody()</div>
+        <div class="col-sm text-end"
+             style="height: 60px; background-color: #0000BF; margin: 0px 10px 0px 0px; padding: 18px 0px 0px 0px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold">
+            <span class="fa fa-user"></span>&nbsp;&nbsp;Mit Navn (Profil)&nbsp;&nbsp;
         </div>
     </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/utils.js" asp-append-version="true"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @* <script src="~/js/authConfig.js" asp-append-version="true"></script> *@
-    <script src="~/js/ui.js" asp-append-version="true"></script>
-    @* <script src="~/js/auth.js" asp-append-version="true"></script> *@
-    @* <script src="~/js/graph.js" asp-append-version="true"></script> *@
-    @await RenderSectionAsync("Scripts", required: false)
+    <div class="d-flex flex-row" style="height:90vh; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px">
+        <div id="mainMenu"
+             style="width: 200px; border-right: 1px solid lightgrey; margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;height: 100%">
+            <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Overview">&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;Overview</a>
+            </div>
+
+            <div class="menuSpacer"></div>
+            <div class="text-uppercase menuHeaders">Management</div>
+            <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Users">&nbsp;<i
+                        class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Users</a></div>
+            <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Management" asp-action="Groups">&nbsp;<i
+                        class="fa fa-users" ></i>&nbsp;Groups</a></div>
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management"
+                                            asp-action="Departments"><i class="fa fa-building"></i>&nbsp;&nbsp;Departments</a>
+            </div>
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Management"
+                                            asp-action="License"><i class="fa fa-copy"></i>&nbsp;&nbsp;License</a></div>
+
+            <div class="menuSpacer"></div>
+            <div class="text-uppercase menuHeaders">Services</div>
+            <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services"
+                                      asp-action="ContactCenter">&nbsp;<i class="fa fa-headphones"></i>&nbsp;&nbsp;Contact
+                    Center</a></div>
+            <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services"
+                                      asp-action="TextToSpeech">&nbsp;<i class="fa fa-headphones"></i>&nbsp;&nbsp;Text-To-Speech</a>
+            </div>
+            <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services"
+                                      asp-action="Survey">&nbsp;<i class="fa fa-square"></i>&nbsp;&nbsp;Survey</a></div>
+            <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services"
+                                      asp-action="Buddy">&nbsp;<i class="fa fa-diamond"></i>&nbsp;Buddy</a></div>
+            <div class="menuItems"><a id="menuSurvey" class="menuItems" asp-area="" asp-controller="Services"
+                                      asp-action="Widgets">&nbsp;<i class="fa fa-mars"></i>&nbsp;&nbsp;Widgets</a></div>
+
+            <div class="menuSpacer"></div>
+            <div class="text-uppercase menuHeaders">Monitoring</div>
+            @*TODOOOOOOO ASP ACTION*@
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring"
+                                            asp-action="Reports"><i class="fa fa-paragraph"></i>&nbsp;&nbsp;&nbsp;Reports</a>
+            </div>
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring"
+                                            asp-action="Analysis"><i class="fa fa-plug"></i>&nbsp;&nbsp;Analysis</a>
+            </div>
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Monitoring"
+                                            asp-action="Billing"><i class="fa fa-google-wallet"></i>&nbsp;&nbsp;Billing</a>
+            </div>
+
+            <div class="menuSpacer"></div>
+            <div class="text-uppercase menuHeaders">Account</div>
+            <div class="menuItems">&nbsp;<a class="menuItems" asp-area="" asp-controller="Home" asp-action="SignOut"><i
+                        class="fa fa-sign-out"></i>&nbsp;&nbsp;Sign out</a></div>
+        </div>
+        <div style="margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px;"> @RenderBody()</div>
+    </div>
+</div>
+@* <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.8.0/js/msal-browser.min.js"></script> *@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/microsoft/microsoft-graph-client/lib/graph-js-sdk.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/utils.js" asp-append-version="true"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/authConfig.js" asp-append-version="true"></script>
+<script src="~/js/auth.js" asp-append-version="true"></script>
+<script src="~/js/graph.js" asp-append-version="true"></script>
+<script src="~/js/ui.js" asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
