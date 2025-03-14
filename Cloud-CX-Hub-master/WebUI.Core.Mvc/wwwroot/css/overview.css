@@ -1,0 +1,17 @@
+.welcomeCard {
+    width: 1000px;
+    margin-top: 1px;
+}
+
+.userInfo {
+    font-size: 14px;
+}
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pCustomerName {
+    margin-top: 15px;
+}

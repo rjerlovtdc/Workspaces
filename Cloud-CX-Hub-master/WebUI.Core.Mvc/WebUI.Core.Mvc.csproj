@@ -4,15 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>044142ed-da95-4c8b-95cf-e45ec2fc7081</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Azure.Identity" Version="1.13.2" />
     <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="Hexiron.AspNetCore.Authentication.AzureAdMixed" Version="3.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="6.0.36" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="8.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.4" />
     <PackageReference Include="Microsoft.Authentication.WebAssembly.Msal" Version="9.0.2" />
-    <PackageReference Include="Microsoft.Graph" Version="5.70.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Graph" Version="5.71.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.68.0" />
     <PackageReference Include="Microsoft.Identity.Client.Broker" Version="4.68.0" />
     <PackageReference Include="Microsoft.Identity.Web" Version="3.7.0" />
     <PackageReference Include="Microsoft.Identity.Web.TokenAcquisition" Version="3.7.0" />
@@ -23,10 +29,7 @@
     <PackageReference Include="Microsoft.Owin.Security.OpenIdConnect" Version="4.2.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
     <PackageReference Include="Moq" Version="4.20.72" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="PasswordGenerator" Version="2.1.0" />
   </ItemGroup>
 
 </Project>

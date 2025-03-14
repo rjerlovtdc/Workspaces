@@ -1,0 +1,13 @@
+﻿button:hover {
+    cursor: pointer;
+}
+.redirectText {
+    color: white;
+    text-decoration: none;
+    font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif;
+
+}
+
+body {
+    color: white;
+}

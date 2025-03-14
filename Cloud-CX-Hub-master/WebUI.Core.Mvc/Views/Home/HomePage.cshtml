@@ -1,0 +1,25 @@
+﻿@model List<Customer>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="~/css/homepage.css">
+</head>
+<body>
+<div class="container">
+    <div class="text" style="text-align: center">
+        <h4>Which organization do you wish to sign in for?</h4>
+        @foreach (var customer in @Model)
+        {
+            <a asp-controller="Home" asp-action="Login" asp-route-customerName="@customer.Name" id="customerName" style="color: black; text-decoration: none">@customer.Name</a>
+            <hr/>
+        }
+    </div>
+</div>
+</body>
+</html>

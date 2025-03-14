@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using WebUI.Core.Mvc.Data;
+using WebUI.Core.Mvc.Services;
 
 namespace WebUI.Core.Mvc.Controllers
 {
     [Authorize]
     public class ServicesController : Controller
     {
-       
+        private readonly ApplicationDb _db = SharedData.db;
+
         public IActionResult Survey() { return View();}
 
        

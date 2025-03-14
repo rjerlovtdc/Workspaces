@@ -1,0 +1,19 @@
+﻿tr td {
+    border: 1px solid lightgrey;
+    text-align: center;
+    height: 50px;
+}
+
+th {
+    height: 50px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid lightgrey;
+}
+
+table {
+    width: 1000px;
+    border: 1px solid lightgrey;
+}

@@ -1,0 +1,16 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    display: flex; /* Use flexbox for vertical centering */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Center vertically */
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    text-align: center; /* Center text within the container */
+}
+
+.text {
+    font-size: 24px; /* Adjust font size as needed */
+}

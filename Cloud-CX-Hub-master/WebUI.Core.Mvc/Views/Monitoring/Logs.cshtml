@@ -1,0 +1,45 @@
+﻿@model List<Change>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Changes</title>
+    <link rel="stylesheet" href="~/css/logs.css"/>
+</head>
+<body>
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>User who made the change</th>
+            <th>User affected by changes</th>
+            <th>Time</th>
+            <th>User's rights before change</th>
+            <th>User's rights after change</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <hr/>
+        @foreach (var change in @Model)
+        {
+            <tr>
+                <td>@change.ActionUser.DisplayName</td>
+                <td>@change.TargetUser.DisplayName</td>
+                <td>@change.TimeStamp.ToString()</td>
+                <td>@change.OldRights</td>
+                <td>@change.NewRights</td>
+                <td>@change.Action</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    
+</div>
+</body>
+</html>
