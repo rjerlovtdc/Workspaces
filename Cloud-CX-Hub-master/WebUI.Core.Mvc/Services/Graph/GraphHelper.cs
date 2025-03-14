@@ -12,10 +12,13 @@ namespace WebUI.Core.Mvc.Services.Graph;
 
 public class GraphHelper
 {
+    private static IConfigurationRoot config = new ConfigurationBuilder()
+        .AddUserSecrets<GraphHelper>()
+        .Build();
     private static GraphServiceClient _graphClient;
-    private static string _clientId = "aac91e08-a40e-45c2-a204-51339371d299";
-    private static string _tenantid = "84adce5c-2f55-4a74-bb37-3f1609020ba2";
-    private static string _clientSecret = "PFB8Q~ukawgiZBOCwYoqm8.JlyYNrz_yvA~h0bPE";
+    private static string _clientId = config["AzureAd:ClientId"];
+    private static string _tenantid = config["AzureAd:TenantId"];
+    private static string _clientSecret = config["AzureAd:ClientSecret"];
     public static UserCollectionResponse userCollection;
     public static DomainCollectionResponse domainCollection;
 
