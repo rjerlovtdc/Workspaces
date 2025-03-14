@@ -54,3 +54,16 @@
     padding-top: 20px;
     padding-bottom:0px;
 }
+
+.fa-user:hover {
+    cursor: pointer;
+}
+
+.minProfil {
+    font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif;
+    display: inline;
+    margin-right: 10px;
+}
+.minProfil:hover {
+    cursor: pointer;
+}

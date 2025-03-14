@@ -6,7 +6,6 @@
     <title>TDX CX Hub - @ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.8.0/js/msal-browser.min.js"></script>
-    
     <link rel="stylesheet" href="~/lib/fontawesome/font-awesome.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/WebUI.Core.Mvc.styles.css" asp-append-version="true"/>
@@ -17,16 +16,16 @@
     <div class="row">
         <div class="col-sm "
              style="height: 60px; background-color: #0000BF; margin: 0px 0px 0px 0px; padding: 18px 0px 0px 10px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold">
-            <span class="align-middle"><i onclick="toggleMenu()" class="fa fa-bars" style="cursor: pointer;"></i>&nbsp;&nbsp;&nbsp; TDC Customer Experience Hub</span>
+            <span class="align-middle">&nbsp;&nbsp;&nbsp; TDC Customer Experience Hub</span>
         </div>
         <div class="col-sm text-end"
              style="height: 60px; background-color: #0000BF; margin: 0px 10px 0px 0px; padding: 18px 0px 0px 0px; color: white; font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif; font-weight: bold">
-            <span class="fa fa-user"></span>&nbsp;&nbsp;Mit Navn (Profil)&nbsp;&nbsp;
+            l
         </div>
     </div>
     <div class="d-flex flex-row" style="height:90vh; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px">
         <div id="mainMenu"
-             style="width: 200px; border-right: 1px solid lightgrey; margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;height: 100%">
+             style="width: 200px; border-right: 1px solid lightgrey; margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;height: 150%">
             <div class="menuItems"><a class="menuItems" asp-area="" asp-controller="Home" asp-action="Overview">&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;Overview</a>
             </div>
 
@@ -82,12 +81,6 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/microsoft/microsoft-graph-client/lib/graph-js-sdk.js"></script>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/utils.js" asp-append-version="true"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-<script src="~/js/authConfig.js" asp-append-version="true"></script>
-<script src="~/js/auth.js" asp-append-version="true"></script>
-<script src="~/js/graph.js" asp-append-version="true"></script>
-<script src="~/js/ui.js" asp-append-version="true"></script>
 
 @await RenderSectionAsync("Scripts", required: false)
 </body>

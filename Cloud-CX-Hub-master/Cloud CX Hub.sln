@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{B1260614-3B03-47AC-A9F4-6CCF502CC622}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31F89490-B2A3-49BE-9793-E5C5B30C4826} = {31F89490-B2A3-49BE-9793-E5C5B30C4826}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI.Core.Mvc", "WebUI.Core.Mvc\WebUI.Core.Mvc.csproj", "{31F89490-B2A3-49BE-9793-E5C5B30C4826}"
 EndProject

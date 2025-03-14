@@ -1,0 +1,11 @@
+﻿body { 
+    background-color: #0000BF;
+    color: white;
+    align-content: center;    
+    font-family: Mukta Mahee,Helvetica Neue,Arial,sans-serif;
+    align-items: center;
+    text-align: center;
+    img {
+        margin-left: 150px;
+    }
+}

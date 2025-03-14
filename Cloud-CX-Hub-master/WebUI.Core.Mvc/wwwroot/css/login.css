@@ -1,0 +1,90 @@
+﻿.ssoButton {
+    background-image: url('microsoftlogo.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+input {
+    border: none;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    width: 180px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.signInForm {
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+
+#welcomeText {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#forgotPwText {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.ssoButton {
+    display: inline-flex; /* Use flexbox for easy alignment */
+    align-items: center; /* Vertically center the logo and text */
+    padding: 8px 8px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove default underline from link */
+    color: white; /* Set text color */
+    font-family: sans-serif; /* Choose a suitable font */
+    font-size: 20px; /* Adjust font size */
+    background-color: #0000BF; /* Light background */
+    border-radius: 10px;
+
+}
+
+.ssoButton img {
+    width: 40px; /* Adjust logo size */
+    height: 20px; /* Adjust logo size */
+    margin-right: 8px; /* Space between logo and text */
+}
+
+.ssoButton:hover {
+    background-color: #0077cc; /* Slightly darker background on hover */
+}
+
+button {
+    background-color: #0000BF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 200px;
+    font-size: 20px;
+    padding: 20px;
+
+}
+button:hover {
+    background-color: #0077cc;
+    cursor: pointer;
+
+}
+hr {
+    
+    max-width: 200px;
+}
+
+#signInButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

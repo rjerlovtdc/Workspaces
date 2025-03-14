@@ -1,0 +1,44 @@
+﻿@model WebUI.Core.Mvc.Models.Customer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Welcome to TDC Admin Portal</title>
+    <link rel="stylesheet" href="~/css/login.css"></link>
+    <script src="https://alcdn.msauth.net/browser/2.14.0/js/msal-browser.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="signInForm">
+        <h2 class="text" id="welcomeText">Welcome</h2>
+        <form asp-controller="Account" asp-action="Validate" asp-route-customerName="@Model.Name">
+            <label>
+                <span class="text">Email</span>
+                <br/>
+                <input type="email" name="userEmail" id="emailInput"/>
+                <hr/>
+            </label>
+            <br/>
+            <label>
+                <span class="text">Password</span>
+                <br/>
+                <input type="password" name="enteredPassword" id="pwInput"/>
+                <hr/>
+            </label>
+            <p id="forgotPwText">Forgot password?</p>
+            <button type="submit" class="btnSignIn" id="signInButton">Sign In</button>
+        </form>
+        <button type="button" class="ssoButton">
+            <img src="~/microsoftlogo.png" alt="Microsoft Logo"></img>
+            Sign in with Microsoft<br/>
+
+        </button>
+    </div>
+</div>
+<script src="~/js/pca.js" type="module"></script>
+</body>
+</html>

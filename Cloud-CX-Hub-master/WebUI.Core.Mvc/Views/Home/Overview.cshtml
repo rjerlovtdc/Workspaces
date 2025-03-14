@@ -1,35 +1,40 @@
-﻿@page "/"
-@using Microsoft.AspNetCore.Components.Authorization
-
+﻿@model WebUI.Core.Mvc.Models.User
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var displayName = ViewBag.DisplayName;
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.8.0/js/msal-browser.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="SHORTCUT ICON" href="https://c.s-microsoft.com/favicon.ico?v2" type="image/x-icon">
+    <script src="~/js/pca.js" type="module"></script>
+    <link rel="stylesheet" href="~/css/overview.css"></link>
+
 </head>
 <body>
 <br>
 <br>
 
-<div class="card text-center" style="display: block">
-    <div class="card-body" style="display: block">
-        <h5 class="card-title" id="WelcomeMessage" style="display: block">Welcome <br/> @displayName</h5>
-        <div id="profile-div"></div>
-        <br>
-        <br>
-        <a class="btn btn-primary" id="seeProfile" onclick="showProfile()">See Profile</a>
-        
-        <br>
-        <br>
-        <a class="btn btn-primary" id="readMail" onclick="readMail()">Read Mails</a>
+<div class="welcomeCard" style="display: block">
+    <div class="card-body">
+        @if (Model != null)
+        {
+            
+        <span>
+            <h5 class="card-title" id="WelcomeMessage">Welcome @Model.DisplayName
+                <p class="pCustomerName">@Model.Customer.Name</p>
+            </h5>
+            <hr/></span>
+        <div class="userInfo">
+            <p><strong>Name: </strong>@Model.GivenName @Model.SurName</p>
+            <p><strong>Email: </strong>@Model.Mail</p>
+            <p><strong>Phone: </strong>+45 @Model.MobilePhone</p>
+            <p><strong>Address: </strong>@Model.OfficeLocation</p>
+            <p><strong>Job Title: </strong>@Model.JobTitle</p>
+            <p><strong>Access: </strong>@Model.Access.ToString()</p>
+        </div>
+        }
     </div>
 </div>
 <br>
@@ -55,12 +60,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 @* <script src="content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script> *@
-
-<!-- importing app scripts | load order is important -->
-@* <script type="text/javascript" src="/js/authConfig.js"></script> *@
-@* <script type="text/javascript" src="/js/ui.js"></script> *@
-@* <script type="text/javascript" src="/js/auth.js"></script> *@
-@* <script type="text/javascript" src="/js/graph.js"></script> *@
 
 
 </body>
