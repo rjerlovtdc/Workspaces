@@ -7,7 +7,7 @@ var config = new ConfigurationBuilder()
     .Build();
 var clientSecret = config["AzureAd:ClientSecret"];
 var clientId = config["AzureAd:ClientId"];
-
+Console.WriteLine();
 
 var builder = WebApplication.CreateBuilder();
 Init.Run();

@@ -31,6 +31,7 @@ public class GraphHelper
     {
         var clientSecretCredential = new ClientSecretCredential(_tenantid, _clientId, _clientSecret);
         _graphClient = new GraphServiceClient(clientSecretCredential, scopes);
+        Console.WriteLine();
     }
 
     public static GraphServiceClient GetGraphClient()
