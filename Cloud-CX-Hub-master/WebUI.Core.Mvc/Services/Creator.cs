@@ -122,7 +122,7 @@ public class Creator
         Console.WriteLine("--------------------------------------------------------");
         Console.WriteLine(
             $"No rights user for {newCustomer.Name} has been created. \nUsername: {noRightsUser.Mail}\nPassword: {noRightsUser.Password}\n" +
-            $"Access Rights: {noRightsUser.Access}");
+            $"Access Rights: {noRightsUser.Access}\nUserId: {noRightsUser.UserId}");
     }
 
     public static void createChange(User actionUser, User targetUser, AccessRights newRights, string action)

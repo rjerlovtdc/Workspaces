@@ -23,16 +23,15 @@ namespace WebUI.Core.Mvc.Controllers
         {
             var customerName = SharedData.CustomerName;
             var customer = _db.Customers.FirstOrDefault(c => c.Name == customerName);
-            var users = customer.Users.Where(u => u.Customer.Name == customerName);
-            ViewBag.Users = users;
-            return View();
+            List<Mvc.Models.User> users = customer.Users.Where(u => u.Customer.Name == customerName).ToList();
+            return View(users);
         }
 
-        public void UpdateDBAccessRights(Guid actionUserId, Guid targetUserId, AccessRights newRights)
+        public void UpdateDBAccessRights(Guid targetUserId, AccessRights newRights)
         {
             if (SharedData.SignedInUser.UserId != null)
             {
-                actionUserId = SharedData.SignedInUser.UserId ?? actionUserId;
+                Guid actionUserId = SharedData.SignedInUser.UserId ?? Guid.NewGuid();
                 var targetUser = _db.Users.FirstOrDefault(u => u.UserId == targetUserId);
                 var actionUser = _db.Users.FirstOrDefault(u => u.UserId == actionUserId);
                 string action =

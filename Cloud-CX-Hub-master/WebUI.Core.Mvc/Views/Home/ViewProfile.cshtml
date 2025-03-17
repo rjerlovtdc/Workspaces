@@ -1,0 +1,19 @@
+﻿@model WebUI.Core.Mvc.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<h2>@Model.DisplayName</h2>
+
+<div class="userInfo">
+    <p><strong>Name: </strong>@Model.GivenName @Model.SurName</p>
+    <p><strong>Email: </strong>@Model.Mail</p>
+    <p><strong>Phone: </strong>+45 @Model.MobilePhone</p>
+    <p><strong>Address: </strong>@Model.OfficeLocation</p>
+    <p><strong>Job Title: </strong>@Model.JobTitle</p>
+    <p><strong>Access: </strong>@Model.Access.ToString()</p>
+</div>

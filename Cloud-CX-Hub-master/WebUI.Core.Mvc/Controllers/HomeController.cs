@@ -76,6 +76,14 @@ namespace WebUI.Core.Mvc.Controllers
             return View(customer);
         }
 
+        public IActionResult ViewProfile(Guid userId)
+        {
+            Console.WriteLine(userId.ToString());
+            var customer = _db.Customers.FirstOrDefault(c => c.Name == SharedData.CustomerName);
+            User user = customer.Users.FirstOrDefault(u => u.UserId == userId);
+            return View(user);
+        }
+
 
         /// Authenticates a user and establishes their session using cookie-based authentication.
         /// <param name="user">The user object containing login information, claims, and access rights.</param>

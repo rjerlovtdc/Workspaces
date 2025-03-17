@@ -4,12 +4,15 @@
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
-
+<head>
+    <link rel="stylesheet" href="~/css/editaccess.css"></link>
+</head>
 <h2>Editing @Model.DisplayName's Rights</h2>
 <p>@Model.DisplayName's current access: @Model.Access.ToString()</p>
 <p>What do you want to set @Model.DisplayName's access to?</p>
 
 <form asp-controller="Management" asp-action="UpdateDBAccessRights" asp-route-targetUserId="@Model.UserId" method="post">
-    <select asp-for="Access" name="newRights", asp-items="Html.GetEnumSelectList<AccessRights>()"></select>
+    <select asp-for="Access" name="newRights", asp-items="Html.GetEnumSelectList<AccessRights>()" class="dropdown-select"></select>
+    <br/>
     <button type="submit" class="btn btn-primary">Save Changes</button>
 </form>
