@@ -12,6 +12,7 @@ Console.WriteLine();
 var builder = WebApplication.CreateBuilder();
 Init.Run();
 Console.WriteLine("Initializing...");
+Console.WriteLine();
 
 builder.Services.AddAuthentication().AddMicrosoftAccount(microsoftOptions =>
 {
