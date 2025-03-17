@@ -1,6 +1,9 @@
 
+using Microsoft.AspNetCore.Authentication.MicrosoftAccount;
+using Microsoft.Owin.Security.Cookies;
 using WebUI.Core.Mvc;
 using WebUI.Core.Mvc.Models;
+using CookieAuthenticationDefaults = Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults;
 
 var config = new ConfigurationBuilder()
     .AddUserSecrets<Program>()
@@ -14,7 +17,12 @@ Init.Run();
 Console.WriteLine("Initializing...");
 Console.WriteLine();
 
-builder.Services.AddAuthentication().AddMicrosoftAccount(microsoftOptions =>
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = MicrosoftAccountDefaults.AuthenticationScheme;
+    })
+    .AddMicrosoftAccount(microsoftOptions =>
 {
     microsoftOptions.ClientId = clientId;
     microsoftOptions.ClientSecret = clientSecret;
