@@ -8,6 +8,14 @@ using WebUI.Core.Mvc.Services;
 
 namespace WebUI.Core.Mvc.Controllers;
 
+/// <summary>
+/// The AccountController class handles user-related actions and operations within the application,
+/// such as authentication, validation, and account-related redirections.
+/// </summary>
+/// <remarks>
+/// This controller is responsible for managing the flow of account-related functionality
+/// in the application, interacting with the views, and processing user credentials or claims.
+/// </remarks>
 public class AccountController : Controller
 {
     private readonly ApplicationDb _db = SharedData.db;
@@ -21,6 +29,22 @@ public class AccountController : Controller
     {
         return RedirectToAction("Overview", "Home");
     }
+    
+    /// <summary>
+    /// Authenticates a user by creating claims for the user and signing them in
+    /// to the application, allowing access to the protected resources.
+    /// </summary>
+    /// <param name="user">The user to authenticate, containing user information and claims.</param>
+    /// <returns>
+    /// A redirect to the "Overview" action if the user is authenticated, 
+    /// otherwise redirects to the "AccessDenied" action if the user does not have access.
+    /// </returns>
+    /// <remarks>
+    /// This method performs the following steps:
+    /// 1. Creates claims for the user based on the user's information.
+    /// 2. Signs in the user by creating a claims identity and authentication properties.
+    /// 3. Redirects the user to the "Overview" action with the user's ID.
+    /// </remarks>
     public async Task<IActionResult> Authenticate(User user)
         {
             // Create claims for the user

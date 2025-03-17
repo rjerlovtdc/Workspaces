@@ -17,7 +17,10 @@ public class Init
     public static ApplicationDb db;
     public static UserCollectionResponse usersResult;
     public static DomainCollectionResponse domainsResult = new DomainCollectionResponse();
-
+    /// <summary>
+    /// Initializes the application, retrieves users and domains from Graph API,
+    /// adds created users to the database, and creates a customer.
+    /// </summary>
     public static async void Run()
     {
         db = new ApplicationDb();

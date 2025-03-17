@@ -46,17 +46,15 @@ public class ApplicationDb : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         
-        // Set up primary key for Customer
+        //Setting primary key
         modelBuilder.Entity<Customer>().HasKey(c => c.CustId);
-
-        // Generate GUID on creation for Customer
+        
+        //Generates GUID ON CREATE
         modelBuilder.Entity<Customer>()
             .Property(c => c.CustId)
             .ValueGeneratedOnAdd();
-
-        // A Customer can have many Users
-        modelBuilder.Entity<Customer>()
-            .HasMany<User>()
+        
+        modelBuilder.Entity<Customer>().HasMany<User>()
             .WithOne(u => u.Customer)
             .HasForeignKey(u => u.CustomerId);
 
@@ -90,17 +88,7 @@ public class ApplicationDb : DbContext
         //Building customer tables with a many to one relationship to customers
         modelBuilder.Entity<Change>()
             .HasOne(c => c.TargetUser);
-        //Setting primary key
-        modelBuilder.Entity<Customer>().HasKey(c => c.CustId);
         
-        //Generates GUID ON CREATE
-        modelBuilder.Entity<Customer>()
-            .Property(c => c.CustId)
-            .ValueGeneratedOnAdd();
-        
-        modelBuilder.Entity<Customer>().HasMany<User>()
-            .WithOne(u => u.Customer)
-            .HasForeignKey(u => u.CustomerId);
 
         
         Customer customer1 = new Customer { Address = "Teglholmen", Name = "Nuuday", Phone = "84329123"};

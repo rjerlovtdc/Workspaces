@@ -33,9 +33,9 @@ using User = WebUI.Core.Mvc.Models.User;
 namespace WebUI.Core.Mvc.Controllers
 {
     /// <summary>
-    /// Provides functionality for managing user authentication, rendering crucial view components,
-    /// session management, and processing user-specific requests within the web application.
-    /// Includes actions for navigation across home, login, validation, and other key application features.
+    /// Handles user interactions for the main sections of the web application.
+    /// Facilitates functionality such as navigation, session management, and
+    /// user-driven actions, including rendering specific views and processing requests.
     /// </summary>
     public class HomeController : Controller
     {
@@ -51,7 +51,14 @@ namespace WebUI.Core.Mvc.Controllers
         }
 
 
+        /// Retrieves the overview page for the current signed-in user or a user specified by the userId parameter.
+        /// Updates the shared signed-in user data if a valid userId is provided and the user exists in the database.
+        /// If no signed-in user is available, or the userId does not match any user in the database, returns a "NotFound" result.
+        /// <param name="userId">The unique identifier of the user whose information is to be displayed. Can be null.</param>
+        /// <returns>An IActionResult representing the rendered view of the user overview page if successful.
+        /// Returns "NotFound" if no user is signed in and the provided userId does not correspond to any user.</returns>
         [HttpGet]
+        
         public IActionResult Overview(string userId)
         {
             if (SharedData.SignedInUser != null)
@@ -68,7 +75,7 @@ namespace WebUI.Core.Mvc.Controllers
             return NotFound();
         }
 
-
+        
         public IActionResult Login(string customerName)
         {
             SharedData.CustomerName = customerName;

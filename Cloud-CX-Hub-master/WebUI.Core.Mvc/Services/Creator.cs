@@ -10,6 +10,18 @@ public class Creator
     private static Password pwd = new Password(4);
     private static Random random = new Random();
 
+    /// <summary>
+    /// Creates a new user with the specified details and assigns them to a random customer.
+    /// </summary>
+    /// <param name="id">The unique identifier for the user.</param>
+    /// <param name="displayName">The display name of the user.</param>
+    /// <param name="givenName">The given name of the user.</param>
+    /// <param name="surName">The surname of the user.</param>
+    /// <param name="jobTitle">The job title of the user (optional).</param>
+    /// <param name="officeLocation">The office location of the user (optional).</param>
+    /// <param name="userPrincipalName">The user principal name (optional).</param>
+    /// <param name="mobilePhone">The mobile phone number of the user (optional).</param>
+    /// <param name="mail">The email address of the user (optional).</param>
     public static void createUser(Guid id, string displayName, string givenName, string surName, string? jobTitle,
         string? officeLocation, string? userPrincipalName, string? mobilePhone, string? mail)
     {
@@ -56,7 +68,13 @@ public class Creator
         }
         Console.WriteLine("------------------------------------------------");
     }
-
+    
+    /// <summary>
+    /// Creates a new customer with the specified details and assigns default users to the customer.
+    /// </summary>
+    /// <param name="name">The name of the customer.</param>
+    /// <param name="phone">The phone number of the customer.</param>
+    /// <param name="address">The address of the customer.</param>
     public static void createCustomer(string name, string phone, string address)
     {
         var newCustomer = new Customer
@@ -124,7 +142,14 @@ public class Creator
             $"No rights user for {newCustomer.Name} has been created. \nUsername: {noRightsUser.Mail}\nPassword: {noRightsUser.Password}\n" +
             $"Access Rights: {noRightsUser.Access}\nUserId: {noRightsUser.UserId}");
     }
-
+    
+    /// <summary>
+    /// Creates a change record for a user, updating their access rights and logging the action.
+    /// </summary>
+    /// <param name="actionUser">The user performing the action.</param>
+    /// <param name="targetUser">The user whose access rights are being changed.</param>
+    /// <param name="newRights">The new access rights to be assigned to the target user.</param>
+    /// <param name="action">A description of the action being performed.</param>
     public static void createChange(User actionUser, User targetUser, AccessRights newRights, string action)
     {
         Change change = new Change(actionUser, targetUser, newRights, DateTime.Now);

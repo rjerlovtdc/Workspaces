@@ -10,15 +10,16 @@ using User = Microsoft.Graph.Models.User;
 namespace WebUI.Core.Mvc.Controllers
 {
     /// <summary>
-    /// The ManagementController class is responsible for managing users, access rights,
-    /// and organizational structure elements such as groups and departments within an application.
-    /// This controller is authorized under the "ManagerOrAdmin" policy.
+    /// The ManagementController class is responsible for various management tasks within the application,
+    /// including managing users, updating access rights, editing access levels, and handling organizational
+    /// structures like groups and departments. It also offers functionality related to license management.
+    /// The controller enforces access control through the specified "ManagerOrAdmin" policy.
     /// </summary>
     [Authorize(Policy = "ManagerOrAdmin")] // Manager or Admin Access
     public class ManagementController : Controller
     {
         private readonly ApplicationDb _db = SharedData.db;
-        
+
         public IActionResult Users()
         {
             var customerName = SharedData.CustomerName;
@@ -26,7 +27,12 @@ namespace WebUI.Core.Mvc.Controllers
             List<Mvc.Models.User> users = customer.Users.Where(u => u.Customer.Name == customerName).ToList();
             return View(users);
         }
-
+        
+        /// <summary>
+        /// Updates the database access rights for a specified user.
+        /// </summary>
+        /// <param name="targetUserId">The ID of the user whose access rights are to be updated.</param>
+        /// <param name="newRights">The new access rights to be assigned to the user.</param>
         public void UpdateDBAccessRights(Guid targetUserId, AccessRights newRights)
         {
             if (SharedData.SignedInUser.UserId != null)
