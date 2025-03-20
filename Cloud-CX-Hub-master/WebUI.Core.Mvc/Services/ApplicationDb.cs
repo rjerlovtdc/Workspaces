@@ -18,6 +18,9 @@ public class ApplicationDb : DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Change> Changes { get; set; }
+    public IConfigurationRoot config = new ConfigurationBuilder()
+        .AddUserSecrets<Program>()
+        .Build();
 
     public ApplicationDb()
     {
@@ -26,18 +29,12 @@ public class ApplicationDb : DbContext
         
     }
 
-    
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(
-            "Server=localhost; " +
-            "Database=AdminPortal; " +
-            "User=SA; " +
-            "Password=SuperAvocdado5; " +
-            "TrustServerCertificate=True; " +
-            "MultipleActiveResultSets=True"
-        );
+        string connectionString = config["ConnectionStrings:Default"];
+        optionsBuilder.UseSqlServer(connectionString);
         optionsBuilder.EnableSensitiveDataLogging();
         optionsBuilder.LogTo(message => Debug.WriteLine(message));
         
