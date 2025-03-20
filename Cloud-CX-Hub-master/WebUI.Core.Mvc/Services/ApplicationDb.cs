@@ -31,10 +31,10 @@ public class ApplicationDb : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(
-            "Server=WU20890; " +
+            "Server=localhost; " +
             "Database=AdminPortal; " +
-            "User=sa; " +
-            "Password=SuperAvocado5; " +
+            "User=SA; " +
+            "Password=SuperAvocdado5; " +
             "TrustServerCertificate=True; " +
             "MultipleActiveResultSets=True"
         );

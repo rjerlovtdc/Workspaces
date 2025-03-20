@@ -48,9 +48,16 @@ public class GraphHelper
 
     public static async Task InitializeGraphClient()
     {
-        var clientSecretCredential = new ClientSecretCredential(_tenantid, _clientId, _clientSecret);
-        _graphClient = new GraphServiceClient(clientSecretCredential, scopes);
-        Console.WriteLine();
+        try
+        {
+            var clientSecretCredential = new ClientSecretCredential(_tenantid, _clientId, _clientSecret);
+            _graphClient = new GraphServiceClient(clientSecretCredential, scopes);
+            Console.WriteLine();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Exception thrown! If ClientId is null, it may be because you don't have the necessary secret or you have misplaced them. Error: {e}");
+        }
     }
 
     public static GraphServiceClient GetGraphClient()

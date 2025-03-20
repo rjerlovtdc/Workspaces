@@ -47,14 +47,12 @@ public class AccountController : Controller
     /// </remarks>
     public async Task<IActionResult> Authenticate(User user)
         {
-            // Create claims for the user
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()), // Or a unique identifier
-                new Claim(ClaimTypes.Name, user.DisplayName), // Or display name
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()), // 
+                new Claim(ClaimTypes.Name, user.DisplayName), 
                 new Claim(ClaimTypes.Email, user.Mail),
-                new Claim("AccessRights", user.Access.ToString()) // Add AccessRights claim
-                // Add other claims as needed (roles, etc.)
+                new Claim("AccessRights", user.Access.ToString())
             };
 
             if (user.Access > 0)
@@ -62,11 +60,10 @@ public class AccountController : Controller
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var authProperties = new AuthenticationProperties
                 {
-                    // Configure authentication properties (e.g., remember me)
                     IsPersistent = true,
                 };
 
-                // Sign in the user
+                
                 await HttpContext.SignInAsync(
                     CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal(claimsIdentity),
