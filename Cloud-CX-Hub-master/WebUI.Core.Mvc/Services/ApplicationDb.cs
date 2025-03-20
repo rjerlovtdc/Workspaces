@@ -19,7 +19,7 @@ public class ApplicationDb : DbContext
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Change> Changes { get; set; }
     public IConfigurationRoot config = new ConfigurationBuilder()
-        .AddUserSecrets<Program>()
+        .AddUserSecrets<ApplicationDb>()
         .Build();
 
     public ApplicationDb()
@@ -33,10 +33,18 @@ public class ApplicationDb : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        string connectionString = config["ConnectionStrings:Default"];
-        optionsBuilder.UseSqlServer(connectionString);
-        optionsBuilder.EnableSensitiveDataLogging();
-        optionsBuilder.LogTo(message => Debug.WriteLine(message));
+        try
+        {
+            string connectionString = config["ConnectionStrings:Default"];
+            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.LogTo(message => Debug.WriteLine(message));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            Console.WriteLine($"Connection string might be null");
+        }
         
     }
 
