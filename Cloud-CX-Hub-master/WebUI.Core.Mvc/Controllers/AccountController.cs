@@ -74,9 +74,9 @@ public class AccountController : Controller
                     Console.WriteLine($"Claim type: {claim.Type}, claim value: {claim.Value}");
                 }
 
-                return RedirectToAction("Overview", "Home");
+                SharedData.SignedInUser = user;
+                return RedirectToAction("Overview", "Home", user.UserId.ToString());
             }
-
             Console.WriteLine("Your sysadmin is yet to grant you access to this resource.");
             return RedirectToAction("AccessDenied", "Home");
         }

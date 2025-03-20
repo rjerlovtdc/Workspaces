@@ -153,13 +153,12 @@ public class Creator
     public static void createChange(User actionUser, User targetUser, AccessRights newRights, string action)
     {
         Change change = new Change(actionUser, targetUser, newRights, DateTime.Now);
-        action += $"\tNew rights: {newRights.ToString()}";
+        action += $"\nNew rights: {newRights.ToString()}";
         change.Action = action;
         change.OldRights = targetUser.Access ?? AccessRights.NoRights;
         targetUser.Access = newRights;
         Init.db.Changes.Add(change);
         Init.db.Update(targetUser);
-        int n = Init.db.SaveChanges();
-        Console.WriteLine($"Changes made {n}");
+        Init.db.SaveChanges();
     }
 }

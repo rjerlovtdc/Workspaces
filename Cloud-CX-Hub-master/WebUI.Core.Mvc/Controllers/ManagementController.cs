@@ -33,7 +33,7 @@ namespace WebUI.Core.Mvc.Controllers
         /// </summary>
         /// <param name="targetUserId">The ID of the user whose access rights are to be updated.</param>
         /// <param name="newRights">The new access rights to be assigned to the user.</param>
-        public void UpdateDBAccessRights(Guid targetUserId, AccessRights newRights)
+        public IActionResult UpdateDBAccessRights(Guid targetUserId, AccessRights newRights)
         {
             if (SharedData.SignedInUser.UserId != null)
             {
@@ -41,10 +41,11 @@ namespace WebUI.Core.Mvc.Controllers
                 var targetUser = _db.Users.FirstOrDefault(u => u.UserId == targetUserId);
                 var actionUser = _db.Users.FirstOrDefault(u => u.UserId == actionUserId);
                 string action =
-                    $"{targetUser.DisplayName}'s rights have been changed. Old rights: {targetUser.Access.ToString()}";
+                    $"{targetUser.DisplayName}'s rights have been changed. \nOld rights: {targetUser.Access.ToString()}\n";
                 Creator.createChange(actionUser, targetUser, newRights, action);
-                RedirectToAction("Users", "Management");
             }
+
+            return RedirectToAction("Users", "Management");
         }
         public IActionResult EditAccess(Guid userId)
         {

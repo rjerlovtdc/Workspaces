@@ -14,6 +14,7 @@
             <th>Name</th>
             <th>Email</th>
             <th>Location</th>
+            <th>Access</th>
             <th class="actionsTableHeader">Actions</th>
         </tr>
         </thead>
@@ -25,6 +26,7 @@
                 <td>@user.DisplayName</td>
                 <td>@user.Mail</td>
                 <td>@user.OfficeLocation</td>
+                <td>@user.Access.ToString()</td>
                 <td>
                     <form class="viewProfileForm" 
                           asp-controller="Home" 
