@@ -74,7 +74,7 @@ public class AccountController : Controller
                     Console.WriteLine($"Claim type: {claim.Type}, claim value: {claim.Value}");
                 }
 
-                return RedirectToAction("Overview", "Home", new { userId = user.UserId });
+                return RedirectToAction("Overview", "Home");
             }
 
             Console.WriteLine("Your sysadmin is yet to grant you access to this resource.");
