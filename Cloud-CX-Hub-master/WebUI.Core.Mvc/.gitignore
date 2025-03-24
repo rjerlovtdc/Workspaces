@@ -1,0 +1,18 @@
+﻿# Ignore .env file
+.env
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore other common files
+.vscode/
+node_modules/

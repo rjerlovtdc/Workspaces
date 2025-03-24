@@ -35,7 +35,7 @@ public class ApplicationDb : DbContext
     {
         try
         {
-            string connectionString = config["ConnectionStrings:Default"];
+            string connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
             optionsBuilder.UseSqlServer(connectionString);
             optionsBuilder.EnableSensitiveDataLogging();
             optionsBuilder.LogTo(message => Debug.WriteLine(message));
