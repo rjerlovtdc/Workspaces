@@ -8,6 +8,7 @@ using PasswordGenerator;
 using WebUI.Core.Mvc.Models;
 using WebUI.Core.Mvc.Services;
 using System.Windows.Input;
+using DotNetEnv;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
 
@@ -35,7 +36,8 @@ public class ApplicationDb : DbContext
     {
         try
         {
-            string connectionString = config["ConnectionStrings:Default"];
+            Env.Load();
+            string connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
             optionsBuilder.UseSqlServer(connectionString);
             optionsBuilder.EnableSensitiveDataLogging();
             optionsBuilder.LogTo(message => Debug.WriteLine(message));

@@ -2,16 +2,17 @@ using Microsoft.AspNetCore.Authentication.MicrosoftAccount;
 using WebUI.Core.Mvc;
 using WebUI.Core.Mvc.Models;
 using CookieAuthenticationDefaults = Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults;
-
+using DotNetEnv;
 internal class Program
 {
     public static void Main(string[] args)
     {
+        Env.Load();
         var config = new ConfigurationBuilder()
             .AddUserSecrets<Program>()
             .Build();
-        var clientSecret = config["AzureAd:ClientSecret"];
-        var clientId = config["AzureAd:ClientId"];
+        var clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET");
+        var clientId = Environment.GetEnvironmentVariable("CLIENT_ID");
 
         var builder = WebApplication.CreateBuilder();
         Init.Run();
@@ -56,7 +57,7 @@ internal class Program
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAuthorization();
-        app.UseAuthentication();
+        // app.UseAuthentication();
 
         app.MapControllerRoute(
             name: "default",
