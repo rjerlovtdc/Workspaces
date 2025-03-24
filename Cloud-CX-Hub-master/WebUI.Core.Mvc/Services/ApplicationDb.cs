@@ -19,7 +19,7 @@ public class ApplicationDb : DbContext
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Change> Changes { get; set; }
     public IConfigurationRoot config = new ConfigurationBuilder()
-        .AddUserSecrets<ApplicationDb>()
+        .AddUserSecrets<Program>()
         .Build();
 
     public ApplicationDb()

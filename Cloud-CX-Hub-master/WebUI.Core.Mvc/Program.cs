@@ -1,6 +1,4 @@
-
 using Microsoft.AspNetCore.Authentication.MicrosoftAccount;
-using Microsoft.Owin.Security.Cookies;
 using WebUI.Core.Mvc;
 using WebUI.Core.Mvc.Models;
 using CookieAuthenticationDefaults = Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults;
@@ -28,12 +26,9 @@ internal class Program
             {
                 microsoftOptions.ClientId = clientId;
                 microsoftOptions.ClientSecret = clientSecret;
-            }).AddCookie(options =>
-            {
-                options.Cookie.HttpOnly = true;
-            });
+            }).AddCookie(options => { options.Cookie.HttpOnly = true; });
 
-// Program.cs
+        // Program.cs
         //Adding policy with claims
         builder.Services.AddAuthorization(options =>
         {
@@ -43,7 +38,6 @@ internal class Program
             options.AddPolicy("ManagerOrAdmin", policy =>
                 policy.RequireClaim("AccessRights", AccessRights.Manager.ToString(), AccessRights.Admin.ToString(),
                     AccessRights.Owner.ToString()));
-    
         });
 
         builder.Services.AddControllersWithViews();
@@ -51,7 +45,7 @@ internal class Program
         var app = builder.Build();
 
 
-// Configure the HTTP request pipeline.
+        // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Home/Error");
@@ -62,7 +56,7 @@ internal class Program
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAuthorization();
-// app.UseAuthentication();
+        app.UseAuthentication();
 
         app.MapControllerRoute(
             name: "default",

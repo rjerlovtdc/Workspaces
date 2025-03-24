@@ -27,6 +27,7 @@ public class AccountController : Controller
     [Route("/Account/MsalRedirect")]
     public IActionResult MsalRedirect()
     {
+        
         return RedirectToAction("Overview", "Home");
     }
     
