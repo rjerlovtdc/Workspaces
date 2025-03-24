@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
 using Azure.Identity;
-using DotNetEnv;
 using Microsoft.Graph;
 using Microsoft.Graph.Models;
 using Microsoft.Identity.Client;
@@ -15,18 +14,23 @@ namespace WebUI.Core.Mvc.Services.Graph;
 /// </summary>
 public class GraphHelper
 {
+    
+    /// Configuration root for accessing user secrets.
+    private static IConfigurationRoot config = new ConfigurationBuilder()
+        .AddUserSecrets<GraphHelper>()
+        .Build();
+    
     /// Graph service client for interacting with Microsoft Graph API.
     private static GraphServiceClient _graphClient;
-
+    
     /// Azure AD Client ID.
-    // private static string _clientId = config["AzureAd:ClientId"];
-    static string _clientId;
-
+    private static string _clientId = config["AzureAd:ClientId"];
+    
     /// Azure AD Tenant ID.
-    static string _tenantId;
-
+    private static string _tenantid = config["AzureAd:TenantId"];
+    
     /// Azure AD Client Secret.
-    static string _clientSecret;
+    private static string _clientSecret = config["AzureAd:ClientSecret"];
     
     /// Collection of users retrieved from Microsoft Graph API.
     /// OBS! NOT USED
@@ -46,11 +50,7 @@ public class GraphHelper
     {
         try
         {
-            Env.Load();
-            _clientId = Environment.GetEnvironmentVariable("CLIENT_ID");
-            _tenantId = Environment.GetEnvironmentVariable("TENANT_ID");
-            _clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET");
-            var clientSecretCredential = new ClientSecretCredential(_tenantId, _clientId, _clientSecret);
+            var clientSecretCredential = new ClientSecretCredential(_tenantid, _clientId, _clientSecret);
             _graphClient = new GraphServiceClient(clientSecretCredential, scopes);
             Console.WriteLine();
         }
