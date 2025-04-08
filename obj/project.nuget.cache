@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iJWtkSbrlLA=",
+  "dgSpecHash": "H3v0Et9KIVQ=",
   "success": true,
   "projectFilePath": "C:\\Workspaces\\TDCTaskflow\\TDCTaskflow.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.3\\microsoft.aspnetcore.authorization.9.0.3.nupkg.sha512",
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.aspnetcore.metadata\\9.0.3\\microsoft.aspnetcore.metadata.9.0.3.nupkg.sha512",
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "C:\\Users\\M108792\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\microsoft.extensions.primitives.9.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

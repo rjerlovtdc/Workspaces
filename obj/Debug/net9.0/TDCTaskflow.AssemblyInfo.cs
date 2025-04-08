@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDCTaskflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efd1a4da195003d06f65b9b900dcae98e4334e5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18be1ced75ef06d06b0cfbe0aedb9b9dc6259006")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDCTaskflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDCTaskflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
